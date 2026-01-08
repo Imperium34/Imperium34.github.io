@@ -25,6 +25,18 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
 
 ---
 
+## Hikaye Özeti
+
+> Buhar gücü ve makinenin yükselen devrinde, kim bir **"Olağanüstü"** olmaya yaklaşabilir? Tarihin ve karanlığın sislerine bürünmüş, kulaklarımıza fısıldayan o pusudaki şer kimdir veya nedir?
+>
+> Zhou Mingrui, kendini bir dizi gizemle yüzleşerek uyanmış bulur. O artık Klein Moretti'dir ve bu alternatif Viktorya dönemi; topların, zırhlıların, zeplinlerin ve fark makinelerinin olduğu kadar; **İksirlerin, Kehanetlerin, Efsunların, Tarot Kartlarının** ve **Mühürlenmiş Eserlerin** de dünyasıdır.
+>
+> Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Klein'ın, Olağanüstü iksirlerden kazandığı güçleri yavaşça keşfederken, dünyanın hem Ortodoks hem de Sapkın kiliseleriyle nasıl bir karmaşanın içine sürüklendiğine tanıklık edin.
+>
+> Tıpkı destedeki karşılığı olan ve sonsuz potansiyeli simgeleyen 0 numaralı kart gibi... **Bu, "Soytarı"nın efsanesidir.**
+
+---
+
 ## Son Eklenen Bölümler
 
 <ul>
