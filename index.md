@@ -37,14 +37,6 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
 
 ---
 
-### 🔗 Bağlantılar
-
-* 💬 **Discord (Tarot Kulübü):** [Katılmak için Tıkla](https://discord.gg/EKCBbtEdsW)
-* 🩸 **Destek (Shopier):** [Çeviriye Destek Ol](www.shopier.com/Imperium34)
-* 🐙 **GitHub:** [Kaynak Kodları](https://github.com/Imperium34/Imperium34.github.io)
-
----
-
 ## Son Eklenen Bölümler
 
 <ul>
