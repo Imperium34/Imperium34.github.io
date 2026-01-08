@@ -1,0 +1,39 @@
+# -----------------------
+# SITE IDENTITY
+# -----------------------
+title:  Gizemlerin Efendisi (Esrarın Hükümdarı Edisyon)
+description: "Viktorya dönemi gizemi ve kozmik dehşet üzerine atmosferik bir çeviri."
+author:
+  name: Cuttlefish That Loves Diving (Çeviri: Imperium)
+
+# -----------------------
+# GITHUB PAGES SETTINGS
+# -----------------------
+url: "https://imperium.github.io"
+baseurl: ""
+
+# -----------------------
+# THEME SETTINGS
+# -----------------------
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:name/
+
+# -----------------------
+# BUILD SETTINGS
+# -----------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+sass:
+  sass_dir: css
+  style: expanded
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
