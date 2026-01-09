@@ -37,19 +37,22 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
 
 ---
 
-## Son Eklenen Bölümler
+<div class="latest-updates">
+  <h2>🆕 Son Eklenen Bölümler</h2>
+  
+  <ul class="chapter-list">
+    {% assign recent_chapters = site.chapters | sort: 'path' | reverse %}
+    {% for chapter in recent_chapters limit: 5 %}
+      <li>
+        <span style="color: #666; font-size: 0.9em;">[{{ chapter.date | date: "%d.%m" }}]</span>
+        <a href="{{ chapter.url }}">{{ chapter.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<h2>📖 Bölüm Listesi</h2>
-
-<ul class="chapter-list">
-  {% assign sorted_chapters = site.chapters | sort: 'path' %}
-  {% for chapter in sorted_chapters %}
-    <li>
-      <a href="{{ chapter.url }}">
-        {{ chapter.title }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-
-[Tüm Bölüm Listesi](/arsiv/)
+  <div style="margin-top: 15px;">
+    <a href="/arsiv" style="font-weight: bold; color: #a41818; text-decoration: none;">
+      📚 Tüm Bölüm Listesi (Arşiv) &rarr;
+    </a>
+  </div>
+</div>
