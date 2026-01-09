@@ -1,28 +1,34 @@
----
-### note: will result in an all-in-one-file stylesheet e.g. style.css
----
-
-
 @import 'settings';
 
+// =========================================
+// GLOBAL & TYPOGRAPHY
+// =========================================
 
 html {
   font-family: $font-family;
   font-size:   20px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 body {
   color:            $body-color;
   background-color: $body-background-color;
+  -webkit-font-smoothing: antialiased;
 }
 
-//////////////
-// Links
+::selection {
+  background: #a41818;
+  color: #fff;
+}
+
+// =========================================
+// LINKS
+// =========================================
 
 a {
   color:           $link-color;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 
   strong {
     color: inherit;
@@ -30,13 +36,14 @@ a {
 
   &:hover,
   &:focus {
+    color: #a41818;
     text-decoration: underline;
   }
 }
 
-
-////////////////////////////
-// Headings
+// =========================================
+// HEADINGS
+// =========================================
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom:  .5rem;
@@ -44,75 +51,126 @@ h1, h2, h3, h4, h5, h6 {
   line-height:    1.25;
   color:          $headings-color;
   text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+  font-family: sans-serif;
 }
 
-/////////////
-// Body text
+h1 { font-size: 2rem; }
+h2 { margin-top: 1.5rem; font-size: 1.5rem; }
+h3 { margin-top: 1.5rem; font-size: 1.25rem; }
+h4, h5, h6 { margin-top: 1rem; font-size: 1rem; }
+
+// =========================================
+// BODY ELEMENTS
+// =========================================
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 strong {
   color: $strong-color;
 }
 
-
-/////////////
-// Lists
-
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/////////////////////
-// Quotes
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+// =========================================
+// QUOTES & CHANTS
+// =========================================
 
 blockquote {
   padding: .5rem 1rem;
-  margin: .8rem 0;
+  margin: 1.5rem 0;
   color: $blockquote-color;
-  border-left: .25rem solid $blockquote-border-color;
+  border-left: .25rem solid #a41818;
+  background: rgba(255, 255, 255, 0.05);
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
 
   p:last-child {
     margin-bottom: 0;
   }
 }
 
-
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-}
-
-
-////////////////////////////////
-//  Container
-//   -- centers page content
+// =========================================
+// CONTAINER (LAYOUT)
+// =========================================
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:   auto;
+  margin-right:  auto;
+}
+
+// =========================================
+// CUSTOM COMPONENTS
+// =========================================
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.chapter-list li {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #ccc;
+  display: block;
+  width: 100%;
+}
+
+.chapter-list a:hover {
+  color: #a41818;
+  padding-left: 8px;
+  transition: all 0.2s ease;
+}
+
+input[type="text"]#chapterSearch {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  background-color: #151515;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+
+  &:focus {
+    outline: none;
+    border-color: #a41818;
+  }
+
+  &::placeholder {
+    color: #555;
+  }
 }
