@@ -39,11 +39,15 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
 
 ## Son Eklenen Bölümler
 
-<ul>
-  {% for post in site.posts limit:10 %}
+<h2>📖 Bölüm Listesi</h2>
+
+<ul class="chapter-list">
+  {% assign sorted_chapters = site.chapters | sort: 'path' %}
+  {% for chapter in sorted_chapters %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span style="color: #666; font-size: 0.8em;"> - {{ post.date | date: "%d/%m/%Y" }}</span>
+      <a href="{{ chapter.url }}">
+        {{ chapter.title }}
+      </a>
     </li>
   {% endfor %}
 </ul>
