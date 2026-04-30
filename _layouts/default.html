@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} by {{ site.author.name }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+<div class="container">
+  
+  {{ content }}
+
+  <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
+
+  <div class="imperium-footer" style="background: #151515; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: center; color: #ccc; font-family: sans-serif;">
+    
+    <h3 style="color: #a41818; margin-top: 0;">📜 Tarot Kulübü'ne Katıl</h3>
+    <p>Teorileri tartışmak, hataları bildirmek ve diğer Beyonderlar ile tanışmak için:</p>
+    
+    <a href="https://discord.gg/EKCBbtEdsW" target="_blank" style="background: #5865F2; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin: 5px;">
+      💬 Discord Sunucusu
+    </a>
+
+    <br><br>
+
+    <h3 style="color: #d4af37; margin-top: 10px;">⚖️ Teraziye Bir Altın Bırak</h3>
+    <p>Çevirinin devamlılığı ve haftalık bölüm hızını artırmak için:</p>
+    
+    <a href="https://www.shopier.com/Imperium34" target="_blank" style="background: #a41818; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin: 5px;">
+      🩸 Destek Ol (Shopier)
+    </a>
+    
+    <p style="font-size: 0.8em; margin-top: 15px; color: #666;">
+      *Ödemeler Shopier güvencesiyle alınır.*
+    </p>
+
+  </div>
+
+  {% unless page.url == "/" %}
+  <div style="margin-top: 50px;">
+    <script src="https://giscus.app/client.js"
+        data-repo="Imperium34/Imperium34.github.io"
+        data-repo-id="R_kgDOQ13Z4g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQ13Z4s4C0vF8"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="tr"
+        crossorigin="anonymous"
+        async>
+    </script>
+  </div>
+  {% endunless %}
+
+</div>
+
+</body>
+</html>

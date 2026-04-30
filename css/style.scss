@@ -1,0 +1,197 @@
+---
+---
+
+// =========================================
+// 1. SETTINGS & VARIABLES
+// =========================================
+
+$font-family: "Georgia", "Merriweather", "Times New Roman", serif;
+
+$body-color:            #bbb;
+$body-background-color: #151515;
+
+$link-color:            #5865F2;
+$headings-color:        #e0e0e0;
+$strong-color:          #fff;
+$blockquote-color:      #888;
+
+// =========================================
+// 2. GLOBAL & TYPOGRAPHY
+// =========================================
+
+html {
+  font-family: $font-family;
+  font-size:   20px;
+  line-height: 1.6;
+}
+
+body {
+  color:            $body-color;
+  background-color: $body-background-color;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #a41818;
+  color: #fff;
+}
+
+// =========================================
+// 3. LINKS
+// =========================================
+
+a {
+  color:           $link-color;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  strong {
+    color: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    color: #a41818;
+    text-decoration: underline;
+  }
+}
+
+// =========================================
+// 4. HEADINGS
+// =========================================
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom:  .5rem;
+  font-weight:    bold;
+  line-height:    1.25;
+  color:          $headings-color;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+}
+
+h1 { font-size: 2rem; }
+h2 { margin-top: 1.5rem; font-size: 1.5rem; }
+h3 { margin-top: 1.5rem; font-size: 1.25rem; }
+h4, h5, h6 { margin-top: 1rem; font-size: 1rem; }
+
+// =========================================
+// 5. BODY ELEMENTS
+// =========================================
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+strong {
+  color: $strong-color;
+}
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+// =========================================
+// 6. QUOTES
+// =========================================
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: 1.5rem 0;
+  color: $blockquote-color;
+  border-left: .25rem solid #a41818;
+  background: rgba(255, 255, 255, 0.05);
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// =========================================
+// 7. CONTAINER
+// =========================================
+
+.container {
+  max-width: 36rem;
+  width: 90%;
+  margin-left:   auto;
+  margin-right:  auto;    
+  padding-left:  1rem;
+  padding-right: 1rem;
+  padding-top:   2rem; 
+}
+
+// =========================================
+// 8. COMPONENTS (Search & List)
+// =========================================
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.chapter-list li {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #ccc;
+  display: block;
+  width: 100%;
+}
+
+.chapter-list a:hover {
+  color: #a41818;
+  padding-left: 8px;
+  transition: all 0.2s ease;
+}
+
+input[type="text"]#chapterSearch {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  background-color: #151515;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  
+  box-sizing: border-box; 
+
+  &:focus {
+    outline: none;
+    border-color: #a41818;
+  }
+
+  &::placeholder {
+    color: #555;
+  }
+}
