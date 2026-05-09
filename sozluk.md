@@ -4,7 +4,7 @@ title: İkincil Sözlük
 permalink: /sozluk/
 ---
 
-<h1>📖 İkincil Sözlük ve Çeviri Notları</h1>
+<h1>📖 Sözlük ve Çeviri Notları</h1>
 <p>Bu sözlük, çeviride kullanılan özel terimlerin İngilizce karşılıklarını ve arkalarındaki anlamları içerir.</p>
 
 <div style="background: #a41818; color: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; font-weight: bold;">
@@ -30,8 +30,7 @@ style="width: 100%; padding: 12px; font-size: 16px; background: #1a1a1a; border:
       style="flex: 1; min-width: 180px; padding: 10px 12px; font-size: 14px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px;"
     >
       <option value="">Tüm Kategoriler</option>
-      <option value="Temel Terimler">Temel Terimler</option>
-      <option value="Genel Terimler">Genel Terimler</option>
+      <option value="Temel Kavramlar">Temel Terimler</option>
       <option value="Organizasyonlar">Organizasyonlar</option>
       <option value="İlahlar ve Yüce Kadimler">İlahlar ve Yüce Kadimler</option>
       <option value="Tarot Kulübü">Tarot Kulübü</option>
@@ -45,7 +44,7 @@ style="width: 100%; padding: 12px; font-size: 16px; background: #1a1a1a; border:
     >
       <option value="">Spoiler Durumu: Tümü</option>
       <option value="false">Yalnızca Spoilersız</option>
-      <option value="true">Yalnızca Spoilerli</option>
+      <option value="true">Yalnızca Spoilerlı</option>
     </select>
 
     <button

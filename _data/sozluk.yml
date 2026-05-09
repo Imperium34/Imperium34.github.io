@@ -1,60 +1,57 @@
 # -----------------------
-# TEMEL TERİMLER
+# TEMEL KAVRAMLAR
 # -----------------------
 - terim: "Aşkın (Fevkabeşer)"
   ingilizce: "Beyonder"
-  kategori: "Temel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Sıradan insanların ötesinde güçlere sahip olan, iksir içerek evrilmiş varlıklar."
   spoiler: false
 
 - terim: "Yol"
   ingilizce: "Pathway"
-  kategori: "Temel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerini aldıkları ve Tanrılığa uzanan 22 farklı evrim rotasından her biri."
   spoiler: false
 
 - terim: "Mertebe"
   ingilizce: "Sequence"
-  kategori: "Temel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Bir yol içindeki güç seviyesi. En zayıf halka olan 9'dan başlar ve efsanevi 1. Mertebeye (Melek) kadar yükselir."
   spoiler: false
 
 - terim: "Yüce Kadim"
   ingilizce: "Great Old One"
-  kategori: "Temel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Meleklerin ve İlahların ötesinde, kainatın temel kurallarını temsil eden mutlak ve akılalmaz varlıklar."
   spoiler: true
 
-# -----------------------
-# AŞKIN KANUNLARI VE KAVRAMLAR
-# -----------------------
 - terim: "Oyunculuk Metodu / Rol İfası"
   ingilizce: "Acting Method"
-  kategori: "Genel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Aşkınların iksirlerini sindirmek ve delilikten korunmak için yollarının doğasına uygun davranma pratiği. 'Oyunculuk Metodu' modern ve dünyevi bir terimken, Loen yerlileri bu kavrama 'Rol İfası' der."
   spoiler: true
 
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
   ingilizce: "Law of Beyonder Characteristic Conservation"
-  kategori: "Genel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Aşkın özelliklerin ve ilahiliğin ne yaratılabileceğini ne de yok edilebileceğini, yalnızca form değiştirebileceğini veya aktarılabileceğini belirten temel evren kanunu."
   spoiler: true
 
 - terim: "Aşkın Hasletlerin Yok Edilemezliği Kanunu"
   ingilizce: "Law of Beyonder Characteristics Indestructibility"
-  kategori: "Genel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Aşkın özelliklerin asla yok edilemeyeceğini veya eksilemeyeceğini belirten temel kanun. Bir Aşkın öldüğünde, içindeki güç kaybolmaz; ardında fiziksel bir obje veya ham bir özellik bırakarak dünyada kalmaya devam eder."
   spoiler: true
 
 - terim: "Aşkın Hasletlerin Yakınsama Kanunu"
   ingilizce: "Law of Beyonder Characteristics Convergence"
-  kategori: "Genel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın özelliklerin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
   spoiler: true
 
 - terim: "Ruhani Çıpa"
   ingilizce: "Anchor"
-  kategori: "Genel Terimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Yüksek mertebeli Aşkınların (özellikle melek ve tanrıların) ilahiyata karışıp insanlıklarını ve benliklerini kaybetmemek için inananlarından veya kendi efsanelerinden aldıkları ruhani destek."
   spoiler: true
 
