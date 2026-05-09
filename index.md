@@ -59,7 +59,7 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
   </div>
   <div style="margin-top: 15px;">
     <a href="/sozluk" style="font-weight: bold; color: #d4af37; text-decoration: none;">
-      📖 İkincil Sözlük ve Terimler &rarr;
+      📖 Sözlük ve Terimler &rarr;
     </a>
   </div>
 </div>
