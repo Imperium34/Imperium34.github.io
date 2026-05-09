@@ -6,20 +6,22 @@ permalink: /
 
 # Neden Yeni Bir Çeviri? "Esrarın Hükümdarı" Edisyonu
 
-**Gizemlerin Efendisi** (*Lord of the Mysteries*), sadece bir web romanı değil; Viktorya dönemi endüstrisini, Lovecraftian kozmik dehşeti ve steampunk estetiğini harmanlayan modern bir klasiktir. Ancak bu eserin ruhu, standart çevirilerde sıkça kaybolmaktadır.
+**Gizemlerin Efendisi** (_Lord of the Mysteries_), sadece bir web romanı değil; Viktorya dönemi endüstrisini, Lovecraftian kozmik dehşeti ve steampunk estetiğini harmanlayan modern bir klasiktir. Ancak bu eserin ruhu, standart çevirilerde sıkça kaybolmaktadır.
 
 ### Felsefemiz
-Bir eseri çevirmek, kelimeleri bir dilden diğerine taşımak değil, o atmosferi yeniden inşa etmektir. Google Translate veya yüzeysel çevirilerde "Fool" kelimesi "Aptal" olarak çevrilip geçilir. Oysa Tarot kartlarındaki *The Fool*, bir başlangıcı, kuralların dışına çıkmayı ve sonsuz potansiyeli temsil eder. Bizim çevirimizde o, bir **Soytarı**'dır.
+
+Bir eseri çevirmek, kelimeleri bir dilden diğerine taşımak değil, o atmosferi yeniden inşa etmektir. Google Translate veya yüzeysel çevirilerde "Fool" kelimesi "Aptal" olarak çevrilip geçilir. Oysa Tarot kartlarındaki _The Fool_, bir başlangıcı, kuralların dışına çıkmayı ve sonsuz potansiyeli temsil eder. Bizim çevirimizde o, bir **Soytarı**'dır.
 
 Bu çeviri projesi, **"Esrarın Hükümdarı"** edisyonu olarak adlandırılmıştır ve şu prensiplere dayanır:
 
 1.  **Atmosferik Dil:** Karakterler modern sokak ağzıyla değil, yaşadıkları dönemin ağırlığına uygun konuşurlar.
-2.  **Terim Derinliği:** *Seer* sıradan bir Gözcü değil, yıldızlara bakan bir **Kâhin**'dir. *Scribe* sadece Yazıcı değil, bir **Kâtip**'tir.
+2.  **Terim Derinliği:** _Seer_ sıradan bir Gözcü değil, yıldızlara bakan bir **Kâhin**'dir. _Scribe_ sadece Yazıcı değil, bir **Kâtip**'tir.
 3.  **Miras:** İngilizce metnin aktaramadığı "Doğu/Xianxia" hiyerarşisi, Türkçenin zengin Osmanlıca kelime dağarcığı kullanılarak aslına sadık sunulmuştur.
 
 **Örnek Karşılaştırma:**
-* *Standart:* "Bu çağa ait olmayan aptal."
-* *Esrarın Hükümdarı:* **"Bu asra mensup olmayan Soytarı."**
+
+- _Standart:_ "Bu çağa ait olmayan aptal."
+- _Esrarın Hükümdarı:_ **"Bu asra mensup olmayan Soytarı."**
 
 Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını iliklerinize kadar hissettirmektir.
 
@@ -53,6 +55,11 @@ Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını ilikleriniz
   <div style="margin-top: 15px;">
     <a href="/arsiv" style="font-weight: bold; color: #a41818; text-decoration: none;">
       📚 Tüm Bölüm Listesi (Arşiv) &rarr;
+    </a>
+  </div>
+  <div style="margin-top: 15px;">
+    <a href="/sozluk" style="font-weight: bold; color: #d4af37; text-decoration: none;">
+      📖 İkincil Sözlük ve Terimler &rarr;
     </a>
   </div>
 </div>
