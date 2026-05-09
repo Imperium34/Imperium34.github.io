@@ -103,126 +103,147 @@
 - terim: "Soytarı"
   ingilizce: "The Fool"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Bu asra mensup olmayan Soytarı,<br>Gri sislerin fevkindeki esrarlı Hükümdar,<br>Talihe hükmeden Sarı ve Siyahın Kralı."
   spoiler: true
 
 - terim: "Kâinatın Gizemleri Hükümdarı"
   ingilizce: "Celestial Worthy"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Meşalesi,<br>Sefira Kalesi'nin Tecessümü,<br>Alem-i Ervah Hakimi.<br><br>Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Bilgesi."
   spoiler: true
 
 - terim: "Kadir-i Mutlak"
   ingilizce: "God Almighty"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bari,<br>Alimi ve Kudreti Mutlak,<br>Melekut Efendisi."
   spoiler: true
 
 - terim: "Sefahat Ana Tanrıça"
   ingilizce: "Mother Goddess of Depravity"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "Sefahat Ana Tanrıça,<br>Şerrin Menşei,<br>Zevalsiz,<br>Kökenin Tanrıçası,<br>Cümle Alemin Anası,<br>Necaset Kovanı,<br>Cismani Alemin Hakimi."
   spoiler: true
 
 - terim: "Kadim Şeytaniçe"
   ingilizce: "Primordial Demoness"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi."
   spoiler: true
 
 - terim: "Hakiki Yaratıcı"
   ingilizce: "The True Creator"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Hakiki Yaratıcı (Hakiki Hâlık),<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
   spoiler: true
 
 - terim: "Kadim Güneş Tanrısı"
   ingilizce: "Ancient Sun God"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Kadim Güneş Tanrısı,<br>Mevcudatı Halk Eden Rab;<br>Mutlak Kadir ve Mutlak Alim İlah;<br>Namütenahi Melekutun Yüce Hükümdarı."
   spoiler: true
 
 - terim: "Tahayyül Meleği (Âdem)"
   ingilizce: "Angel of Imagination (Adam)"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
   spoiler: true
 
 - terim: "Kaderin Truva Atı (Amon)"
   ingilizce: "Trojan Horse of Destiny (Amon)"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
   spoiler: true
 
 - terim: "Kapıların Kapısı (Bay Kapı)"
   ingilizce: "Mr. Door"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Kainat-ı Namütenahinin Rehberi,<br>Esrarlı Alemlerin Miftahı."
   spoiler: true
 
 - terim: "Yüce Harp Tanrısı (Medici)"
   ingilizce: "Great God of War (Medici)"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "Demir ve Kanın Timsali,<br>Kargaşa ve Niza Hükümdarı."
   spoiler: true
 
 - terim: "Alemin Mutlak Talihi (Will Auceptin)"
   ingilizce: "Absolute Luck (Will Auceptin)"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Nur Miftahı (Key of Light)"
   aciklama: "İhtimallerin Tecessümü,<br>Kaderin Timsali."
   spoiler: true
 
 - terim: "Batınî Bilge"
   ingilizce: "The Hidden Sage"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "Batınî Bilge,<br>Cümle Marifetin Tecessümü,<br>Cümle Aşkınların Kabusu,<br>Alemi Gözleyen Na-mer’i Gözler."
   spoiler: true
 
 - terim: "Prangalı İlah"
   ingilizce: "The Chained God"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
   aciklama: "Prangalı İlah,<br>Alemin Garezi,<br>Mukayyet Yürek."
   spoiler: true
 
 - terim: "Ebedi Gece Tanrıçası"
   ingilizce: "Evernight Goddess"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
   aciklama: "Ebedi Gece Tanrıçası,<br>Gizlilik Anası,<br>Musibet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
   spoiler: true
 
 - terim: "Fırtınalar Hakimi"
   ingilizce: "Lord of Storms"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Göklerin Hükümdarı,<br>Deryaların İmparatoru,<br>Afetlerin Efendisi,<br>Fırtınalar Hakimi."
   spoiler: true
 
 - terim: "Ebedi Yanan Güneş"
   ingilizce: "Eternal Blazing Sun"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Ebedi Yanan Güneş,<br>Sönmez Işık,<br>Düzenin Timsali,<br>Akitlerin Tanrısı,<br>Ticaretin Hamisi."
   spoiler: true
 
 - terim: "Buhar ve Çarkların İlahı"
   ingilizce: "God of Steam and Machinery"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "Buhar ve Çarkların İlahı,<br>Tabiiyatın Özü,<br>Zanaatkârların Piri."
   spoiler: true
 
 - terim: "Toprak Ana"
   ingilizce: "Earth Mother"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Bereketin Pınarı,<br>Tenasül ve Kızıl Ayın Timsali,<br>Her Şeyin Evveli ve Ahiri."
   spoiler: true
 
 - terim: "İlim ve Hikmetin İlahı"
   ingilizce: "God of Knowledge and Wisdom"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
   spoiler: true
 
 - terim: "Cenk Tanrısı"
   ingilizce: "God of Combat"
   kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
   aciklama: "Cenk Tanrısı,<br>Gurubun Hükümdarı,<br>Fecir Kılıcını Kuşanan."
   spoiler: true
 
@@ -232,60 +253,70 @@
 - terim: "Dünya (The World)"
   ingilizce: "Gehrman Sparrow"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Sefira Kalesi'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
   spoiler: true
 
 - terim: "Adalet (Justice)"
   ingilizce: "Audrey Hall"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Cümle ızdırabı teskin eden Mümeyyiz;<br>Ahir zamanda güzelliği muhafaza eden Hülya Dokuyan;<br>Hakikat ve Vehim arasında var olan Ruhani Mürşit;<br>Yürekten ve hakkaniyetten neşet eden Adalet;<br>Esrarın Hükümdarı'nın inayetine mazhar olmuş Mütevazı Şifacı."
   spoiler: true
 
 - terim: "Asılmış Adam (The Hanged Man)"
   ingilizce: "Alger Wilson"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Felakete ayin sunan Rahip;<br>Deryalara hükmeden Piskopos;<br>Necaset ve Sefahatı sırtlayan Vaiz;<br>Esrarın gölgesinde adımlayan Papa;<br>Fedakârlık ve adanmışlıktan yılmayan Asılmış Adam."
   spoiler: true
 
 - terim: "Güneş (The Sun)"
   ingilizce: "Derrick Berg"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Zulmeti defeden Pak Zat;<br>Her ameli adil olan Rahip;<br>Işığın izini süren Ozan;<br>Zaman ve Mekan Sultanı'nın Mukaddes Makamı;<br>İlelebet ümit ve mefkûre taşıyan Sıcak Güneş."
   spoiler: true
 
 - terim: "Yıldız (The Star)"
   ingilizce: "Leonard Mitchell"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
   aciklama: "Ebedi Gece'nin Muhafızı;<br>Dehşeti gözetleyen Uykusuz Melek;<br>Gizliliğe hizmet eden Geceyarısı Şairi;<br>Kaderin Meşalesi'nin zirvesindeki Nur;<br>Yolunu yitirenlere kılavuzluk eden Yıldız."
   spoiler: true
 
 - terim: "Hokkabaz (The Magician)"
   ingilizce: "Fors Wall"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "<b>Mertebe 2:</b><br>Kainat Seyyahı;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Dünya'nın Vakanüvis Efsuncusu.<br><br><b>Mertebe 1:</b><br>Dünya'nın Vakanüvis Efsuncusu;<br>Kainat Seyyahı;<br>Zifiri Kainatı Aralayan Miftah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Yollara ve Amellere Hükmeden Hokkabaz."
   spoiler: true
 
 - terim: "Ay (The Moon)"
   ingilizce: "Emlyn White"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "Celb Kapılarının Muhafızı;<br>Cümle Varlığın Ruhaniyetinin Tecessümü;<br>Hayat Kanı Bahşeden Hâlık;<br>Nebatat ve Hayvanatı Besleyen Ay;<br>Alem-i Ervah Hakimi'nin İlahi Sefiri."
   spoiler: true
 
 - terim: "Keşiş (The Hermit)"
   ingilizce: "Cattleya"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "Masal Aleminin Büyücüsü;<br>Kaderi İrdeleyen Gözler;<br>Esrarın İzini Süren Bilge;<br>Marifetin Bağrında Saklı Muamma;<br>Arif Keşiş."
   spoiler: true
 
 - terim: "Yargı (Judgment)"
   ingilizce: "Xio Derecha"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Anarşi (Anarchy)"
   aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İnfazcısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Meşalesi'nin Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
   spoiler: true
 
 - terim: "İtidal (Temperance)"
   ingilizce: "Sharron"
   kategori: "Tarot Kulübü"
+  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
   aciklama: "Cümle varlığı lanetleyen Kukla;<br>Tarihin dehlizlerinden kopan Garibe;<br>Sessizlik ve sıradanlık bahşeden Mürit;<br>Arzu ve şer düşüncelere başkaldıran İtidal Hanımefendisi;<br>Alem-i Ervah Hakimi'nin Naibi."
   spoiler: true
 
@@ -327,7 +358,7 @@
   ingilizce: "Arbiter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Anarşi (Anarchy)"
-  aciklama: "9: Arabulucu (Arbiter)<br>8: Zaptiye (Sheriff)<br>7: Sorgucu (Interrogator)<br>6: Yargıç (Judge)<br>5: Nizam Şövalyesi (Disciplinary Paladin)<br>4: Kargaşa Avcısı (Chaos Hunter)<br>3: Muvazenedar (Balancer)<br>2: Düzenin Eli (Hand of Order)<br>1: Yargı (Justiciar)<br>0: Justiciar (Yargı)"
+  aciklama: "9: Arabulucu (Arbiter)<br>8: Zaptiye (Sheriff)<br>7: Sorgucu (Interrogator)<br>6: Yargıç (Judge)<br>5: Nizam Şövalyesi (Disciplinary Paladin)<br>4: Ferman Büyücüsü (Imperative Mage)<br>3: Muvazenedar (Balancer)<br>2: Düzenin Eli (Hand of Order)<br>1: Yargı (Justiciar)<br>0: Justiciar (Yargı)"
   spoiler: true
 
 # Helak Felaketi (Calamity of Destruction)
