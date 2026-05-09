@@ -16,14 +16,86 @@
 - terim: "Mertebe"
   ingilizce: "Sequence"
   kategori: "Temel Terimler"
-  aciklama: "Bir yol içindeki güç seviyesi. 9'dan (en zayıf) 0'a (Gerçek Tanrı) doğru ilerler."
+  aciklama: "Bir yol içindeki güç seviyesi. En zayıf halka olan 9'dan başlar ve efsanevi 1. Mertebeye (Melek) kadar yükselir."
   spoiler: false
 
 - terim: "Yüce Kadim"
   ingilizce: "Great Old One"
   kategori: "Temel Terimler"
-  aciklama: "Gerçek Tanrıların (Mertebe 0) ötesinde, kainatın temel kurallarını temsil eden mutlak varlıklar."
+  aciklama: "Meleklerin ve İlahların ötesinde, kainatın temel kurallarını temsil eden mutlak ve akılalmaz varlıklar."
   spoiler: true
+
+# -----------------------
+# AŞKIN KANUNLARI VE KAVRAMLAR
+# -----------------------
+- terim: "Oyunculuk Metodu / Rol İfası"
+  ingilizce: "Acting Method"
+  kategori: "Genel Terimler"
+  aciklama: "Aşkınların iksirlerini sindirmek ve delilikten korunmak için yollarının doğasına uygun davranma pratiği. 'Oyunculuk Metodu' modern ve dünyevi bir terimken, Loen yerlileri bu kavrama 'Rol İfası' der."
+  spoiler: true
+
+- terim: "Aşkın Hasletlerin Korunumu Kanunu"
+  ingilizce: "Law of Beyonder Characteristic Conservation"
+  kategori: "Genel Terimler"
+  aciklama: "Aşkın özelliklerin ve ilahiliğin ne yaratılabileceğini ne de yok edilebileceğini, yalnızca form değiştirebileceğini veya aktarılabileceğini belirten temel evren kanunu."
+  spoiler: true
+
+- terim: "Aşkın Hasletlerin Yok Edilemezliği Kanunu"
+  ingilizce: "Law of Beyonder Characteristics Indestructibility"
+  kategori: "Genel Terimler"
+  aciklama: "Aşkın özelliklerin asla yok edilemeyeceğini veya eksilemeyeceğini belirten temel kanun. Bir Aşkın öldüğünde, içindeki güç kaybolmaz; ardında fiziksel bir obje veya ham bir özellik bırakarak dünyada kalmaya devam eder."
+  spoiler: true
+
+- terim: "Aşkın Hasletlerin Yakınsama Kanunu"
+  ingilizce: "Law of Beyonder Characteristics Convergence"
+  kategori: "Genel Terimler"
+  aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın özelliklerin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
+  spoiler: true
+
+- terim: "Ruhani Çıpa"
+  ingilizce: "Anchor"
+  kategori: "Genel Terimler"
+  aciklama: "Yüksek mertebeli Aşkınların (özellikle melek ve tanrıların) ilahiyata karışıp insanlıklarını ve benliklerini kaybetmemek için inananlarından veya kendi efsanelerinden aldıkları ruhani destek."
+  spoiler: true
+
+# -----------------------
+# ORGANİZASYONLAR VE KİLİSE TİMLERİ
+# -----------------------
+- terim: "Gece Şahinleri"
+  ingilizce: "Nighthawks"
+  kategori: "Organizasyonlar"
+  aciklama: "Ebedi Gece Tanrıçası Kilisesi'ne bağlı, Aşkın olaylara müdahale eden resmi kurum. Gecenin huzurunu koruyan uykusuz muhafızlardır."
+  spoiler: false
+
+- terim: "Kızıl Eldivenler"
+  ingilizce: "Red Gloves"
+  kategori: "Organizasyonlar"
+  aciklama: "Ebedi Gece Tanrıçası Kilisesi'nin Gece Şahinleri içindeki seçkin, gezici ve acımasız infaz timi."
+  spoiler: false
+
+- terim: "Makine Külli Şuuru"
+  ingilizce: "Machinery Hivemind"
+  kategori: "Organizasyonlar"
+  aciklama: "Buhar ve Çarkların İlahı Kilisesi'nin Aşkın gücü. Teknolojik ve okült bilgiyi birleştiren müfettişlerden oluşur."
+  spoiler: false
+
+- terim: "Salahiyetli Tecziyeciler"
+  ingilizce: "Mandated Punishers"
+  kategori: "Organizasyonlar"
+  aciklama: "Fırtınalar Hakimi Kilisesi'nin Aşkın infazcıları. Agresif, öfkeli ve doğrudan yöntemleriyle bilinirler. Günlük konuşmada genellikle sadece 'Tecziyeciler' olarak anılırlar."
+  spoiler: false
+
+- terim: "Engizisyon"
+  ingilizce: "The Inquisition"
+  kategori: "Organizasyonlar"
+  aciklama: "Ebedi Yanan Güneş Kilisesi'nin Aşkın birimi. Genellikle kolluk kuvvetleri arasına sızarak gizlice faaliyet gösterirler. Bu organizasyonun resmi Aşkın ajanlarına 'Arındırıcı' (Purifier) unvanı verilir."
+  spoiler: false
+
+- terim: "MI9"
+  ingilizce: "MI9"
+  kategori: "Organizasyonlar"
+  aciklama: "Loen Krallığı ordusuna bağlı, Aşkın olaylara ve yabancı casusluk faaliyetlerine bakan gizli istihbarat birimi."
+  spoiler: false
 
 # -----------------------
 # İLAHLAR VE YÜCE KADİMLER
@@ -70,34 +142,34 @@
   aciklama: "Kadim Güneş Tanrısı,<br>Mevcudatı Halk Eden Rab;<br>Mutlak Kadir ve Mutlak Alim İlah;<br>Namütenahi Melekutun Yüce Hükümdarı."
   spoiler: true
 
-- terim: "Tahayyül Meleği Âdem"
-  ingilizce: "Adam (Angel of Imagination)"
+- terim: "Tahayyül Meleği (Âdem)"
+  ingilizce: "Angel of Imagination (Adam)"
   kategori: "İlahlar ve Yüce Kadimler"
-  aciklama: "Tahayyül Meleği Âdem;<br>Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
+  aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
   spoiler: true
 
-- terim: "Amon"
-  ingilizce: "Amon"
+- terim: "Kaderin Truva Atı (Amon)"
+  ingilizce: "Trojan Horse of Destiny (Amon)"
   kategori: "İlahlar ve Yüce Kadimler"
-  aciklama: "Kaderin Truva Atı,<br>Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
+  aciklama: "Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
   spoiler: true
 
-- terim: "Kapıların Kapısı"
+- terim: "Kapıların Kapısı (Bay Kapı)"
   ingilizce: "Mr. Door"
   kategori: "İlahlar ve Yüce Kadimler"
-  aciklama: "Kapıların Kapısı,<br>Kainat-ı Namütenahinin Rehberi,<br>Esrarlı Alemlerin Miftahı."
+  aciklama: "Kainat-ı Namütenahinin Rehberi,<br>Esrarlı Alemlerin Miftahı."
   spoiler: true
 
-- terim: "Yüce Harp Tanrısı"
-  ingilizce: "Medici"
+- terim: "Yüce Harp Tanrısı (Medici)"
+  ingilizce: "Great God of War (Medici)"
   kategori: "İlahlar ve Yüce Kadimler"
-  aciklama: "Yüce Harp Tanrısı,<br>Demir ve Kanın Timsali,<br>Kargaşa ve Niza Hükümdarı."
+  aciklama: "Demir ve Kanın Timsali,<br>Kargaşa ve Niza Hükümdarı."
   spoiler: true
 
-- terim: "Alemin Mutlak Talihi"
-  ingilizce: "Will Auceptin"
+- terim: "Alemin Mutlak Talihi (Will Auceptin)"
+  ingilizce: "Absolute Luck (Will Auceptin)"
   kategori: "İlahlar ve Yüce Kadimler"
-  aciklama: "Alemin Mutlak Talihi,<br>İhtimallerin Tecessümü,<br>Kaderin Timsali."
+  aciklama: "İhtimallerin Tecessümü,<br>Kaderin Timsali."
   spoiler: true
 
 - terim: "Batınî Bilge"
@@ -222,67 +294,67 @@
 # -----------------------
 
 # Esrarın Hükümdarı (Lord of the Mysteries)
-- terim: "Soytarı Yolu"
-  ingilizce: "The Fool Pathway"
+- terim: "Kâhin Yolu"
+  ingilizce: "Seer Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "9: Kâhin (Seer)<br>8: Palyaço (Clown)<br>7: Hokkabaz (Magician)<br>6: Suretsiz (Faceless)<br>5: Kukla Üstadı (Marionettist)<br>4: Garabet Efsuncusu (Bizarro Sorcerer)<br>3: Mazinin Alimi (Scholar of Yore)<br>2: Mucizekâr (Miracle Invoker)<br>1: Esrar Hadimi (Attendant of Mysteries)<br>0: Soytarı (The Fool)"
   spoiler: true
 
-- terim: "Kusur Yolu"
-  ingilizce: "Error Pathway"
+- terim: "Yağmacı Yolu"
+  ingilizce: "Marauder Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "9: Yağmacı (Marauder)<br>8: Dolandırıcı (Swindler)<br>7: Şifreci (Cryptologist)<br>6: Prometheus (Prometheus)<br>5: Hülya Hırsızı (Dream Stealer)<br>4: Tufeyli (Parasite)<br>3: Hile Mürşidi (Mentor of Deceit)<br>2: Kaderin Truva Atı (Trojan Horse of Destiny)<br>1: Zaman Kurdu (Worm of Time)<br>0: Kusur (Error / Bug)"
   spoiler: true
 
-- terim: "Kapı Yolu"
-  ingilizce: "Door Pathway"
+- terim: "Çırak Yolu"
+  ingilizce: "Apprentice Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "9: Çırak (Apprentice)<br>8: Hilebaz (Trickmaster)<br>7: Müneccim (Astrologer)<br>6: Kâtip (Scribe)<br>5: Gezgin (Traveler)<br>4: Sır Efsuncusu (Secrets Sorcerer)<br>3: Avare (Wanderer)<br>2: Alem Seyyahı (Planeswalker)<br>1: Yıldız Miftahı (Key of Stars)<br>0: Kapı (Door)"
   spoiler: true
 
 # Anarşi (Anarchy)
-- terim: "Kara İmparator Yolu"
-  ingilizce: "Black Emperor Pathway"
+- terim: "Avukat Yolu"
+  ingilizce: "Lawyer Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Anarşi (Anarchy)"
   aciklama: "9: Avukat (Lawyer)<br>8: Barbar (Barbarian)<br>7: Rüşvetçi (Briber)<br>6: İfrit Baronu (Baron of Corruption)<br>5: Fitne Mürşidi (Mentor of Disorder)<br>4: Sakıtlar Kontu (Earl of the Fallen)<br>3: Mecnun Büyücü (Frenzied Mage)<br>2: Zeval Dükü (Duke of Entropy)<br>1: İlga Prensi (Prince of Abolition)<br>0: Kara İmparator (Black Emperor)"
   spoiler: true
 
-- terim: "Yargı Yolu"
-  ingilizce: "Justiciar Pathway"
+- terim: "Arabulucu Yolu"
+  ingilizce: "Arbiter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Anarşi (Anarchy)"
   aciklama: "9: Arabulucu (Arbiter)<br>8: Zaptiye (Sheriff)<br>7: Sorgucu (Interrogator)<br>6: Yargıç (Judge)<br>5: Nizam Şövalyesi (Disciplinary Paladin)<br>4: Kargaşa Avcısı (Chaos Hunter)<br>3: Muvazenedar (Balancer)<br>2: Düzenin Eli (Hand of Order)<br>1: Yargı (Justiciar)<br>0: Justiciar (Yargı)"
   spoiler: true
 
 # Helak Felaketi (Calamity of Destruction)
-- terim: "Kızıl Rahip Yolu"
-  ingilizce: "Red Priest Pathway"
+- terim: "Avcı Yolu"
+  ingilizce: "Hunter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "9: Avcı (Hunter)<br>8: Kışkırtıcı / Provokatör (Provoker)<br>7: Ateş Müptelası (Pyromaniac)<br>6: Entrikacı / Komplocu (Conspirer)<br>5: Hasatçı (Reaper)<br>4: Demirkan Şövalyesi (Iron-Blooded Knight)<br>3: Cenk Ruhbanı (War Bishop)<br>2: Bora Efsuncusu (Weather Warlock)<br>1: Fatih (Conqueror)<br>0: Kızıl Rahip (Red Priest)"
   spoiler: true
 
-- terim: "Şeytaniçe Yolu"
-  ingilizce: "Demoness Pathway"
+- terim: "Suikastçı Yolu"
+  ingilizce: "Assassin Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "9: Suikastçı (Assassin)<br>8: Fitneci (Instigator)<br>7: Cadı (Witch)<br>6: Haz (Pleasure)<br>5: Musibet (Afflictions)<br>4: Izdırap (Despair)<br>3: Solmayan (Unaging)<br>2: Afet (Catastrophe)<br>1: Kıyamet (Apocalypse)<br>0: Şeytaniçe (Demoness)"
   spoiler: true
 
 # Zulmet-i Ebediye (Eternal Darkness)
-- terim: "Karanlık Yolu"
-  ingilizce: "Darkness Pathway"
+- terim: "Uykusuz Yolu"
+  ingilizce: "Sleepless Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
   aciklama: "9: Uykusuz (Sleepless)<br>8: Geceyarısı Şairi (Midnight Poet)<br>7: Kabus (Nightmare)<br>6: Ruh Kefili (Soul Assurer)<br>5: Ruh Efsuncusu (Spirit Warlock)<br>4: Gece Bekçisi (Nightwatcher)<br>3: Dehşet Piskoposu (Horror Bishop)<br>2: Gizliliğin Hizmetkârı (Servant of Concealment)<br>1: Musibet Şövalyesi (Knight of Misfortune)<br>0: Karanlık (Darkness)"
   spoiler: true
 
-- terim: "Ölüm Yolu"
-  ingilizce: "Death Pathway"
+- terim: "Naaş Toplayıcı Yolu"
+  ingilizce: "Corpse Collector Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
   aciklama: "9: Naaş Toplayıcı (Corpse Collector)<br>8: Kabir Kazıcı (Grave Digger)<br>7: Ruh Aracısı (Spirit Medium)<br>6: Ruh Rehberi (Spirit Guide)<br>5: Berzah Bekçisi (Gate Keeper)<br>4: Ölümsüz (Undying)<br>3: Ahiret Kayıkçısı (Ferryman)<br>2: Ölüm Sefiri (Death Consul)<br>1: Solgun Hükümdar (Pale Emperor)<br>0: Ölüm (Death)"
@@ -296,8 +368,8 @@
   spoiler: true
 
 # Nur Miftahı (Key of Light)
-- terim: "Şans Çarkı Yolu"
-  ingilizce: "Wheel of Fortune Pathway"
+- terim: "Canavar Yolu"
+  ingilizce: "Monster Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Nur Miftahı (Key of Light)"
   aciklama: "9: Canavar (Monster)<br>8: Otomaton (Robot)<br>7: Şanslı (Lucky One)<br>6: Felaket Tellali (Calamity Priest)<br>5: Galip (Winner)<br>4: Talihsizlik Büyücüsü (Misfortune Mage)<br>3: Kaos Getiren (Chaos Walker)<br>2: Resul (Soothsayer)<br>1: Merkür Yılanı (Snake of Mercury)<br>0: Şans Çarkı (Wheel of Fortune)"
@@ -305,14 +377,14 @@
 
 # Arzunun Ana Ağacı (Mother Tree of Desire)
 - terim: "Suçlu Yolu"
-  ingilizce: "Abyss Pathway"
+  ingilizce: "Criminal Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
-  aciklama: "9: Suçlu (Criminal)<br>8: Kanatsız Melek / Cani (Unwinged Angel)<br>7: Seri Katil (Serial Killer)<br>6: İblis (Devil)<br>5: Arzu Havarisi (Desire Apostle)<br>4: Şeytan (Demon)<br>3: Bedzeban (Blatherer)<br>2: Kan Arşidükü (Bloody Archduke)<br>1: Necis Hükümdar (Filthy Monarch)<br>0: Yokluk / Zifiri Uçurum (Abyss)"
+  aciklama: "9: Suçlu (Criminal)<br>8: Kanatsız Melek / Cani (Unwinged Angel)<br>7: Seri Katil (Serial Killer)<br>6: İblis (Devil)<br>5: Arzu Havarisi (Desire Apostle)<br>4: Şeytan (Demon)<br>3: Bedzeban (Blatherer)<br>2: Kan Arşidükü (Bloody Archduke)<br>1: Necis Hükümdar (Filthy Monarch)<br>0: Yokluk / Gayya (Abyss)"
   spoiler: true
 
 - terim: "Mahkum Yolu"
-  ingilizce: "Chained Pathway"
+  ingilizce: "Prisoner Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
   aciklama: "9: Mahkum (Prisoner)<br>8: Meczup (Lunatic)<br>7: Kurtadam (Werewolf)<br>6: Hortlak (Zombie)<br>5: Tayf (Wraith)<br>4: Kukla (Puppet)<br>3: Sessizliğin Müridi (Disciple of Silence)<br>2: Kadim Musibet (Ancient Bane)<br>1: Hilkat Garibesi (Abomination)<br>0: Prangalı (Chained)"
@@ -320,65 +392,65 @@
 
 # Marifet İfriti (Demon of Knowledge)
 - terim: "Gizem Avcısı Yolu"
-  ingilizce: "Hermit Pathway"
+  ingilizce: "Mystery Pryer Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "9: Gizem Avcısı (Mystery Pryer)<br>8: Dövüş Alimi (Melee Scholar)<br>7: Büyücü (Warlock)<br>6: Parşömen Müderrisi (Scrolls Professor)<br>5: Takımyıldızlar Üstadı (Constellations Master)<br>4: Gizemşinas (Mystilogist)<br>3: Durugörür (Clairvoyant)<br>2: Bilge (Sage)<br>1: Bilgi İmparatoru (Knowledge Emperor)<br>0: Keşiş (Hermit)"
   spoiler: true
 
-- terim: "Erdem Yolu"
-  ingilizce: "Paragon Pathway"
+- terim: "Bilgin Yolu"
+  ingilizce: "Savant Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "9: Bilgin (Savant)<br>8: Arkeolog (Archaeologist)<br>7: Sarraf (Appraiser)<br>6: Zanaatkâr (Artisan)<br>5: Gökbilimci (Astronomer)<br>4: Simyacı (Alchemist)<br>3: Sır Alimi (Arcane Scholar)<br>2: Bilgi Hakimi (Knowledge Magister)<br>1: Münevver (Illuminator)<br>0: Erdem (Paragon)"
   spoiler: true
 
 # Kadir-i Mutlak (God Almighty)
-- terim: "Vizyoner Yolu"
-  ingilizce: "Visionary Pathway"
+- terim: "Seyirci Yolu"
+  ingilizce: "Spectator Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "9: Seyirci (Spectator)<br>8: Telepat (Telepathist)<br>7: Ruh Hekimi (Psychiatrist)<br>6: Telkinci (Hypnotist)<br>5: Hülya Gezgini (Dream Walker)<br>4: Kurgucu (Manipulator)<br>3: Hülya Dokuyan (Dream Weaver)<br>2: Mümeyyiz (Discerner)<br>1: Yazar (Author)<br>0: Musavvir (Visionary)"
   spoiler: true
 
-- terim: "Tiran Yolu"
-  ingilizce: "Tyrant Pathway"
+- terim: "Denizci Yolu"
+  ingilizce: "Sailor Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "9: Denizci (Sailor)<br>8: Hiddet Halkı (Folk of Rage)<br>7: Gemici (Seafarer)<br>6: Rüzgarkutlu (Wind-Blessed)<br>5: Derya Ozanı (Ocean Songster)<br>4: Yıkım Gömücü (Cataclysmic Interrer)<br>3: Denizlerin Kralı (Sea King)<br>2: Felaket (Calamity)<br>1: Yıldırım Tanrısı (Thunder God)<br>0: Tiran (Tyrant)"
   spoiler: true
 
-- terim: "Güneş Yolu"
-  ingilizce: "Sun Pathway"
+- terim: "Ozan Yolu"
+  ingilizce: "Bard Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "9: Ozan (Bard)<br>8: Işık Duacısı (Light Supplicant)<br>7: Güneş Başrahibi (Solar High Priest)<br>6: Kâtibiadil (Notary)<br>5: Işık Rahibi (Priest of Light)<br>4: Gölgesiz (Unshadowed)<br>3: Adalet Üstadı (Justice Mentor)<br>2: Işıkperest (Lightseeker)<br>1: Beyaz Melek (White Angel)<br>0: Güneş (Sun)"
   spoiler: true
 
-- terim: "Beyaz Kule Yolu"
-  ingilizce: "White Tower Pathway"
+- terim: "Okur Yolu"
+  ingilizce: "Reader Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "9: Okur (Reader)<br>8: Muhakeme Talebesi (Student of Ratiocination)<br>7: Dedektif (Detective)<br>6: Hezarfen (Polymath)<br>5: Mistisizm Hakimi (Mysticism Magister)<br>4: Peygamber (Prophet)<br>3: Arif (Cognizer)<br>2: Bilgelik Meleği (Wisdom Angel)<br>1: Alim Göz (Omniscient Eye)<br>0: Beyaz Kule (White Tower)"
   spoiler: true
 
-- terim: "Asılmış Adam Yolu"
-  ingilizce: "Hanged Man Pathway"
+- terim: "Sır Talibi Yolu"
+  ingilizce: "Secrets Supplicant Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "9: Sır Talibi (Secrets Supplicant)<br>8: Dinleyici (Listener)<br>7: Gölge Münzevisi (Shadow Ascetic)<br>6: Gül Ruhbanı (Rose Bishop)<br>5: Çoban (Shepherd)<br>4: Kara Şövalye (Black Knight)<br>3: Teslis Muhafızı (Trinity Templar)<br>2: Melun Vaiz (Profane Presbyter)<br>1: Zulmani Melek (Dark Angel)<br>0: Asılmış Adam (Hanged Man)"
   spoiler: true
 
 # Köken Tanrıçası (Goddess of Origin)
-- terim: "Toprak Ana Yolu"
-  ingilizce: "Mother Pathway"
+- terim: "Çiftçi Yolu"
+  ingilizce: "Planter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "9: Çiftçi (Planter)<br>8: Hekim (Doctor)<br>7: Hasat Rahibi (Harvest Priest)<br>6: Tabiat Alimi (Biologist)<br>5: Orman Keşişi (Druid)<br>4: Kadim Simyacı (Classical Alchemist)<br>3: Tabut Hamili (Pallbearer)<br>2: Çorak Mader / Issız Ana (Desolate Matriarch)<br>1: Doğa Seyyahı (Naturewalker)<br>0: Ana (Mother)"
   spoiler: true
 
-- terim: "Ay Yolu"
-  ingilizce: "Moon Pathway"
+- terim: "Aktar Yolu"
+  ingilizce: "Apothecary Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "9: Aktar (Apothecary)<br>8: Canavar Terbiyecisi (Beast Tamer)<br>7: Vampir (Vampire)<br>6: İksir Müderrisi (Potions Professor)<br>5: Kızıl Alim (Scarlet Scholar)<br>4: Şaman Kralı (Shaman King)<br>3: Ulu Celbedici (High Summoner)<br>2: Hayat Bahşedici (Life-Giver)<br>1: Güzellik Tanrıçası (Beauty Goddess)<br>0: Ay (Moon)"
