@@ -4,11 +4,11 @@
 [![License](https://img.shields.io/badge/license-Fan%20Translation-blue.svg)](https://Imperium34.github.io)
 [![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=Tarot%20Kulübü&logo=discord&color=5865F2)](https://discord.gg/WNe2fSrCfc)
 
-> *"Bu asra mensup olmayan Soytarı..."*
+> _"Bu asra mensup olmayan Soytarı..."_
 
-**Esrarın Hükümdarı**, Cuttlefish That Loves Diving tarafından yazılan *Lord of the Mysteries* web romanının, atmosferik ve terim odaklı Türkçe çeviri projesidir.
+**Esrarın Hükümdarı**, Cuttlefish That Loves Diving tarafından yazılan _Lord of the Mysteries_ web romanının, atmosferik ve terim odaklı Türkçe çeviri projesidir.
 
-🌐 **Okumak için:** [https://Imperium34.github.io](https://Imperium34.github.io)
+🌐 **Okumak için:** [https://esrarinhukumdari.com](https://esrarinhukumdari.com)
 
 ---
 
@@ -19,9 +19,10 @@
 Bu site reklam, pop-up veya takipçi kasma amacı gütmez. Tamamen okuma deneyimine odaklıdır.
 
 ### Temel Farklar
-* **Atmosferik Dil:** Karakterlerin dönemine uygun, edebi bir dil kullanılır. (Örn: "Fool" -> "Soytarı")
-* **Terim Tutarlılığı:** Kapsamlı bir Terimler Sözlüğü (Glossary) ile ilerlenir.
-* **Mühendis İşi Altyapı:** Site GitHub Pages üzerinde, özel bir Jekyll temasıyla çalışır. Hızlı, karanlık mod destekli ve güvenlidir.
+
+- **Atmosferik Dil:** Karakterlerin dönemine uygun, edebi bir dil kullanılır. (Örn: "Fool" -> "Soytarı")
+- **Terim Tutarlılığı:** Kapsamlı bir Terimler Sözlüğü (Glossary) ile ilerlenir.
+- **Mühendis İşi Altyapı:** Site GitHub Pages üzerinde, özel bir Jekyll temasıyla çalışır. Hızlı, karanlık mod destekli ve güvenlidir.
 
 ---
 
@@ -29,10 +30,10 @@ Bu site reklam, pop-up veya takipçi kasma amacı gütmez. Tamamen okuma deneyim
 
 Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
-* **Altyapı:** GitHub Pages & Jekyll
-* **Tema Motoru:** Liquid
-* **Stil:** Özel CSS (Minimalist Dark Mode)
-* **Yorum Sistemi:** Giscus (GitHub Discussions Entegrasyonu)
+- **Altyapı:** GitHub Pages & Jekyll
+- **Tema Motoru:** Liquid
+- **Stil:** Özel CSS (Minimalist Dark Mode)
+- **Yorum Sistemi:** Giscus (GitHub Discussions Entegrasyonu)
 
 ---
 
@@ -46,10 +47,11 @@ Ekibimiz genişledikçe düzenli bir takvime geçeceğiz.
 
 Hataları bildirmek, teorileri tartışmak veya sadece sohbet etmek için:
 
-* **Discord:** [Tarot Kulübü](https://discord.gg/Kq3hEtbW)
-* **Destek (Shopier):** [Imperium34](https://www.shopier.com/Imperium34)
+- **Discord:** [Tarot Kulübü](https://discord.gg/Kq3hEtbW)
+- **Destek (Shopier):** [Imperium34](https://www.shopier.com/Imperium34)
 
 ---
 
 ## Yasal Uyarı
+
 Bu proje kâr amacı gütmeyen bir hayran çalışmasıdır. Hikayenin tüm telif hakları orijinal yazar **Cuttlefish That Loves Diving** ve yayıncı platforma aittir.
