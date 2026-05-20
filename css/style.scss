@@ -197,22 +197,26 @@ input[type="text"]#chapterSearch {
 }
 
 // =========================================
-// 9. CHAPTER NAVIGATION
+// 9. CHAPTER NAVIGATION & READING TOOLS
 // =========================================
 
 .chapter-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 3.5rem 0 2rem 0;
   padding-top: 1.5rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid #252525;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 10px;
 }
 
 .nav-btn {
-  display: inline-block;
-  padding: 12px 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
   border-radius: 6px;
   font-size: 0.9rem;
   font-family: sans-serif;
@@ -220,11 +224,10 @@ input[type="text"]#chapterSearch {
   text-align: center;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  background: #151515;
-  color: #e0e0e0;
+  background: #1c1c1c;
+  color: #bbb;
   border: 1px solid #333;
   flex: 1;
-  margin: 0 5px;
   box-sizing: border-box;
 
   &:hover {
@@ -232,23 +235,78 @@ input[type="text"]#chapterSearch {
     color: #fff;
     border-color: #a41818;
     text-decoration: none;
+    box-shadow: 0 4px 12px rgba(164, 24, 24, 0.15);
+  }
+
+  &.archive-btn {
+    border-color: #d4af37;
+    color: #d4af37;
+    &:hover {
+      background: #d4af37;
+      color: #151515;
+      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+    }
   }
 
   &.disabled {
-    color: #555;
+    color: #444;
     border-color: #222;
+    background: #111;
     pointer-events: none;
-    background: transparent;
+    opacity: 0.6;
   }
+}
+
+.reading-meta-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #222;
+  width: 100%;
+}
+
+.font-adjusters {
+  display: flex;
+  gap: 6px;
+
+  button {
+    background: #1c1c1c;
+    border: 1px solid #333;
+    color: #aaa;
+    padding: 3px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      border-color: #a41818;
+      color: #fff;
+      background: #252525;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.chapter-body {
+  transition: font-size 0.15s ease-in-out;
 }
 
 @media (max-width: 600px) {
   .chapter-nav {
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
   }
   .nav-btn {
     width: 100%;
-    margin: 0;
   }
 }
