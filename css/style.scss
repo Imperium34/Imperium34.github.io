@@ -195,3 +195,60 @@ input[type="text"]#chapterSearch {
     color: #555;
   }
 }
+
+// =========================================
+// 9. CHAPTER NAVIGATION
+// =========================================
+
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  background: #151515;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  flex: 1;
+  margin: 0 5px;
+  box-sizing: border-box;
+
+  &:hover {
+    background: #a41818;
+    color: #fff;
+    border-color: #a41818;
+    text-decoration: none;
+  }
+
+  &.disabled {
+    color: #555;
+    border-color: #222;
+    pointer-events: none;
+    background: transparent;
+  }
+}
+
+@media (max-width: 600px) {
+  .chapter-nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .nav-btn {
+    width: 100%;
+    margin: 0;
+  }
+}

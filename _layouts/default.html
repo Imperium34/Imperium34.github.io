@@ -12,6 +12,23 @@
   
   {{ content }}
 
+  {% if page.layout == 'post' %}
+  <div class="chapter-nav">
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="nav-btn prev-btn">« Önceki Bölüm</a>
+    {% else %}
+      <span class="nav-btn disabled">« Önceki Bölüm</span>
+    {% endif %}
+
+    <a href="/arsiv/" class="nav-btn archive-btn">📚 Arşiv</a>
+
+    {% if page.next %}
+      <a href="{{ page.next.url }}" class="nav-btn next-btn">Sonraki Bölüm »</a>
+    {% else %}
+      <span class="nav-btn disabled">Sonraki Bölüm »</span>
+    {% endif %}
+  </div>
+  {% endif %}
   <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
 
   <div class="imperium-footer" style="background: #151515; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: center; color: #ccc; font-family: sans-serif;">
