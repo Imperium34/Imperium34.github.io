@@ -31,6 +31,12 @@
   aciklama: "Aşkınların iksirlerini sindirmek ve delilikten korunmak için yollarının doğasına uygun davranma pratiği. 'Oyunculuk Metodu' modern ve dünyevi bir terimken, Loen yerlileri bu kavrama 'Rol İfası' der."
   spoiler: true
 
+- terim: "İlhad Levhası"
+  ingilizce: "Blasphemy Slate"
+  kategori: "Temel Kavramlar"
+  aciklama: "Yirmi iki Aşkın Yolunun tüm sırlarını, iksir formüllerini ve İlah olma yöntemlerini ifşa eden, evrenin en kadim ve yasaklı bilgi kaynağı."
+  spoiler: true
+
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
   ingilizce: "Law of Beyonder Characteristic Conservation"
   kategori: "Temel Kavramlar"
@@ -355,7 +361,7 @@
   ingilizce: "Arbiter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Anarşi (Anarchy)"
-  aciklama: "9: Arabulucu (Arbiter)<br>8: Zaptiye (Sheriff)<br>7: Sorgucu (Interrogator)<br>6: Yargıç (Judge)<br>5: Nizam Şövalyesi (Disciplinary Paladin)<br>4: Ferman Büyücüsü (Imperative Mage)<br>3: Muvazenedar (Balancer)<br>2: Düzenin Eli (Hand of Order)<br>1: Yargı (Justiciar)<br>0: Justiciar (Yargı)"
+  aciklama: "9: Arabulucu (Arbiter)<br>8: Zaptiye (Sheriff)<br>7: Sorgucu (Interrogator)<br>6: Yargıç (Judge)<br>5: Nizam Şövalyesi (Disciplinary Paladin)<br>4: Ferman Büyücüsü (Imperative Mage)<br>3: Kargaşa Avcısı (Chaos Hunter)<br>2: Muvazenedar (Balancer)<br>1: Düzenin Eli (Hand of Order)<br>0: Yargı (Justiciar)"
   spoiler: true
 
 # Helak Felaketi (Calamity of Destruction)
