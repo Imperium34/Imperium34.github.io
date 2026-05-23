@@ -11,8 +11,6 @@ permalink: /
   </p>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 4rem;">
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 3rem;">
   <a href="#" id="resumeReadingBtn" style="display: none; background: #a41818; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #c21c1c;">
     🔖 Kaldığın Yerden Devam Et: <span id="resumeChapterName"></span>
