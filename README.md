@@ -37,9 +37,15 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
 ---
 
-## 📅 Yayın Takvimi
+## 🕰️ Yayın Takvimi
 
-Ekibimiz genişledikçe düzenli bir takvime geçeceğiz.
+Esrarın Hükümdarı arşivine yeni kayıtlar, Viktorya dönemi dakikliğiyle haftada iki kez eklenmektedir:
+
+    Çarşamba: 21.00
+
+    Cumartesi: 21.00
+
+Bölümlerin her biri, dönemin edebi ağırlığını ve kozmik atmosferini korumak adına titiz bir yerelleştirme sürecinden geçmektedir. Hızlı tüketim odaklı değil, kalıcı ve arşivlik bir kalite hedeflendiği için bu takvime kati surette sadık kalınmaktadır.
 
 ---
 
