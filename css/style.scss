@@ -153,24 +153,25 @@ blockquote {
 
 .chapter-list li {
   margin-bottom: 10px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #252525;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 .chapter-list a {
   text-decoration: none;
   color: #ccc;
+  flex: 1;
   display: block;
-  width: 100%;
+  transition: all 0.2s ease;
 }
 
 .chapter-list a:hover {
   color: #a41818;
   padding-left: 8px;
-  transition: all 0.2s ease;
 }
 
 input[type="text"]#chapterSearch {

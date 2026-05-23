@@ -1,3 +1,18 @@
+---
+layout: page
+title: Anasayfa
+permalink: /
+---
+
+<div style="text-align: center; margin: 3rem 0 4rem 0;">
+  <h1 style="font-size: 3.2rem; margin-bottom: 10px; color: #e0e0e0; font-family: 'Georgia', serif; border-bottom: none; padding-bottom: 0;">Esrarın Hükümdarı</h1>
+  <p style="font-size: 1.25rem; color: #888; font-style: italic; max-width: 80%; margin: 0 auto;">
+    "Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz."
+  </p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 4rem;">
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 3rem;">
   <a href="#" id="resumeReadingBtn" style="display: none; background: #a41818; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #c21c1c;">
     🔖 Kaldığın Yerden Devam Et: <span id="resumeChapterName"></span>
