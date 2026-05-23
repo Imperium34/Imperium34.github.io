@@ -200,7 +200,6 @@ input[type="text"]#chapterSearch {
 // 9. CHAPTER NAVIGATION & READING TOOLS
 // =========================================
 
-/* Okuma Süresi ve Font Ayar Barı */
 .reading-meta-bar {
   display: flex;
   justify-content: space-between;
@@ -228,7 +227,7 @@ input[type="text"]#chapterSearch {
   }
 
   button {
-    background-color: #2a2a2a; /* Tarayıcının beyaz buton yapmasını engeller */
+    background-color: #2a2a2a;
     color: #fff;
     border: none;
     padding: 6px 12px;
@@ -252,7 +251,6 @@ input[type="text"]#chapterSearch {
   transition: font-size 0.15s ease-in-out;
 }
 
-/* Bölüm Navigasyon Butonları (Eski Butonlarla Aynı Tasarım) */
 .chapter-nav {
   display: flex;
   justify-content: space-between;
@@ -312,4 +310,63 @@ input[type="text"]#chapterSearch {
     width: 100%;
     margin: 0;
   }
+}
+
+// =========================================
+// 10. HOMEPAGE COMPONENTS
+// =========================================
+
+.quick-access-hub {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 3.5rem;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  padding: 2rem 0;
+}
+
+.hub-card {
+  background: #151515;
+  padding: 20px 15px;
+  border-radius: 8px;
+  color: #ccc;
+  text-decoration: none;
+  border: 1px solid #222;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.15rem;
+  }
+
+  span {
+    font-size: 0.85rem;
+    color: #777;
+    transition: color 0.25s ease;
+  }
+
+  &:hover {
+    background: #1a1a1a;
+    border-color: #555;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    
+    span {
+      color: #bbb;
+    }
+  }
+}
+
+.chapter-date {
+  color: #666; 
+  font-size: 0.85rem; 
+  min-width: 95px;
+  display: inline-block;
+  font-family: monospace;
 }
