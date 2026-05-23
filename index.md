@@ -4,62 +4,72 @@ title: Anasayfa
 permalink: /
 ---
 
-# Neden Yeni Bir Çeviri? "Esrarın Hükümdarı" Edisyonu
+<div style="text-align: center; margin: 3rem 0;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: #e0e0e0;">Esrarın Hükümdarı</h1>
+  <p style="font-size: 1.2rem; color: #888; font-style: italic;">"Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz."</p>
+</div>
 
-**Gizemlerin Efendisi** (_Lord of the Mysteries_), sadece bir web romanı değil; Viktorya dönemi endüstrisini, Lovecraftian kozmik dehşeti ve steampunk estetiğini harmanlayan modern bir klasiktir. Ancak bu eserin ruhu, standart çevirilerde sıkça kaybolmaktadır.
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 3rem;">
+  
+  <a href="#" id="resumeReadingBtn" style="display: none; background: #a41818; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #c21c1c;">
+    🔖 Kaldığın Yerden Devam Et: <span id="resumeChapterName"></span>
+  </a>
 
-### Felsefemiz
+  <a href="/bolum-1" id="startReadingBtn" style="background: #1c1c1c; color: #e0e0e0; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #333;">
+    👁️ İlk Bölümden Başla
+  </a>
 
-Bir eseri çevirmek, kelimeleri bir dilden diğerine taşımak değil, o atmosferi yeniden inşa etmektir. Google Translate veya yüzeysel çevirilerde "Fool" kelimesi "Aptal" olarak çevrilip geçilir. Oysa Tarot kartlarındaki _The Fool_, bir başlangıcı, kuralların dışına çıkmayı ve sonsuz potansiyeli temsil eder. Bizim çevirimizde o, bir **Soytarı**'dır.
+</div>
 
-Bu çeviri projesi, **"Esrarın Hükümdarı"** edisyonu olarak adlandırılmıştır ve şu prensiplere dayanır:
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 15px; margin-bottom: 3rem; border-top: 1px solid #252525; border-bottom: 1px solid #252525; padding: 1.5rem 0;">
+  
+  <a href="/hakkinda/" style="flex: 1; text-align: center; background: #151515; padding: 15px; border-radius: 4px; color: #ccc; text-decoration: none; border: 1px solid #222;">
+    <h3 style="margin: 0 0 5px 0; color: #e0e0e0;">🖋️ Proje Hakkında</h3>
+    <span style="font-size: 0.85em;">Bu çevirinin amacı nedir?</span>
+  </a>
 
-1.  **Atmosferik Dil:** Karakterler modern sokak ağzıyla değil, yaşadıkları dönemin ağırlığına uygun konuşurlar.
-2.  **Terim Derinliği:** _Seer_ sıradan bir Gözcü değil, yıldızlara bakan bir **Kâhin**'dir. _Scribe_ sadece Yazıcı değil, bir **Kâtip**'tir.
-3.  **Miras:** İngilizce metnin aktaramadığı "Doğu/Xianxia" hiyerarşisi, Türkçenin zengin Osmanlıca kelime dağarcığı kullanılarak aslına sadık sunulmuştur.
+  <a href="/sozluk/" style="flex: 1; text-align: center; background: #151515; padding: 15px; border-radius: 4px; color: #ccc; text-decoration: none; border: 1px solid #222;">
+    <h3 style="margin: 0 0 5px 0; color: #d4af37;">📖 İkincil Sözlük</h3>
+    <span style="font-size: 0.85em;">Terimler ve spoiler korumalı veri tabanı.</span>
+  </a>
 
-**Örnek Karşılaştırma:**
+  <a href="/arsiv/" style="flex: 1; text-align: center; background: #151515; padding: 15px; border-radius: 4px; color: #ccc; text-decoration: none; border: 1px solid #222;">
+    <h3 style="margin: 0 0 5px 0; color: #e0e0e0;">📚 Arşiv</h3>
+    <span style="font-size: 0.85em;">Yayınlanmış tüm bölümler.</span>
+  </a>
 
-- _Standart:_ "Bu çağa ait olmayan aptal."
-- _Esrarın Hükümdarı:_ **"Bu asra mensup olmayan Soytarı."**
-
-Amacımız, Klein Moretti'nin sislerin üzerindeki yalnızlığını iliklerinize kadar hissettirmektir.
-
----
-
-## Hikaye Özeti
-
-> Buhar gücü ve makinenin yükselen devrinde, kim bir **"Olağanüstü"** olmaya yaklaşabilir? Tarihin ve karanlığın sislerine bürünmüş, kulaklarımıza fısıldayan o pusudaki şer kimdir veya nedir?
->
-> Zhou Mingrui, kendini bir dizi gizemle yüzleşerek uyanmış bulur. O artık Klein Moretti'dir ve bu alternatif Viktorya dönemi; topların, zırhlıların, zeplinlerin ve fark makinelerinin olduğu kadar; **İksirlerin, Kehanetlerin, Efsunların, Tarot Kartlarının** ve **Mühürlenmiş Eserlerin** de dünyasıdır.
->
-> Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Klein'ın, Olağanüstü iksirlerden kazandığı güçleri yavaşça keşfederken, dünyanın hem Ortodoks hem de Sapkın kiliseleriyle nasıl bir karmaşanın içine sürüklendiğine tanıklık edin.
->
-> Tıpkı destedeki karşılığı olan ve sonsuz potansiyeli simgeleyen 0 numaralı kart gibi... **Bu, "Soytarı"nın efsanesidir.**
-
----
+</div>
 
 <div class="latest-updates">
-  <h2>🆕 Son Eklenen Bölümler</h2>
+  <h2 style="border-bottom: 2px solid #a41818; padding-bottom: 10px; margin-bottom: 20px;">🆕 Son Eklenen Bölümler</h2>
   
   <ul class="chapter-list">
     {% assign recent_chapters = site.chapters | sort: 'path' | reverse %}
     {% for chapter in recent_chapters limit: 5 %}
       <li>
-        <span style="color: #666; font-size: 0.9em;">[{{ chapter.date | date: "%d.%m" }}]</span>
+        <span style="color: #666; font-size: 0.9em; min-width: 60px; display: inline-block;">[{{ chapter.date | date: "%d.%m" }}]</span>
         <a href="{{ chapter.url }}">{{ chapter.title }}</a>
       </li>
     {% endfor %}
   </ul>
-
-  <div style="margin-top: 15px;">
-    <a href="/arsiv" style="font-weight: bold; color: #a41818; text-decoration: none;">
-      📚 Tüm Bölüm Listesi (Arşiv) &rarr;
-    </a>
-  </div>
-  <div style="margin-top: 15px;">
-    <a href="/sozluk" style="font-weight: bold; color: #d4af37; text-decoration: none;">
-      📖 Sözlük ve Terimler &rarr;
-    </a>
-  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var lastUrl = localStorage.getItem('imperiumLastChapterUrl');
+    var lastTitle = localStorage.getItem('imperiumLastChapterTitle');
+    
+    if (lastUrl && lastTitle) {
+      var resumeBtn = document.getElementById('resumeReadingBtn');
+      var resumeSpan = document.getElementById('resumeChapterName');
+      
+      // Butonu görünür yap ve linki/ismi ata
+      resumeBtn.style.display = 'inline-block';
+      resumeBtn.href = lastUrl;
+      
+      // Uzun başlıkları kırpmak için ("Bölüm 5: Ritüel" -> "Bölüm 5" gibi)
+      var shortTitle = lastTitle.split(':')[0]; 
+      resumeSpan.textContent = shortTitle;
+    }
+  });
+</script>

@@ -118,6 +118,10 @@
       sizeLabel.innerText = newSize + 'px';
     }
   }
+  if (window.localStorage) {
+    localStorage.setItem('imperiumLastChapterUrl', '{{ page.url }}');
+    localStorage.setItem('imperiumLastChapterTitle', '{{ page.title }}');
+  }
 </script>
 {% endif %}
 
