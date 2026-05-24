@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="text-align: center; margin: 3rem 0 4rem 0;">
-  <h1 style="font-size: 3.2rem; margin-bottom: 10px; color: #e0e0e0; font-family: 'Georgia', serif; border-bottom: none; padding-bottom: 0;">Esrarın Hükümdarı</h1>
+  <h1 style="font-size: clamp(2rem, 8vw, 3.2rem); margin-bottom: 10px; color: #e0e0e0; font-family: 'Georgia', serif; border-bottom: none; padding-bottom: 0;">Esrarın Hükümdarı</h1>
   <p style="font-size: 1.25rem; color: #888; font-style: italic; max-width: 80%; margin: 0 auto;">
     "Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz."
   </p>
