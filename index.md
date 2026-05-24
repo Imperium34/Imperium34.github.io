@@ -15,7 +15,7 @@ permalink: /
   <a href="#" id="resumeReadingBtn" style="display: none; background: #a41818; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #c21c1c;">
     🔖 Kaldığın Yerden Devam Et: <span id="resumeChapterName"></span>
   </a>
-  <a href="/0001" id="startReadingBtn" style="background: #1c1c1c; color: #e0e0e0; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #333;">
+  <a href="/chapters/0001/" id="startReadingBtn" style="background: #1c1c1c; color: #e0e0e0; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1rem; border: 1px solid #333;">
     👁️ İlk Bölümden Başla
   </a>
 </div>

@@ -402,21 +402,22 @@ input[type="text"]#chapterSearch {
   align-items: center;
   gap: 12px;
   text-decoration: none;
-  
+
   .header-logo {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-  }
-  
-  .header-title {
-    font-family: 'Georgia', serif;
-    font-size: 1.15rem;
-    font-weight: bold;
-    color: #e0e0e0;
-    transition: color 0.2s ease;
-  }
-  
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      display: block;
+      transform: translateY(1px);
+    }
+    .header-title {
+      font-family: 'Georgia', serif;
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: #e0e0e0;
+      line-height: 1;
+      transition: color 0.2s ease;
+    }
   &:hover .header-title {
     color: #d4af37;
   }
