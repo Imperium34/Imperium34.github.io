@@ -371,3 +371,83 @@ input[type="text"]#chapterSearch {
   display: inline-block;
   font-family: monospace;
 }
+
+// =========================================
+// 11. GLOBAL HEADER (STICKY)
+// =========================================
+
+.imperium-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(21, 21, 21, 0.90);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #333;
+  width: 100%;
+  padding: 12px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  
+  .header-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+  
+  .header-title {
+    font-family: 'Georgia', serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    transition: color 0.2s ease;
+  }
+  
+  &:hover .header-title {
+    color: #d4af37;
+  }
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+
+  a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.95rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #a41818;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header-title {
+    display: none;
+  }
+  .header-content {
+    padding: 0 15px;
+  }
+  .header-nav {
+    gap: 15px;
+  }
+}
