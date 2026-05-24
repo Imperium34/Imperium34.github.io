@@ -1,6 +1,16 @@
 ---
 ---
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: clip;
+  width: 100vw;
+  max-width: 100%;
+}
+
 // =========================================
 // 1. SETTINGS & VARIABLES
 // =========================================
@@ -408,7 +418,7 @@ input[type="text"]#chapterSearch {
       height: 28px;
       object-fit: contain;
       display: block;
-      transform: translateY(1px);
+      transform: translateY(3px);
     }
     .header-title {
       font-family: 'Georgia', serif;
