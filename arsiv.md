@@ -16,30 +16,28 @@ permalink: /arsiv/
   {% assign all_chapters = site.chapters | sort: 'path' %}
   
   {% for chapter in all_chapters %}
-    <li>
-      <a href="{{ chapter.url }}" class="chapter-link">
-        <span class="chapter-title">{{ chapter.title }}</span>
-      </a>
-    </li>
+    {% if chapter.date <= site.time %}
+      <li>
+        <a href="{{ chapter.url }}" class="chapter-link">
+          <span class="chapter-title">{{ chapter.title }}</span>
+        </a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
 <script>
 function filterChapters() {
-  // 1. Get the input value
   var input = document.getElementById('chapterSearch');
   var filter = input.value.toUpperCase();
   
-  // 2. Get the list and items
   var ul = document.getElementById("fullChapterList");
   var li = ul.getElementsByTagName('li');
 
-  // 3. Loop through all list items
   for (var i = 0; i < li.length; i++) {
     var a = li[i].getElementsByTagName("a")[0];
     var txtValue = a.textContent || a.innerText;
     
-    // 4. If match found, show; otherwise hide (display: none)
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
     } else {

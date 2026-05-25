@@ -42,11 +42,20 @@ permalink: /
   
   <ul class="chapter-list">
     {% assign recent_chapters = site.chapters | sort: 'path' | reverse %}
-    {% for chapter in recent_chapters limit: 5 %}
-      <li>
-        <span class="chapter-date">[{{ chapter.date | date: "%d/%m/%Y" }}]</span>
-        <a href="{{ chapter.url }}">{{ chapter.title }}</a>
-      </li>
+    {% assign displayed_count = 0 %}
+    
+    {% for chapter in recent_chapters %}
+      {% if chapter.date <= site.time %}
+        <li>
+          <span class="chapter-date">[{{ chapter.date | date: "%d/%m/%Y" }}]</span>
+          <a href="{{ chapter.url }}">{{ chapter.title }}</a>
+        </li>
+        
+        {% assign displayed_count = displayed_count | plus: 1 %}
+        {% if displayed_count == 5 %}
+          {% break %}
+        {% endif %}
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
