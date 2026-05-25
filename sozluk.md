@@ -13,7 +13,7 @@ permalink: /sozluk/
   background-color: rgba(21, 21, 21, 0.8);
   padding: 2px 6px;
   border-radius: 4px;
-  transition: filter 0.8s ease, opacity 0.8s ease, background-color 0.8s ease;
+  transition: filter 0.5s ease, opacity 0.5s ease, background-color 0.5s ease;
 }
 
 .dynamic-spoiler.unlocked {
@@ -26,13 +26,24 @@ permalink: /sozluk/
 .hidden-sequence {
   display: none !important;
 }
+
+body.spoiler-mode-active .dynamic-spoiler {
+  filter: blur(0) !important;
+  opacity: 1 !important;
+  background-color: transparent !important;
+  user-select: auto !important;
+}
+
+body.spoiler-mode-active .hidden-sequence {
+  display: list-item !important; 
+}
 </style>
 
 <h1>📖 Sözlük ve Çeviri Notları</h1>
 <p>Bu sözlük, çeviride kullanılan özel terimlerin İngilizce karşılıklarını ve arkalarındaki anlamları içerir.</p>
 
 <div style="background: #a41818; color: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; font-weight: bold;">
-  ⚠️ DİKKAT: Üzeri kapalı ("Spoiler İçerir") terimler, serinin ilerleyen bölümlerine dair kritik gizemler barındırır. Kendi sorumluluğunuzda açınız.
+  ⚠️ DİKKAT: Üzeri kapalı terimler, serinin ilerleyen bölümlerine dair kritik gizemler barındırır. Kendi sorumluluğunuzda açınız.
 </div>
 
 <div class="filter-container" style="margin-bottom: 30px; display: flex; flex-direction: column; gap: 10px;">
@@ -59,6 +70,11 @@ permalink: /sozluk/
     </button>
 
   </div>
+  
+  <button id="globalSpoilerBtn" onclick="toggleGlobalSpoiler()" style="padding: 12px; font-size: 15px; background: #4a0000; border: 1px solid #a41818; color: #ddd; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; transition: all 0.3s ease;">
+    👁️ Tüm Sırları İfşa Et (Spoiler Modu)
+  </button>
+
   <p id="resultCount" style="margin: 0; font-size: 0.85em; color: #666;"></p>
 </div>
 
@@ -98,7 +114,7 @@ permalink: /sozluk/
           {% for mertebe in item.mertebeler %}
             <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" style="margin-bottom: 8px; font-size: 0.95em;">
               <strong style="color: #888;">Mertebe {{ mertebe.seviye }}:</strong>
-              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Manuel aç/kapat için tıklayın">
+              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">
                 {{ mertebe.isim }}
               </span>
             </li>
@@ -161,47 +177,11 @@ function resetFilters() {
   filterTerms();
 }
 
-// BÜTÜNLEŞİK DİNAMİK KİLİT MOTORU
-document.addEventListener("DOMContentLoaded", function() {
-  const lastChapterTitle = localStorage.getItem("imperiumLastChapterTitle");
-  let currentChapter = 0;
+let isGlobalSpoilerActive = false;
+function toggleGlobalSpoiler() {
+  isGlobalSpoilerActive = !isGlobalSpoilerActive;
+  const btn = document.getElementById("globalSpoilerBtn");
   
-  if (lastChapterTitle) {
-    const match = lastChapterTitle.match(/Bölüm\s+(\d+)/i);
-    if (match) {
-      currentChapter = parseInt(match[1]);
-    }
-  }
-
-  const mainSpoilers = document.querySelectorAll(".main-term-spoiler");
-  mainSpoilers.forEach(container => {
-    const unlockAt = parseInt(container.getAttribute("data-unlock"));
-    if (currentChapter >= unlockAt) {
-      // Spoiler etiketini (details) kaldırıp içeriği doğrudan p etiketiyle yazar
-      const pContent = container.querySelector("p").innerHTML;
-      container.innerHTML = `<p style="color: #ccc; margin-bottom: 0;">${pContent}</p>`;
-    }
-  });
-
-  const seqRows = document.querySelectorAll(".sequence-row");
-  seqRows.forEach(row => {
-    const unlockAt = parseInt(row.getAttribute("data-unlock"));
-    if (currentChapter >= unlockAt) {
-      row.classList.remove("hidden-sequence");
-    }
-  });
-
-  const spoilers = document.querySelectorAll(".dynamic-spoiler");
-  spoilers.forEach(spoiler => {
-    const unlockAt = parseInt(spoiler.getAttribute("data-unlock"));
-    
-    if (currentChapter >= unlockAt) {
-      spoiler.classList.add("unlocked");
-    }
-
-    spoiler.addEventListener("click", function() {
-      this.classList.toggle("unlocked");
-    });
-  });
-});
-</script>
+  if (isGlobalSpoilerActive) {
+    document.body.classList.add("spoiler-mode-active");
+    btn.innerHTML = "👁️ Sırları Gizle (Güven
