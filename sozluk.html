@@ -13,14 +13,15 @@ permalink: /sozluk/
   background-color: rgba(21, 21, 21, 0.8);
   padding: 2px 6px;
   border-radius: 4px;
-  transition: filter 0.5s ease, opacity 0.5s ease, background-color 0.5s ease;
+  transition: all 0.4s ease;
+  display: inline-block; /* BU HAYATİDİR: Tarayıcının tıklama alanını (hitbox) kaybetmesini engeller */
 }
 
 .dynamic-spoiler.unlocked {
-  filter: blur(0);
-  opacity: 1;
-  user-select: auto;
-  background-color: transparent;
+  filter: blur(0) !important;
+  opacity: 1 !important;
+  user-select: auto !important;
+  background-color: transparent !important;
 }
 
 .hidden-sequence {
