@@ -323,6 +323,25 @@ input[type="text"]#chapterSearch {
   }
 }
 
+.dynamic-spoiler {
+  filter: blur(6px);
+  opacity: 0.6;
+  user-select: none;
+  pointer-events: none;
+  transition: filter 0.8s ease, opacity 0.8s ease;
+  background-color: rgba(21, 21, 21, 0.5);
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+.dynamic-spoiler.unlocked {
+  filter: blur(0);
+  opacity: 1;
+  user-select: auto;
+  pointer-events: auto;
+  background-color: transparent;
+}
+
 // =========================================
 // 10. HOMEPAGE COMPONENTS
 // =========================================
