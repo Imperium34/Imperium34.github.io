@@ -9,7 +9,7 @@ permalink: /sozluk/
   filter: blur(5px);
   opacity: 0.6;
   user-select: none;
-  pointer-events: none;
+  cursor: pointer;
   background-color: rgba(21, 21, 21, 0.8);
   padding: 2px 6px;
   border-radius: 4px;
@@ -20,8 +20,11 @@ permalink: /sozluk/
   filter: blur(0);
   opacity: 1;
   user-select: auto;
-  pointer-events: auto;
   background-color: transparent;
+}
+
+.hidden-sequence {
+  display: none !important;
 }
 </style>
 
@@ -78,10 +81,12 @@ permalink: /sozluk/
       {% endif %}
 
       {% if item.spoiler %}
-        <details style="cursor: pointer;">
-          <summary style="color: #a41818; font-weight: bold; outline: none;">Spoiler İçerir (Görmek için tıklayın)</summary>
-          <p style="margin-top: 10px; color: #ccc;">{{ item.aciklama }}</p>
-        </details>
+        <div class="main-term-spoiler" data-unlock="{{ item.bolum_siniri | default: 9999 }}">
+          <details style="cursor: pointer;">
+            <summary style="color: #a41818; font-weight: bold; outline: none;">Spoiler İçerir (Görmek için tıklayın)</summary>
+            <p style="margin-top: 10px; color: #ccc;">{{ item.aciklama }}</p>
+          </details>
+        </div>
       {% else %}
         {% if item.aciklama %}
           <p style="color: #ccc; margin-bottom: 0;">{{ item.aciklama }}</p>
@@ -91,9 +96,9 @@ permalink: /sozluk/
       {% if item.mertebeler %}
         <ul style="list-style: none; padding: 0; margin-top: 15px; border-top: 1px dashed #333; padding-top: 10px;">
           {% for mertebe in item.mertebeler %}
-            <li style="margin-bottom: 8px; font-size: 0.95em;">
+            <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" style="margin-bottom: 8px; font-size: 0.95em;">
               <strong style="color: #888;">Mertebe {{ mertebe.seviye }}:</strong>
-              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri }}">
+              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Manuel aç/kapat için tıklayın">
                 {{ mertebe.isim }}
               </span>
             </li>
@@ -156,21 +161,47 @@ function resetFilters() {
   filterTerms();
 }
 
+// BÜTÜNLEŞİK DİNAMİK KİLİT MOTORU
 document.addEventListener("DOMContentLoaded", function() {
   const lastChapterTitle = localStorage.getItem("imperiumLastChapterTitle");
-  if (!lastChapterTitle) return;
+  let currentChapter = 0;
   
-  const match = lastChapterTitle.match(/Bölüm\s+(\d+)/i);
-  if (match) {
-    const currentChapter = parseInt(match[1]);
-    const spoilers = document.querySelectorAll(".dynamic-spoiler");
-    
-    spoilers.forEach(spoiler => {
-      const unlockAt = parseInt(spoiler.getAttribute("data-unlock"));
-      if (currentChapter >= unlockAt) {
-        spoiler.classList.add("unlocked");
-      }
-    });
+  if (lastChapterTitle) {
+    const match = lastChapterTitle.match(/Bölüm\s+(\d+)/i);
+    if (match) {
+      currentChapter = parseInt(match[1]);
+    }
   }
+
+  const mainSpoilers = document.querySelectorAll(".main-term-spoiler");
+  mainSpoilers.forEach(container => {
+    const unlockAt = parseInt(container.getAttribute("data-unlock"));
+    if (currentChapter >= unlockAt) {
+      // Spoiler etiketini (details) kaldırıp içeriği doğrudan p etiketiyle yazar
+      const pContent = container.querySelector("p").innerHTML;
+      container.innerHTML = `<p style="color: #ccc; margin-bottom: 0;">${pContent}</p>`;
+    }
+  });
+
+  const seqRows = document.querySelectorAll(".sequence-row");
+  seqRows.forEach(row => {
+    const unlockAt = parseInt(row.getAttribute("data-unlock"));
+    if (currentChapter >= unlockAt) {
+      row.classList.remove("hidden-sequence");
+    }
+  });
+
+  const spoilers = document.querySelectorAll(".dynamic-spoiler");
+  spoilers.forEach(spoiler => {
+    const unlockAt = parseInt(spoiler.getAttribute("data-unlock"));
+    
+    if (currentChapter >= unlockAt) {
+      spoiler.classList.add("unlocked");
+    }
+
+    spoiler.addEventListener("click", function() {
+      this.classList.toggle("unlocked");
+    });
+  });
 });
 </script>
