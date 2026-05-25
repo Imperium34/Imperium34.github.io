@@ -81,7 +81,7 @@ body.spoiler-mode-active .hidden-sequence {
 <ul id="glossaryList" style="list-style-type: none; padding: 0;">
   {% for item in site.data.sozluk %}
     <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-kategori="{{ item.kategori }}" data-spoiler="{{ item.spoiler }}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
-      
+
       <h3 class="term-title" style="margin-top: 0; color: #d4af37;">
         {{ item.terim }} <span style="font-size: 0.7em; color: #666;">({{ item.ingilizce }})</span>
       </h3>
@@ -133,6 +133,7 @@ body.spoiler-mode-active .hidden-sequence {
 </p>
 
 <script>
+// <![CDATA[
 function filterTerms() {
   var searchVal = document.getElementById('termSearch').value.toLowerCase().trim();
   var categoryVal = document.getElementById('categoryFilter').value;
@@ -141,20 +142,20 @@ function filterTerms() {
   var visibleCount = 0;
 
   items.forEach(function(item) {
-    var terim = item.dataset.terim || '';
-    var ingilizce = item.dataset.ingilizce || '';
-    var kategori = item.dataset.kategori || '';
-    var spoiler = item.dataset.spoiler || '';
+    var terim = item.dataset.terim || "";
+    var ingilizce = item.dataset.ingilizce || "";
+    var kategori = item.dataset.kategori || "";
+    var spoiler = item.dataset.spoiler || "";
 
     var matchesSearch = !searchVal || terim.indexOf(searchVal) > -1 || ingilizce.indexOf(searchVal) > -1;
     var matchesCategory = !categoryVal || kategori === categoryVal;
     var matchesSpoiler = !spoilerVal || spoiler === spoilerVal;
 
     if (matchesSearch && matchesCategory && matchesSpoiler) {
-      item.style.display = '';
+      item.style.display = "";
       visibleCount++;
     } else {
-      item.style.display = 'none';
+      item.style.display = "none";
     }
   });
 
@@ -163,25 +164,87 @@ function filterTerms() {
   var total = items.length;
 
   if (visibleCount === total && !searchVal && !categoryVal && !spoilerVal) {
-    countEl.textContent = '';
+    countEl.textContent = "";
   } else {
-    countEl.textContent = visibleCount + ' / ' + total + ' terim gösteriliyor.';
+    countEl.textContent = visibleCount + " / " + total + " terim gösteriliyor.";
   }
-  noResultsEl.style.display = visibleCount === 0 ? 'block' : 'none';
+  noResultsEl.style.display = visibleCount === 0 ? "block" : "none";
 }
 
 function resetFilters() {
-  document.getElementById('termSearch').value = '';
-  document.getElementById('categoryFilter').value = '';
-  document.getElementById('spoilerFilter').value = '';
+  document.getElementById('termSearch').value = "";
+  document.getElementById('categoryFilter').value = "";
+  document.getElementById('spoilerFilter').value = "";
   filterTerms();
 }
 
-let isGlobalSpoilerActive = false;
+var isGlobalSpoilerActive = false;
 function toggleGlobalSpoiler() {
   isGlobalSpoilerActive = !isGlobalSpoilerActive;
-  const btn = document.getElementById("globalSpoilerBtn");
+  var btn = document.getElementById("globalSpoilerBtn");
   
   if (isGlobalSpoilerActive) {
     document.body.classList.add("spoiler-mode-active");
-    btn.innerHTML = "👁️ Sırları Gizle (Güven
+    btn.innerHTML = "👁️ Sırları Gizle (Güvenli Mod)";
+    btn.style.background = "#1a1a1a";
+    btn.style.borderColor = "#444";
+    
+    document.querySelectorAll("details").forEach(function(d) { 
+      d.open = true; 
+    });
+  } else {
+    document.body.classList.remove("spoiler-mode-active");
+    btn.innerHTML = "👁️ Tüm Sırları İfşa Et (Spoiler Modu)";
+    btn.style.background = "#4a0000";
+    btn.style.borderColor = "#a41818";
+    
+    document.querySelectorAll("details").forEach(function(d) { 
+      d.open = false; 
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lastChapterTitle = localStorage.getItem("imperiumLastChapterTitle");
+  var currentChapter = 0; 
+  
+  if (lastChapterTitle) {
+    var match = lastChapterTitle.match(/Bölüm\s+(\d+)/i);
+    if (match) {
+      currentChapter = parseInt(match[1], 10);
+    }
+  }
+
+  var mainSpoilers = document.querySelectorAll(".main-term-spoiler");
+  mainSpoilers.forEach(function(container) {
+    var unlockAt = parseInt(container.getAttribute("data-unlock"), 10);
+    if (currentChapter >= unlockAt) {
+      var pContent = container.querySelector("p").innerHTML;
+      // Markdown'ı bozan ters tırnaklar (+) ile değiştirildi
+      container.innerHTML = '<p style="color: #ccc; margin-bottom: 0;">' + pContent + '</p>';
+    }
+  });
+
+  var seqRows = document.querySelectorAll(".sequence-row");
+  seqRows.forEach(function(row) {
+    var unlockAt = parseInt(row.getAttribute("data-unlock"), 10);
+    if (currentChapter >= unlockAt) {
+      row.classList.remove("hidden-sequence");
+    }
+  });
+
+  var spoilers = document.querySelectorAll(".dynamic-spoiler");
+  spoilers.forEach(function(spoiler) {
+    var unlockAt = parseInt(spoiler.getAttribute("data-unlock"), 10);
+    
+    if (currentChapter >= unlockAt) {
+      spoiler.classList.add("unlocked");
+    }
+
+    spoiler.addEventListener("click", function() {
+      this.classList.toggle("unlocked");
+    });
+  });
+});
+// ]]>
+</script>
