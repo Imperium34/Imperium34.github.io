@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/Imperium34/Imperium34.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 [![License](https://img.shields.io/badge/license-Fan%20Translation-blue.svg)](https://Imperium34.github.io)
-[![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=Tarot%20Kulübü&logo=discord&color=5865F2)](https://discord.gg/WNe2fSrCfc)
+[![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=Tarot%20Kulübü&logo=discord&color=5865F2)](https://discord.gg/EKCBbtEdsW)
 
 > _"Bu asra mensup olmayan Soytarı..."_
 
@@ -53,7 +53,7 @@ Bölümlerin her biri, dönemin edebi ağırlığını ve kozmik atmosferini kor
 
 Hataları bildirmek, teorileri tartışmak veya sadece sohbet etmek için:
 
-- **Discord:** [Tarot Kulübü](https://discord.gg/Kq3hEtbW)
+- **Discord:** [Tarot Kulübü](https://discord.gg/EKCBbtEdsW)
 - **Destek (Shopier):** [Imperium34](https://www.shopier.com/Imperium34)
 
 ---
