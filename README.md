@@ -14,7 +14,7 @@
 
 ## Proje Hakkında
 
-İnternetteki makine çevirilerinden (MTL) ve okunaksız sitelerden sıkılan bir okur olarak bu projeyi başlattım. Bir **Bilgisayar Mühendisliği öğrencisi** olarak, hem teknik becerilerimi geliştirmek hem de bu eseri hak ettiği kalitede sunmak istedim.
+İnternetteki makine çevirilerinden (MTL) ve okunaksız sitelerden sıkılan bir okur olarak bu projeyi başlattım. hem teknik becerilerimi geliştirmek hem de bu eseri hak ettiği kalitede sunmak istedim.
 
 Bu site reklam, pop-up veya takipçi kasma amacı gütmez. Tamamen okuma deneyimine odaklıdır.
 
