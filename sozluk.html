@@ -14,7 +14,7 @@ permalink: /sozluk/
   padding: 2px 6px;
   border-radius: 4px;
   transition: all 0.4s ease;
-  display: inline-block; /* BU HAYATİDİR: Tarayıcının tıklama alanını (hitbox) kaybetmesini engeller */
+  display: inline-block; 
 }
 
 .dynamic-spoiler.unlocked {
@@ -81,7 +81,7 @@ body.spoiler-mode-active .hidden-sequence {
 
 <ul id="glossaryList" style="list-style-type: none; padding: 0;">
   {% for item in site.data.sozluk %}
-    <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-kategori="{{ item.kategori }}" data-spoiler="{{ item.spoiler }}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
+    <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-kategori="{{ item.kategori }}" data-spoiler="{{ item.spoiler }}" data-unlock="{% if item.spoiler %}{{ item.bolum_siniri | default: 9999 }}{% else %}0{% endif %}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
 
       <h3 class="term-title" style="margin-top: 0; color: #d4af37;">
         {{ item.terim }} <span style="font-size: 0.7em; color: #666;">({{ item.ingilizce }})</span>
@@ -124,9 +124,7 @@ body.spoiler-mode-active .hidden-sequence {
       {% endif %}
 
     </li>
-
-{% endfor %}
-
+  {% endfor %}
 </ul>
 
 <p id="noResults" style="display: none; color: #666; text-align: center; padding: 40px 0;">
@@ -135,6 +133,8 @@ body.spoiler-mode-active .hidden-sequence {
 
 <script>
 // <![CDATA[
+var isGlobalSpoilerActive = false;
+
 function filterTerms() {
   var searchVal = document.getElementById('termSearch').value.toLowerCase().trim();
   var categoryVal = document.getElementById('categoryFilter').value;
@@ -147,12 +147,15 @@ function filterTerms() {
     var ingilizce = item.dataset.ingilizce || "";
     var kategori = item.dataset.kategori || "";
     var spoiler = item.dataset.spoiler || "";
+    
+    var isLockedHidden = item.dataset.isLockedHidden === "true";
+    var canShowLocked = isGlobalSpoilerActive ? true : !isLockedHidden;
 
     var matchesSearch = !searchVal || terim.indexOf(searchVal) > -1 || ingilizce.indexOf(searchVal) > -1;
     var matchesCategory = !categoryVal || kategori === categoryVal;
     var matchesSpoiler = !spoilerVal || spoiler === spoilerVal;
 
-    if (matchesSearch && matchesCategory && matchesSpoiler) {
+    if (matchesSearch && matchesCategory && matchesSpoiler && canShowLocked) {
       item.style.display = "";
       visibleCount++;
     } else {
@@ -164,10 +167,10 @@ function filterTerms() {
   var noResultsEl = document.getElementById('noResults');
   var total = items.length;
 
-  if (visibleCount === total && !searchVal && !categoryVal && !spoilerVal) {
+  if (visibleCount === total && !searchVal && !categoryVal && !spoilerVal && isGlobalSpoilerActive) {
     countEl.textContent = "";
   } else {
-    countEl.textContent = visibleCount + " / " + total + " terim gösteriliyor.";
+    countEl.textContent = visibleCount + " terim gösteriliyor.";
   }
   noResultsEl.style.display = visibleCount === 0 ? "block" : "none";
 }
@@ -179,7 +182,6 @@ function resetFilters() {
   filterTerms();
 }
 
-var isGlobalSpoilerActive = false;
 function toggleGlobalSpoiler() {
   isGlobalSpoilerActive = !isGlobalSpoilerActive;
   var btn = document.getElementById("globalSpoilerBtn");
@@ -203,6 +205,8 @@ function toggleGlobalSpoiler() {
       d.open = false; 
     });
   }
+  
+  filterTerms();
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -216,12 +220,23 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
+  var items = document.querySelectorAll('.glossary-item');
+  items.forEach(function(item) {
+    var unlockAt = parseInt(item.getAttribute("data-unlock"), 10);
+    var kategori = item.getAttribute("data-kategori");
+    
+    if (currentChapter < unlockAt && kategori !== 'Aşkın Yolları') {
+      item.dataset.isLockedHidden = "true";
+    } else {
+      item.dataset.isLockedHidden = "false";
+    }
+  });
+
   var mainSpoilers = document.querySelectorAll(".main-term-spoiler");
   mainSpoilers.forEach(function(container) {
     var unlockAt = parseInt(container.getAttribute("data-unlock"), 10);
     if (currentChapter >= unlockAt) {
       var pContent = container.querySelector("p").innerHTML;
-      // Markdown'ı bozan ters tırnaklar (+) ile değiştirildi
       container.innerHTML = '<p style="color: #ccc; margin-bottom: 0;">' + pContent + '</p>';
     }
   });
@@ -246,6 +261,8 @@ document.addEventListener("DOMContentLoaded", function() {
       this.classList.toggle("unlocked");
     });
   });
+
+  filterTerms();
 });
 // ]]>
 </script>

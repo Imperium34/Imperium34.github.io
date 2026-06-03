@@ -48,7 +48,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Aşkın özelliklerin ve ilahiliğin ne yaratılabileceğini ne de yok edilebileceğini, yalnızca form değiştirebileceğini veya aktarılabileceğini belirten temel evren kanunu."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 217
 
 - terim: "Aşkın Hasletlerin Yok Edilemezliği Kanunu"
   ingilizce: "Law of Beyonder Characteristics Indestructibility"
@@ -62,7 +62,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın özelliklerin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
   spoiler: true
-  bolum_siniri: 560
+  bolum_siniri: 435
 
 - terim: "Ruhani Çıpa"
   ingilizce: "Anchor"
@@ -107,7 +107,7 @@
   kategori: "Organizasyonlar"
   aciklama: "Ebedi Yanan Güneş Kilisesi'nin Aşkın birimi. Genellikle kolluk kuvvetleri arasına sızarak gizlice faaliyet gösterirler. Bu organizasyonun resmi Aşkın ajanlarına 'Arındırıcı' (Purifier) unvanı verilir."
   spoiler: false
-  bolum_siniri: 9999
+  bolum_siniri: 6
 
 - terim: "MI9"
   ingilizce: "MI9"
@@ -133,7 +133,7 @@
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Meşalesi,<br>Sefira Kalesi'nin Tecessümü,<br>Alem-i Ervah Hakimi."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 1271
 
 - terim: "Semavi Bilge"
   ingilizce: "Celestial Worthy of Heaven and Earth"
@@ -141,7 +141,7 @@
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Bilgesi."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 2
 
 - terim: "Kadir-i Mutlak"
   ingilizce: "God Almighty"
@@ -189,39 +189,39 @@
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 815
 
-- terim: "Kaderin Truva Atı (Amon)"
-  ingilizce: "Trojan Horse of Destiny (Amon)"
+- terim: "Amon"
+  ingilizce: "Amon"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
+  aciklama: "Kaderin Truva Atı,<br>Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 466
 
-- terim: "Kapıların Kapısı (Bay Kapı)"
+- terim: "Kapı Efendi"
   ingilizce: "Mr. Door"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Kainat-ı Namütenahinin Rehberi,<br>Esrarlı Alemlerin Miftahı."
+  aciklama: "Kapıların Kapısı,<br>Kainat-ı Namütenahinin Rehberi,<br>Esrarlı Alemlerin Miftahı."
   spoiler: true
   bolum_siniri: 216
 
-- terim: "Yüce Harp Tanrısı (Medici)"
-  ingilizce: "Great God of War (Medici)"
+- terim: "Medici"
+  ingilizce: "Medici"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
-  aciklama: "Demir ve Kanın Timsali,<br>Kargaşa ve Niza Hükümdarı."
+  aciklama: "Yüce Harp Tanrısı,<br>Demir ve Kanın Timsali,<br>Kargaşa ve Niza Hükümdarı."
   spoiler: true
   bolum_siniri: 9999
 
-- terim: "Alemin Mutlak Talihi (Will Auceptin)"
-  ingilizce: "Absolute Luck (Will Auceptin)"
+- terim: "Will Auceptin"
+  ingilizce: "Will Auceptin"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nur Miftahı (Key of Light)"
-  aciklama: "İhtimallerin Tecessümü,<br>Kaderin Timsali."
+  aciklama: "Alemin Mutlak Talihi,<br>İhtimallerin Tecessümü,<br>Kaderin Timsali."
   spoiler: true
-  bolum_siniri: 9999
+  bolum_siniri: 591
 
 - terim: "Batınî Bilge"
   ingilizce: "The Hidden Sage"
