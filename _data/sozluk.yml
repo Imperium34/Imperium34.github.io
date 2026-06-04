@@ -93,6 +93,34 @@
   spoiler: false
   bolum_siniri: 61
 
+- terim: "Mühürlü Eserler"
+  ingilizce: "Sealed Artifacts"
+  kategori: "Temel Kavramlar"
+  aciklama: "İçlerinde Aşkın hasletler barındıran mistik objeler. İnanılmaz güçlere sahip olmalarına rağmen taşıdıkları korkunç lanetler ve ölümcül yan etkileri yüzünden Kiliseler tarafından yeraltında özel şartlarda saklanırlar. Tehlike seviyelerine göre 0 (En tehlikeli/Yüce Kadim seviyesi) ile 3 (Sınırlı tehlike) arasında derecelendirilirler."
+  spoiler: false
+  bolum_siniri: 19
+
+- terim: "Tılsım"
+  ingilizce: "Charm"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir İlah'ın gücünün veya belirli bir okült etkinin, Ruhaniyet kullanılarak özel metallere (genellikle altın veya gümüş) mühürlenmesiyle oluşturulan mistik eşyalar. Tek kullanımlıktırlar ve antik Hermesçede tek bir kelimenin (örneğin 'Kızıl' veya 'Uyku') zikredilmesiyle anında aktive olurlar."
+  spoiler: false
+  bolum_siniri: 127
+
+- terim: "Ayin İlmi (Ritüel Büyüsü)"
+  ingilizce: "Ritual Magic"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
+  spoiler: false
+  bolum_siniri: 57
+
+- terim: "Sefira Kalesi"
+  ingilizce: "Sefirah Castle"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın (The Fool) mutlak hakimiyet sürdüğü, Tarot Kulübü toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
+  spoiler: false
+  bolum_siniri: 1127
+
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
   ingilizce: "Law of Beyonder Characteristic Conservation"
   kategori: "Temel Kavramlar"
