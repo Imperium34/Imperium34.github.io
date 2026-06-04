@@ -29,12 +29,20 @@
   spoiler: true
   bolum_siniri: 1224
 
-- terim: "Oyunculuk Metodu / Rol İfası"
-  ingilizce: "Acting Method"
-  kategori: "Temel Kavramlar"
-  aciklama: "Aşkınların iksirlerini sindirmek ve delilikten korunmak için yollarının doğasına uygun davranma pratiği. 'Oyunculuk Metodu' modern ve dünyevi bir terimken, Loen yerlileri bu kavrama 'Rol İfası' der."
+- terim: "Öte İlahlar"
+  ingilizce: "Outer Deities"
+  kategori: "İlahlar ve Yüce Kadimler"
+  aciklama: "Kozmosun derinliklerinden gelen, Dünya'ya ve onun üzerindeki Aşkın Yollarına göz dikmiş, akıl almaz ve mutlak kötülüğü temsil eden kozmik varlıklar."
   spoiler: true
-  bolum_siniri: 93
+  bolum_siniri: 1223
+
+- terim: "Kozmos"
+  ingilizce: "Cosmos"
+  kategori: "Temel Kavramlar"
+  aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
+  spoiler: true
+  bolum_siniri: 892
+
 
 - terim: "İlhad Levhası"
   ingilizce: "Blasphemy Slate"
@@ -42,6 +50,48 @@
   aciklama: "Yirmi iki Aşkın Yolunun tüm sırlarını, iksir formüllerini ve İlah olma yöntemlerini ifşa eden, evrenin en kadim ve yasaklı bilgi kaynağı."
   spoiler: true
   bolum_siniri: 6
+
+- terim: "Oyunculuk Metodu / Rol İfası"
+  ingilizce: "Acting Method"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların iksirlerini sindirmek ve delilikten korunmak için yollarının doğasına uygun davranma pratiği. 'Oyunculuk Metodu' modern ve dünyevi bir terimken, Loen yerlileri bu kavrama 'Rol İfası' der."
+  spoiler: true
+  bolum_siniri: 93
+
+- terim: "Şirazesini Yitirmek (Şirazeden Çıkmak)"
+  ingilizce: "Losing Control"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir Aşkın'ın iksirin kudretini sindirememesi, Rol İfası'nda başarısız olması veya yüksek mertebeli habis bir varlığın yozlaştırmasına maruz kalması sonucu benliğini yitirmesi durumu. Bu safhaya geçen bir Aşkın; insanlığını, aklî melekelerini ve ruhunu sonsuza dek kaybederek bedeni korkunç şekillerde mutasyona uğramış, kana susamış irrasyonel bir canavara dönüşür. Her Aşkın'ın eninde sonunda yüzleşmekten korktuğu nihai ve kaçınılmaz kabustur."
+  spoiler: true
+  bolum_siniri: 14
+
+- terim: "Hezeyanlar"
+  ingilizce: "Ravings"
+  kategori: "Temel Kavramlar"
+  aciklama: "Yüksek mertebeli varlıkların veya habis ilahların yaydığı, dinleyenin zihnine zorla sızan kaotik bilgi yığınları ve sayıklamalar. Aşkınların veya sıradan insanların bu sesleri duyması, anında şirazeden çıkmalarına ve mutasyona uğramalarına sebep olur."
+  spoiler: false
+  bolum_siniri: 68
+
+- terim: "Ruhani Alemi (Alem-i Ervah)"
+  ingilizce: "Spiritual World"
+  kategori: "Temel Kavramlar"
+  aciklama: "Fiziksel alemin üzerine örtülmüş, kavramların, ruhların ve efsanelerin var olduğu kaotik boyut. Aşkınlar burayı hızlı seyahat etmek, ruhani varlıklar çağırmak veya kehanetlerde bulunmak için kullanır. Ritüellerde ve kadim yakarışlarda 'Alem-i Ervah' olarak zikredilir."
+  spoiler: false
+  bolum_siniri: 14
+
+- terim: "Astral Alem (Alem-i Misal)"
+  ingilizce: "Astral World"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhlar Aleminin de ötesinde, fiziksel evrenin dış çeperini oluşturan ve mutlak kavramların (sembollerin) bulunduğu nihai boyut. Gerçek İlahların (Mertebe 0) ilahi krallıkları bu alemde bulunur. Dışarıdan gelen Yüce Kadimlerin tehditlerine karşı evrenin bariyeri işlevini görür. Ritüellerde ve kadim yakarışlarda 'Alem-i Misal' olarak zikredilir."
+  spoiler: true
+  bolum_siniri: 1345
+
+- terim: "Tazim İsmi"
+  ingilizce: "Honorific Name"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç veya dört satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
+  spoiler: false
+  bolum_siniri: 61
 
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
   ingilizce: "Law of Beyonder Characteristic Conservation"
@@ -63,6 +113,62 @@
   aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın özelliklerin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
   spoiler: true
   bolum_siniri: 435
+
+- terim: "Tefekkür"
+  ingilizce: "Cogitation"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların zihinlerini boşaltmak, ruhaniyetlerini hissetmek ve şirazeden çıkmamak için yaptıkları derin odaklanma ve içsel sükûnet egzersizi. Aşkınların güçlerini güvenle kullanabilmelerinin temel şartıdır."
+  spoiler: false
+  bolum_siniri: 32
+
+- terim: "Basiret"
+  ingilizce: "Spirit Vision"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların, sıradan insanların göremediği ruhani hâleleri, ruhani varlıkları ve gizli enerjileri görmelerini sağlayan altıncı hisleri. Fiziksel dünyanın ardındaki gerçeği gören ruhani bir kalp gözüdür."
+  spoiler: false
+  bolum_siniri: 32
+
+- terim: "İlahi Suret"
+  ingilizce: "Mythical Creature Form"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir Aşkın'ın 4. Mertebeye (Yarı Tanrı) ulaştığında kazandığı gerçek, kozmik ve dehşet verici bedeni. Bu surete bürünmüş bir varlığa doğrudan bakmak, düşük mertebeli Aşkınların veya sıradan insanların anında şirazeden çıkıp canavara dönüşmesine sebep olur."
+  spoiler: true
+  bolum_siniri: 705
+
+- terim: "Kehanet"
+  ingilizce: "Divination"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bilinmeyeni, geçmişi veya geleceği aydınlatmak için Alem-i Ervah'tan (Ruhani Alem) bilgi çekme sanatı. Bir Kâhin için kehanet, her şeye kadir mucizevi bir güç değil; eldeki somut ipuçlarını ruhani bir rehberlikle harmanlayan analitik ve mistik bir yöntemdir."
+  spoiler: false
+  bolum_siniri: 32
+
+- terim: "Sarkaç Kehaneti"
+  ingilizce: "Pendulum Dowsing"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhaniyetin, bir sarkaç (genellikle gümüş bir zincir ve doğal taş) aracılığıyla fiziksel dünyaya yansıması prensibiyle çalışan temel kehanet yöntemi. Sorulan sorulara basit onay/ret cevapları almak veya kayıp eşyaların yönünü bulmak için kullanılır."
+  spoiler: false
+  bolum_siniri: 40
+
+- terim: "Rüya Kehaneti"
+  ingilizce: "Dream Divination"
+  kategori: "Temel Kavramlar"
+  aciklama: "Kişinin kendi rüyasına sızarak Ruhani Alem'den gelen vahiy ve sembolleri yorumladığı, sarkaç kehanetine kıyasla çok daha detaylı ancak yorumlaması bir o kadar karmaşık ve tekinsiz olan okült metot."
+  spoiler: false
+  bolum_siniri: 55
+
+- terim: "Ruhani Beden İplikleri"
+  ingilizce: "Spirit Body Threads"
+  kategori: "Temel Kavramlar"
+  aciklama: "Her canlının Esir Bedeni ile Ruhani Bedeni arasında var olan ve fiziksel dünyaya uzanan görünmez mistik bağlar. 'Kukla Üstadı' (Marionettist) mertebesine ulaşan Aşkınlar, bu iplikleri Basiret aracılığıyla görebilir ve onları yavaşça ele geçirerek canlıları mutlak itaatkâr, ruhsuz kuklalara dönüştürebilir."
+  spoiler: true
+  bolum_siniri: 665
+
+- terim: "Mazinin Dehlizleri (Mazi Sisi)"
+  ingilizce: "Historical Void / Fog of History"
+  kategori: "Temel Kavramlar"
+  aciklama: "Zamanın başlangıcından beri var olmuş eşyaların, olayların ve harabelerin izdüşümlerinin bulunduğu, sonsuz bir gri sisle kaplı melankolik boyut. 'Mazinin Alimi' mertebesine ulaşanlar bu dehlizlerde yürüyebilir ve geçmişten nesneler çağırabilir."
+  spoiler: true
+  bolum_siniri: 839
 
 - terim: "Ruhani Çıpa"
   ingilizce: "Anchor"
@@ -147,7 +253,7 @@
   ingilizce: "God Almighty"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bari,<br>Alimi ve Kudreti Mutlak,<br>Melekut Efendisi."
+  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bari,<br>Alimi ve Kudreti Mutlak,<br>Alem-i Misal Efendisi."
   spoiler: true
   bolum_siniri: 1260
 
