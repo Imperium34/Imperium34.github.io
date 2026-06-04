@@ -69,14 +69,14 @@
   ingilizce: "Ravings"
   kategori: "Temel Kavramlar"
   aciklama: "Yüksek mertebeli varlıkların veya habis ilahların yaydığı, dinleyenin zihnine zorla sızan kaotik bilgi yığınları ve sayıklamalar. Aşkınların veya sıradan insanların bu sesleri duyması, anında şirazeden çıkmalarına ve mutasyona uğramalarına sebep olur."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 68
 
 - terim: "Ruhani Alemi (Alem-i Ervah)"
   ingilizce: "Spiritual World"
   kategori: "Temel Kavramlar"
   aciklama: "Fiziksel alemin üzerine örtülmüş, kavramların, ruhların ve efsanelerin var olduğu kaotik boyut. Aşkınlar burayı hızlı seyahat etmek, ruhani varlıklar çağırmak veya kehanetlerde bulunmak için kullanır. Ritüellerde ve kadim yakarışlarda 'Alem-i Ervah' olarak zikredilir."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 14
 
 - terim: "Astral Alem (Alem-i Misal)"
@@ -90,35 +90,35 @@
   ingilizce: "Honorific Name"
   kategori: "Temel Kavramlar"
   aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç veya dört satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 61
 
 - terim: "Mühürlü Eserler"
   ingilizce: "Sealed Artifacts"
   kategori: "Temel Kavramlar"
   aciklama: "İçlerinde Aşkın hasletler barındıran mistik objeler. İnanılmaz güçlere sahip olmalarına rağmen taşıdıkları korkunç lanetler ve ölümcül yan etkileri yüzünden Kiliseler tarafından yeraltında özel şartlarda saklanırlar. Tehlike seviyelerine göre 0 (En tehlikeli/Yüce Kadim seviyesi) ile 3 (Sınırlı tehlike) arasında derecelendirilirler."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 19
 
 - terim: "Tılsım"
   ingilizce: "Charm"
   kategori: "Temel Kavramlar"
   aciklama: "Bir İlah'ın gücünün veya belirli bir okült etkinin, Ruhaniyet kullanılarak özel metallere (genellikle altın veya gümüş) mühürlenmesiyle oluşturulan mistik eşyalar. Tek kullanımlıktırlar ve antik Hermesçede tek bir kelimenin (örneğin 'Kızıl' veya 'Uyku') zikredilmesiyle anında aktive olurlar."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 127
 
 - terim: "Ayin İlmi (Ritüel Büyüsü)"
   ingilizce: "Ritual Magic"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 57
 
 - terim: "Sefira Kalesi"
   ingilizce: "Sefirah Castle"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın (The Fool) mutlak hakimiyet sürdüğü, Tarot Kulübü toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 1127
 
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
@@ -146,14 +146,14 @@
   ingilizce: "Cogitation"
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların zihinlerini boşaltmak, ruhaniyetlerini hissetmek ve şirazeden çıkmamak için yaptıkları derin odaklanma ve içsel sükûnet egzersizi. Aşkınların güçlerini güvenle kullanabilmelerinin temel şartıdır."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 32
 
 - terim: "Basiret"
   ingilizce: "Spirit Vision"
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların, sıradan insanların göremediği ruhani hâleleri, ruhani varlıkları ve gizli enerjileri görmelerini sağlayan altıncı hisleri. Fiziksel dünyanın ardındaki gerçeği gören ruhani bir kalp gözüdür."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 32
 
 - terim: "İlahi Suret"
@@ -167,21 +167,21 @@
   ingilizce: "Divination"
   kategori: "Temel Kavramlar"
   aciklama: "Bilinmeyeni, geçmişi veya geleceği aydınlatmak için Alem-i Ervah'tan (Ruhani Alem) bilgi çekme sanatı. Bir Kâhin için kehanet, her şeye kadir mucizevi bir güç değil; eldeki somut ipuçlarını ruhani bir rehberlikle harmanlayan analitik ve mistik bir yöntemdir."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 32
 
 - terim: "Sarkaç Kehaneti"
   ingilizce: "Pendulum Dowsing"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhaniyetin, bir sarkaç (genellikle gümüş bir zincir ve doğal taş) aracılığıyla fiziksel dünyaya yansıması prensibiyle çalışan temel kehanet yöntemi. Sorulan sorulara basit onay/ret cevapları almak veya kayıp eşyaların yönünü bulmak için kullanılır."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 40
 
 - terim: "Rüya Kehaneti"
   ingilizce: "Dream Divination"
   kategori: "Temel Kavramlar"
   aciklama: "Kişinin kendi rüyasına sızarak Ruhani Alem'den gelen vahiy ve sembolleri yorumladığı, sarkaç kehanetine kıyasla çok daha detaylı ancak yorumlaması bir o kadar karmaşık ve tekinsiz olan okült metot."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 55
 
 - terim: "Ruhani Beden İplikleri"
