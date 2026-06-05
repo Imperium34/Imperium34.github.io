@@ -205,6 +205,27 @@
   spoiler: true
   bolum_siniri: 429
 
+- terim: "Sterlin, Soli ve Peni"
+  ingilizce: "Pound, Soli, and Pence"
+  kategori: "Temel Kavramlar"
+  aciklama: "Loen Krallığı'nın resmi para birimleri ve ekonomik sistemi. Altın 'Sterlin' en değerli birimken, onu gümüş 'Soli' ve bakır 'Peni' takip eder. 1 Sterlin 20 Soli'ye, 1 Soli ise 12 Peni'ye eşittir."
+  spoiler: false
+  bolum_siniri: 3
+
+- terim: "Antigonus Ailesinin El Yazması"
+  ingilizce: "Antigonus Family Notebook"
+  kategori: "Coğrafya ve Mekanlar"
+  aciklama: "Dördüncü Çağ'dan kalma, Antigonus ailesine mensup biri tarafından Kadim Feysac diliyle yazılmış gizemli ve habis bir el yazması. Welch, Naya ve asıl Klein'ın trajik intiharlarının ardındaki yegâne sebep olduğu düşünülmektedir."
+  spoiler: true
+  bolum_siniri: 9
+
+- terim: "İlahların Metruk Diyarı"
+  ingilizce: "Forsaken Land of the Gods"
+  kategori: "Temel Kavramlar"
+  aciklama: "Güneş ışığının asla ulaşmadığı, ebedi bir karanlığa, yıkıma ve fırtınalara mahkum edilmiş kadim bir kıta. Dehşet verici mutasyonların, şirazeden çıkmış canavarların ve unutulmuş ilahların kalıntılarının kol gezdiği lanetli topraklardır."
+  spoiler: true
+  bolum_siniri: 137
+
 # -----------------------
 # ORGANİZASYONLAR VE KİLİSE TİMLERİ
 # -----------------------
@@ -219,7 +240,7 @@
   ingilizce: "Red Gloves"
   kategori: "Organizasyonlar"
   aciklama: "Ebedi Gece Tanrıçası Kilisesi'nin Gece Şahinleri içindeki seçkin, gezici ve acımasız infaz timi."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 211
 
 - terim: "Makine Külli Şuuru"
@@ -247,8 +268,29 @@
   ingilizce: "MI9"
   kategori: "Organizasyonlar"
   aciklama: "Loen Krallığı ordusuna bağlı, Aşkın olaylara ve yabancı casusluk faaliyetlerine bakan gizli istihbarat birimi."
-  spoiler: false
+  spoiler: true
   bolum_siniri: 242
+
+- terim: "Fecir Tarikatı"
+  ingilizce: "Aurora Order"
+  kategori: "Gizli Örgütler"
+  aciklama: "Hakiki Yaratıcı'ya tapan ve dünyanın sonunun geldiğine inanan aşırı fanatik bir kült. İnsanlığın kurtuluşunun ancak Hakiki Yaratıcı'nın kan ve et yoluyla fiziksel dünyaya inmesiyle mümkün olacağını savunur ve bu uğurda kanlı ayinler düzenlerler."
+  spoiler: true
+  bolum_siniri: 53
+
+- terim: "Tarikat-ı Hafiyye"
+  ingilizce: "Secret Order"
+  kategori: "Gizli Örgütler"
+  aciklama: "Kökenleri Dördüncü Çağ'a ve kadim Zaratul ailesine dayanan, Kâhin (Seer) yolunun mirasını ve tarihini elinde tutan gizemli bir örgüt. Amelleri ve nihai gayeleri tıpkı isimleri gibi mutlak bir sır perdesiyle örtülüdür."
+  spoiler: true
+  bolum_siniri: 28
+
+- terim: "Musa Çilekeş Tarikatı"
+  ingilizce: "Moses Ascetic Order"
+  kategori: "Gizli Örgütler"
+  aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Batınî Bilge'nin yozlaşarak uyanmasının ardından, tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
+  spoiler: true
+  bolum_siniri: 28
 
 # -----------------------
 # İLAHLAR VE YÜCE KADİMLER
