@@ -68,7 +68,7 @@
 - terim: "Hezeyanlar"
   ingilizce: "Ravings"
   kategori: "Temel Kavramlar"
-  aciklama: "Yüksek mertebeli varlıkların veya habis ilahların yaydığı, dinleyenin zihnine zorla sızan kaotik bilgi yığınları ve sayıklamalar. Aşkınların veya sıradan insanların bu sesleri duyması, anında şirazeden çıkmalarına ve mutasyona uğramalarına sebep olur."
+  aciklama: "Yüksek mertebeli varlıkların veya habis ilahların yaydığı, dinleyenin zihnine zorla sızan kaotik bilgi yığınları ve kaotik fısıltılar. Aşkınların veya sıradan insanların bu sesleri duyması, anında şirazeden çıkmalarına ve mutasyona uğramalarına sebep olur."
   spoiler: true
   bolum_siniri: 68
 
@@ -156,7 +156,7 @@
   spoiler: true
   bolum_siniri: 32
 
-- terim: "İlahi Suret"
+- terim: "Mitolojik Suret"
   ingilizce: "Mythical Creature Form"
   kategori: "Temel Kavramlar"
   aciklama: "Bir Aşkın'ın 4. Mertebeye (Yarı Tanrı) ulaştığında kazandığı gerçek, kozmik ve dehşet verici bedeni. Bu surete bürünmüş bir varlığa doğrudan bakmak, düşük mertebeli Aşkınların veya sıradan insanların anında şirazeden çıkıp canavara dönüşmesine sebep olur."
@@ -269,11 +269,11 @@
   spoiler: true
   bolum_siniri: 1271
 
-- terim: "Semavi Bilge"
+- terim: "Semavi Muazzez"
   ingilizce: "Celestial Worthy of Heaven and Earth"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Bilgesi."
+  aciklama: "Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Muazzez."
   spoiler: true
   bolum_siniri: 2
 
@@ -377,7 +377,7 @@
   ingilizce: "Evernight Goddess"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
-  aciklama: "Ebedi Gece Tanrıçası,<br>Gizlilik Anası,<br>Musibet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
+  aciklama: "Ebedi Gece Tanrıçası,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
   spoiler: true
   bolum_siniri: 1
 
@@ -425,7 +425,7 @@
   ingilizce: "God of Combat"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
-  aciklama: "Cenk Tanrısı,<br>Gurubun Hükümdarı,<br>Fecir Kılıcını Kuşanan."
+  aciklama: "Cenk Tanrısı,<br>Gurubun Hükümdarı,<br>Şafak Kılıcını Kuşanan."
   spoiler: true
   bolum_siniri: 3
 
@@ -444,7 +444,7 @@
   ingilizce: "Audrey Hall"
   kategori: "Tarot Kulübü"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Cümle ızdırabı teskin eden Mümeyyiz;<br>Ahir zamanda güzelliği muhafaza eden Hülya Dokuyan;<br>Hakikat ve Vehim arasında var olan Ruhani Mürşit;<br>Yürekten ve hakkaniyetten neşet eden Adalet;<br>Esrarın Hükümdarı'nın inayetine mazhar olmuş Mütevazı Şifacı."
+  aciklama: "Cümle ızdırabı teskin eden Mümeyyiz;<br>Ahir zamanda güzelliği muhafaza eden Hülya Dokuyan;<br>Hakikat ve Vehim arasında var olan Ruh Hekimi;<br>Yürekten ve hakkaniyetten neşet eden Adalet;<br>Esrarın Hükümdarı'nın inayetine mazhar olmuş Mütevazı Şifacı."
   spoiler: true
   bolum_siniri: 9999
 
@@ -484,7 +484,7 @@
   ingilizce: "Emlyn White"
   kategori: "Tarot Kulübü"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
-  aciklama: "Celb Kapılarının Muhafızı;<br>Cümle Varlığın Ruhaniyetinin Tecessümü;<br>Hayat Kanı Bahşeden Hâlık;<br>Nebatat ve Hayvanatı Besleyen Ay;<br>Alem-i Ervah Hakimi'nin İlahi Sefiri."
+  aciklama: "Celb Kapılarının Muhafızı;<br>Cümle Varlığın Ruhaniyetinin Tecessümü;<br>Hayat Kanı Damlatan Hayat Bahşedici;<br>Nebatat ve Hayvanatı Besleyen Ay;<br>Alem-i Ervah Hakimi'nin İlahi Sefiri."
   spoiler: true
   bolum_siniri: 9999
 
@@ -500,7 +500,7 @@
   ingilizce: "Xio Derecha"
   kategori: "Tarot Kulübü"
   yol_grubu: "Anarşi (Anarchy)"
-  aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İnfazcısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Meşalesi'nin Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
+  aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İcracısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Meşalesi'nin Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
   spoiler: true
   bolum_siniri: 9999
 
@@ -565,7 +565,7 @@
       isim: "Dolandırıcı (Swindler)"
       bolum_siniri: 65
     - seviye: 7
-      isim: "Şifreci (Cryptologist)"
+      isim: "Rumuzcu (Cryptologist)"
       bolum_siniri: 697
     - seviye: 6
       isim: "Prometheus"
@@ -677,13 +677,13 @@
       isim: "Sorgucu (Interrogator)"
       bolum_siniri: 200
     - seviye: 6
-      isim: "Yargıç (Judge)"
+      isim: "Hâkim (Judge)"
       bolum_siniri: 674
     - seviye: 5
-      isim: "Nizam Şövalyesi (Disciplinary Paladin)"
+      isim: "Nizam Muhafızı (Disciplinary Paladin)"
       bolum_siniri: 693
     - seviye: 4
-      isim: "Ferman Büyücüsü (Imperative Mage)"
+      isim: "Ferman İcracısı (Imperative Mage)"
       bolum_siniri: 475
     - seviye: 3
       isim: "Kargaşa Avcısı (Chaos Hunter)"
@@ -753,7 +753,7 @@
       isim: "Haz (Pleasure)"
       bolum_siniri: 200
     - seviye: 5
-      isim: "Musibet (Afflictions)"
+      isim: "Maraz (Afflictions)"
       bolum_siniri: 249
     - seviye: 4
       isim: "Izdırap (Despair)"
@@ -799,10 +799,10 @@
       isim: "Dehşet Piskoposu (Horror Bishop)"
       bolum_siniri: 1164
     - seviye: 2
-      isim: "Gizliliğin Hizmetkârı (Servant of Concealment)"
+      isim: "Sır Hadimi (Servant of Concealment)"
       bolum_siniri: 766
     - seviye: 1
-      isim: "Musibet Şövalyesi (Knight of Misfortune)"
+      isim: "Şeamet Süvarisi (Knight of Misfortune)"
       bolum_siniri: 1347
     - seviye: 0
       isim: "Karanlık (Darkness)"
@@ -896,7 +896,7 @@
       isim: "Şanslı (Lucky One)"
       bolum_siniri: 237
     - seviye: 6
-      isim: "Felaket Tellali (Calamity Priest)"
+      isim: "Felaket Müjdecisi (Calamity Priest)"
       bolum_siniri: 910
     - seviye: 5
       isim: "Galip (Winner)"
@@ -933,7 +933,7 @@
       isim: "Seri Katil (Serial Killer)"
       bolum_siniri: 258
     - seviye: 6
-      isim: "İblis (Devil)"
+      isim: "Zebani (Devil)"
       bolum_siniri: 414
     - seviye: 5
       isim: "Arzu Havarisi (Desire Apostle)"
@@ -981,7 +981,7 @@
       isim: "Sessizliğin Müridi (Disciple of Silence)"
       bolum_siniri: 1042
     - seviye: 2
-      isim: "Kadim Musibet (Ancient Bane)"
+      isim: "Kadim Melanet (Ancient Bane)"
       bolum_siniri: 721
     - seviye: 1
       isim: "Hilkat Garibesi (Abomination)"
@@ -1006,7 +1006,7 @@
       isim: "Büyücü (Warlock)"
       bolum_siniri: 65
     - seviye: 6
-      isim: "Parşömen Müderrisi (Scrolls Professor)"
+      isim: "Parşömen Muallimi (Scrolls Professor)"
       bolum_siniri: 217
     - seviye: 5
       isim: "Takımyıldızlar Üstadı (Constellations Master)"
@@ -1048,7 +1048,7 @@
       isim: "Gökbilimci (Astronomer)"
       bolum_siniri: 217
     - seviye: 4
-      isim: "Simyacı (Alchemist)"
+      isim: "Kimyager (Alchemist)"
       bolum_siniri: 237
     - seviye: 3
       isim: "Sır Alimi (Arcane Scholar)"
@@ -1229,7 +1229,7 @@
       isim: "Çoban (Shepherd)"
       bolum_siniri: 138
     - seviye: 4
-      isim: "Kara Şövalye (Black Knight)"
+      isim: "Kara Süvari (Black Knight)"
       bolum_siniri: 1034
     - seviye: 3
       isim: "Teslis Muhafızı (Trinity Templar)"
@@ -1260,7 +1260,7 @@
       isim: "Hasat Rahibi (Harvest Priest)"
       bolum_siniri: 707
     - seviye: 6
-      isim: "Tabiat Alimi (Biologist)"
+      isim: "Tabiatşinas (Biologist)"
       bolum_siniri: 707
     - seviye: 5
       isim: "Orman Keşişi (Druid)"
