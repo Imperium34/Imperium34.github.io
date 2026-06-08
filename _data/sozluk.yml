@@ -31,10 +31,24 @@
 
 - terim: "Öte İlahlar"
   ingilizce: "Outer Deities"
-  kategori: "İlahlar ve Yüce Kadimler"
+  kategori: "Temel Kavramlar"
   aciklama: "Kozmosun derinliklerinden gelen, Dünya'ya ve onun üzerindeki Aşkın Yollarına göz dikmiş, akıl almaz ve mutlak kötülüğü temsil eden kozmik varlıklar."
   spoiler: true
   bolum_siniri: 1223
+
+- terim: "Melekler Kralı"
+  ingilizce: "King of Angels"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 karakteristiği ile o Yol'un Özgünlük parçasını barındıran veya birden fazla Mertebe 1 karakteristiği taşıyan eşsiz figürleri tanımlar."
+  spoiler: true
+  bolum_siniri: 486
+
+- terim: "Özgünlük"
+  ingilizce: "Uniqueness"
+  kategori: "Temel Kavramlar"
+  aciklama: "Yirmi iki İlahi Yol'un her birinin özünü, evrendeki mutlak kuralını ve tekil otoritesini temsil eden soyut kavram. Bir Gerçek Tanrı olmanın mutlak gereksinimidir."
+  spoiler: true
+  bolum_siniri: 440
 
 - terim: "Kozmos"
   ingilizce: "Cosmos"
@@ -42,7 +56,6 @@
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
   spoiler: true
   bolum_siniri: 892
-
 
 - terim: "İlhad Levhası"
   ingilizce: "Blasphemy Slate"
@@ -195,6 +208,13 @@
   ingilizce: "Historical Void / Fog of History"
   kategori: "Temel Kavramlar"
   aciklama: "Zamanın başlangıcından beri var olmuş eşyaların, olayların ve harabelerin izdüşümlerinin bulunduğu, sonsuz bir gri sisle kaplı melankolik boyut. 'Mazinin Alimi' mertebesine ulaşanlar bu dehlizlerde yürüyebilir ve geçmişten nesneler çağırabilir."
+  spoiler: true
+  bolum_siniri: 839
+
+- terim: "Mazi İzdüşümü"
+  ingilizce: "Historical Projection"
+  kategori: "Temel Kavramlar"
+  aciklama: "Klein'ın Mazinin Alimi (Scholar of Yore) mertebesine ulaştıktan sonra Mazi Sisi'nden çekip çıkardığı eşyalar, insanlar veya anlar. Bu basit bir çağırma büyüsü değil; geçmişte var olmuş bir gerçekliğin, şimdiki zamana bir gölge veya kopya olarak yansıtılmasıdır."
   spoiler: true
   bolum_siniri: 839
 
@@ -367,13 +387,21 @@
   spoiler: true
   bolum_siniri: 815
 
-- terim: "Amon"
-  ingilizce: "Amon"
+- terim: "Hilekârlık ve Aldatmaca İlahı Amon (Gerçek İlah)"
+  ingilizce: "God of Deceit and Mischief Amon (True God)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Kaderin Truva Atı,<br>Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
   spoiler: true
-  bolum_siniri: 466
+  bolum_siniri: 9999
+
+- terim: "Mülhid Amon (Melekler Kralı)"
+  ingilizce: "Blasphemer Amon (King of Angels)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
+  aciklama: "Zamanı Kurcalayan İbre,<br>Mukadderat Boyunca Gezinen Gölge,<br>Aldatmaca ve Hilekârlığın Tecessümü."
+  spoiler: true
+  bolum_siniri: 1242
 
 - terim: "Kapı Efendi"
   ingilizce: "Mr. Door"
