@@ -127,10 +127,17 @@
   spoiler: true
   bolum_siniri: 57
 
-- terim: "Sefira Kalesi"
+- terim: "Aslî Menşe"
+  ingilizce: "Sefirot"
+  kategori: "Temel Kavramlar"
+  aciklama: "Evrenin ve yolların en temel, kozmik ve teolojik özleri."
+  spoiler: true
+  bolum_siniri: 1203
+
+- terim: "Aslî Kale"
   ingilizce: "Sefirah Castle"
   kategori: "Temel Kavramlar"
-  aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın (The Fool) mutlak hakimiyet sürdüğü, Tarot Kulübü toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
+  aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın mutlak hakimiyet sürdüğü, Tarot Kulübü toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
   spoiler: true
   bolum_siniri: 1127
 
@@ -293,24 +300,38 @@
 
 - terim: "Fecir Tarikatı"
   ingilizce: "Aurora Order"
-  kategori: "Gizli Örgütler"
+  kategori: "Organizasyonlar"
   aciklama: "Hakiki Yaratıcı'ya tapan ve dünyanın sonunun geldiğine inanan aşırı fanatik bir kült. İnsanlığın kurtuluşunun ancak Hakiki Yaratıcı'nın kan ve et yoluyla fiziksel dünyaya inmesiyle mümkün olacağını savunur ve bu uğurda kanlı ayinler düzenlerler."
   spoiler: true
   bolum_siniri: 53
 
 - terim: "Tarikat-ı Hafiyye"
   ingilizce: "Secret Order"
-  kategori: "Gizli Örgütler"
+  kategori: "Organizasyonlar"
   aciklama: "Kökenleri Dördüncü Çağ'a ve kadim Zaratul ailesine dayanan, Kâhin (Seer) yolunun mirasını ve tarihini elinde tutan gizemli bir örgüt. Amelleri ve nihai gayeleri tıpkı isimleri gibi mutlak bir sır perdesiyle örtülüdür."
   spoiler: true
   bolum_siniri: 28
 
 - terim: "Musa Çilekeş Tarikatı"
   ingilizce: "Moses Ascetic Order"
-  kategori: "Gizli Örgütler"
+  kategori: "Organizasyonlar"
   aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Batınî Bilge'nin yozlaşarak uyanmasının ardından, tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
   spoiler: true
   bolum_siniri: 28
+
+- terim: "Şeytaniçe Tarikatı"
+  ingilizce: "Demoness Sect"
+  kategori: "Organizasyonlar"
+  aciklama: "Kadim Şeytaniçe'ye tapan, üyelerinin tamamı sonradan kadına dönüşenlerden erkeklerden oluşan, felaket ve yozlaşma getiren kadim gizli örgüt."
+  spoiler: true
+  bolum_siniri: 66
+
+- terim: "Ruhanî Ruhbanlık"
+  ingilizce: "Numinous Episcopate"
+  kategori: "Organizasyonlar"
+  aciklama: "Ölüm'e tapan, ruhlarla ve ölü diriltme sanatlarıyla ilgilenen yeraltı kilisesi/örgütü."
+  spoiler: true
+  bolum_siniri: 66
 
 # -----------------------
 # İLAHLAR VE YÜCE KADİMLER
@@ -327,7 +348,7 @@
   ingilizce: "Lord of the Mysteries"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Meşalesi,<br>Sefira Kalesi'nin Tecessümü,<br>Alem-i Ervah Hakimi."
+  aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Meşalesi,<br>Aslî Kale'nin Tecessümü,<br>Alem-i Ervah Hakimi."
   spoiler: true
   bolum_siniri: 1271
 
@@ -506,7 +527,7 @@
   ingilizce: "Gehrman Sparrow"
   kategori: "Tarot Kulübü"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Alem-i Ervah ve Sefira Kalesi'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
+  aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
   spoiler: true
   bolum_siniri: 9999
 
