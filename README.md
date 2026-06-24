@@ -41,9 +41,9 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
 Esrarın Hükümdarı arşivine yeni kayıtlar, Viktorya dönemi dakikliğiyle haftada iki kez eklenmektedir:
 
-- Çarşamba: 21.00
+- Çarşamba: 20.30
 
-- Cumartesi: 21.00
+- Cumartesi: 20.30
 
 Bölümlerin her biri, dönemin edebi ağırlığını ve kozmik atmosferini korumak adına titiz bir yerelleştirme sürecinden geçmektedir. Hızlı tüketim odaklı değil, kalıcı ve arşivlik bir kalite hedeflendiği için bu takvime kati surette sadık kalınmaktadır.
 
