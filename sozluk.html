@@ -118,6 +118,12 @@ body.spoiler-mode-active .hidden-sequence {
               <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">
                 {{ mertebe.isim }}
               </span>
+              {% if mertebe.bolgesel %}
+                <span style="display: inline-block; background: #1b2b3d; color: #82b4d4; padding: 2px 6px; border-radius: 3px; font-size: 0.75em; margin-left: 6px; border: 1px solid #34527f;">
+                  {{ mertebe.bolgesel.kultur }}:
+                  <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
+                </span>
+              {% endif %}
             </li>
           {% endfor %}
         </ul>

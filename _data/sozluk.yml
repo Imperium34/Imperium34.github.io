@@ -1,7 +1,7 @@
 # -----------------------
 # TEMEL KAVRAMLAR
 # -----------------------
-- terim: "Aşkın (Fevkabeşer)"
+- terim: "Aşkın"
   ingilizce: "Beyonder"
   kategori: "Temel Kavramlar"
   aciklama: "Sıradan insanların ötesinde güçlere sahip olan, iksir içerek evrilmiş varlıklar."
@@ -39,11 +39,11 @@
 - terim: "Melekler Kralı"
   ingilizce: "King of Angels"
   kategori: "Temel Kavramlar"
-  aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 karakteristiği ile o Yol'un Özgünlük parçasını barındıran veya birden fazla Mertebe 1 karakteristiği taşıyan eşsiz figürleri tanımlar."
+  aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 hasleti ile o Yol'un Yegânelik parçasını barındıran veya birden fazla Mertebe 1 hasleti taşıyan eşsiz figürleri tanımlar."
   spoiler: true
   bolum_siniri: 486
 
-- terim: "Özgünlük"
+- terim: "Yegânelik"
   ingilizce: "Uniqueness"
   kategori: "Temel Kavramlar"
   aciklama: "Yirmi iki İlahi Yol'un her birinin özünü, evrendeki mutlak kuralını ve tekil otoritesini temsil eden soyut kavram. Bir Gerçek Tanrı olmanın mutlak gereksinimidir."
@@ -312,7 +312,7 @@
   spoiler: true
   bolum_siniri: 28
 
-- terim: "Musa Çilekeş Tarikatı"
+- terim: "Mos Çilekeş Tarikatı"
   ingilizce: "Moses Ascetic Order"
   kategori: "Organizasyonlar"
   aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Batınî Bilge'nin yozlaşarak uyanmasının ardından, tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
@@ -677,7 +677,7 @@
       isim: "Zaman Kurdu (Worm of Time)"
       bolum_siniri: 393
     - seviye: 0
-      isim: "Kusur (Error / Bug)"
+      isim: "Error / Kusur (Error / Bug)"
       bolum_siniri: 9999
 
 - terim: "Çırak Yolu"
@@ -783,7 +783,7 @@
       isim: "Muvazenedar (Balancer)"
       bolum_siniri: 1110
     - seviye: 1
-      isim: "Düzenin Eli (Hand of Order)"
+      isim: "Nizamın Eli (Hand of Order)"
       bolum_siniri: 1110
     - seviye: 0
       isim: "Yargı (Justiciar)"
@@ -799,19 +799,34 @@
       isim: "Avcı (Hunter)"
       bolum_siniri: 16
     - seviye: 8
-      isim: "Kışkırtıcı / Provokatör (Provoker)"
+      isim: "Kışkırtıcı (Provoker)"
+      bolgesel:
+        kultur: "Intis"
+        isim: "Provokatör"
       bolum_siniri: 200
     - seviye: 7
       isim: "Ateş Müptelası (Pyromaniac)"
+      bolgesel:
+        kultur: "Intis"
+        isim: "Piroman"
       bolum_siniri: 200
     - seviye: 6
-      isim: "Entrikacı / Komplocu (Conspirer)"
+      isim: "Müfsitçi (Conspirer)"
+      bolgesel:
+        kultur: "Intis"
+        isim: "Komplocu"
       bolum_siniri: 242
     - seviye: 5
       isim: "Hasatçı (Reaper)"
+      bolgesel:
+        kultur: "Intis"
+        isim: "Mareşal"
       bolum_siniri: 653
     - seviye: 4
-      isim: "Demirkan Şövalyesi (Iron-Blooded Knight)"
+      isim: "Demirkan Akıncısı (Iron-Blooded Knight)"
+      bolgesel:
+        kultur: "Intis"
+        isim: "Demirkan Şövalyesi"
       bolum_siniri: 484
     - seviye: 3
       isim: "Cenk Ruhbanı (War Bishop)"
@@ -823,7 +838,7 @@
       isim: "Fatih (Conqueror)"
       bolum_siniri: 940
     - seviye: 0
-      isim: "Kızıl Rahip (Red Priest)"
+      isim: "Ahmer Hünkar (Red Priest)"
       bolum_siniri: 456
 
 - terim: "Suikastçı Yolu"
@@ -850,7 +865,7 @@
       isim: "Izdırap (Despair)"
       bolum_siniri: 478
     - seviye: 3
-      isim: "Solmayan (Unaging)"
+      isim: "Solmaz (Unaging)"
       bolum_siniri: 495
     - seviye: 2
       isim: "Afet (Catastrophe)"
@@ -944,7 +959,7 @@
       isim: "Savaşçı (Warrior)"
       bolum_siniri: 138
     - seviye: 8
-      isim: "Cengâver / Gladyatör (Pugilist)"
+      isim: "Cengâver / Gladyatör (Pugilist / Gladiator)"
       bolum_siniri: 138
     - seviye: 7
       isim: "Silahşör (Weapon Master)"
@@ -996,7 +1011,7 @@
       isim: "Talihsizlik Büyücüsü (Misfortune Mage)"
       bolum_siniri: 1227
     - seviye: 3
-      isim: "Kaos Getiren (Chaos Walker)"
+      isim: "Fitne Arıtan (Chaos Walker)"
       bolum_siniri: 1227
     - seviye: 2
       isim: "Resul (Soothsayer)"
@@ -1042,7 +1057,7 @@
       isim: "Necis Hükümdar (Filthy Monarch)"
       bolum_siniri: 1347
     - seviye: 0
-      isim: "Yokluk / Gayya (Abyss)"
+      isim: "Hâviye (Abyss)"
       bolum_siniri: 9999
 
 - terim: "Mahkum Yolu"
