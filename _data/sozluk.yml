@@ -55,7 +55,7 @@
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
-  cevirmen_notu: "Çince orijinali sadece 'Yıldızlı Gökyüzü'dür; İngilizce 'Cosmos' ise nötr bir terimdir. 'Gökkubbe' bilinçli tercih edildi çünkü kubbe/mimari çağrışımı, bu kavramın aynı zamanda Yaradan'ın kurduğu bariyer olma işlevini önceden haber veriyor. Gökyüzünün aslında dünyayı çevreleyen bir kabuk olduğunu ima ediyor. Ne Çince ne İngilizce kaynak bunu mimari olarak kodlamıyor."
+  cevirmen_notu: "Çince orijinali sadece 'Yıldızlı Gökyüzü'dür; İngilizce 'Cosmos' ise nötr bir terimdir. 'Gökkubbe' bilinçli tercih edildi çünkü kubbe/mimari çağrışımı, bu kavramın aynı zamanda Aslî Yaradan'ın kurduğu bariyer olma işlevini önceden haber veriyor. Gökyüzünün aslında dünyayı çevreleyen bir kabuk olduğunu ima ediyor. Ne Çince ne İngilizce kaynak bunu mimari olarak kodlamıyor."
   spoiler: true
   bolum_siniri: 892
 
@@ -133,7 +133,7 @@
   ingilizce: "Sefirot"
   kategori: "Temel Kavramlar"
   aciklama: "Evrenin ve yolların en temel, kozmik ve teolojik özleri."
-  cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de -Sefirot'un gerçek anlamı olan 'sudur/köken'. ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
+  cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de Sefirot'un gerçek anlamı olan 'sudur/köken'. ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
   spoiler: true
   bolum_siniri: 1203
 
@@ -364,6 +364,8 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Muazzez."
+  cevirmen_notu: "Kanonda bu unvan sırası açık bir tırmanış izler (Baki Efendisi → Gök Hakimi → Ulu İlahı → Semavi Muazzez), ancak 'Muazzez' (sevgili/aziz) bilinçli olarak en yüksek sırada 'mutlak/yüce' ağırlıklı bir kelime yerine tercih edildi. Sebep: bu unvanın sahibi aslında önceki Esrarın Hükümdarı'dır ve bu, Batı Kıtası'ndaki takma kimliğidir. Ukuyucunun ilk okumada unvanın gücünden onun gerçek kimliğini/kudretini sezmemesi hedeflendi. 'Muazzez'in sıcak/şefkatli çağrışımı, en güçlü olanın burada kasıtlı olarak en az tehditkâr görünmesini sağlıyor. Bu bir çeviri zayıflığı değil, anlatısal bir kamuflaj tercihidir."
+  cevirmen_notu_sinir: 1271
   spoiler: true
   bolum_siniri: 2
 
@@ -449,6 +451,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak İlah,<br>Zıl Perdesinin Ardındaki Hükümdar,<br>Alem-i Zihnin Hâkimi,<br>Cümle Zîhayatın Sefil Fıtratı."
+  cevirmen_notu: "Hakiki Hâlık'ta kullanılmayan Kanon üçüncü satır ('Degenerate Nature of all Living Things') burada. Bilinçli olarak bu girdide kullanılmıştır (bkz: Hakiki Hâlık notu). 'Sefil' (aşağılanmış/perişan) + 'Fıtrat' (İslami düşüncede doğuştan gelen saf/temiz tabiat, bkz. hadis) eşleşmesi kasıtlı bir oksimorondur: özünde saf olması gereken bir kavrama 'sefil' sıfatının zorla eklenmesi, tasvirin konusu olan yozlaşmanın kendisini kelimenin içinde yeniden üretir."
   spoiler: true
   bolum_siniri: 9999
 
@@ -500,7 +503,7 @@
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Maziyle Kaim Olan Zifiri Hükümdar,<br>Bîşümar Mucizatın Tecessümü,<br>Muradata Hükmeden İlah,<br>Sislerin Ardında Gizlenen Kadim Kuklacı,<br>Metruk Diyarda Gezinen Şeytani Kurt."
   kanon_durumu: "tamamlanmis"
-  cevirmen_notu: "Kanonda tazim ismi eksiktir. Yalnızca ilk üç satır mevcuttur (yazar da 'tamamlanmamış' notunu düşmüştür). Son iki satır karaktere dayanarak tamamlandı. 4. satır: Soytarı yoluna mensup olduğundan Kukla (Mertebe 5) ve Mazi Sisi (Mertebe 3) onun kanonik yetenekleridir; kendisi Mertebe 1'dir. 5. satır: 'Metruk Diyar', Amon'dan gizlendiği 'Tanrıların Metruk Diyarı'nın kısaltmasıdır; 'Şeytani Kurt' ise doğrudan ırkıdır (Demonic Wolf)."
+  cevirmen_notu: "Kanonda tazim ismi eksiktir. Yalnızca ilk üç satır mevcuttur (yazar da 'tamamlanmamış' notunu düşmüştür). Son iki satır karaktere dayanarak tamamlandı. 4. satır: Soytarı yoluna mensup olduğundan Kukla (Mertebe 5) ve Mazi Sisi (Mertebe 3) onun kanonik yetenekleridir; kendisi bir Mertebe 2 Mucizekâr'dır. 5. satır: 'Metruk Diyar', Amon'dan gizlendiği 'Tanrıların Metruk Diyarı'nın kısaltmasıdır; 'Şeytani Kurt' ise doğrudan ırkıdır (Demonic Wolf)."
   spoiler: true
   bolum_siniri: 1242
 
@@ -593,7 +596,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
-  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Evernight Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
+  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
   spoiler: true
   bolum_siniri: 1
 
@@ -825,7 +828,8 @@
       isim: "Kaderin Truva Atı (Trojan Horse of Destiny)"
       bolum_siniri: 1005
     - seviye: 1
-      isim: "Zaman Kurdu (Worm of Time)"
+      isim: "*Zaman Kurdu (Worm of Time)"
+      cevirmen_notu: "'Kurt' şu an geçici olarak korunmaktadır; 'Kurtçuk'a geçiş değerlendirilmektedir. Sorun: 'Kurt' modern Türkçede birincil olarak 'wolf' anlamına gelir, 'worm/maggot' anlamı daha eski/lehçesel kullanımdadır (bkz. 'elma kurdu'). Bu belirsizlik özellikle önemlidir çünkü Ebedi Gece Tanrıçası'nın kendi unvanında ('Ece') bilinçli bir kurt-imgesi kullanılmaktadır; iki bağlamsız karakterin metinde 'Kurt' kelimesiyle örtüşmesi istenmeyen bir çağrışım yaratabilir. Nihai karar düzyazıdaki okunuşuna bağlı olarak verilecektir; değişirse hem bu Mertebe adı hem de Amon'un ilgili Tazim İsmi satırı ('Zamanı Kemiren Kurt') eş zamanlı güncellenecektir. (Asteriks bu belirsizliği işaretler.)"
       bolum_siniri: 393
     - seviye: 0
       isim: "Error / Kusur (Error / Bug)"
@@ -883,7 +887,8 @@
       isim: "Rüşvetçi (Briber)"
       bolum_siniri: 323
     - seviye: 6
-      isim: "İfrit Baronu (Baron of Corruption)"
+      isim: "Fesat Baronu (Baron of Corruption)"
+      cevirmen_notu: "'Fesat' tercih edildi çünkü klasik Osmanlı-İslam siyasi düşüncesinde bir sistemi içten çürüten yozlaşmayı tanımlayan gerçek bir terimdir ('fesat çıkarmak', 'ehl-i fesad'), 'İfrit'in aksine kişileştirilmiş bir varlık değil sistemsel bir bozulmayı işaret eder. Ayrıca klasik düşüncede fesat genellikle fitneyi doğuran önceki aşama olarak görülür; bu da Mertebe sıralamasıyla tutarlı bir kavramsal ilerleyiş sunar."
       bolum_siniri: 237
     - seviye: 5
       isim: "Fitne Mürşidi (Mentor of Disorder)"
@@ -1157,6 +1162,7 @@
       bolum_siniri: 237
     - seviye: 6
       isim: "Felaket Müjdecisi (Calamity Priest)"
+      cevirmen_notu: "'Müjde/Müjdeci' normalde sevindirici bir haberin; doğum, zafer, kabul olmuş dua vs. habercisini tanımlar; burada bilinçli olarak 'Felaket' ile eşleştirilmiştir. Bu tercih tesadüfi bir ironi değildir: Mertebenin gerçek yeteneği (Calamity Attraction, Psyche Storm) bir rahibin felaketlere sadece katlanmasından ibaret değildir. Felaketleri öngörüp bizzat düşmana yönlendirebilir, adeta kaçınılmaz bir haberi 'müjdeler gibi' sunabilir. Yani 'Müjdeci' burada karanlık bir zevki de örtük olarak taşır: bu rahip için felaket gerçekten de bir tür 'muştu'dur."
       bolum_siniri: 910
     - seviye: 5
       isim: "Galip (Winner)"
@@ -1167,6 +1173,7 @@
     - seviye: 3
       isim: "Fitne Arıtan (Chaos Walker)"
       bolum_siniri: 1227
+      cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, İnsanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir."
     - seviye: 2
       isim: "Resul (Soothsayer)"
       cevirmen_notu: "'Kâhin' yerine 'Resul' bilinçli tercih edildi. Kaynak: Şans Çarkı Yolu'nun Soothsayer Mertebesi (S2) yeteneği pasif kehanet değil, aktif bir kehanetin gerçekliğe dönüşme olasılığını yükseltmesidir (bkz. Lumian Lee örneği). Yani sözleri edilgen bir öngörü değil neredeyse performatif bir bildirimdir. Bu, 'gizli işaretleri yorumlayan' Kâhin'den çok, 'yetkiyle ileten' Resul tanımına daha yakındır."
@@ -1201,7 +1208,7 @@
       bolum_siniri: 414
     - seviye: 4
       isim: "Şeytan (Demon)"
-      bolum_siniri: 20
+      bolum_siniri: 687
     - seviye: 3
       isim: "Bedzeban (Blatherer)"
       bolum_siniri: 687
@@ -1225,6 +1232,7 @@
       bolum_siniri: 200
     - seviye: 8
       isim: "Meczup (Lunatic)"
+      cevirmen_notu: "'Meczup/Meczub', tasavvufta ilahi aşkla kendinden geçmiş, aklını 'sıradan' anlamda kaybetmiş ama bu hâli bazı geleneklerde ilahî bir lütuf olarak görülen kişiyi tanımlayan bir terimdir. Statüsü İslam düşüncesinde tartışmalıdır (bazıları veli sayar, bazıları şüpheyle yaklaşır). Bu ikilik, Mahkum Yolu'nun (Chained Pathway) mensubu olduğu Gül Ekolü'nün (Rose School of Thought) tarihsel iç savaşıyla doğrudan örtüşür: 'İtidal' (Temperance) Fırkası bu çılgınlığı bastırılması gereken bir sapma olarak görürken, 'Sefahat' (Indulgence) Fırkası arzuyu serbest bırakan bu çılgınlığı ekolün asıl/kutsal ifadesi saymaya başlamıştır. 'Meczup' kelimesi, tam olarak bu çözülmemiş teolojik anlaşmazlığı, çılgınlık kutsal mı yoksa bozulma mı, kendi belirsizliğinde taşır."
       bolum_siniri: 331
     - seviye: 7
       isim: "Kurtadam (Werewolf)"
@@ -1535,6 +1543,7 @@
       bolum_siniri: 1321
     - seviye: 2
       isim: "Çorak Mader (Desolate Matriarch)"
+      cevirmen_notu: "Sözlükteki tüm diğer 'anne' figürleri (Cümle Varlığın Anası, Cümle Alemin Anası, ve bu Yolun kendi Mertebe 0'ı olan sade 'Ana') için 'Ana' kullanılırken, bu Mertebede bilinçli olarak Farsça 'Mader' tercih edilmiştir. Sebep: Sequence 0'ın unvanı olan çıplak/sade 'Ana' kelimesinin bir alt-Mertebede sıfat olarak tekrar kullanılması, sade kelimenin taşıdığı ağırlığı zedeler diye düşünüldü. 'Mader' daha soğuk/yabancı bir kayıt sunarak, Toprak Ana'nın bu en sert/kısır yönünü, sıcak ve yerleşik 'Ana' kelimesinden bilinçli olarak ayırır."
       bolum_siniri: 1271
     - seviye: 1
       isim: "Doğa Seyyahı (Naturewalker)"
