@@ -28,6 +28,7 @@ permalink: /sozluk/
   display: none !important;
 }
 
+/* Ekran okuyucular icin gorunmez ama okunur etiket */
 .sr-only {
   position: absolute;
   width: 1px; height: 1px;
@@ -47,6 +48,31 @@ body.spoiler-mode-active .dynamic-spoiler {
 
 body.spoiler-mode-active .hidden-sequence {
   display: list-item !important; 
+}
+
+/* --- Kaynak / müdahale rozetleri --- */
+.rozet {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  cursor: help;
+}
+.rozet-ekleme    { background: #2a2010; color: #d4a747; border-color: #574117; }
+.rozet-ozgun     { background: #2a1418; color: #d48a94; border-color: #572329; }
+.rozet-beyani    { background: #241f2e; color: #a99ac4; border-color: #443a5c; }
+.rozet-coi       { background: #2e2418; color: #c4a882; border-color: #5c4a34; }
+.rozet-karma     { background: #1e2422; color: #8fb3a8; border-color: #35514a; }
+.rozet-denetim   { background: #1a1a1a; color: #666;    border-color: #333;    }
+
+.kaynak-ref {
+  margin-top: 8px;
+  font-size: 0.82em;
+  color: #8a7a4a;
+  font-style: italic;
 }
 
 /* --- Çevirmen Notu (Translator's Note) styles --- */
@@ -166,6 +192,31 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
         </span>
       {% endif %}
 
+      {% comment %}
+        Rozetler yalnizca SAPMA gosterir. "Kanon + ceviri" varsayilan oldugu
+        icin rozet almaz; 100+ girdiye "Kanon" yazmak sinyali gurultuye cevirir.
+        Denetlenmemis girdiler ise bilerek gorunur: rozetin yoklugu
+        "dogrulandi" anlamina gelmemeli.
+      {% endcomment %}
+
+      {% if item.mudahale == 'tamamlama' or item.mudahale == 'degistirme' %}
+        <span class="rozet rozet-ekleme" title="Kanonik tazim isminde çevirmen eklemesi veya değişikliği var. Ayrıntı için çevirmen notuna bakınız.">Kanon + ekleme</span>
+      {% elsif item.mudahale == 'ozgun' %}
+        <span class="rozet rozet-ozgun" title="Kanonda karşılığı yoktur; tamamen çevirmen tarafından yazılmıştır.">Özgün</span>
+      {% endif %}
+
+      {% if item.kaynak == 'yazar_beyani' %}
+        <span class="rozet rozet-beyani" title="Romanın metninde geçmez; yazarın metin dışı açıklamalarından gelir.">Metin dışı</span>
+      {% elsif item.kaynak == 'metin_coi' %}
+        <span class="rozet rozet-coi" title="Circle of Inevitability metninden gelir.">Circle of Inevitability</span>
+      {% elsif item.kaynak == 'karma' %}
+        <span class="rozet rozet-karma" title="Bu girdideki maddelerin kaynağı tek tip değildir; bir kısmı romanın metninden, bir kısmı yazarın metin dışı açıklamalarından gelir.">Karma kaynak</span>
+      {% endif %}
+
+      {% if item.denetim == 'denetlenmedi' %}
+        <span class="rozet rozet-denetim" title="Bu girdinin kanona uygunluğu henüz tek tek denetlenmedi.">Denetlenmedi</span>
+      {% endif %}
+
       {% if item.spoiler %}
         <div class="main-term-spoiler" data-unlock="{{ item.bolum_siniri | default: 9999 }}">
           <details style="cursor: pointer;">
@@ -175,6 +226,7 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
               <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
                 <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
                 <p>{{ item.cevirmen_notu }}</p>
+                {% if item.kaynak_ref %}<p class="kaynak-ref">Kaynak: {{ item.kaynak_ref }}</p>{% endif %}
               </details>
             {% endif %}
           </details>
@@ -187,11 +239,17 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
           <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
             <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
             <p>{{ item.cevirmen_notu }}</p>
+            {% if item.kaynak_ref %}<p class="kaynak-ref">Kaynak: {{ item.kaynak_ref }}</p>{% endif %}
           </details>
         {% endif %}
       {% endif %}
 
       {% if item.mertebeler %}
+        {% if item.kaynak == 'karma' %}
+          <p style="margin: 10px 0 0; font-size: 0.8em; color: #6e6e6e;">
+            Bu yoldaki Mertebe adlarının bir kısmı romanın metninde geçmez; yazarın yayımladığı iksir formülü gönderilerinden derlenmiştir.
+          </p>
+        {% endif %}
         <ul style="list-style: none; padding: 0; margin-top: 15px; border-top: 1px dashed #333; padding-top: 10px;">
           {% for mertebe in item.mertebeler %}
             <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" style="margin-bottom: 8px; font-size: 0.95em;">
