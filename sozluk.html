@@ -28,6 +28,16 @@ permalink: /sozluk/
   display: none !important;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 body.spoiler-mode-active .dynamic-spoiler {
   filter: blur(0) !important;
   opacity: 1 !important;
@@ -186,13 +196,14 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
           {% for mertebe in item.mertebeler %}
             <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" style="margin-bottom: 8px; font-size: 0.95em;">
               <strong style="color: #888;">Mertebe {{ mertebe.seviye }}:</strong>
-              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">
+              <span class="sr-only spoiler-uyari">Gizlenmiş terim, açmak için etkinleştirin</span>
+              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">
                 {{ mertebe.isim }}
               </span>
               {% if mertebe.bolgesel %}
                 <span style="display: inline-block; background: #1b2b3d; color: #82b4d4; padding: 2px 6px; border-radius: 3px; font-size: 0.75em; margin-left: 6px; border: 1px solid #34527f;">
                   {{ mertebe.bolgesel.kultur }}:
-                  <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
+                  <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
                 </span>
               {% endif %}
               {% if mertebe.cevirmen_notu %}
@@ -217,6 +228,23 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 <script>
 // <![CDATA[
 var isGlobalSpoilerActive = false;
+var currentChapterGlobal = 0;
+
+function spoilerDurumuUygula(el, acik) {
+  if (acik) {
+    el.classList.add("unlocked");
+    el.removeAttribute("aria-hidden");
+    el.setAttribute("aria-label", el.textContent.trim());
+  } else {
+    el.classList.remove("unlocked");
+    el.setAttribute("aria-hidden", "true");
+    el.removeAttribute("aria-label");
+  }
+  var uyari = el.previousElementSibling;
+  if (uyari && uyari.classList.contains("spoiler-uyari")) {
+    uyari.style.display = acik ? "none" : "";
+  }
+}
 
 function filterTerms() {
   var searchVal = document.getElementById('termSearch').value.toLowerCase().trim();
@@ -278,6 +306,9 @@ function toggleGlobalSpoiler() {
     document.querySelectorAll("details").forEach(function(d) { 
       d.open = true; 
     });
+    document.querySelectorAll(".dynamic-spoiler").forEach(function(el) {
+      spoilerDurumuUygula(el, true);
+    });
   } else {
     document.body.classList.remove("spoiler-mode-active");
     btn.innerHTML = "👁️ Tüm Sırları İfşa Et (Spoiler Modu)";
@@ -286,6 +317,10 @@ function toggleGlobalSpoiler() {
     
     document.querySelectorAll("details").forEach(function(d) { 
       d.open = false; 
+    });
+    document.querySelectorAll(".dynamic-spoiler").forEach(function(el) {
+      var unlockAt = parseInt(el.getAttribute("data-unlock"), 10);
+      spoilerDurumuUygula(el, currentChapterGlobal >= unlockAt);
     });
   }
   
@@ -302,6 +337,7 @@ document.addEventListener("DOMContentLoaded", function() {
       currentChapter = parseInt(match[1], 10);
     }
   }
+  currentChapterGlobal = currentChapter;
 
   var items = document.querySelectorAll('.glossary-item');
   items.forEach(function(item) {
@@ -352,13 +388,17 @@ document.addEventListener("DOMContentLoaded", function() {
   var spoilers = document.querySelectorAll(".dynamic-spoiler");
   spoilers.forEach(function(spoiler) {
     var unlockAt = parseInt(spoiler.getAttribute("data-unlock"), 10);
-    
-    if (currentChapter >= unlockAt) {
-      spoiler.classList.add("unlocked");
-    }
+
+    spoilerDurumuUygula(spoiler, currentChapter >= unlockAt);
 
     spoiler.addEventListener("click", function() {
-      this.classList.toggle("unlocked");
+      spoilerDurumuUygula(this, !this.classList.contains("unlocked"));
+    });
+    spoiler.addEventListener("keydown", function(e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        spoilerDurumuUygula(this, !this.classList.contains("unlocked"));
+      }
     });
   });
 
