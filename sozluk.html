@@ -87,6 +87,16 @@ body.spoiler-mode-active .hidden-sequence {
 .mertebe-notu {
   margin-left: 4px;
 }
+
+.cevirmen-notu-toggle.notu-locked,
+.mertebe-notu.notu-locked {
+  display: none !important;
+}
+
+body.spoiler-mode-active .cevirmen-notu-toggle.notu-locked,
+body.spoiler-mode-active .mertebe-notu.notu-locked {
+  display: block !important;
+}
 </style>
 
 <h1>📖 Sözlük ve Çeviri Notları</h1>
@@ -152,7 +162,7 @@ body.spoiler-mode-active .hidden-sequence {
             <summary style="color: #a41818; font-weight: bold; outline: none;">Spoiler İçerir (Görmek için tıklayın)</summary>
             <p style="margin-top: 10px; color: #ccc;">{{ item.aciklama }}</p>
             {% if item.cevirmen_notu %}
-              <details class="cevirmen-notu-toggle">
+              <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
                 <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
                 <p>{{ item.cevirmen_notu }}</p>
               </details>
@@ -164,7 +174,7 @@ body.spoiler-mode-active .hidden-sequence {
           <p style="color: #ccc; margin-bottom: 0;">{{ item.aciklama }}</p>
         {% endif %}
         {% if item.cevirmen_notu %}
-          <details class="cevirmen-notu-toggle">
+          <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
             <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
             <p>{{ item.cevirmen_notu }}</p>
           </details>
@@ -186,7 +196,7 @@ body.spoiler-mode-active .hidden-sequence {
                 </span>
               {% endif %}
               {% if mertebe.cevirmen_notu %}
-                <details class="mertebe-notu">
+                <details class="mertebe-notu" data-unlock="{{ mertebe.cevirmen_notu_sinir | default: mertebe.bolum_siniri | default: 9999 }}">
                   <summary>Çevirmen Notu</summary>
                   <p>{{ mertebe.cevirmen_notu }}</p>
                 </details>
@@ -305,10 +315,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Reveal main term descriptions once the relevant chapter has been reached.
-  // NOTE: this rebuilds the container's innerHTML, so any nested
-  // Çevirmen Notu <details> block must be captured first and re-appended,
-  // otherwise it gets silently discarded when the spoiler unlocks.
   var mainSpoilers = document.querySelectorAll(".main-term-spoiler");
   mainSpoilers.forEach(function(container) {
     var unlockAt = parseInt(container.getAttribute("data-unlock"), 10);
@@ -322,6 +328,16 @@ document.addEventListener("DOMContentLoaded", function() {
         newHtml += notuBlock.outerHTML;
       }
       container.innerHTML = newHtml;
+    }
+  });
+
+  var notuBlocks = document.querySelectorAll(".cevirmen-notu-toggle, .mertebe-notu");
+  notuBlocks.forEach(function(notu) {
+    var unlockAt = parseInt(notu.getAttribute("data-unlock"), 10);
+    if (currentChapter < unlockAt) {
+      notu.classList.add("notu-locked");
+    } else {
+      notu.classList.remove("notu-locked");
     }
   });
 
