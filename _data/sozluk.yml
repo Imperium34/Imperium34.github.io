@@ -56,6 +56,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
   cevirmen_notu: "Çince orijinali sadece 'Yıldızlı Gökyüzü'dür; İngilizce 'Cosmos' ise nötr bir terimdir. 'Gökkubbe' bilinçli tercih edildi çünkü kubbe/mimari çağrışımı, bu kavramın aynı zamanda Aslî Yaradan'ın kurduğu bariyer olma işlevini önceden haber veriyor. Gökyüzünün aslında dünyayı çevreleyen bir kabuk olduğunu ima ediyor. Ne Çince ne İngilizce kaynak bunu mimari olarak kodlamıyor."
+  cevirmen_notu_sinir: 1203
   spoiler: true
   bolum_siniri: 892
 
@@ -87,7 +88,7 @@
   spoiler: true
   bolum_siniri: 68
 
-- terim: "Ruhani Alemi (Alem-i Ervah)"
+- terim: "Ruhani Alem (Alem-i Ervah)"
   ingilizce: "Spiritual World"
   kategori: "Temel Kavramlar"
   aciklama: "Fiziksel alemin üzerine örtülmüş, kavramların, ruhların ve efsanelerin var olduğu kaotik boyut. Aşkınlar burayı hızlı seyahat etmek, ruhani varlıklar çağırmak veya kehanetlerde bulunmak için kullanır. Ritüellerde ve kadim yakarışlarda 'Alem-i Ervah' olarak zikredilir."
@@ -111,7 +112,7 @@
 - terim: "Mühürlü Eserler"
   ingilizce: "Sealed Artifacts"
   kategori: "Temel Kavramlar"
-  aciklama: "İçlerinde Aşkın hasletler barındıran mistik objeler. İnanılmaz güçlere sahip olmalarına rağmen taşıdıkları korkunç lanetler ve ölümcül yan etkileri yüzünden Kiliseler tarafından yeraltında özel şartlarda saklanırlar. Tehlike seviyelerine göre 0 (En tehlikeli/Yüce Kadim seviyesi) ile 3 (Sınırlı tehlike) arasında derecelendirilirler."
+  aciklama: "İçlerinde Aşkın hasletler barındıran mistik objeler. İnanılmaz güçlere sahip olmalarına rağmen taşıdıkları korkunç lanetler ve ölümcül yan etkileri yüzünden Kiliseler tarafından yeraltında özel şartlarda saklanırlar. Tehlike seviyelerine göre 0 (En tehlikeli) ile 3 (Sınırlı tehlike) arasında derecelendirilirler."
   spoiler: true
   bolum_siniri: 19
 
@@ -133,7 +134,7 @@
   ingilizce: "Sefirot"
   kategori: "Temel Kavramlar"
   aciklama: "Evrenin ve yolların en temel, kozmik ve teolojik özleri."
-  cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de Sefirot'un gerçek anlamı olan 'sudur/köken'. ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
+  cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de Sefirot'un gerçek anlamı olan 'sudur/köken' ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
   spoiler: true
   bolum_siniri: 1203
 
@@ -319,7 +320,7 @@
 - terim: "Mos Çilekeş Tarikatı"
   ingilizce: "Moses Ascetic Order"
   kategori: "Organizasyonlar"
-  aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Batınî Bilge'nin yozlaşarak uyanmasının ardından, tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
+  aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Belirli sebeplerden, zaman ilerledikçe tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
   cevirmen_notu: "'Mos' bilinçli olarak İngilizce 'Moses'ın tam transliterasyonu değil. Çince orijinalde kullanılan isim (摩斯苦修会), Çincenin Peygamber Musa için standart kullandığı transliterasyondan (摩西/Móxī) farklıdır; bu, İngilizce çevirmenin metne sonradan eklediği bir Batılı referans olabileceğine işaret ediyor. 'Mos' bu belirsizliği çözmeden koruyor."
   spoiler: true
   bolum_siniri: 28
@@ -354,8 +355,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Mihenk Taşı,<br>Aslî Kale'nin Tecessümü,<br>Alem-i Ervah Hakimi."
-  cevirmen_notu: "İlk tercih 'Meşale' idi ama Çince '道标' (yol işareti) ışıktan çok yön göstermeyle ilgilidir. 'Mihenk Taşı' (mihenk/dokunma taşı, kıymet ölçüm standardı) tercih edildi çünkü Korkak Üçlü Yollarının en üstünde bulunun bu varlık temelde hakikati sahteden ayırır hatta gerçek ve sahtenin ne olduğuna karar verendir. 'Beacon' burada yön göstermekten çok kader/hakikatin sınandığı bir ölçüt olarak okunabilir. Poetik nesne-imge korunmuş, anlam yönü kesinlik/doğrulama eksenine kaydırılmıştır."
-  cevirmen_notu: "'Sultan' bilinçli seçildi çünkü Soytarı Yolu'nun Mertebe 1 ismi 'Esrar Hadimi'dir (İngilizce: Attendant of Mysteries) ve bu iki unvan arasında saltanat temalı bir tutarlılık istendi."
+  cevirmen_notu: "İlk tercih 'Meşale' idi ama Çince '道标' (yol işareti) ışıktan çok yön göstermeyle ilgilidir. 'Mihenk Taşı' (mihenk/dokunma taşı, kıymet ölçüm standardı) tercih edildi çünkü Korkak Üçlü Yollarının en üstünde bulunun bu varlık temelde hakikati sahteden ayırır hatta gerçek ve sahtenin ne olduğuna karar verendir. 'Beacon' burada yön göstermekten çok kader/hakikatin sınandığı bir ölçüt olarak okunabilir. Poetik nesne-imge korunmuş, anlam yönü kesinlik/doğrulama eksenine kaydırılmıştır.<br>'Sultan' bilinçli seçildi çünkü Soytarı Yolu'nun Mertebe 1 ismi 'Esrar Hadimi'dir (İngilizce: Attendant of Mysteries) ve bu iki unvan arasında saltanat temalı bir tutarlılık istendi."
   spoiler: true
   bolum_siniri: 1271
 
@@ -364,7 +364,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Arz ve Semanın Lütufkâr Baki Efendisi;<br>Arz ve Semanın Lütufkâr Gök Hakimi;<br>Arz ve Semanın Lütufkâr Ulu İlahı;<br>Arz ve Semanın Lütufkâr Semavi Muazzez."
-  cevirmen_notu: "Kanonda bu unvan sırası açık bir tırmanış izler (Baki Efendisi → Gök Hakimi → Ulu İlahı → Semavi Muazzez), ancak 'Muazzez' (sevgili/aziz) bilinçli olarak en yüksek sırada 'mutlak/yüce' ağırlıklı bir kelime yerine tercih edildi. Sebep: bu unvanın sahibi aslında önceki Esrarın Hükümdarı'dır ve bu, Batı Kıtası'ndaki takma kimliğidir. Ukuyucunun ilk okumada unvanın gücünden onun gerçek kimliğini/kudretini sezmemesi hedeflendi. 'Muazzez'in sıcak/şefkatli çağrışımı, en güçlü olanın burada kasıtlı olarak en az tehditkâr görünmesini sağlıyor. Bu bir çeviri zayıflığı değil, anlatısal bir kamuflaj tercihidir."
+  cevirmen_notu: "Kanonda bu unvan sırası açık bir tırmanış izler (Baki Efendisi → Gök Hakimi → Ulu İlahı → Semavi Muazzez), ancak 'Muazzez' (sevgili/aziz) bilinçli olarak en yüksek sırada 'mutlak/yüce' ağırlıklı bir kelime yerine tercih edildi. Sebep: bu unvanın sahibi aslında önceki Esrarın Hükümdarı'dır ve bu, Batı Kıtası'ndaki takma kimliğidir. Okuyucunun ilk okumada unvanın gücünden onun gerçek kimliğini/kudretini sezmemesi hedeflendi. 'Muazzez'in sıcak/şefkatli çağrışımı, en güçlü olanın burada kasıtlı olarak en az tehditkâr görünmesini sağlıyor. Bu bir çeviri zayıflığı değil, anlatısal bir kamuflaj tercihidir."
   cevirmen_notu_sinir: 1271
   spoiler: true
   bolum_siniri: 2
@@ -435,6 +435,7 @@
   aciklama: "Hakiki Hâlık,<br>Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
   kanon_durumu: "uyarlama"
   cevirmen_notu: "Kanondaki üç satırın üçüncüsü ('Degenerate Nature of all Living Things') burada bilinçli olarak kullanılmadı. Yerine 'Müşfik Peder' ve 'Cümle Cürümü Sırtlayan Rab' eklendi. Unvanlar objektif tasvir değil, takipçilerin ağzından ayinsel bir hitap olduğundan, Âdem'in kilisesinin onu böyle yücelteceği düşünüldü. Yıkıcı/objektif satır bilinçli olarak 'Yarı Kadir-i Mutlak Âdem' girdisine (Cümle Zîhayatın Sefil Fıtratı) ayrıldı. İlk iki satır kanona sadıktır."
+  cevirmen_notu_sinir: 9999
   spoiler: true
   bolum_siniri: 61
 
@@ -465,7 +466,7 @@
   spoiler: true
   bolum_siniri: 815
 
-- terim: "Halaz Meleği Amon"
+- terim: "Halas Meleği Amon"
   ingilizce: "Angel of Redemption Amon"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
@@ -531,7 +532,7 @@
   spoiler: true
   bolum_siniri: 87
 
-- terim: "Kızıl Işık (Alur Moria)"
+- terim: "Kızıl Işık (Aiur Moria)"
   ingilizce: "Red Light"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "???"
@@ -615,6 +616,7 @@
   aciklama: "Ebedi Yanan Güneş,<br>Sönmez Işık,<br>Düzenin Timsali,<br>Akitlerin Tanrısı,<br>Ticaretin Hamisi.<br>Cümle Zîhayatın Pederi"
   kanon_durumu: "kanon"
   cevirmen_notu: "6. satır kanonik ama çekirdek unvanın parçası değil. Sadece kilise üyeleri tarafından kullanılır ve aslen Kadir-i Mutlak'a işaret eder."
+  cevirmen_notu_sinir: 1260
   spoiler: true
   bolum_siniri: 3
 
