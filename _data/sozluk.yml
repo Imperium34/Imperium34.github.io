@@ -128,7 +128,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
   spoiler: true
-  bolum_siniri: 57
+  bolum_siniri: 61
 
 - terim: "Aslî Menşe"
   ingilizce: "Sefirot"
@@ -308,7 +308,7 @@
   kategori: "Organizasyonlar"
   aciklama: "Hakiki Hâlık'a tapan ve dünyanın sonunun geldiğine inanan aşırı fanatik bir kült. İnsanlığın kurtuluşunun ancak Hakiki Hâlık'ın kan ve et yoluyla fiziksel dünyaya inmesiyle mümkün olacağını savunur ve bu uğurda kanlı ayinler düzenlerler."
   spoiler: true
-  bolum_siniri: 53
+  bolum_siniri: 61
 
 - terim: "Tarikat-ı Hafiyye"
   ingilizce: "Secret Order"
@@ -405,11 +405,21 @@
   ingilizce: "Primordial Demoness"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
+  aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi."
+  kanon_durumu: "uyarlama"
+  cevirmen_notu: "Tazim ismi satırları Circle of Inevitability Kanonundaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
+  spoiler: true
+  bolum_siniri: 61
+
+- terim: "Kadim Şeytaniçe (Tam Tazim İsmi)"
+  ingilizce: "Primordial Demoness (Full Honorific)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi.<br>Kadir-i Mutlak'ın Nisvani Bedeni,<br>Ayinedeki Aslî Yaradan."
   kanon_durumu: "uyarlama"
   cevirmen_notu: "Kaynak Circle of Inevitability'dir (LotM değil). Son iki satır ('Kadir-i Mutlak'ın Nisvani Bedeni', 'Ayinedeki Aslî Yaradan') kanona sadıktır. Buna karşın ilk dört satır, kanondaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   spoiler: true
-  bolum_siniri: 61
+  bolum_siniri: 9999
 
 - terim: "Haiter"
   ingilizce: "Haiter"
@@ -432,7 +442,7 @@
   ingilizce: "The True Creator"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Hakiki Hâlık,<br>Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
+  aciklama: "Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
   kanon_durumu: "uyarlama"
   cevirmen_notu: "Kanondaki üç satırın üçüncüsü ('Degenerate Nature of all Living Things') burada bilinçli olarak kullanılmadı. Yerine 'Müşfik Peder' ve 'Cümle Cürümü Sırtlayan Rab' eklendi. Unvanlar objektif tasvir değil, takipçilerin ağzından ayinsel bir hitap olduğundan, Âdem'in kilisesinin onu böyle yücelteceği düşünüldü. Yıkıcı/objektif satır bilinçli olarak 'Yarı Kadir-i Mutlak Âdem' girdisine (Cümle Zîhayatın Sefil Fıtratı) ayrıldı. İlk iki satır kanona sadıktır."
   cevirmen_notu_sinir: 9999
@@ -601,6 +611,15 @@
   spoiler: true
   bolum_siniri: 1
 
+- terim: "Ebedi Gece Tanrıçası (Dünya Savaşı Sonrası)"
+  ingilizce: "Evernight Goddess (After the World War)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
+  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
+  spoiler: true
+  bolum_siniri: 1
+
 - terim: "Fırtınalar Hakimi"
   ingilizce: "Lord of Storms"
   kategori: "İlahlar ve Yüce Kadimler"
@@ -628,14 +647,6 @@
   spoiler: true
   bolum_siniri: 3
 
-- terim: "Toprak Ana"
-  ingilizce: "Earth Mother"
-  kategori: "İlahlar ve Yüce Kadimler"
-  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
-  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Nihai Menzil,<br>Bereketin Pınarı,<br>Tevellüt ve Tenasülün Timsali."
-  spoiler: true
-  bolum_siniri: 3
-
 - terim: "Toprak Ana (Dünya Savaşı Sonrası)"
   ingilizce: "Earth Mother (After The World War)"
   kategori: "İlahlar ve Yüce Kadimler"
@@ -644,11 +655,21 @@
   spoiler: true
   bolum_siniri: 9999
 
+- terim: "Toprak Ana"
+  ingilizce: "Earth Mother"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
+  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Nihai Menzil,<br>Bereketin Pınarı,<br>Tevellüt ve Tenasülün Timsali."
+  spoiler: true
+  bolum_siniri: 3
+
 - terim: "İlim ve Hikmetin İlahı"
   ingilizce: "God of Knowledge and Wisdom"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "İlim Burcu,<br>İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
+  kanon_durumu: "uyarlama"
+  cevirmen_notu: "Kanonik unvan dört satırdır (知识之塔 / 理性化身 / 智慧之神 / 洞悉万物的学者). Türkçe versiyonda üç müdahale bulunur. (1) 2. ve 3. satırlar yer değiştirmiştir; ayrıca kanonun 智慧之神 ('hikmet ilahı') satırı yerine ilahın tam adı kullanılmıştır. (2) 'Aklın Nuru', 理性化身'in literal karşılığı değildir. 'Tecessüm/化身' bedenlenmeye dayalı bir imgedir. 'Nur' ise İşrâkî geleneğin akıl-ışık özdeşliğine (nûr-ı akl) yaslanarak aynı işlevi görür. (3) 4. satır 'Bahr-i İrfan' literal çeviri değildir; kanondaki 洞悉万物的学者 ('her şeyi kavrayan alim') satırının yerine yazılmıştır. Kanon satırı bir fail (alim) tanımlarken Türkçe satır bir mahiyet (derya) tanımlar. Sebep: 'irfan', klasik tasnifte 'ilim'den (kesbî bilgi) ayrı olarak vehbî/tecrübî bilgiyi imler. Bu satırla birlikte unvan ilim–hikmet–akıl–irfan dörtlüsünü kapsar; kanonun bilgi/akıl/hikmet/kavrayış dizisinin Türkçedeki tam karşılığı bu dörtlüdür."
   spoiler: true
   bolum_siniri: 3
 
@@ -945,6 +966,7 @@
       bolum_siniri: 1110
     - seviye: 0
       isim: "Yargı (Justiciar)"
+      cevirmen_notu: "'Yargı'nın hem Xio Derecha'nın Tarot kod adı hem de bu yolun Mertebe 0 adı olması bir Türkçe çakışması değildir; kaynaktan gelir. Çincede yolun adı 审判者途径'dir ve hem Mertebe 0 hem de Xio'nun son unvan satırı aynı kelimeyi kullanır. İngilizce çeviri bu ikisini 'Justiciar' ve 'Judgment' olarak ayırmıştır, Çince ayırmaz. Xio'nun bu yola mensup olduğu düşünüldüğünde örtüşme tesadüfi değil anlamlıdır ve bilinçli olarak korunmuştur."
       bolum_siniri: 743
 
 # Helak Felaketi (Calamity of Destruction)
