@@ -32,7 +32,7 @@
 - terim: "Öte İlahlar"
   ingilizce: "Outer Deities"
   kategori: "Temel Kavramlar"
-  aciklama: "Kozmosun derinliklerinden gelen, Dünya'ya ve onun üzerindeki Aşkın Yollarına göz dikmiş, akıl almaz ve mutlak kötülüğü temsil eden kozmik varlıklar."
+  aciklama: "Yıldızlı Gökkubbenin ötesi gelen, Dünya'ya ve onun üzerindeki Aşkın Yollarına göz dikmiş, akıl almaz ve mutlak kötülüğü temsil eden kozmik varlıklar."
   spoiler: true
   bolum_siniri: 1223
 
@@ -50,7 +50,7 @@
   spoiler: true
   bolum_siniri: 440
 
-- terim: "Kozmos"
+- terim: "Yıldızlı Gökkubbenin ötesi"
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
@@ -102,7 +102,7 @@
 - terim: "Tazim İsmi"
   ingilizce: "Honorific Name"
   kategori: "Temel Kavramlar"
-  aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç veya dört satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
+  aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç ila altı satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
   spoiler: true
   bolum_siniri: 61
 
@@ -301,7 +301,7 @@
 - terim: "Fecir Tarikatı"
   ingilizce: "Aurora Order"
   kategori: "Organizasyonlar"
-  aciklama: "Hakiki Yaratıcı'ya tapan ve dünyanın sonunun geldiğine inanan aşırı fanatik bir kült. İnsanlığın kurtuluşunun ancak Hakiki Yaratıcı'nın kan ve et yoluyla fiziksel dünyaya inmesiyle mümkün olacağını savunur ve bu uğurda kanlı ayinler düzenlerler."
+  aciklama: "Hakiki Hâlık'a tapan ve dünyanın sonunun geldiğine inanan aşırı fanatik bir kült. İnsanlığın kurtuluşunun ancak Hakiki Hâlık'ın kan ve et yoluyla fiziksel dünyaya inmesiyle mümkün olacağını savunur ve bu uğurda kanlı ayinler düzenlerler."
   spoiler: true
   bolum_siniri: 53
 
@@ -322,7 +322,7 @@
 - terim: "Şeytaniçe Tarikatı"
   ingilizce: "Demoness Sect"
   kategori: "Organizasyonlar"
-  aciklama: "Kadim Şeytaniçe'ye tapan, üyelerinin tamamı sonradan kadına dönüşenlerden erkeklerden oluşan, felaket ve yozlaşma getiren kadim gizli örgüt."
+  aciklama: "Kadim Şeytaniçe'ye tapan, üyelerinin tamamı sonradan kadına dönüşen erkeklerden oluşan, felaket ve yozlaşma getiren kadim gizli örgüt."
   spoiler: true
   bolum_siniri: 66
 
@@ -376,19 +376,55 @@
   spoiler: true
   bolum_siniri: 1270
 
+- terim: "Kadim Ay"
+  ingilizce: "Primordial Moon"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
+  aciklama: "Emsalsiz Kızıl Ay,<br>Hayat ve Cemalin Timsali,<br>Cümle Ruhani Kuvvetlerin Anası."
+  spoiler: true
+  bolum_siniri: 352
+
+- terim: "Arzuların Ana Şeceresi"
+  ingilizce: "Mother Tree of Desire"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
+  aciklama: "Arzuların Ana Şeceresi,<br>İblislerin Pederi,<br>Garibelerin Hükümdarı,<br>Lanetlerin Menbaı,<br>Mütemadi Bedzeban,<br>Bî-kalb İlah."
+  spoiler: true
+  bolum_siniri: 1271
+
 - terim: "Kadim Şeytaniçe"
   ingilizce: "Primordial Demoness"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
-  aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi."
+  aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi.<br>Kadir-i Mutlak'ın Nisvani Bedeni,<br>Ayinedeki Aslî Yaradan."
+  kanon_durumu: "uyarlama"
+  cevirmen_notu: "Kaynak Circle of Inevitability'dir (LotM değil). Son iki satır ('Kadir-i Mutlak'ın Nisvani Bedeni', 'Ayinedeki Aslî Yaradan') kanona sadıktır. Buna karşın ilk dört satır, kanondaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   spoiler: true
   bolum_siniri: 61
 
-- terim: "Hakiki Yaratıcı"
+- terim: "Haiter"
+  ingilizce: "Haiter"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Cehennemin Ka'rındaki Hükümdar,<br>Mevtin Nağmelerini İcra Eden Melek,<br>Berzah Nehri'nin Fevkindeki Hükümran."
+  spoiler: true
+  bolum_siniri: 1080
+
+- terim: "Ölüm"
+  ingilizce: "Death"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Mevtin Mahiyeti,<br>Emvatın Hükümdarı,<br>Cümle Zîhayatın Nihai Menzili."
+  spoiler: true
+  bolum_siniri: 931
+
+- terim: "Hakiki Hâlık"
   ingilizce: "The True Creator"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Hakiki Yaratıcı (Hakiki Hâlık),<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
+  aciklama: "Hakiki Hâlık,<br>Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
+  kanon_durumu: "uyarlama"
+  cevirmen_notu: "Kanondaki üç satırın üçüncüsü ('Degenerate Nature of all Living Things') burada bilinçli olarak kullanılmadı. Yerine 'Müşfik Peder' ve 'Cümle Cürümü Sırtlayan Rab' eklendi. Unvanlar objektif tasvir değil, takipçilerin ağzından ayinsel bir hitap olduğundan, Âdem'in kilisesinin onu böyle yücelteceği düşünüldü. Yıkıcı/objektif satır bilinçli olarak 'Yarı Kadir-i Mutlak Âdem' girdisine (Cümle Zîhayatın Sefil Fıtratı) ayrıldı. İlk iki satır kanona sadıktır."
   spoiler: true
   bolum_siniri: 61
 
@@ -396,17 +432,35 @@
   ingilizce: "Ancient Sun God"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Kadim Güneş Tanrısı,<br>Mevcudatı Halk Eden Rab;<br>Mutlak Kadir ve Mutlak Alim İlah;<br>Namütenahi Melekutun Yüce Hükümdarı."
+  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak,<br>Cümle Azametin Menbaı,<br>Evvel ve Âhir,<br>İlahların İlahı,<br>Namütenahi Alem-i Misal'in Yüce Hükümdarı."
   spoiler: true
-  bolum_siniri: 359
+  bolum_siniri: 672
 
-- terim: "Tahayyül Meleği (Âdem)"
-  ingilizce: "Angel of Imagination (Adam)"
+- terim: "Yarı Kadir-i Mutlak Âdem (Yarı Yüce Kadim)"
+  ingilizce: "Half God Almighty Adam (Half Great Old One)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
+  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak İlah,<br>Zıl Perdesinin Ardındaki Hükümdar,<br>Alem-i Zihnin Hâkimi,<br>Cümle Zîhayatın Sefil Fıtratı."
+  spoiler: true
+  bolum_siniri: 9999
+
+- terim: "Tahayyül Meleği Âdem (Melekler Kralı)"
+  ingilizce: "Angel of Imagination Adam"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
+  kanon_durumu: "ozgun"
+  cevirmen_notu: "Kanonda karşılığı yoktur ve tamamen özgündür. 'Kurgucu' bilinçli olarak modern registerdedir ve Seyirci yolunun ilgili Mertebesine atıf yapar. 'Külli Şuur-altı Deryası' yolun özünü (kolektif bilinçaltı) yansıtır."
   spoiler: true
   bolum_siniri: 815
+
+- terim: "Halaz Meleği Amon"
+  ingilizce: "Angel of Redemption Amon"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
+  aciklama: "Mukadderat Boyunca Gezinen Gölge,<br>Mazide Meskun Hilekârlık İlahı,<br>Mukadder Mesih."
+  spoiler: true
+  bolum_siniri: 9999
 
 - terim: "Hilekârlık ve Aldatmaca İlahı Amon (Gerçek İlah)"
   ingilizce: "God of Deceit and Mischief Amon (True God)"
@@ -432,6 +486,16 @@
   spoiler: true
   bolum_siniri: 216
 
+- terim: "Kotar"
+  ingilizce: "Kotar"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
+  aciklama: "Maziyle Kaim Olan Zifiri Hükümdar,<br>Bîşümar Mucizatın Tecessümü,<br>Muradata Hükmeden İlah,<br>Sislerin Ardında Gizlenen Kadim Kuklacı,<br>Metruk Diyarda Gezinen Şeytani Kurt."
+  kanon_durumu: "tamamlanmis"
+  cevirmen_notu: "Kanonda tazim ismi eksiktir. Yalnızca ilk üç satır mevcuttur (yazar da 'tamamlanmamış' notunu düşmüştür). Son iki satır karaktere dayanarak tamamlandı. 4. satır: Soytarı yoluna mensup olduğundan Kukla (Mertebe 5) ve Mazi Sisi (Mertebe 3) onun kanonik yetenekleridir; kendisi Mertebe 1'dir. 5. satır: 'Metruk Diyar', Amon'dan gizlendiği 'Tanrıların Metruk Diyarı'nın kısaltmasıdır; 'Şeytani Kurt' ise doğrudan ırkıdır (Demonic Wolf)."
+  spoiler: true
+  bolum_siniri: 1242
+
 - terim: "Medici"
   ingilizce: "Medici"
   kategori: "İlahlar ve Yüce Kadimler"
@@ -444,31 +508,83 @@
   ingilizce: "Will Auceptin"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nur Miftahı (Key of Light)"
-  aciklama: "Alemin Mutlak Talihi,<br>İhtimallerin Tecessümü,<br>Kaderin Timsali."
+  aciklama: "Mutlak Talihin Tecessümü,<br>İstikbale Vakıf Canavar,<br>Şeamet Saçan Afet,<br>Backlund'daki Cümle Mukadderatın Şahidi,<br>Kargaşa ve Cinnetin Muhafızı."
   spoiler: true
-  bolum_siniri: 591
+  bolum_siniri: 1178
+
+- terim: "Ouroboros"
+  ingilizce: "Ouroboros"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Nur Miftahı (Key of Light)"
+  aciklama: "Özünü yutan Merkür Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Resulü."
+  spoiler: true
+  bolum_siniri: 87
+
+- terim: "Kızıl Işık (Alur Moria)"
+  ingilizce: "Red Light"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "???"
+  aciklama: "Alem-i Ervah'ın Sönmez Nuru,<br>Namütenahi İlmin Tecessümü,<br>Hüküm ve İradeyi Kuşanan Kızıl."
+  spoiler: true
+  bolum_siniri: 921
+
+- terim: "Deniz İlahı Kalvetua"
+  ingilizce: "Sea God Kalvetua"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
+  aciklama: "Umman ve Alem-i Ervah'ın Kutsanmışı,<br>Rorsted Takımadaları'nın Muhafızı,<br>Bahrin derinliklerindeki mahlukatın Hükümranı,<br>Tufan ve Fırtınaların Maliki,<br>Yüce Kalvetua."
+  spoiler: true
+  bolum_siniri: 545
+
+- terim: "Sihirli Ayna Arrodes"
+  ingilizce: "Arrodes the Magic Mirror"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadir-i Mutlak (God Almighty)"
+  aciklama: "Cümle Mahlukata nazar eden Gözler,<br>Aslî Diyar'ın Mukaddes Yarası,<br>Soytarı'ya bende olan Âlim-i Mutlak,<br>Yüce Arrodes."
+  spoiler: true
+  bolum_siniri: 9999
+
+- terim: "Bernadette Gustav"
+  ingilizce: "Bernadette Gustav"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Marifet İfriti (Demon of Knowledge)"
+  aciklama: "İlme talip Mukaddes Ruh,<br>Esrar Aleminin Feneri,<br>Mukadderatı gözetleyen Gözler,<br>Ummanlar Üstündeki Hükümran,<br>Pak ve Mukaddes Bernadette Gustav."
+  spoiler: true
+  bolum_siniri: 1144
 
 - terim: "Batınî Bilge"
   ingilizce: "The Hidden Sage"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "Batınî Bilge,<br>Cümle Marifetin Tecessümü,<br>Cümle Aşkınların Kabusu,<br>Alemi Gözleyen Na-mer’i Gözler."
+  kanon_durumu: "ozgun"
+  cevirmen_notu: "Kanon bir Tazim İsmi olmadığından tarafımca yazılmıştır."
   spoiler: true
   bolum_siniri: 61
 
 - terim: "Prangalı İlah"
   ingilizce: "The Chained God"
   kategori: "İlahlar ve Yüce Kadimler"
-  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
+  yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   aciklama: "Prangalı İlah,<br>Alemin Garezi,<br>Mukayyet Yürek."
+  kanon_durumu: "ozgun"
+  cevirmen_notu: "Kanon bir Tazim İsmi olmadığından tarafımca yazılmıştır."
   spoiler: true
   bolum_siniri: 366
+
+- terim: "Ebedi Gece Tanrıçası (Sermedi Zulmet)"
+  ingilizce: "Evernight Goddess (Eternal Darkness)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Sermedi Zulmet,<br>Mevcudatın Nokta-i Vâhidi,<br>Zaman ve Mekânı Cem Eden."
+  spoiler: true
+  bolum_siniri: 9999
 
 - terim: "Ebedi Gece Tanrıçası"
   ingilizce: "Evernight Goddess"
   kategori: "İlahlar ve Yüce Kadimler"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
-  aciklama: "Ebedi Gece Tanrıçası,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
   spoiler: true
   bolum_siniri: 1
 
@@ -484,7 +600,9 @@
   ingilizce: "Eternal Blazing Sun"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Ebedi Yanan Güneş,<br>Sönmez Işık,<br>Düzenin Timsali,<br>Akitlerin Tanrısı,<br>Ticaretin Hamisi."
+  aciklama: "Ebedi Yanan Güneş,<br>Sönmez Işık,<br>Düzenin Timsali,<br>Akitlerin Tanrısı,<br>Ticaretin Hamisi.<br>Cümle Zîhayatın Pederi"
+  kanon_durumu: "kanon"
+  cevirmen_notu: "6. satır kanonik ama çekirdek unvanın parçası değil. Sadece kilise üyeleri tarafından kullanılır ve aslen Kadir-i Mutlak'a işaret eder."
   spoiler: true
   bolum_siniri: 3
 
@@ -492,7 +610,7 @@
   ingilizce: "God of Steam and Machinery"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
-  aciklama: "Buhar ve Çarkların İlahı,<br>Tabiiyatın Özü,<br>Zanaatkârların Piri."
+  aciklama: "Buhar ve Çarkların İlahı,<br>Tabiiyatın Özü,<br>Zanaatkârların Piri.<br>Fenniyatın Ziyası"
   spoiler: true
   bolum_siniri: 3
 
@@ -500,36 +618,60 @@
   ingilizce: "Earth Mother"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
-  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Bereketin Pınarı,<br>Tenasül ve Kızıl Ayın Timsali,<br>Her Şeyin Evveli ve Ahiri."
+  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Nihai Menzil,<br>Bereketin Pınarı,<br>Tevellüt ve Tenasülün Timsali."
   spoiler: true
   bolum_siniri: 3
+
+- terim: "Toprak Ana (Dünya Savaşı Sonrası)"
+  ingilizce: "Earth Mother (After The World War)"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
+  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Bereketin Pınarı,<br>Tenasül ve Kızıl Ayın Timsali,<br>Her Şeyin Evveli ve Ahiri."
+  spoiler: true
+  bolum_siniri: 9999
 
 - terim: "İlim ve Hikmetin İlahı"
   ingilizce: "God of Knowledge and Wisdom"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
+  aciklama: "İlim Burcu,<br>İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
   spoiler: true
   bolum_siniri: 3
 
 - terim: "Cenk Tanrısı"
   ingilizce: "God of Combat"
   kategori: "İlahlar ve Yüce Kadimler"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
-  aciklama: "Cenk Tanrısı,<br>Gurubun Hükümdarı,<br>Şafak Kılıcını Kuşanan."
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
+  aciklama: "Kudret ve Şanın Timsali,<br>Ulu Şövalye İlahı,<br>Cenk Hükümdarı,<br>Top ve Tüfeğin Hamisi,<br>Cümle Mevcudatın Gurubu."
   spoiler: true
   bolum_siniri: 3
 
 # -----------------------
 # TAROT KULÜBÜ ÜYELERİ
 # -----------------------
-- terim: "Dünya (The World)"
-  ingilizce: "Gehrman Sparrow"
+- terim: "Halas Meleği Gehrman Sparrow"
+  ingilizce: "Angel of Redemption Gehrman Sparrow"
   kategori: "Tarot Kulübü"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
   spoiler: true
   bolum_siniri: 9999
+
+- terim: "Dünya (The World) V2"
+  ingilizce: "Gehrman Sparrow"
+  kategori: "Tarot Kulübü"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
+  aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Backlund'ın cümle fukara çocuklarının Hamisi,<br>Yüce Gehrman Sparrow."
+  spoiler: true
+  bolum_siniri: 1177
+
+- terim: "Dünya (The World) V1"
+  ingilizce: "Gehrman Sparrow"
+  kategori: "Tarot Kulübü"
+  yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
+  aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Sihir ve temaşa ehlinin Hamisi,<br>Yüce Gehrman Sparrow."
+  spoiler: true
+  bolum_siniri: 1139
 
 - terim: "Adalet (Justice)"
   ingilizce: "Audrey Hall"
@@ -558,7 +700,7 @@
 - terim: "Yıldız (The Star)"
   ingilizce: "Leonard Mitchell"
   kategori: "Tarot Kulübü"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Ebedi Gece'nin Muhafızı;<br>Dehşeti gözetleyen Uykusuz Melek;<br>Gizliliğe hizmet eden Geceyarısı Şairi;<br>Kaderin Meşalesi'nin zirvesindeki Nur;<br>Yolunu yitirenlere kılavuzluk eden Yıldız."
   spoiler: true
   bolum_siniri: 9999
@@ -567,7 +709,7 @@
   ingilizce: "Fors Wall"
   kategori: "Tarot Kulübü"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "<b>Mertebe 2:</b><br>Kainat Seyyahı;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Dünya'nın Vakanüvis Efsuncusu.<br><br><b>Mertebe 1:</b><br>Dünya'nın Vakanüvis Efsuncusu;<br>Kainat Seyyahı;<br>Zifiri Kainatı Aralayan Miftah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Yollara ve Amellere Hükmeden Hokkabaz."
+  aciklama: "<b>Mertebe 2:</b><br>Yıldızlı Kubbede Seyran Eden Seyyah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Dünya'nın Vakanüvis Efsuncusu.<br><br><b>Mertebe 1:</b><br>Dünya'nın Vakanüvis Efsuncusu;<br>Yıldızlı Kubbede Seyran Eden Seyyah;<br>Zifiri Kainatı Aralayan Miftah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Yollara ve Amellere Hükmeden Hokkabaz."
   spoiler: true
   bolum_siniri: 9999
 
@@ -598,7 +740,7 @@
 - terim: "İtidal (Temperance)"
   ingilizce: "Sharron"
   kategori: "Tarot Kulübü"
-  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
+  yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   aciklama: "Cümle varlığı lanetleyen Kukla;<br>Tarihin dehlizlerinden kopan Garibe;<br>Sessizlik ve sıradanlık bahşeden Mürit;<br>Arzu ve şer düşüncelere başkaldıran İtidal Hanımefendisi;<br>Alem-i Ervah Hakimi'nin Naibi."
   spoiler: true
   bolum_siniri: 9999
@@ -820,7 +962,8 @@
       isim: "Hasatçı (Reaper)"
       bolgesel:
         kultur: "Intis"
-        isim: "Mareşal"
+        isim: "*Mareşal"
+        cevirmen_notu: "Özgün terim 'Reaper' (Loen'de 'Hasatçı' olarak korunmuştur) hasat/ruh-biçen imgesini taşır; Intis bölgesel adı 'Mareşal' ise saf askerî bir rütbedir ve bu imgeyi karşılamaz. Tercih iki gerekçeyle yapıldı: (1) Intis bölgesel adları resmî/Fransızca registerdedir (Provokatör, Piroman) ve 'Mareşal' bu örüntüye tam oturur; (2) her ne kadar mertebenin yeteneklerine değilse de, ilerleme ayinine ve özellikle Avcı Yolu'nun genel kumandanlık/komuta temalarına uygundur. Ayin, kişinin kendinden yüksek Mertebeli bir hedefi kuşatıp esir alarak zaferini onlara seyrettirmesini gerektirir; bu, bir kumandanın stratejik zaferini yansıtır. Şimdilik sabittir; daha iyi bir alternatif bulunursa gözden geçirilecektir. (Asteriks bu belirsizliği işaretler.)"
       bolum_siniri: 653
     - seviye: 4
       isim: "Demirkan Akıncısı (Iron-Blooded Knight)"
@@ -840,6 +983,7 @@
     - seviye: 0
       isim: "Ahmer Hünkar (Red Priest)"
       bolum_siniri: 456
+      cevirmen_notu: "'Priest' için 'Rahip' bilinçli olarak kullanılmadı. Türkçede 'Rahip' kelimesi bir harp ilahına tonal olarak yanlış oturur. 'Hünkar', Osmanlı sultanlarına verilen ve hükümdarlığın kutsal yönünü taşıyan bir unvandır. Sultanlar aynı zamanda halife ve 'Allah'ın yeryüzündeki gölgesi' sıfatını taşıdığından, unvan hem hükümranlık hem ruhbanî boyutu birlikte kapsar. Bu, Red Priest'in Fetih (Conquest) ile Kurban (Sacrifices) otoritelerini birleştiren doğasına 'Rahip'ten daha sadıktır. Kanon gloss da bunu destekler: 'Priest, bir kuvvet ayini olarak anlaşılabilir' yani unvan aslen ruhbanî değildir."
 
 - terim: "Suikastçı Yolu"
   ingilizce: "Assassin Pathway"
@@ -877,11 +1021,11 @@
       isim: "Şeytaniçe (Demoness)"
       bolum_siniri: 9999
 
-# Zulmet-i Ebediye (Eternal Darkness)
+# Sermedi Zulmet (Eternal Darkness)
 - terim: "Uykusuz Yolu"
   ingilizce: "Sleepless Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   mertebeler:
     - seviye: 9
       isim: "Uykusuz (Sleepless)"
@@ -917,7 +1061,7 @@
 - terim: "Naaş Toplayıcı Yolu"
   ingilizce: "Corpse Collector Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   mertebeler:
     - seviye: 9
       isim: "Naaş Toplayıcı (Corpse Collector)"
@@ -953,7 +1097,7 @@
 - terim: "Savaşçı Yolu"
   ingilizce: "Warrior Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Zulmet-i Ebediye (Eternal Darkness)"
+  yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   mertebeler:
     - seviye: 9
       isim: "Savaşçı (Warrior)"
@@ -1016,6 +1160,7 @@
     - seviye: 2
       isim: "Resul (Soothsayer)"
       bolum_siniri: 237
+      cevirmen_notu: "'Soothsayer' için 'Kâhin' kullanılamadı; o terim Kâhin Yolu'nun 9. Mertebesine ayrılmıştır. 'Resul' (haberci/vahiy taşıyan) tercih edildi: Mertebenin yetenekleri Kader Nehri'ne bakıp vahiy/kehanet almak ve bunları dile getirmektir. Bu, resul figürünün işleviyle örtüşür."
     - seviye: 1
       isim: "Merkür Yılanı (Snake of Mercury)"
       bolum_siniri: 237
@@ -1023,11 +1168,11 @@
       isim: "Şans Çarkı (Wheel of Fortune)"
       bolum_siniri: 9999
 
-# Arzunun Ana Ağacı (Mother Tree of Desire)
+# Arzuların Ana Şeceresi (Mother Tree of Desire)
 - terim: "Suçlu Yolu"
   ingilizce: "Criminal Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
+  yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   mertebeler:
     - seviye: 9
       isim: "Suçlu (Criminal)"
@@ -1039,7 +1184,7 @@
       isim: "Seri Katil (Serial Killer)"
       bolum_siniri: 258
     - seviye: 6
-      isim: "Zebani (Devil)"
+      isim: "İblis (Devil)"
       bolum_siniri: 414
     - seviye: 5
       isim: "Arzu Havarisi (Desire Apostle)"
@@ -1063,7 +1208,7 @@
 - terim: "Mahkum Yolu"
   ingilizce: "Prisoner Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Arzunun Ana Ağacı (Mother Tree of Desire)"
+  yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   mertebeler:
     - seviye: 9
       isim: "Mahkum (Prisoner)"
@@ -1156,6 +1301,7 @@
     - seviye: 4
       isim: "Kimyager (Alchemist)"
       bolum_siniri: 237
+      cevirmen_notu: "İngilizce özgün terim 'Alchemist' olsa da bilinçli olarak 'Simyacı' değil 'Kimyager' tercih edildi. Sebep iki yönlü: (1) Çiftçi Yolu'ndaki 'Kadim Simyacı' ile aynı Mertebede iki 'Simya' türevinin çakışmasını önlemek; (2) Bilgin Yolu özünde dönüşüm/simya değil, zanaat, bilim ve inovasyon yoludur bu yüzden modern 'Kimya' yolun ruhuna daha uygundur. Kanon da bu esnekliği destekler: Roselle Gustav'ın hizmetleri sayesinde bu yolun ilahı, Beşinci Çağ'da mukaddes bir fermanla kendi adını dahi 'Zanaatkârlık İlahı'ndan 'Buhar ve Çarkların İlahı'na çevirmiştir; tek bir mertebe adının uyarlanması bu bağlamda gayet mümkündür."
     - seviye: 3
       isim: "Sır Alimi (Arcane Scholar)"
       bolum_siniri: 237
@@ -1369,16 +1515,16 @@
       isim: "Tabiatşinas (Biologist)"
       bolum_siniri: 707
     - seviye: 5
-      isim: "Orman Keşişi (Druid)"
+      isim: "Orman Derviş (Druid)"
       bolum_siniri: 708
     - seviye: 4
-      isim: "Kadim Simyacı (Classical Alchemist)"
+      isim: "Kadim Simyacı (Ancient Alchemist)"
       bolum_siniri: 1136
     - seviye: 3
       isim: "Tabut Hamili (Pallbearer)"
       bolum_siniri: 1321
     - seviye: 2
-      isim: "Çorak Mader / Issız Ana (Desolate Matriarch)"
+      isim: "Çorak Mader (Desolate Matriarch)"
       bolum_siniri: 1271
     - seviye: 1
       isim: "Doğa Seyyahı (Naturewalker)"
@@ -1422,3 +1568,4 @@
     - seviye: 0
       isim: "Ay (Moon)"
       bolum_siniri: 9999
+
