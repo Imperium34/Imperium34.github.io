@@ -33,6 +33,7 @@
   ingilizce: "Outer Deities"
   kategori: "Temel Kavramlar"
   aciklama: "Yıldızlı Gökkubbenin ötesi gelen, Dünya'ya ve onun üzerindeki Aşkın Yollarına göz dikmiş, akıl almaz ve mutlak kötülüğü temsil eden kozmik varlıklar."
+  cevirmen_notu: "'Harici İlahlar' değerlendirildi ve reddedildi; 'harici' modern Türkçede neredeyse yalnızca 'harici disk' gibi teknik bağlamlarla anılıyor ve tanrısal bir varlık için uygun düşmüyor. 'Öte' bilinçli olarak yumuşak/folklorik bırakıldı; bu, Yüce Kadim gibi daha sert 'Kadim' köküyle kurulan terimlerden kasıtlı bir tonal fark yaratıyor."
   spoiler: true
   bolum_siniri: 1223
 
@@ -54,6 +55,7 @@
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
+  cevirmen_notu: "Çince orijinali sadece 'Yıldızlı Gökyüzü'dür; İngilizce 'Cosmos' ise nötr bir terimdir. 'Gökkubbe' bilinçli tercih edildi çünkü kubbe/mimari çağrışımı, bu kavramın aynı zamanda Yaradan'ın kurduğu bariyer olma işlevini önceden haber veriyor. Gökyüzünün aslında dünyayı çevreleyen bir kabuk olduğunu ima ediyor. Ne Çince ne İngilizce kaynak bunu mimari olarak kodlamıyor."
   spoiler: true
   bolum_siniri: 892
 
@@ -120,7 +122,7 @@
   spoiler: true
   bolum_siniri: 127
 
-- terim: "Ayin İlmi (Ritüel Büyüsü)"
+- terim: "Ayin İlmi"
   ingilizce: "Ritual Magic"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
@@ -131,6 +133,7 @@
   ingilizce: "Sefirot"
   kategori: "Temel Kavramlar"
   aciklama: "Evrenin ve yolların en temel, kozmik ve teolojik özleri."
+  cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de -Sefirot'un gerçek anlamı olan 'sudur/köken'. ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
   spoiler: true
   bolum_siniri: 1203
 
@@ -250,6 +253,7 @@
   ingilizce: "Forsaken Land of the Gods"
   kategori: "Temel Kavramlar"
   aciklama: "Güneş ışığının asla ulaşmadığı, ebedi bir karanlığa, yıkıma ve fırtınalara mahkum edilmiş kadim bir kıta. Dehşet verici mutasyonların, şirazeden çıkmış canavarların ve unutulmuş ilahların kalıntılarının kol gezdiği lanetli topraklardır."
+  cevirmen_notu: "'Metruk' normalde bina/yapı gibi somut nesneleri niteler, koca bir kıtaya uygulanması ölçek açısından alışılmadıktır. Bu bilinçli bir seçim: hiçbir toprağın gerçekte tanrılar tarafından bu ölçekte terk edilmiş olmaması gerektiği düşünüldüğünde, kelimenin doğal kapsamının zorlanması, durumun kendisinin ne kadar doğaya aykırı olduğunu yapısal olarak yansıtıyor."
   spoiler: true
   bolum_siniri: 137
 
@@ -316,6 +320,7 @@
   ingilizce: "Moses Ascetic Order"
   kategori: "Organizasyonlar"
   aciklama: "Bir zamanlar salt bilgiye ve irfana tapınan, ahlaki kuralları katı bir çilecilik üzerine kurulu kadim bir tarikat. Batınî Bilge'nin yozlaşarak uyanmasının ardından, tarikatın doğası tamamen değişmiş ve habis bir bilgi tapınağına dönüşmüştür."
+  cevirmen_notu: "'Mos' bilinçli olarak İngilizce 'Moses'ın tam transliterasyonu değil. Çince orijinalde kullanılan isim (摩斯苦修会), Çincenin Peygamber Musa için standart kullandığı transliterasyondan (摩西/Móxī) farklıdır; bu, İngilizce çevirmenin metne sonradan eklediği bir Batılı referans olabileceğine işaret ediyor. 'Mos' bu belirsizliği çözmeden koruyor."
   spoiler: true
   bolum_siniri: 28
 
@@ -348,7 +353,9 @@
   ingilizce: "Lord of the Mysteries"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Meşalesi,<br>Aslî Kale'nin Tecessümü,<br>Alem-i Ervah Hakimi."
+  aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Mihenk Taşı,<br>Aslî Kale'nin Tecessümü,<br>Alem-i Ervah Hakimi."
+  cevirmen_notu: "İlk tercih 'Meşale' idi ama Çince '道标' (yol işareti) ışıktan çok yön göstermeyle ilgilidir. 'Mihenk Taşı' (mihenk/dokunma taşı, kıymet ölçüm standardı) tercih edildi çünkü Korkak Üçlü Yollarının en üstünde bulunun bu varlık temelde hakikati sahteden ayırır hatta gerçek ve sahtenin ne olduğuna karar verendir. 'Beacon' burada yön göstermekten çok kader/hakikatin sınandığı bir ölçüt olarak okunabilir. Poetik nesne-imge korunmuş, anlam yönü kesinlik/doğrulama eksenine kaydırılmıştır."
+  cevirmen_notu: "'Sultan' bilinçli seçildi çünkü Soytarı Yolu'nun Mertebe 1 ismi 'Esrar Hadimi'dir (İngilizce: Attendant of Mysteries) ve bu iki unvan arasında saltanat temalı bir tutarlılık istendi."
   spoiler: true
   bolum_siniri: 1271
 
@@ -407,6 +414,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Cehennemin Ka'rındaki Hükümdar,<br>Mevtin Nağmelerini İcra Eden Melek,<br>Berzah Nehri'nin Fevkindeki Hükümran."
+  cevirmen_notu: "'Styx' transliterasyonu yerine 'Berzah' (İslami eskatolojide ölüm ile diriliş arasındaki ara evre/engel) tercih edildi. Yunan mitolojik özel adını doğrudan aktarmak yerine, aynı yapısal işlevi (yaşayanlar dünyası ile gerçek ölüm arasındaki sınır) gören, panteonun genel İslami-teolojik registerine daha uygun bir kavramsal karşılık kullanıldı."
   spoiler: true
   bolum_siniri: 1080
 
@@ -568,7 +576,7 @@
   yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   aciklama: "Prangalı İlah,<br>Alemin Garezi,<br>Mukayyet Yürek."
   kanon_durumu: "ozgun"
-  cevirmen_notu: "Kanon bir Tazim İsmi olmadığından tarafımca yazılmıştır."
+  cevirmen_notu: "Kanon bir Tazim İsmi olmadığından tarafımca yazılmıştır. Bilinçli olarak iki yönlü bırakıldı: hem 'dünyanın ona duyduğu kin' hem de 'onun dünyaya duyduğu kin' okumasına açık. Bu, Prangalı İlahın Mertebe adının 'Hilkat Garibesi' (Abomination) olması üzerinden pekiştiriliyor. 'garib' kökü hem 'tuhaf/yaratılış ucubesi' hem 'darginlik/kin' anlamlarına yakın durduğundan, dünyanın bir 'ucube'ye duyduğu tiksinti ile ucubenin kendisini yaratana/dünyaya duyduğu öfke aynı kelimede birleşiyor."
   spoiler: true
   bolum_siniri: 366
 
@@ -585,6 +593,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
+  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Evernight Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
   spoiler: true
   bolum_siniri: 1
 
@@ -701,7 +710,7 @@
   ingilizce: "Leonard Mitchell"
   kategori: "Tarot Kulübü"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
-  aciklama: "Ebedi Gece'nin Muhafızı;<br>Dehşeti gözetleyen Uykusuz Melek;<br>Gizliliğe hizmet eden Geceyarısı Şairi;<br>Kaderin Meşalesi'nin zirvesindeki Nur;<br>Yolunu yitirenlere kılavuzluk eden Yıldız."
+  aciklama: "Ebedi Gece'nin Muhafızı;<br>Dehşeti gözetleyen Uykusuz Melek;<br>Gizliliğe hizmet eden Geceyarısı Şairi;<br>Kaderin Mihenk Taşı'nın zirvesindeki Nur;<br>Yolunu yitirenlere kılavuzluk eden Yıldız."
   spoiler: true
   bolum_siniri: 9999
 
@@ -733,7 +742,7 @@
   ingilizce: "Xio Derecha"
   kategori: "Tarot Kulübü"
   yol_grubu: "Anarşi (Anarchy)"
-  aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İcracısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Meşalesi'nin Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
+  aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İcracısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Mihenk Taşı'nın Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
   spoiler: true
   bolum_siniri: 9999
 
@@ -936,6 +945,7 @@
   ingilizce: "Hunter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
+  cevirmen_notu: "Bu yoldaki 'bolgesel' alanı özgün bir eklemedir ve kaynak materyalde karşılığı yoktur. Loen'in resmî Mertebe isimlerinin yanında bölgesel argo/rütbe kullanımı yaratma fikri tamamen bana aittir ve şu an için sadece Avcı Yolu'nda uygulanmıştır. Bunun sebebi Intis'teki Avcı Yoluna ait Aşkın sayısının fazla olması ve kültürleriyle birleşmiş olmasıdır. İleride başka yollara genişletilebilir."
   mertebeler:
     - seviye: 9
       isim: "Avcı (Hunter)"
@@ -1159,8 +1169,8 @@
       bolum_siniri: 1227
     - seviye: 2
       isim: "Resul (Soothsayer)"
+      cevirmen_notu: "'Kâhin' yerine 'Resul' bilinçli tercih edildi. Kaynak: Şans Çarkı Yolu'nun Soothsayer Mertebesi (S2) yeteneği pasif kehanet değil, aktif bir kehanetin gerçekliğe dönüşme olasılığını yükseltmesidir (bkz. Lumian Lee örneği). Yani sözleri edilgen bir öngörü değil neredeyse performatif bir bildirimdir. Bu, 'gizli işaretleri yorumlayan' Kâhin'den çok, 'yetkiyle ileten' Resul tanımına daha yakındır."
       bolum_siniri: 237
-      cevirmen_notu: "'Soothsayer' için 'Kâhin' kullanılamadı; o terim Kâhin Yolu'nun 9. Mertebesine ayrılmıştır. 'Resul' (haberci/vahiy taşıyan) tercih edildi: Mertebenin yetenekleri Kader Nehri'ne bakıp vahiy/kehanet almak ve bunları dile getirmektir. Bu, resul figürünün işleviyle örtüşür."
     - seviye: 1
       isim: "Merkür Yılanı (Snake of Mercury)"
       bolum_siniri: 237

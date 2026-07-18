@@ -38,6 +38,55 @@ body.spoiler-mode-active .dynamic-spoiler {
 body.spoiler-mode-active .hidden-sequence {
   display: list-item !important; 
 }
+
+/* --- Çevirmen Notu (Translator's Note) styles --- */
+.cevirmen-notu-toggle,
+.mertebe-notu {
+  margin-top: 10px;
+  display: block;
+}
+
+.cevirmen-notu-toggle summary,
+.mertebe-notu summary {
+  color: #c9a227;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.85em;
+  list-style: none;
+}
+
+.cevirmen-notu-toggle summary::-webkit-details-marker,
+.mertebe-notu summary::-webkit-details-marker {
+  display: none;
+}
+
+.cevirmen-notu-toggle summary::before,
+.mertebe-notu summary::before {
+  content: "▸ ";
+}
+
+.cevirmen-notu-toggle[open] summary::before,
+.mertebe-notu[open] summary::before {
+  content: "▾ ";
+}
+
+.cevirmen-notu-toggle p,
+.mertebe-notu p {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding: 10px 12px;
+  background: #1f1a10;
+  border-left: 3px solid #4a3d1a;
+  color: #d4bb63;
+  font-size: 0.88em;
+  line-height: 1.5;
+  border-radius: 4px;
+}
+
+.mertebe-notu {
+  margin-left: 4px;
+}
 </style>
 
 <h1>📖 Sözlük ve Çeviri Notları</h1>
@@ -102,11 +151,23 @@ body.spoiler-mode-active .hidden-sequence {
           <details style="cursor: pointer;">
             <summary style="color: #a41818; font-weight: bold; outline: none;">Spoiler İçerir (Görmek için tıklayın)</summary>
             <p style="margin-top: 10px; color: #ccc;">{{ item.aciklama }}</p>
+            {% if item.cevirmen_notu %}
+              <details class="cevirmen-notu-toggle">
+                <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
+                <p>{{ item.cevirmen_notu }}</p>
+              </details>
+            {% endif %}
           </details>
         </div>
       {% else %}
         {% if item.aciklama %}
           <p style="color: #ccc; margin-bottom: 0;">{{ item.aciklama }}</p>
+        {% endif %}
+        {% if item.cevirmen_notu %}
+          <details class="cevirmen-notu-toggle">
+            <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
+            <p>{{ item.cevirmen_notu }}</p>
+          </details>
         {% endif %}
       {% endif %}
 
@@ -123,6 +184,12 @@ body.spoiler-mode-active .hidden-sequence {
                   {{ mertebe.bolgesel.kultur }}:
                   <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
                 </span>
+              {% endif %}
+              {% if mertebe.cevirmen_notu %}
+                <details class="mertebe-notu">
+                  <summary>Çevirmen Notu</summary>
+                  <p>{{ mertebe.cevirmen_notu }}</p>
+                </details>
               {% endif %}
             </li>
           {% endfor %}
@@ -238,12 +305,23 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
+  // Reveal main term descriptions once the relevant chapter has been reached.
+  // NOTE: this rebuilds the container's innerHTML, so any nested
+  // Çevirmen Notu <details> block must be captured first and re-appended,
+  // otherwise it gets silently discarded when the spoiler unlocks.
   var mainSpoilers = document.querySelectorAll(".main-term-spoiler");
   mainSpoilers.forEach(function(container) {
     var unlockAt = parseInt(container.getAttribute("data-unlock"), 10);
     if (currentChapter >= unlockAt) {
-      var pContent = container.querySelector("p").innerHTML;
-      container.innerHTML = '<p style="color: #ccc; margin-bottom: 0;">' + pContent + '</p>';
+      var pEl = container.querySelector("p");
+      var pContent = pEl ? pEl.innerHTML : "";
+      var notuBlock = container.querySelector(".cevirmen-notu-toggle");
+
+      var newHtml = '<p style="color: #ccc; margin-bottom: 0;">' + pContent + '</p>';
+      if (notuBlock) {
+        newHtml += notuBlock.outerHTML;
+      }
+      container.innerHTML = newHtml;
     }
   });
 
