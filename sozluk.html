@@ -50,6 +50,58 @@ body.spoiler-mode-active .hidden-sequence {
   display: list-item !important; 
 }
 
+/* --- Bölüm ayarı --- */
+.bolum-kutusu {
+  background: #12100a;
+  border: 1px solid #4a3d1a;
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+.bolum-kutusu label {
+  display: block;
+  color: #d4af37;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.bolum-satir {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bolum-kutusu input[type="number"] {
+  width: 110px;
+  padding: 9px 10px;
+  font-size: 15px;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  color: #ddd;
+  border-radius: 4px;
+}
+.bolum-btn {
+  padding: 9px 14px;
+  font-size: 14px;
+  background: #241f10;
+  border: 1px solid #4a3d1a;
+  color: #d4bb63;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bolum-btn:hover { background: #2f2814; }
+.bolum-btn.ikincil { background: #1a1a1a; border-color: #333; color: #888; }
+.bolum-durum {
+  margin: 10px 0 0;
+  font-size: 0.85em;
+  color: #8a8a8a;
+}
+.bolum-durum strong { color: #d4bb63; }
+.bolum-uyari {
+  margin: 10px 0 0;
+  font-size: 0.85em;
+  color: #c98a3a;
+}
+
 /* --- Kaynak / müdahale rozetleri --- */
 .rozet {
   display: inline-block;
@@ -167,6 +219,20 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 
   </div>
   
+  <div class="bolum-kutusu">
+    <label for="bolumInput">Kaçıncı bölümdesiniz?</label>
+    <div class="bolum-satir">
+      <input type="number" id="bolumInput" min="0" max="9999" placeholder="ör. 245">
+      <button class="bolum-btn" onclick="bolumUygula()">Uygula</button>
+      <button class="bolum-btn" onclick="bolumBitirdim()">Seriyi bitirdim</button>
+      <button class="bolum-btn ikincil" id="bolumTemizleBtn" onclick="bolumTemizle()" style="display:none;">Okuma ilerlememi kullan</button>
+    </div>
+    <p class="bolum-durum" id="bolumDurum"></p>
+    <p class="bolum-uyari" id="bolumUyari" style="display:none;">
+      Bölüm belirtilmediği için yalnızca spoiler içermeyen girdiler gösteriliyor. Kaldığınız bölümü yazarsanız sözlük ona göre açılır.
+    </p>
+  </div>
+
   <button id="globalSpoilerBtn" onclick="toggleGlobalSpoiler()" style="padding: 12px; font-size: 15px; background: #4a0000; border: 1px solid #a41818; color: #ddd; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; transition: all 0.3s ease;">
     👁️ Tüm Sırları İfşa Et (Spoiler Modu)
   </button>
@@ -288,6 +354,82 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 var isGlobalSpoilerActive = false;
 var currentChapterGlobal = 0;
 
+var OKUMA_ANAHTARI = "imperiumLastChapterTitle";
+var TERCIH_ANAHTARI = "sozlukBolumTercihi";
+
+function okumaIlerlemesi() {
+  var baslik = localStorage.getItem(OKUMA_ANAHTARI);
+  if (!baslik) return null;
+  var m = baslik.match(/Bölüm\s+(\d+)/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function elleTercih() {
+  var v = localStorage.getItem(TERCIH_ANAHTARI);
+  if (v === null || v === "") return null;
+  var n = parseInt(v, 10);
+  return isNaN(n) ? null : n;
+}
+
+function etkinBolum() {
+  var t = elleTercih();
+  if (t !== null) return t;
+  var o = okumaIlerlemesi();
+  return o !== null ? o : 0;
+}
+
+function bolumUygula() {
+  var girdi = document.getElementById("bolumInput");
+  var n = parseInt(girdi.value, 10);
+  if (isNaN(n) || n < 0) { girdi.focus(); return; }
+  localStorage.setItem(TERCIH_ANAHTARI, String(n));
+  location.reload();
+}
+
+function bolumBitirdim() {
+  localStorage.setItem(TERCIH_ANAHTARI, "9999");
+  location.reload();
+}
+
+function bolumTemizle() {
+  localStorage.removeItem(TERCIH_ANAHTARI);
+  location.reload();
+}
+
+function bolumDurumunuYaz() {
+  var durum = document.getElementById("bolumDurum");
+  var uyari = document.getElementById("bolumUyari");
+  var temizle = document.getElementById("bolumTemizleBtn");
+  var girdi = document.getElementById("bolumInput");
+  if (!durum) return;
+
+  var tercih = elleTercih();
+  var okuma = okumaIlerlemesi();
+  var etkin = etkinBolum();
+
+  if (tercih !== null) {
+    temizle.style.display = okuma !== null ? "" : "none";
+    girdi.value = tercih === 9999 ? "" : tercih;
+    durum.innerHTML = tercih >= 9999
+      ? "Seriyi bitirmiş olarak işaretlendiniz; <strong>tüm girdiler</strong> açık."
+      : "Şu an <strong>Bölüm " + tercih + "</strong> olarak ayarlı (elle).";
+  } else if (okuma !== null) {
+    temizle.style.display = "none";
+    girdi.value = okuma;
+    durum.innerHTML = "Okuma ilerlemenize göre <strong>Bölüm " + okuma + "</strong>.";
+  } else {
+    temizle.style.display = "none";
+    durum.textContent = "";
+    uyari.style.display = "";
+  }
+
+  var toplam = document.querySelectorAll(".glossary-item").length;
+  var acik = document.querySelectorAll('.glossary-item[data-is-locked-hidden="false"]').length;
+  if (etkin > 0 || okuma !== null) {
+    durum.innerHTML += " " + acik + " / " + toplam + " girdi görünür.";
+  }
+}
+
 function spoilerDurumuUygula(el, acik) {
   if (acik) {
     el.classList.add("unlocked");
@@ -386,15 +528,7 @@ function toggleGlobalSpoiler() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var lastChapterTitle = localStorage.getItem("imperiumLastChapterTitle");
-  var currentChapter = 0; 
-  
-  if (lastChapterTitle) {
-    var match = lastChapterTitle.match(/Bölüm\s+(\d+)/i);
-    if (match) {
-      currentChapter = parseInt(match[1], 10);
-    }
-  }
+  var currentChapter = etkinBolum();
   currentChapterGlobal = currentChapter;
 
   var items = document.querySelectorAll('.glossary-item');
@@ -459,6 +593,15 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+
+  bolumDurumunuYaz();
+
+  var bolumInput = document.getElementById("bolumInput");
+  if (bolumInput) {
+    bolumInput.addEventListener("keydown", function(e) {
+      if (e.key === "Enter") { e.preventDefault(); bolumUygula(); }
+    });
+  }
 
   filterTerms();
 });
