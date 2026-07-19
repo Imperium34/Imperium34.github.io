@@ -1,0 +1,37 @@
+# ============================================================
+#  Imperium34.github.io/.gitignore
+#  Bu depo PUBLIC. Buraya giren her sey yayimlanir.
+# ============================================================
+
+# --- Jekyll ciktilari
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# --- SAVUNMA AMACLI: kaynak metin ASLA bu depoya girmemeli.
+#     Source/ klasoru kardes dizinde duruyor ama yanlislikla
+#     kopyalanma ihtimaline karsi kalibi burada da tutuyoruz.
+*.epub
+*.mobi
+*.azw3
+LotM_Volumes/
+Volume_*.txt
+
+# --- Arac ciktilari (Tools/Reports icinde durmali)
+*.tsv
+rapor*.txt
+denetim*.txt
+sozluk_etiketli.yml
+sozluk*.yedek.yml
+
+# --- Istemler ve ses haritalari burada degil, Tools/ icinde
+Prompts/
+voicemap*
+ses_haritasi*
+
+# --- Sistem
+.DS_Store
+Thumbs.db
+*.swp
+__pycache__/

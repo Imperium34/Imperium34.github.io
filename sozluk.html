@@ -120,6 +120,20 @@ body.spoiler-mode-active .hidden-sequence {
 .rozet-karma     { background: #1e2422; color: #8fb3a8; border-color: #35514a; }
 .rozet-denetim   { background: #1a1a1a; color: #666;    border-color: #333;    }
 
+.notu-parca {
+  margin-top: 8px !important;
+  border-left-color: #6b5520 !important;
+}
+.notu-parca.parca-kilitli { display: none !important; }
+body.spoiler-mode-active .notu-parca.parca-kilitli { display: block !important; }
+.notu-parca-etiket {
+  display: block;
+  font-size: 0.85em;
+  color: #8a7a4a;
+  margin-bottom: 4px;
+  font-style: italic;
+}
+
 .kaynak-ref {
   margin-top: 8px;
   font-size: 0.82em;
@@ -292,6 +306,12 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
               <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
                 <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
                 <p>{{ item.cevirmen_notu }}</p>
+                {% for parca in item.cevirmen_notu_ek %}
+                  <p class="notu-parca" data-unlock="{{ parca.sinir | default: 9999 }}">
+                    {% if parca.baslik %}<span class="notu-parca-etiket">{{ parca.baslik }}</span>{% endif %}
+                    {{ parca.metin }}
+                  </p>
+                {% endfor %}
                 {% if item.kaynak_ref %}<p class="kaynak-ref">Kaynak: {{ item.kaynak_ref }}</p>{% endif %}
               </details>
             {% endif %}
@@ -305,6 +325,12 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
           <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
             <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
             <p>{{ item.cevirmen_notu }}</p>
+            {% for parca in item.cevirmen_notu_ek %}
+              <p class="notu-parca" data-unlock="{{ parca.sinir | default: 9999 }}">
+                {% if parca.baslik %}<span class="notu-parca-etiket">{{ parca.baslik }}</span>{% endif %}
+                {{ parca.metin }}
+              </p>
+            {% endfor %}
             {% if item.kaynak_ref %}<p class="kaynak-ref">Kaynak: {{ item.kaynak_ref }}</p>{% endif %}
           </details>
         {% endif %}
@@ -566,6 +592,18 @@ document.addEventListener("DOMContentLoaded", function() {
       notu.classList.add("notu-locked");
     } else {
       notu.classList.remove("notu-locked");
+    }
+  });
+
+  var notuParcalari = document.querySelectorAll(".notu-parca");
+  notuParcalari.forEach(function(parca) {
+    var unlockAt = parseInt(parca.getAttribute("data-unlock"), 10);
+    if (currentChapter < unlockAt) {
+      parca.classList.add("parca-kilitli");
+      parca.setAttribute("aria-hidden", "true");
+    } else {
+      parca.classList.remove("parca-kilitli");
+      parca.removeAttribute("aria-hidden");
     }
   });
 

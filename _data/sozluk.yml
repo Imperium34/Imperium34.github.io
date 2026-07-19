@@ -125,7 +125,7 @@
   denetim: denetlenmedi
 
 - terim: "Ruhani Alem (Alem-i Ervah)"
-  ingilizce: "Spiritual World"
+  ingilizce: "Spirit World"
   kategori: "Temel Kavramlar"
   aciklama: "Fiziksel alemin üzerine örtülmüş, kavramların, ruhların ve efsanelerin var olduğu kaotik boyut. Aşkınlar burayı hızlı seyahat etmek, ruhani varlıklar çağırmak veya kehanetlerde bulunmak için kullanır. Ritüellerde ve kadim yakarışlarda 'Alem-i Ervah' olarak zikredilir."
   spoiler: true
@@ -138,6 +138,7 @@
   ingilizce: "Astral World"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhlar Aleminin de ötesinde, fiziksel evrenin dış çeperini oluşturan ve mutlak kavramların (sembollerin) bulunduğu nihai boyut. Gerçek İlahların (Mertebe 0) ilahi krallıkları bu alemde bulunur. Dışarıdan gelen Yüce Kadimlerin tehditlerine karşı evrenin bariyeri işlevini görür. Ritüellerde ve kadim yakarışlarda 'Alem-i Misal' olarak zikredilir."
+  cevirmen_notu: "Bu terim, klasik tasavvuf kozmolojisiyle bilerek çelişen tek tercihtir. 'Misal' kelimesi 'suret, benzer, sembol' demektir ve Astral Alem tam olarak mutlak kavramların, yani sembollerin bulunduğu boyuttur. Anlam örtüşmesi kusursuzdur. Ne var ki klasik tasnifte âlem-i misal (Berzah) âlem-i ervah'ın ALTINDA, cisimler alemiyle ruhlar alemi arasındaki geçiş bölgesinde durur. Romanda ise Astral Alem, Ruhani Alem'in üzerindedir. Yani sıralama tersine dönmüştür. Tasavvufa aşina bir okuyucu bunu fark edecektir. Buna rağmen 'misal' tercih edildi, çünkü bu sözlükte tekil doğruluk değil dizgesel tutarlılık esas alınmıştır: okuyucu tek tek girdileri değil, terimlerin birbiriyle kurduğu ilişkiler ağını öğrenir. Kavramlar alemini 'suretler alemi' olarak adlandırmak, klasik sıralamaya sadık ama anlamca opak bir karşılık kullanmaktan daha çok iş görür.<br><br>İlgili bir not: 'Berzah' bu sözlükte Styx nehri için kullanılmıştır ve berzah, âlem-i misal'in yakın eşanlamlısıdır. Aynı kelime ailesi iki ayrı yerde geçer; bu da bilinçli bir tercihtir, zira her ikisi de 'iki alem arasındaki geçiş' fikrini taşır."
   spoiler: true
   bolum_siniri: 1345
   kaynak: metin
@@ -492,6 +493,19 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Bu asra mensup olmayan Soytarı,<br>Gri sislerin fevkindeki esrarlı Hükümdar,<br>Talihe hükmeden Sarı ve Siyahın Kralı."
+  cevirmen_notu: "Aptal, Ahmak, Budala, Meczup gibi doğrudan karşılıklar yerine 'Soytarı' seçildi. Tarot destesinde 0 numaralı kart bir aptallığı değil; bir başlangıcı, kuralların dışına çıkmayı ve henüz biçimlenmemiş sonsuz potansiyeli imler. 'Aptal' bu kartın hiçbir anlamını taşımaz, yalnızca bir hakaret taşır. Klein özelinde daha da belirleyici bir gerekçe var: bu ismi seçtiği sahnede kendisiyle sürekli dalga geçen, ne olduğunu bilmediği bir dünyada rol yapan biridir. Kendine 'aptal' ya da 'şapşal' demek şaka değil, sövgü olurdu. 'Soytarı' demek ise dürüstlüktür. Aşkınların varlığından bile habersizken ilah rolü oynayan bir adamın kendi durumunu tam olarak tarif etmesidir. Sözcük, dünyayı kurmadan önce karakteri kuruyor."
+  cevirmen_notu_ek:
+    - sinir: 251
+      baslik: "Yolun dokusu"
+      metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Kukla Üstadı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
+ 
+    - sinir: 1384
+      baslik: "Yükselişin vardığı yer"
+      metin: "Yukarıdaki yükseliş boşuna değildir. Sahne büyüdükçe icracının mevkisi de yükselir ve varılacak yer, performansın hem en yüksek hem en tehlikeli konumudur: hükümdarın huzuru. Kâhin Yolunun Tanrısı, hiçbir şey oynamadığı anın bile bir gösteri gibi durduğu nihai icracıdır; sahnesi dünyanın tamamı, seyircisi ölümlülerle ilahlardır. Kanonik tanım da bunu destekler: 'her şeyi kandıran bir hile ustası' denir ve mucizeleri 'sergilemek'ten söz edilir. Dahası Soytarı, bir yıldızı yok edebilecekken doğrudan bir yıldızla karşılaşamayacak kadar kırılgan olarak tarif edilir. Sınırsız imtiyaz, sıfır zırh. Bir saray soytarısının konumu tam olarak budur. Tarot tarafındaki 'köke dönüş' anlamı da burada tamamlanır: Garabet Efsuncusu, Mazinin Alimi, Mucizekâr ve Esrar Hadimi mertebelerinin tuhaflığından sonra ilahın yeniden bir icracı olması, yolun çıktığı yere dönmesidir. Kabiliyetler bunu pekiştirir; bu mertebede tarih, zaman ve kader birbirine dolanır, olmuş ile olacak ayırt edilemez hâle gelir."
+ 
+    - sinir: 1384
+      baslik: "Kabul edilen kayıp"
+      metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar. Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık. 'Kandırmak' hem 'yalanı hakikat kılmak' etkisini birebir karşılar hem de Amon'un hilekârlık/aldatmaca alanıyla çakışmaz. İlahı mekaniğine göre adlandırmak, Ölüm'e sırf bir sıfatı öyle diye 'Ebedi Uykucu' demeye benzerdi; ad, varlığın ne olduğunu taşımalıdır."
   spoiler: true
   bolum_siniri: 5
   kaynak: metin
@@ -528,6 +542,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bari,<br>Alimi ve Kudreti Mutlak,<br>Alem-i Misal Efendisi."
+  cevirmen_notu: "Bu girdinin ve bağlı yolların İslami terminolojiyle karşılanması, bu çevirinin en çok sorgulanacak tercihidir. Kadir-i Mutlak, serinin İbrahimî tektanrıcılık tasavvurudur: yaratan, her şeyi bilen ve her şeye gücü yeten bir Hâlık; Âdem; düşüş. Bu figür Hristiyanlığa özgü değildir, üç dinin ortak atasıdır. Türkçenin tektanrılı bir yaratıcıdan söz ederken sahip olduğu en derin, en gelişmiş sözcük dağarcığı ise İslamîdir; çünkü o dağarcığı kuran gelenek budur. Dolayısıyla Esmâ-ül Hüsnâ'dan gelen Hâlık, Bari, Alîm ve Kadîr'e başvurmak bir mezhep aktarması değil, Türkçede bu yükseklikte iş gören tek kaydı kullanmaktır. Yöntem, 'Mertebe' tercihiyle aynıdır: Mertebeler gerçekten de manevi makamlardır ve Türkçe bu kavramları tasavvuf sözlüğünde saklar. Sözcükler ait oldukları göndergeye göre seçilmiştir, süs olsun diye değil. Bazı okuyucuların bu tercihi rahatsız edici bulabileceğinin farkındayım. Özellikle serinin ilerleyen bölümlerinde bu figürün izlediği seyir düşünüldüğünde, itiraz muhtemelen adlandırmaya değil olay örgüsüne gelecektir. Yine de kayıt açıktır: burada kullanılan kelimeler, kurgusal bir varlığı gerçek bir inancın yerine koymak için değil, o varlığın romandaki işlevini Türkçede en iyi ve isabetli şekilde karşılamak için seçilmiştir."
   spoiler: true
   bolum_siniri: 1260
   kaynak: metin
@@ -575,7 +590,7 @@
   cevirmen_notu: "Tazim ismi satırları Circle of Inevitability Kanonundaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   spoiler: true
   bolum_siniri: 61
-  kaynak: metin
+  kaynak: metin_coi
   mudahale: degistirme
   denetim: tamam
 
@@ -1153,8 +1168,10 @@
       metinde: true
       kaynak: metin
     - seviye: 6
-      isim: "Prometheus"
+      isim: "Prometheus (Prometheus)"
       bolum_siniri: 697
+      metinde: true
+      kaynak: metin
     - seviye: 5
       isim: "Hülya Hırsızı (Dream Stealer)"
       bolum_siniri: 697

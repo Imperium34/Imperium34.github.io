@@ -10,25 +10,65 @@ permalink: /hakkinda/
 
 Hikayemiz, modern dünyadan Zhou Mingrui'nin, kafasında taze bir kurşun yarasıyla kendini alternatif bir Viktorya dönemi İngiltere'sinde, intihar etmiş gibi görünen yoksul bir tarih mezununun bedeninde uyanmasıyla başlar.
 
-Başlangıçta klasik bir dönem gizemi gibi ilerleyen kurgu; içine girdikçe buhar makinelerinin, barutun ve kanlı ritüellerin ardına saklanmış acımasız gizli tarikatları ve bedeli ekseriyetle delilik olan ölümcül bir sihir sistemini barındıran muazzam bir evrene dönüşür. Bu alternatif 19. yüzyıl dünyası; İksirlerin, Kehanetlerin, Tarot Kartlarının ve zihinleri yozlaştıran Mühürlenmiş Eserlerin dünyasıdır.
+Başlangıçta klasik bir dönem gizemi gibi ilerleyen kurgu; içine girdikçe buhar makinelerinin, barutun ve kanlı ritüellerin ardına saklanmış acımasız gizli tarikatları ve bedeli ekseriyetle delilik olan ölümcül bir sihir sistemini barındıran muazzam bir evrene dönüşür. Bu alternatif 19. yüzyıl dünyası; İksirlerin, Kehanetlerin, Tarot Kartlarının ve zihinleri yozlaştıran Mühürlü Eserlerin dünyasıdır.
 
 ---
 
-### Neden Yeni Bir Çeviriye İhtiyaç Var?
+### Bu Çeviri Nasıl Çalışıyor?
 
-Bu denli derin bir evrenin ruhu, maalesef standart makine çevirilerinde veya yüzeysel yerelleştirmelerde tamamen kaybolmaktadır. Sıradan bir çeviri, karakterlerin ağzına modern bir sokak jargonu yerleştirir ve 19. yüzyılın o ağır, gotik atmosferini sıradan, ucuz bir maceraya çevirir.
+Bir eseri çevirmek, kelimeleri bir dilden diğerine taşımak değil, o atmosferi yeniden inşa etmektir. Ama "atmosfer" kelimesi tek başına bir şey söylemez. Bu edisyonun temeli olan üç somut karar şudur.
 
-Bir eseri çevirmek, kelimeleri bir dilden diğerine taşımak değil, o atmosferi yeniden inşa etmektir.
+#### 1. İki ayrı dil, tek bir kitap
 
-Bu çeviri projesi, **"Esrarın Hükümdarı"** edisyonu olarak adlandırılmıştır ve şu sarsılmaz prensiplere dayanır:
+Bu çevirinin en belirleyici özelliği, ağır Osmanlıca kaydın metnin **her yerinde kullanılmamasıdır.**
 
-1. **Atmosferik Dil:** Karakterler modern bir ağızla değil, yaşadıkları dönemin ağırlığına uygun, yeri geldiğinde Osmanlıca kelime dağarcığının (vakur, tefekkür, müşkül) o ağırbaşlılığından beslenen edebi bir dille konuşurlar.
-2. **Kavramsal Derinlik:** Google Translate ile _The Fool_ kelimesi "Aptal" olarak çevrilip geçilir. Oysa Tarot kartlarındaki 0 Numaralı Kart, bir başlangıcı, kuralların dışına çıkmayı ve sonsuz potansiyeli temsil eder. Bizim çevirimizde o, bir **Soytarı**'dır. _Seer_ sıradan bir Gözcü değil, bir **Kâhin**'dir. Evrenin en derin sırlarını barındıran _Blasphemy Slate_, basit bir tablet değil; **İlhad Levhası**'dır.
-3. **Ödünsüz Kalite:** Amacımız okuyucuya "hızlı" bölüm vermek değil; Klein Moretti'nin sislerin üzerindeki o tekinsiz yalnızlığını iliklerinize kadar hissettirecek kusursuz, arşivlik bir Türkçe edisyon sunmaktır.
+Klein Moretti bu dünyaya ait değildir. Modern bir adamın zihniyle 19. yüzyıla benzeyen bir dünyada uyanır. Dolayısıyla onun iç sesi ile içinde yaşadığı dünyanın yüzeyi arasında bir uçurum vardır. Bu uçurum, romanın kendi öncülüdür.
 
-**Örnek Karşılaştırma:**
+Çeviri bu uçurumu duyulur kılar:
+
+- **Ağır kayıt:** İlahların unvanları, ayinler, kilise dili, yüksek sosyete sahneleri.
+- **Modern kayıt:** Klein'ın iç sesi, işçi sınıfı diyalogları, aksiyon sahneleri.
+
+Sözlükteki bir örnek bunu en açık biçimde gösterir: İngilizcedeki tek bir terim olan _Acting Method_, Türkçede ikiye ayrılmıştır. Klein kendi zihninde buna **Oyunculuk Metodu** der; dünyanın kendisi ve o dünyanın insanları ise **Rol İfası** der. Aynı kavram, kimin konuştuğuna göre iki farklı kelime alır.
+
+Bu bir üslup tercihi değil, olay örgüsünün gereğidir.
+
+#### 2. Kelime, ait olduğu kavram dünyasından seçilir
+
+Bir terimi karşılarken sorulan soru "kulağa hoş geliyor mu" değil, "bu kavramın Türkçede zaten bir evi var mı" sorusudur.
+
+**Mertebe** (_Sequence_) bunun en net örneğidir. Mertebeler yalnızca güç basamakları değildir; her biri insanın kendisini dönüştürdüğü, bedeli akıl sağlığı olan manevi bir konumdur. Türkçe bu kavramları yüzyıllardır tasavvuf sözlüğünde saklar. "Mertebe" kelimesinin anlamı tam olarak budur. Aynı sebeple _Pathway_ **Yol**'dur: tarikat anlamındaki yoldan gelmektedir.
+
+**Şirazesini yitirmek** (_Losing Control_) da öyle: şiraze, bir kitabın formalarını bir arada tutan dikiştir. Yazarlık ve yazılmış olmak üzerine kurulu bir romanda, aklını kaybetmenin karşılığı olarak ciltçilikten gelen bir deyim kullanmak tesadüf değildir.
+
+#### 3. Tutarlılık, tek tek doğruluktan önce gelir
+
+Okuyucu sözlüğü madde madde ezberlemez. Terimlerin birbiriyle kurduğu ilişkiyi öğrenir. Bu yüzden, kendi içinde tutarlı bir dizgede biraz kayan bir terim, dizgesi dağınık ama tek başına kusursuz bir terimden daha çok iş görür.
+
+Bu tercihlerin nerede yapıldığı gizlenmiyor. **Sözlük sayfasındaki her girdi, hangi kararın neden alındığını açıklayan bir çevirmen notu taşıyabilir**. Kanona sadık olan, tamamlanan ve tamamen özgün olan karşılıklar ayrı ayrı işaretlenmiştir.
+
+---
+
+### Osmanlıca ve İslami Terminoloji Üzerine
+
+Bu çevirinin en çok sorgulanacak tercihi, ilahlara dair bölümlerdeki İslami sözcük dağarcığıdır. Açıkça söylemek gerekir.
+
+Serideki **Kadir-i Mutlak** (_God Almighty_), İbrahimî tektanrıcılığın romandaki karşılığıdır: yaratan, her şeyi bilen ve her şeye gücü yeten bir Hâlık; Âdem; düşüş. Bu figür herhangi bir mezhebe özgü değil, üç dinin ortak atasıdır.
+
+Türkçenin tektanrılı bir yaratıcıdan söz ederken elindeki en derin dağarcık ise İslamîdir; çünkü o dağarcığı kuran gelenek budur. **Hâlık**, **Bari**, **Alîm** gibi kelimeler bu yüzden kullanılmıştır. Kurgusal bir varlığı gerçek bir inancın yerine koymak için değil, o varlığın romandaki işlevini karşılayabilecek tek kayıt Türkçede bu olduğu için.
+
+Yöntem, "Mertebe" tercihiyle aynıdır: sözcükler ait oldukları göndergeye göre seçilir. Bazı okuyucuların bu tercihi rahatsız edici bulabileceğinin farkındayım; kararın gerekçesi burada, açık biçimde durmaktadır.
+
+---
+
+### Örnek Karşılaştırma
 
 > _Standart Çeviri:_ "Bu çağa ait olmayan aptal."
+>
 > _Esrarın Hükümdarı:_ **"Bu asra mensup olmayan Soytarı."**
+
+Tarot destesindeki 0 numaralı kart bir "aptal" değildir; bir başlangıcı, kuralların dışına çıkmayı ve sonsuz potansiyeli temsil eder. Bu yüzden **Soytarı**'dır. _Seer_ sıradan bir gözcü değil, geleceği okuyan bir **Kâhin**'dir. Evrenin en derin sırlarını taşıyan _Blasphemy Slate_, basit bir tablet değil; **İlhad Levhası**'dır.
+
+---
 
 Eğer geleneksel edebiyatın o ağırbaşlı dokusunu ve kozmik bir dehşetin adım adım tırmanan gerilimini seviyorsanız, Tarot Kulübü'ne hoş geldiniz.
