@@ -25,6 +25,7 @@
   ingilizce: "Sequence"
   kategori: "Temel Kavramlar"
   aciklama: "Bir yol içindeki güç seviyesi. En zayıf halka olan 9'dan başlar ve efsanevi 1. Mertebeye (Melek) kadar yükselir."
+  cevirmen_notu: "'Seviye', 'Kademe' ya da doğrudan 'Sekans' gibi karşılıklar teknik olarak doğru olurdu ama boş kalırdı. Hepsi yalnızca bir sıralama bildirir. Oysa bu basamaklar sadece güç dereceleri değildir: her biri kişinin kendisini dönüştürmesini gerektirir, bedeli akıl sağlığıdır ve bir üst basamağa çıkmak bir kudret artışından çok bir hâl değişimidir. Türkçe bu kavramı yüzyıllardır tasavvuf sözlüğünde saklar. 'Mertebe', seyr ü sülûkta yolcunun eriştiği manevi makamdır. Çalışılarak, dönüşülerek varılan bir konum. Kavramın karşılığı Türkçede zaten mevcuttu. Yani icat edilmesi değil, bulunması gerekiyordu. Bu tercih aynı zamanda 'Yol' (Pathway) karşılığını da yerine oturtur: tasavvufta yol tarikattır ve bir yolun mertebeleri vardır. İngilizcede Pathway ile Sequence birbirine teknik olarak bağlanır; Türkçede Yol ile Mertebe birbirine hem teknik hem kavramsal olarak bağlanır. İkisi tek bir kavram dünyasından geldiği için, sistemin tamamı Türkçede kendiliğinden tutarlı bir dil kazanır."
   spoiler: false
   bolum_siniri: 6
   kaynak: metin
@@ -107,7 +108,8 @@
 - terim: "Şirazesini Yitirmek (Şirazeden Çıkmak)"
   ingilizce: "Losing Control"
   kategori: "Temel Kavramlar"
-  aciklama: "Bir Aşkın'ın iksirin kudretini sindirememesi, Rol İfası'nda başarısız olması veya yüksek mertebeli habis bir varlığın yozlaştırmasına maruz kalması sonucu benliğini yitirmesi durumu. Bu safhaya geçen bir Aşkın; insanlığını, aklî melekelerini ve ruhunu sonsuza dek kaybederek bedeni korkunç şekillerde mutasyona uğramış, kana susamış irrasyonel bir canavara dönüşür. Her Aşkın'ın eninde sonunda yüzleşmekten korktuğu nihai ve kaçınılmaz kabustur."
+  aciklama: "Bir Aşkın'ın iksirin kudretini sindirememesi, yüksek mertebeli habis bir varlığın yozlaştırmasına maruz kalması ve daha nice sebepler sonucu benliğini yitirmesi durumu. Bu safhaya geçen bir Aşkın; insanlığını, aklî melekelerini ve ruhunu sonsuza dek kaybederek bedeni korkunç şekillerde mutasyona uğramış, kana susamış irrasyonel bir canavara dönüşür. Her Aşkın'ın eninde sonunda yüzleşmekten korktuğu nihai ve kaçınılmaz kabustur."
+  cevirmen_notu: "Şiraze, bir kitabın formalarını bir arada tutan dikiş bandıdır; 'şirazesi çıkmak' ise Türkçede düzenini, tutarlılığını yitirmek anlamında yerleşik bir deyimdir. 'Kontrolü kaybetmek' literal karşılık olurdu, 'delirmek' veya 'çıldırmak' ise kolay ama yanlış olurdu. Çünkü bu evrende Şirazesini Yitirmek yalnızca delilik değildir. Aşkın ortadan kalkmaz, bütünlüğü dağılır. Güçleri, hafızası, bedeni yerinde durmaya devam eder ama artık hiçbiri bir arada tutulmamaktadır ve kişi bu yüzden bir canavara dönüşür. Şiraze tam olarak bunu adlandırır: kitap durur, sayfalar durur, yalnızca onları bir arada tutan şey gitmiştir. Deyimin bir başka avantajı, çeviri kokmamasıdır; Türkçe konuşan biri bu ifadeyi zaten bilir, dolayısıyla terim metne yabancı bir teknik etiket gibi değil, dilin kendi malzemesi gibi yerleşir."
   spoiler: true
   bolum_siniri: 14
   kaynak: metin
@@ -128,6 +130,11 @@
   ingilizce: "Spirit World"
   kategori: "Temel Kavramlar"
   aciklama: "Fiziksel alemin üzerine örtülmüş, kavramların, ruhların ve efsanelerin var olduğu kaotik boyut. Aşkınlar burayı hızlı seyahat etmek, ruhani varlıklar çağırmak veya kehanetlerde bulunmak için kullanır. Ritüellerde ve kadim yakarışlarda 'Alem-i Ervah' olarak zikredilir."
+  cevirmen_notu: "'Alem-i ervah', İslam kozmolojisinde ruhlar alemini karşılayan yerleşik bir tabirdir ve bu boyutun romandaki muhtevasıyla (ruhlar, kavramlar, efsanevi varlıklar) birebir örtüşür. Başlık iki katmanlıdır: modern Türkçe bileşik ('Ruhani Alem') madde başı, klasik tabir ise parantez içinde karşılığı olarak durur. Bu, alem adlarında bilinçli bir kalıptır; okuyucu terimi modern haliyle tanır, ayin ve tazim isimlerinde ise klasik haliyle karşılaşır. Düz 'Ruhlar Alemi' karşılığı da anlaşılır olurdu; tercih edilmemesinin sebebi, bu sözlükte kozmoloji ve ilahiyat alanının bütününde klasik kaydın esas alınmasıdır. Sözcük, ait olduğu kavram dünyasından seçilir."
+  cevirmen_notu_ek:
+  - sinir: 1345
+    baslik: "Alem-i Misal ile ilişkisi"
+    metin: "Bu terim tek başına değil, bir çift olarak düşünülmelidir. Astral Alem için 'Alem-i Misal' kullanılmıştır ve iki tercih birlikte alınmıştır. Klasik tasnifte âlem-i misal (berzah), âlem-i ervah'ın ALTINDA; cisimler alemiyle ruhlar alemi arasındaki geçiş bölgesinde durur. Romanda ise sıralama terstir: Astral Alem, Ruhani Alem'in üzerindedir. Yani ikili, klasik dizilişe göre ters çevrilmiştir. Bu bilinçli bir tercihtir; gerekçesi Astral Alem girdisinde ayrıntılı olarak açıklanmıştır. Kısaca: tekil doğruluk yerine dizgesel tutarlılık esas alınmış, 'misal' kelimesinin 'suret/sembol' anlamı, mutlak kavramların bulunduğu alem için klasik sıralamaya sadakatten daha belirleyici sayılmıştır."
   spoiler: true
   bolum_siniri: 14
   kaynak: metin
@@ -176,7 +183,7 @@
   denetim: denetlenmedi
 
 - terim: "Ayin İlmi"
-  ingilizce: "Ritual Magic"
+  ingilizce: "Ritualistic Magic"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
   spoiler: true
@@ -634,8 +641,11 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
-  cevirmen_notu: "Kanondaki üç satırın üçüncüsü ('Degenerate Nature of all Living Things') burada bilinçli olarak kullanılmadı. Yerine 'Müşfik Peder' ve 'Cümle Cürümü Sırtlayan Rab' eklendi. Unvanlar objektif tasvir değil, takipçilerin ağzından ayinsel bir hitap olduğundan, Âdem'in kilisesinin onu böyle yücelteceği düşünüldü. Yıkıcı/objektif satır bilinçli olarak 'Yarı Kadir-i Mutlak Âdem' girdisine (Cümle Zîhayatın Sefil Fıtratı) ayrıldı. İlk iki satır kanona sadıktır."
-  cevirmen_notu_sinir: 9999
+  cevirmen_notu: "Bu tazim ismi literal çeviri değildir; kanondaki üç satırdan ikisi korunmuş, bir tanesi bilinçli olarak kullanılmamış ve yerine iki satır ('Müşfik Peder', 'Cümle Cürümü Sırtlayan Rab') eklenmiştir. Gerekçe bir yöntem tercihidir: tazim isimleri bir varlığın objektif tarifi değil, ona inananların ağzından okunan ayinsel bir hitaptır. Dolayısıyla bir kilisenin kendi ilahını nasıl yücelteceği, o ilahın gerçekte ne olduğundan farklı olabilir ve olmalıdır da. Buradaki satırlar, bu ilaha tapanların onu nasıl gördüğünü yansıtacak biçimde seçilmiştir. Aynı ilkenin sonucu olarak, kanondaki daha yıkıcı ve mesafeli satır bu girdide değil, başka bir girdide değerlendirilmiştir." 
+  cevirmen_notu_ek:
+    - sinir: 9999
+      baslik: "Çıkarılan satır nereye gitti"
+      metin: "Kullanılmayan kanonik satır, cümle zîhayatın yozlaşmış fıtratına dair olandır ve 'Yarı Kadir-i Mutlak Âdem' girdisinde 'Cümle Zîhayatın Sefil Fıtratı' olarak karşılanmıştır. Ayrım bilinçlidir: Fecir Tarikatı onu 'Müşfik Peder' diye çağırırken, aynı varlığın kendi hakikatini bildiren satır ona tapanların değil, onu tanıyanların kaydında durur. Böylece iki girdi aynı varlığın iki farklı yüzünü taşır. Biri ibadetin, diğeri bilginin dilinde."
   spoiler: true
   bolum_siniri: 61
   kaynak: metin
@@ -1097,7 +1107,7 @@
   mertebeler:
     - seviye: 9
       isim: "Kâhin (Seer)"
-      bolum_siniri: 28
+      bolum_siniri: 21
       metinde: true
       kaynak: metin
     - seviye: 8
@@ -1154,7 +1164,7 @@
   mertebeler:
     - seviye: 9
       isim: "Yağmacı (Marauder)"
-      bolum_siniri: 28
+      bolum_siniri: 21
       metinde: true
       kaynak: metin
     - seviye: 8
@@ -1168,7 +1178,8 @@
       metinde: true
       kaynak: metin
     - seviye: 6
-      isim: "Prometheus (Prometheus)"
+      isim: "Ateşçalan (Prometheus)"
+      cevirmen_notu: "Çince orijinali '盗火人' tam olarak 'Ateş Hırsızı' (Fire Stealer) demektir. 'Ateş Hırsızı' yerine birleşik yapıdaki 'Ateşçalan' tercih edildi. Bu birleştirme eylemi, kelimeyi sıradan bir hırsızlıktan çıkarıp mitolojik ve folklorik bir arketipe (tıpkı Yelkovan veya Kardelen gibi) dönüştürür. İngilizcedeki Prometheus'un taşıdığı mitik ağırlığı, Batı mitolojisine yaslanmadan, Türkçenin kendi yapısal imkânlarıyla karşılar."
       bolum_siniri: 697
       metinde: true
       kaynak: metin
@@ -1212,7 +1223,7 @@
   mertebeler:
     - seviye: 9
       isim: "Çırak (Apprentice)"
-      bolum_siniri: 28
+      bolum_siniri: 21
       metinde: true
       kaynak: metin
     - seviye: 8
@@ -1246,7 +1257,7 @@
       metinde: true
       kaynak: metin
     - seviye: 2
-      isim: "Alem Seyyahı (Planeswalker)"
+      isim: "Âlem Seyyahı (Planeswalker)"
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
@@ -1600,7 +1611,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Berzah Bekçisi (Gate Keeper)"
-      bolum_siniri: 96
+      bolum_siniri: 19
       metinde: true
       kaynak: metin
     - seviye: 4
