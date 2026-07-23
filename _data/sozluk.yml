@@ -502,17 +502,15 @@
   aciklama: "Bu asra mensup olmayan Soytarı,<br>Gri sislerin fevkindeki esrarlı Hükümdar,<br>Talihe hükmeden Sarı ve Siyahın Kralı."
   cevirmen_notu: "Aptal, Ahmak, Budala, Meczup gibi doğrudan karşılıklar yerine 'Soytarı' seçildi. Tarot destesinde 0 numaralı kart bir aptallığı değil; bir başlangıcı, kuralların dışına çıkmayı ve henüz biçimlenmemiş sonsuz potansiyeli imler. 'Aptal' bu kartın hiçbir anlamını taşımaz, yalnızca bir hakaret taşır. Klein özelinde daha da belirleyici bir gerekçe var: bu ismi seçtiği sahnede kendisiyle sürekli dalga geçen, ne olduğunu bilmediği bir dünyada rol yapan biridir. Kendine 'aptal' ya da 'şapşal' demek şaka değil, sövgü olurdu. 'Soytarı' demek ise dürüstlüktür. Aşkınların varlığından bile habersizken ilah rolü oynayan bir adamın kendi durumunu tam olarak tarif etmesidir. Sözcük, dünyayı kurmadan önce karakteri kuruyor."
   cevirmen_notu_ek:
-    - sinir: 251
-      baslik: "Yolun dokusu"
-      metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Kukla Üstadı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
- 
-    - sinir: 1384
-      baslik: "Yükselişin vardığı yer"
-      metin: "Yukarıdaki yükseliş boşuna değildir. Sahne büyüdükçe icracının mevkisi de yükselir ve varılacak yer, performansın hem en yüksek hem en tehlikeli konumudur: hükümdarın huzuru. Kâhin Yolunun Tanrısı, hiçbir şey oynamadığı anın bile bir gösteri gibi durduğu nihai icracıdır; sahnesi dünyanın tamamı, seyircisi ölümlülerle ilahlardır. Kanonik tanım da bunu destekler: 'her şeyi kandıran bir hile ustası' denir ve mucizeleri 'sergilemek'ten söz edilir. Dahası Soytarı, bir yıldızı yok edebilecekken doğrudan bir yıldızla karşılaşamayacak kadar kırılgan olarak tarif edilir. Sınırsız imtiyaz, sıfır zırh. Bir saray soytarısının konumu tam olarak budur. Tarot tarafındaki 'köke dönüş' anlamı da burada tamamlanır: Garabet Efsuncusu, Mazinin Alimi, Mucizekâr ve Esrar Hadimi mertebelerinin tuhaflığından sonra ilahın yeniden bir icracı olması, yolun çıktığı yere dönmesidir. Kabiliyetler bunu pekiştirir; bu mertebede tarih, zaman ve kader birbirine dolanır, olmuş ile olacak ayırt edilemez hâle gelir."
- 
-    - sinir: 1384
-      baslik: "Kabul edilen kayıp"
-      metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar. Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık. 'Kandırmak' hem 'yalanı hakikat kılmak' etkisini birebir karşılar hem de Amon'un hilekârlık/aldatmaca alanıyla çakışmaz. İlahı mekaniğine göre adlandırmak, Ölüm'e sırf bir sıfatı öyle diye 'Ebedi Uykucu' demeye benzerdi; ad, varlığın ne olduğunu taşımalıdır."
+  - sinir: 251
+    baslik: "Yolun dokusu"
+    metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Kukla Üstadı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
+  - sinir: 1384
+    baslik: "Yükselişin vardığı yer"
+    metin: "Yukarıdaki yükseliş boşuna değildir. Sahne büyüdükçe icracının mevkisi de yükselir ve varılacak yer, performansın hem en yüksek hem en tehlikeli konumudur: hükümdarın huzuru. Kâhin Yolunun Tanrısı, hiçbir şey oynamadığı anın bile bir gösteri gibi durduğu nihai icracıdır; sahnesi dünyanın tamamı, seyircisi ölümlülerle ilahlardır. Kanonik tanım da bunu destekler: 'her şeyi kandıran bir hile ustası' denir ve mucizeleri 'sergilemek'ten söz edilir. Dahası Soytarı, bir yıldızı yok edebilecekken doğrudan bir yıldızla karşılaşamayacak kadar kırılgan olarak tarif edilir. Sınırsız imtiyaz, sıfır zırh. Bir saray soytarısının konumu tam olarak budur. Tarot tarafındaki 'köke dönüş' anlamı da burada tamamlanır: Garabet Efsuncusu, Mazinin Alimi, Mucizekâr ve Esrar Hadimi mertebelerinin tuhaflığından sonra ilahın yeniden bir icracı olması, yolun çıktığı yere dönmesidir. Kabiliyetler bunu pekiştirir; bu mertebede tarih, zaman ve kader birbirine dolanır, olmuş ile olacak ayırt edilemez hâle gelir."
+  - sinir: 1384
+    baslik: "Kabul edilen kayıp"
+    metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar. Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık. 'Kandırmak' hem 'yalanı hakikat kılmak' etkisini birebir karşılar hem de Amon'un hilekârlık/aldatmaca alanıyla çakışmaz. İlahı mekaniğine göre adlandırmak, Ölüm'e sırf bir sıfatı öyle diye 'Ebedi Uykucu' demeye benzerdi; ad, varlığın ne olduğunu taşımalıdır."
   spoiler: true
   bolum_siniri: 5
   kaynak: metin
@@ -597,7 +595,7 @@
   cevirmen_notu: "Tazim ismi satırları Circle of Inevitability Kanonundaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   spoiler: true
   bolum_siniri: 61
-  kaynak: metin_coi
+  kaynak: metin
   mudahale: degistirme
   denetim: tamam
 
@@ -641,11 +639,11 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
-  cevirmen_notu: "Bu tazim ismi literal çeviri değildir; kanondaki üç satırdan ikisi korunmuş, bir tanesi bilinçli olarak kullanılmamış ve yerine iki satır ('Müşfik Peder', 'Cümle Cürümü Sırtlayan Rab') eklenmiştir. Gerekçe bir yöntem tercihidir: tazim isimleri bir varlığın objektif tarifi değil, ona inananların ağzından okunan ayinsel bir hitaptır. Dolayısıyla bir kilisenin kendi ilahını nasıl yücelteceği, o ilahın gerçekte ne olduğundan farklı olabilir ve olmalıdır da. Buradaki satırlar, bu ilaha tapanların onu nasıl gördüğünü yansıtacak biçimde seçilmiştir. Aynı ilkenin sonucu olarak, kanondaki daha yıkıcı ve mesafeli satır bu girdide değil, başka bir girdide değerlendirilmiştir." 
+  cevirmen_notu: "Bu tazim ismi literal çeviri değildir; kanondaki üç satırdan ikisi korunmuş, bir tanesi bilinçli olarak kullanılmamış ve yerine iki satır ('Müşfik Peder', 'Cümle Cürümü Sırtlayan Rab') eklenmiştir. Gerekçe bir yöntem tercihidir: tazim isimleri bir varlığın objektif tarifi değil, ona inananların ağzından okunan ayinsel bir hitaptır. Dolayısıyla bir kilisenin kendi ilahını nasıl yücelteceği, o ilahın gerçekte ne olduğundan farklı olabilir ve olmalıdır da. Buradaki satırlar, bu ilaha tapanların onu nasıl gördüğünü yansıtacak biçimde seçilmiştir. Aynı ilkenin sonucu olarak, kanondaki daha yıkıcı ve mesafeli satır bu girdide değil, başka bir girdide değerlendirilmiştir."
   cevirmen_notu_ek:
-    - sinir: 9999
-      baslik: "Çıkarılan satır nereye gitti"
-      metin: "Kullanılmayan kanonik satır, cümle zîhayatın yozlaşmış fıtratına dair olandır ve 'Yarı Kadir-i Mutlak Âdem' girdisinde 'Cümle Zîhayatın Sefil Fıtratı' olarak karşılanmıştır. Ayrım bilinçlidir: Fecir Tarikatı onu 'Müşfik Peder' diye çağırırken, aynı varlığın kendi hakikatini bildiren satır ona tapanların değil, onu tanıyanların kaydında durur. Böylece iki girdi aynı varlığın iki farklı yüzünü taşır. Biri ibadetin, diğeri bilginin dilinde."
+  - sinir: 9999
+    baslik: "Çıkarılan satır nereye gitti"
+    metin: "Kullanılmayan kanonik satır, cümle zîhayatın yozlaşmış fıtratına dair olandır ve 'Yarı Kadir-i Mutlak Âdem' girdisinde 'Cümle Zîhayatın Sefil Fıtratı' olarak karşılanmıştır. Ayrım bilinçlidir: Fecir Tarikatı onu 'Müşfik Peder' diye çağırırken, aynı varlığın kendi hakikatini bildiren satır ona tapanların değil, onu tanıyanların kaydında durur. Böylece iki girdi aynı varlığın iki farklı yüzünü taşır. Biri ibadetin, diğeri bilginin dilinde."
   spoiler: true
   bolum_siniri: 61
   kaynak: metin
@@ -702,7 +700,7 @@
   ingilizce: "God of Deceit and Mischief Amon (True God)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
-  aciklama: "Kaderin Truva Atı,<br>Zamanı Kemiren Kurt,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
+  aciklama: "Kaderin Truva Atı,<br>Zamanı Kemiren Kurtçuk,<br>Kaidelerdeki Gedik,<br>Cümle Kusurun Tezahürü."
   spoiler: true
   bolum_siniri: 9999
   kaynak: metin
@@ -1157,13 +1155,14 @@
       kaynak: metin
   kaynak: metin
 
-- terim: "Yağmacı Yolu"
+- terim: "Kapkaççı Yolu"
   ingilizce: "Marauder Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   mertebeler:
     - seviye: 9
-      isim: "Yağmacı (Marauder)"
+      isim: "Kapkaççı (Marauder)"
+      cevirmen_notu: "İlk tercih olan 'Yağmacı', İngilizce 'Marauder' ile doğrudan örtüşüyordu ancak bu Mertebenin gerçek profiliyle örtüşmüyordu: kanon, bu mertebedeki bir Aşkını sıradan bir hırsızdan ayırt etmenin güç olduğunu belirtir. Hatta tam olarak kalabalık bir yağmacıdan çok, fırsatı ve zamanlamayı bilen sessiz bir hırsız olarak tasfir edilirler. 'Yağmacı' askerî/kaotik bir yağma imgesi taşıdığından bu inceliği aşırı büyütüyordu. 'Kapkaççı' (birinin çantasını kapıp kaçan, doğrudan çatışmaya girmeyen soyguncu) hem bu Mertebenin ruhuna hem de Mertebenin zamanlamayla kazanan, doğrudan çatışmada kırılgan kalan doğasının çok daha isabetli bir karşılığıdır."
       bolum_siniri: 21
       metinde: true
       kaynak: metin
@@ -1195,6 +1194,7 @@
       kaynak: metin
     - seviye: 3
       isim: "Hile Mürşidi (Mentor of Deceit)"
+      cevirmen_notu: "'Mentor' karşılığı bu sözlükte her Mertebede sistematik olarak 'Mürşid' olarak sabitlenmiştir. Bu, yalnızca bu Mertebeye özgü bir tercih değil, genel bir kuraldır. 'Mürşid' Türkçede, özellikle tasavvuf bağlamında, gerçek bir saygınlık taşır: doğru yola götüren, kişiyi dönüştüren manevi rehber anlamına gelir. Bunu 'Hile' (aldatma, düzenbazlık) ile birleştirmek kasıtlı bir gerilim yaratır: sıcak ve saygın kelime soğuk ve karanlık olanı meşrulaştırıyor da olabilir, karanlık kelime saygın olanı kirletiyor da olabilir. İkisi de aynı anda doğru ve eksik kalır. Sıcak ve karanlık kelimelerin bilinçli olarak yan yana kullanılması bu sözlükte genel bir ilkedir, tek bir Mertebeye özgü değildir. Aynı gerekçeyle her 'Mentor' unvanı 'Mürşid' olarak çevrilmiştir; diğer örnekler bu nottan referans alır."
       bolum_siniri: 1162
       metinde: true
       kaynak: metin
@@ -1204,14 +1204,14 @@
       metinde: true
       kaynak: metin
     - seviye: 1
-      isim: "*Zaman Kurdu (Worm of Time)"
-      cevirmen_notu: "'Kurt' şu an geçici olarak korunmaktadır; 'Kurtçuk'a geçiş değerlendirilmektedir. Sorun: 'Kurt' modern Türkçede birincil olarak 'wolf' anlamına gelir, 'worm/maggot' anlamı daha eski/lehçesel kullanımdadır (bkz. 'elma kurdu'). Bu belirsizlik özellikle önemlidir çünkü Ebedi Gece Tanrıçası'nın kendi unvanında ('Ece') bilinçli bir kurt-imgesi kullanılmaktadır; iki bağlamsız karakterin metinde 'Kurt' kelimesiyle örtüşmesi istenmeyen bir çağrışım yaratabilir. Nihai karar düzyazıdaki okunuşuna bağlı olarak verilecektir; değişirse hem bu Mertebe adı hem de Amon'un ilgili Tazim İsmi satırı ('Zamanı Kemiren Kurt') eş zamanlı güncellenecektir. (Asteriks bu belirsizliği işaretler.)"
+      isim: "Zaman Kurtçuğu (Worm of Time)"
       bolum_siniri: 393
       metinde: true
       kaynak: metin
     - seviye: 0
-      isim: "Error / Kusur (Error / Bug)"
-      bolum_siniri: 9999
+      isim: "Error / Bug (Error / Bug)"
+      cevirmen_notu: "Kaynak metinde 'Error' İngilizce olarak, 'Bug' ise açıkça 'bilinmeyen kökenli, yabancı bir kelime' olarak tanıtılır. Bu ayrım karakterlerin kendisi tarafından da fark edilir. Bu yüzden 'Bug' Türkçeye çevrilmedi ('Kusur' reddedildi): kelimenin yabancı ve teknik kökeni olay örgüsünde doğrudan işlevseldir (yalnızca Dünya kökenli birinin tanıyabileceği bir yazılım terimidir ve bu tanınırlık ilgili bölümde bir karakterin kimliğini sınayan bir ipucu olarak kullanılır). Kelimeyi Türkçeleştirmek bu işlevi söndürürdü. İki kelimenin de olduğu gibi bırakılması, kaynağın kendi yabancılaştırma jestini korumak içindir."
+      bolum_siniri: 1152
       metinde: true
       kaynak: metin
   kaynak: metin
@@ -1252,7 +1252,8 @@
       metinde: true
       kaynak: metin
     - seviye: 3
-      isim: "Avare (Wanderer)"
+      isim: "Müstekşif (Wanderer)"
+      cevirmen_notu: "İlk tercih olan 'Avare', İngilizce 'Wanderer' karşılığıydı ancak Mertebenin ilerleme ilkesiyle (yasak sınırları amaçsız değil, bilgiyle dönmek üzere bilinçli aşmak) çelişiyordu. 'Avare' Türkçede amaçsız, başıboş bir dolaşmayı çağrıştırır, yani bu mertebedeki Aşkınların tam olarak kaçınılması gereken hâli adlandırır. 'Seyrânî' ve benzeri 'seyr' kökenli alternatifler reddedildi, çünkü bu kök zaten 'Âlem Seyyahı'nda ve başka bir Yol'daki 'Doğa Seyyahı'nda kullanılıyor. Üçüncü bir türev gereksiz bir tekrar yaratacaktı. 'Kâşif' de düşünüldü ancak bu Mertebedeki bir Aşkın için fazla modern/günümüzsel bir ton taşıyordu. 'Müstekşif' (bilinçli, sürekli bir keşif çabası içinde olan) hem 'Müneccim' ve 'Kâtip' ile aynı register'a oturuyor hem de ilerleme ayininin gerektirdiği amaçlılığı doğrudan karşılıyor."
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
@@ -1303,6 +1304,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Fitne Mürşidi (Mentor of Disorder)"
+      cevirmen_notu: "bkz. Hile Mürşidi (Yağmacı Yolu, Mertebe 3)."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
@@ -1433,7 +1435,7 @@
       bolgesel:
         kultur: "Intis"
         isim: "*Mareşal"
-        cevirmen_notu: "Özgün terim 'Reaper' (Loen'de 'Hasatçı' olarak korunmuştur) hasat/ruh-biçen imgesini taşır; Intis bölgesel adı 'Mareşal' ise saf askerî bir rütbedir ve bu imgeyi karşılamaz. Tercih iki gerekçeyle yapıldı: (1) Intis bölgesel adları resmî/Fransızca registerdedir (Provokatör, Piroman) ve 'Mareşal' bu örüntüye tam oturur; (2) her ne kadar mertebenin yeteneklerine değilse de, ilerleme ayinine ve özellikle Avcı Yolu'nun genel kumandanlık/komuta temalarına uygundur. Ayin, kişinin kendinden yüksek Mertebeli bir hedefi kuşatıp esir alarak zaferini onlara seyrettirmesini gerektirir; bu, bir kumandanın stratejik zaferini yansıtır. Şimdilik sabittir; daha iyi bir alternatif bulunursa gözden geçirilecektir. (Asteriks bu belirsizliği işaretler.)"
+      cevirmen_notu: "Özgün terim 'Reaper' (Loen'de 'Hasatçı' olarak korunmuştur) hasat/ruh-biçen imgesini taşır; Intis bölgesel adı 'Mareşal' ise saf askerî bir rütbedir ve bu imgeyi karşılamaz. Tercih iki gerekçeyle yapıldı: (1) Intis bölgesel adları resmî/Fransızca registerdedir (Provokatör, Piroman) ve 'Mareşal' bu örüntüye tam oturur; (2) her ne kadar mertebenin yeteneklerine değilse de, ilerleme ayinine ve özellikle Avcı Yolu'nun genel kumandanlık/komuta temalarına uygundur. Ayin, kişinin kendinden yüksek Mertebeli bir hedefi kuşatıp esir alarak zaferini onlara seyrettirmesini gerektirir; bu, bir kumandanın stratejik zaferini yansıtır. Şimdilik sabittir; daha iyi bir alternatif bulunursa gözden geçirilecektir. (Asteriks bu belirsizliği işaretler.)"
       bolum_siniri: 653
       metinde: true
       kaynak: metin
@@ -1451,7 +1453,8 @@
       metinde: true
       kaynak: metin
     - seviye: 2
-      isim: "Bora Efsuncusu (Weather Warlock)"
+      isim: "Bora Kamı (Weather Warlock)"
+      cevirmen_notu: "Önceki tercih olan 'Bora Efsuncusu', sözlükte tekrarlanan 'Efsuncu' kökünün (bkz. Ruh Efsuncusu notu) parçası gibi görünüyordu; ancak o tekrar yalnızca Kâhin, Çırak ve Uykusuz Yolları arasındaki gerçek kanonik bağa dayanır ve Avcı Yolu bu bağın dışındadır. Bu yüzden 'Efsuncu' (Arapça/Farsça kökenli) yerine öz Türkçe bir kelime tercih edildi: 'Kam', Dede Korkut geleneği ve eski Türk şamanizminde büyücü/şaman için kullanılan gerçek bir terimdir. 'Bora Kamı' hem Mertebenin fırtına/savaş temalı gücünü hem de Loen'in resmî isimlerindeki arkaik register'ı korurken, kelimeyi yanlış bir kanonik yankıdan ayırır."
       bolum_siniri: 577
       metinde: true
       kaynak: metin
@@ -1495,6 +1498,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Maraz (Afflictions)"
+      cevirmen_notu: "'Maraz' Türkçede iki katmanlı bir anlam taşır: eski kullanımda hastalık, illet demektir; günlük dilde ise başkalarının talihsizliğinden zevk alan, kötü niyetli bir kişi anlamına gelir. Bu Mertebenin gücü tam olarak bu iki anlamı birleştirir: toplumsal bir hastalık gibi yayılan gerçek bir illet ile kötücül, manipülatif bir toplumsal karakter aynı kelimede birleşir. Kelime bilerek bu çift anlam için seçilmiştir."
       bolum_siniri: 249
       metinde: false
       kaynak: yazar_beyani
@@ -1510,6 +1514,7 @@
       kaynak: metin
     - seviye: 2
       isim: "Afet (Catastrophe)"
+      cevirmen_notu: "'Afet' Türkçede iki anlamı aynı anda taşır: felaket, yıkım; halk dilinde ise tehlikeli derecede güzel bir kadın için kullanılan bir tabirdir. Bu ikilik tesadüf değildir: kanon bu Yolun otoritesini doğrudan 'yıkıcı kadınlık' (Femme Fatale tiplemesi) olarak tanımlar. 'Afet' bu temayı tek bir kelimede, hem gücün ölçeği hem de Yolun kadınlıkla kurduğu ilişki üzerinden karşılar."
       bolum_siniri: 66
       metinde: false
       kaynak: yazar_beyani
@@ -1554,6 +1559,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Ruh Efsuncusu (Spirit Warlock)"
+      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu. Bu tekrar rastgele değildir: Ebedi Gece Tanrıçası (bu Yolun Mertebe 0'ı) ile Kâhin Yolu'nun Melekler Kralı Antigonus arasında kanonik, tarihsel bir bağ vardır. İki hanedanın şehirleri iç içe geçmişti, Ebedi Gece Tanrıçası Kâhin Yolu'nun Melek seviyesine kadar olan iksir tariflerine sahiptir ve Antigonus'un Soytarı Yolu'nun Yegâneliğini taşıması nedeniyle bu Yol üzerinde kısmi bir denetimi olmuştur. Bu üç Yol birbirine gerçekten bağlıdır, bu yüzden ortak kelime bilinçli bir yankıdır."
       bolum_siniri: 750
       metinde: true
       kaynak: metin
