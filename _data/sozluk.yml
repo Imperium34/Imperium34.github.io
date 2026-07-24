@@ -1304,7 +1304,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Fitne Mürşidi (Mentor of Disorder)"
-      cevirmen_notu: "bkz. Hile Mürşidi (Yağmacı Yolu, Mertebe 3)."
+      cevirmen_notu: "bkz. Hile Mürşidi (Kapkaççı Yolu, Mertebe 3)."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
@@ -1789,7 +1789,8 @@
       metinde: true
       kaynak: metin
     - seviye: 6
-      isim: "İblis (Devil)"
+      isim: "Gulyabani (Devil)"
+      cevirmen_notu: "İlk tercih olan 'İblis', İngilizcedeki 'Devil' karşılığı olarak doğru görünse de bu Mertebenin gerçek doğasıyla örtüşmüyordu: kanon bu aşamadaki bir Aşkının en büyük zaafının kolayca kontrolü kaybetmesi olduğunu, kan ve cinayet arzusuyla ele geçirilmeye açık, vahşi ve fiziksel bir varlık olduğunu belirtir. Burada bir parantez açmak gerekir: yaygın olarak okunan Webnovel sitesinin resmi İngilizce çeviride Mertebe 6 'Devil', Mertebe 4 ise 'Demon' olarak adlandırılmıştır; ancak bu isimlendirme wikiden de görebileceğiniz gibi bir çeviri hatasıdır ve iki isim yer değiştirmesi gerekir. Zira 'Devil' (bu Mertebede olduğu gibi vahşi, kontrolsüz, bedensel bir varlık) ile 'Demon' (Mertebe 4'teki soğukkanlı, hesaplı, zihinsel bir varlık) arasındaki beklenen anlam ilişkisi tam tersinedir. Bu yüzden bu sözlük İngilizce isimlere değil, doğrudan her Mertebenin kendi kanonik doğasına sadık kalmıştır.<br><br>'İblis' (özellikle çoğul kullanımda, örn. 'İblisler Şehri' gibi Batı medyası çevirilerinde görüldüğü üzere) Türkçede gerçekten de genel bir 'demon' sınıfı için kullanılabilir. Ancak bu Mertebe için asıl belirleyici olan başka bir husus var: Suçlu Yolu, Mahkum Yolu'nun (Chained Pathway) kardeş yoludur ve Mahkum Yolu'nun 'kamp ateşi hikayesi' niteliğindeki klasik canavar kadrosuyla (Kurtadam, Hortlak, Tayf) aynı halk anlatısı köküne ait bir kelime, iki kardeş yol arasında hafif ama gerçek bir bağ kurar. Bu yüzden 'Gulyabani' (gerçek bir Osmanlı-Türk halk anlatısı canavarı, insan yiyen, tamamen fiziksel bir dehşet figürü) tercih edildi: hem bu Mertebenin vahşi, kontrolsüz doğasını İblis'ten daha isabetli karşılıyor hem de Mahkum Yolu ile örtük bir yankı kuruyor. Bu tercih, Suçlu Yolu'nun İblis Avcısı (Alacakaranlık Devi Yolu) ile kurduğu doğrudan metin-içi karşıtlığı zayıflatır; ancak bu kaybı, Mertebenin kendi doğasına ve kardeş yoluna olan sadakat karşısında kabul edilebilir bulduk."
       bolum_siniri: 414
       metinde: true
       kaynak: metin
@@ -2162,7 +2163,8 @@
       metinde: true
       kaynak: metin
     - seviye: 1
-      isim: "Beyaz Melek (White Angel)"
+      isim: "Pak Melek (White Angel)"
+      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu ancak Kadir-i Mutlak grubundaki kardeş Mertebesi olan Sır Talibi Yolu'nun Zulmani Melek'i (Mertebe 1, Dark Angel) ile kıyaslandığında bir ağırlık dengesizliği taşıyordu. 'Zulmani' yalnızca bir renk kelimesi değildir; 'zulüm' köküyle bağlantılı, baskıcı ve zorba bir karanlığı ifade eden yüklü bir kelimedir. 'Beyaz' ise sıradan, nötr bir renk sıfatıdır; bu da iki kardeş Mertebenin unvanları arasında birinin ahlaki ağırlık taşıyıp diğerinin yalnızca bir renk adı olması gibi bir asimetri yaratıyordu. 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu dengesizliği giderir: 'Pak Melek' artık yalnızca bir rengi değil, bir ahlaki/manevi durumu adlandırıyor ve 'Zulmani Melek' ile gerçek bir karşıtlık kuruyor."
       bolum_siniri: 140
       metinde: true
       kaynak: metin
@@ -2277,6 +2279,7 @@
       kaynak: yazar_beyani
     - seviye: 1
       isim: "Zulmani Melek (Dark Angel)"
+      cevirmen_notu: "bkz. Pak Melek (Ozan Yolu 1. Mertebe)"
       bolum_siniri: 667
       metinde: true
       kaynak: metin
