@@ -47,6 +47,8 @@ Okuyucu sözlüğü madde madde ezberlemez. Terimlerin birbiriyle kurduğu iliş
 
 Bu tercihlerin nerede yapıldığı gizlenmiyor. **Sözlük sayfasındaki her girdi, hangi kararın neden alındığını açıklayan bir çevirmen notu taşıyabilir**. Kanona sadık olan, tamamlanan ve tamamen özgün olan karşılıklar ayrı ayrı işaretlenmiştir.
 
+Sözlüğün kendi çalışma kuralları (parantez içindeki İngilizcenin neden bir karşılık değil arama anahtarı olduğu, spoiler korumasının iki ayrı eksende nasıl işlediği ve rozetlerin ne anlama geldiği) [Sözlük sayfasının](/sozluk/) başındaki "Bu sözlük nasıl okunur?" bölümünde açıklanmıştır.
+
 ---
 
 ### Osmanlıca ve İslami Terminoloji Üzerine
@@ -57,7 +59,19 @@ Serideki **Kadir-i Mutlak** (_God Almighty_), İbrahimî tektanrıcılığın ro
 
 Türkçenin tektanrılı bir yaratıcıdan söz ederken elindeki en derin dağarcık ise İslamîdir; çünkü o dağarcığı kuran gelenek budur. **Hâlık**, **Bari**, **Alîm** gibi kelimeler bu yüzden kullanılmıştır. Kurgusal bir varlığı gerçek bir inancın yerine koymak için değil, o varlığın romandaki işlevini karşılayabilecek tek kayıt Türkçede bu olduğu için.
 
-Yöntem, "Mertebe" tercihiyle aynıdır: sözcükler ait oldukları göndergeye göre seçilir. Bazı okuyucuların bu tercihi rahatsız edici bulabileceğinin farkındayım; kararın gerekçesi burada, açık biçimde durmaktadır.
+Yöntem, "Mertebe" tercihiyle aynıdır: sözcükler ait oldukları göndergeye göre seçilir.
+
+Buna karşın gelebilecek itirazlar da vardır. **Esmâ-ül Hüsnâ, "mertebe" gibi bir disiplinin teknik terimi değildir; canlı ibadet içinde okunan isimlerdir.** Romandaki tazim isimleri de okunmak, çağrılmak üzere yazılmış hitaplardır. Yani burada biçim ile içerik örtüşür: ibadet için okunan isimlerden kurulu, okunmak üzere yazılmış bir hitap ortaya çıkar.
+
+#### İki kutsal kitap, iki ayrı kayıt
+
+Bu tercihin bir sonucu, metinde İncil'den doğrudan alıntı yapıldığında ortaya çıkar. Alıntıyı yapan karakter bizim dünyamızdan gelmiştir ve alıntıladığı metin gerçekten **bizim dünyamızın İncil'idir**. Yazarın kurgu içinde uydurduğu bir kitap değil.
+
+Bu yüzden iki kayıt bilinçli olarak ayrı tutulur. İlahların unvanları Esmâ kaydında kalır; karakterin alıntıları Kitab-ı Mukaddes kaydında bırakılır. Türkçe kulağa bu ikisi apayrı gelir: biri yerli ve köklü, diğeri açıkça çevrilmiş.
+
+Çarpışma bir sorun değil, tercihin kendisidir. Dünyanın kendi ilahiyatı yerli duyulur; dışarıdan gelen adamın taşıdığı metin yabancı duyulur, çünkü öyledir. İngilizce bu ayrımı yapamaz: orada her iki kaynak da aynı "kutsal metin" dokusuna erir.
+
+Bazı okuyucuların bu tercihleri rahatsız edici bulabileceğinin farkındayım; kararın gerekçesi burada, açık biçimde durmaktadır.
 
 ---
 

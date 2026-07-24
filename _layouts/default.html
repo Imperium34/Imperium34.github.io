@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }} by {{ site.author.name }}</title>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="icon" type="image/png" href="/assets/favicon.png">
   <link rel="apple-touch-icon" href="/assets/favicon.png">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  <meta property="og:type" content="website">
+  {%- comment -%}
+    Sayfa kendi ozetini verebilir: front matter'a `aciklama:` yazin.
+    Yazilmazsa sitenin genel ozeti kullanilir.
+  {%- endcomment -%}
+  {% assign sayfa_ozeti = page.aciklama | default: "Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Karanlık Viktorya dönemi ve gizemlerin dünyasına adım atın." %}
+  <meta name="description" content="{{ sayfa_ozeti }}">
+
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="Esrarın Hükümdarı">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Karanlık Viktorya dönemi ve gizemlerin dünyasına adım atın.">
+  <meta property="og:description" content="{{ sayfa_ozeti }}">
   <meta property="og:image" content="{{ site.url }}/assets/cover.png">
-  <meta name="theme-color" content="#a41818"> <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#a41818">
 </head>
 <body>
 <header class="imperium-header">
@@ -146,8 +154,8 @@
     }
   }
   if (window.localStorage) {
-    localStorage.setItem('imperiumLastChapterUrl', '{{ page.url }}');
-    localStorage.setItem('imperiumLastChapterTitle', '{{ page.title }}');
+    localStorage.setItem('imperiumLastChapterUrl', {{ page.url | jsonify }});
+    localStorage.setItem('imperiumLastChapterTitle', {{ page.title | jsonify }});
   }
 </script>
 {% endif %}

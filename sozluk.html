@@ -102,6 +102,53 @@ body.spoiler-mode-active .hidden-sequence {
   color: #c98a3a;
 }
 
+/* --- Nasil okunur kutusu --- */
+.nasil-kutusu {
+  background: #12100a;
+  border: 1px solid #4a3d1a;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+.nasil-kutusu > summary {
+  color: #d4af37;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 0;
+  outline: none;
+  list-style: none;
+  font-size: 0.95em;
+}
+.nasil-kutusu > summary::-webkit-details-marker { display: none; }
+.nasil-kutusu > summary::before { content: "▸ "; }
+.nasil-kutusu[open] > summary::before { content: "▾ "; }
+.nasil-kutusu .govde {
+  border-top: 1px solid #2e2716;
+  padding: 14px 0 18px;
+  color: #b9b3a2;
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+.nasil-kutusu .govde p { margin: 0 0 12px; }
+.nasil-kutusu .govde p:last-child { margin-bottom: 0; }
+.nasil-kutusu h4 {
+  color: #d4bb63;
+  font-size: 0.92em;
+  margin: 18px 0 8px;
+}
+.nasil-kutusu h4:first-child { margin-top: 0; }
+.nasil-kutusu code {
+  background: #1f1a10;
+  color: #d4bb63;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+.rozet-cetvel { display: flex; flex-direction: column; gap: 7px; margin: 10px 0 0; }
+.rozet-cetvel > div { display: flex; gap: 9px; align-items: baseline; flex-wrap: wrap; }
+.rozet-cetvel .rozet { margin: 0; flex-shrink: 0; cursor: default; }
+.nasil-kutusu a { color: #c9a227; }
+
 /* --- Ek kaynak anahtarlari --- */
 .kaynak-kutusu {
   flex: 1;
@@ -236,6 +283,69 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 <div style="background: #a41818; color: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; font-weight: bold;">
   ⚠️ DİKKAT: Üzeri kapalı terimler, serinin ilerleyen bölümlerine dair kritik gizemler barındırır. Kendi sorumluluğunuzda açınız.
 </div>
+
+<details class="nasil-kutusu">
+  <summary>Bu sözlük nasıl okunur?</summary>
+  <div class="govde">
+
+    <h4>Parantez içindeki İngilizce bir karşılık değildir</h4>
+    <p>
+      Webnovel'in resmî İngilizce çevirisinde geçen ifadedir; Türkçe terimin
+      "doğru çevirisi" değil, o metinde arama yapmanız için bir anahtardır.
+      Bu yüzden Suçlu Yolu'nda <code>Gulyabani (Devil)</code> ve
+      <code>Şeytan (Demon)</code> yazar: resmî İngilizce çeviri bu iki Mertebenin
+      adlarını birbiriyle değiştirmiştir, sözlük ise İngilizce adlara değil her
+      Mertebenin kanonik doğasına uyar. Anahtar sütunu Webnovel'deki hâliyle
+      bırakılmıştır.
+    </p>
+
+    <h4>Sözlük iki ayrı eksende kapalıdır</h4>
+    <p>
+      <strong>Bölüm ekseni:</strong> kaçıncı bölümde olduğunuzu yazarsınız, sözlük
+      o bölüme kadar açığa çıkmış terimleri gösterir. "Seriyi bitirdim" düğmesi
+      bunu son bölüme (1409) ayarlar.
+    </p>
+    <p>
+      <strong>Kaynak ekseni:</strong> roman metninin dışından gelen içerik ayrı
+      anahtarlarla açılır ve varsayılan olarak kapalıdır. Yazarın metin dışı
+      açıklamaları ve <em>Circle of Inevitability</em> içeriği bu anahtarlara
+      bağlıdır. LotM'u bitirmiş olmanız CoI içeriğini açmaz; ayrı bir eserdir ve
+      hâlâ yayımlanmaktadır.
+    </p>
+
+    <h4>Rozetler yalnızca sapmayı gösterir</h4>
+    <p>
+      "Kanon + çeviri" varsayılan olduğu için rozet almaz. Rozet gördüğünüz her
+      yerde bir tercih ya da bir belirsizlik vardır.
+    </p>
+    <div class="rozet-cetvel">
+      <div><span class="rozet rozet-ekleme">Kanon + ekleme</span> <span>Kanonik tazim isminde çevirmen eklemesi veya değişikliği var.</span></div>
+      <div><span class="rozet rozet-ekleme">Kanon + birleştirme</span> <span>Kanonik satırlar birleştirilerek tek bir tazim ismi yapılmış.</span></div>
+      <div><span class="rozet rozet-ozgun">Özgün</span> <span>Kanonda karşılığı yok; tamamen çevirmen tarafından yazılmış.</span></div>
+      <div><span class="rozet rozet-beyani">Metin dışı</span> <span>Romanda geçmez; yazarın metin dışı açıklamalarından gelir.</span></div>
+      <div><span class="rozet rozet-coi">Circle of Inevitability</span> <span>Devam kitabının metninden gelir.</span></div>
+      <div><span class="rozet rozet-karma">Karma kaynak</span> <span>Girdideki maddelerin bir kısmı metinden, bir kısmı metin dışıdır.</span></div>
+      <div><span class="rozet rozet-denetim">Denetlenmedi</span> <span>Kanona uygunluğu henüz tek tek denetlenmedi.</span></div>
+    </div>
+    <p style="margin-top: 12px;">
+      Son rozet önemlidir: <strong>rozetin yokluğu "doğrulandı" anlamına gelmez.</strong>
+      Bir Mertebe adının başındaki yıldız (<code>*</code>) ise o karşılığın geçici
+      olduğunu bildirir.
+    </p>
+
+    <h4>Neden bu kelimeler?</h4>
+    <p>
+      Kelimeler ait oldukları kavram dünyasından seçilir: bir kavramın Türkçede
+      zaten bir karşılığı varsa yenisi icat edilmez, o karşılık bulunur.
+      <em>Yol</em> ve <em>Mertebe</em> tasavvuf sözlüğünden gelir, çünkü bu
+      basamaklar güç dereceleri değil manevi makamlardır. Her terimin kendi
+      gerekçesi girdisindeki çevirmen notundadır;
+      <a href="{{ '/sozluk/hakkinda/' | relative_url }}">bütün sözlüğe uygulanan
+      ilkeler ve Kadir-i Mutlak tercihinin gerekçesi</a> ayrı sayfada.
+    </p>
+
+  </div>
+</details>
 
 <div class="filter-container" style="margin-bottom: 30px; display: flex; flex-direction: column; gap: 10px;">
   <input type="text" id="termSearch" oninput="filterTerms()" placeholder="Terim veya İngilizce karşılığını ara..." style="width: 100%; padding: 12px; font-size: 16px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px; box-sizing: border-box;">
