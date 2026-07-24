@@ -102,6 +102,35 @@ body.spoiler-mode-active .hidden-sequence {
   color: #c98a3a;
 }
 
+/* --- Ek kaynak anahtarlari --- */
+.kaynak-kutusu {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+.kaynak-kutusu > span {
+  font-size: 0.78em;
+  color: #777;
+  letter-spacing: 0.02em;
+}
+.kaynak-secim {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.85em;
+  color: #bbb;
+  cursor: pointer;
+}
+.kaynak-secim input { accent-color: #a882d4; cursor: pointer; margin: 0; }
+.kaynak-secim:hover { color: #ddd; }
+
 /* --- Kaynak / müdahale rozetleri --- */
 .rozet {
   display: inline-block;
@@ -221,11 +250,17 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
       <option value="Aşkın Yolları">Aşkın Yolları</option>
     </select>
 
-    <select id="spoilerFilter" onchange="filterTerms()" style="flex: 1; min-width: 180px; padding: 10px 12px; font-size: 14px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px;">
-      <option value="">Spoiler Durumu: Tümü</option>
-      <option value="false">Yalnızca Spoilersız</option>
-      <option value="true">Yalnızca Spoilerlı</option>
-    </select>
+    <div class="kaynak-kutusu">
+      <span>Roman metni dışındaki kaynaklar</span>
+      <label class="kaynak-secim">
+        <input type="checkbox" id="kaynakDisi" onchange="kaynakDegistir()">
+        Yazarın metin dışı açıklamalarını göster
+      </label>
+      <label class="kaynak-secim">
+        <input type="checkbox" id="kaynakCoi" onchange="kaynakDegistir()">
+        Circle of Inevitability içeriğini göster
+      </label>
+    </div>
 
     <button onclick="resetFilters()" style="padding: 10px 18px; font-size: 14px; background: #222; border: 1px solid #444; color: #aaa; border-radius: 4px; cursor: pointer;">
       Filtreleri Sıfırla
@@ -236,14 +271,14 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
   <div class="bolum-kutusu">
     <label for="bolumInput">Kaçıncı bölümdesiniz?</label>
     <div class="bolum-satir">
-      <input type="number" id="bolumInput" min="0" max="9999" placeholder="ör. 245">
+      <input type="number" id="bolumInput" min="0" max="1409" placeholder="ör. 245">
       <button class="bolum-btn" onclick="bolumUygula()">Uygula</button>
       <button class="bolum-btn" onclick="bolumBitirdim()">Seriyi bitirdim</button>
       <button class="bolum-btn ikincil" id="bolumTemizleBtn" onclick="bolumTemizle()" style="display:none;">Okuma ilerlememi kullan</button>
     </div>
     <p class="bolum-durum" id="bolumDurum"></p>
     <p class="bolum-uyari" id="bolumUyari" style="display:none;">
-      Bölüm belirtilmediği için yalnızca spoiler içermeyen girdiler gösteriliyor. Kaldığınız bölümü yazarsanız sözlük ona göre açılır.
+      Bölüm belirtilmediği için yalnızca giriş düzeyi girdiler gösteriliyor. Kaldığınız bölümü yazarsanız sözlük ona göre açılır.
     </p>
   </div>
 
@@ -256,7 +291,9 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 
 <ul id="glossaryList" style="list-style-type: none; padding: 0;">
   {% for item in site.data.sozluk %}
-    <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-kategori="{{ item.kategori }}" data-spoiler="{{ item.spoiler }}" data-unlock="{% if item.spoiler %}{{ item.bolum_siniri | default: 9999 }}{% else %}0{% endif %}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
+    {%- assign bs = item.bolum_siniri | default: 0 -%}
+    {%- capture mertebe_adlari %}{% for m in item.mertebeler %}{{ m.isim }} {% endfor %}{% endcapture -%}
+    <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-mertebeler="{{ mertebe_adlari | downcase }}" data-kategori="{{ item.kategori }}" data-kaynak="{{ item.kaynak }}" data-unlock="{{ bs }}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
 
       <h3 class="term-title" style="margin-top: 0; color: #d4af37;">
         {{ item.terim }} <span style="font-size: 0.7em; color: #666;">({{ item.ingilizce }})</span>
@@ -281,6 +318,8 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
 
       {% if item.mudahale == 'tamamlama' or item.mudahale == 'degistirme' %}
         <span class="rozet rozet-ekleme" title="Kanonik tazim isminde çevirmen eklemesi veya değişikliği var. Ayrıntı için çevirmen notuna bakınız.">Kanon + ekleme</span>
+      {% elsif item.mudahale == 'birlestirme' %}
+        <span class="rozet rozet-ekleme" title="Kanonik satırlar birleştirilerek tek bir tazim ismi hâline getirilmiştir. Ayrıntı için çevirmen notuna bakınız.">Kanon + birleştirme</span>
       {% elsif item.mudahale == 'ozgun' %}
         <span class="rozet rozet-ozgun" title="Kanonda karşılığı yoktur; tamamen çevirmen tarafından yazılmıştır.">Özgün</span>
       {% endif %}
@@ -297,17 +336,17 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
         <span class="rozet rozet-denetim" title="Bu girdinin kanona uygunluğu henüz tek tek denetlenmedi.">Denetlenmedi</span>
       {% endif %}
 
-      {% if item.spoiler %}
-        <div class="main-term-spoiler" data-unlock="{{ item.bolum_siniri | default: 9999 }}">
+      {% if bs > 0 %}
+        <div class="main-term-spoiler" data-unlock="{{ bs }}" data-kaynak="{{ item.kaynak }}">
           <details style="cursor: pointer;">
             <summary style="color: #a41818; font-weight: bold; outline: none;">Spoiler İçerir (Görmek için tıklayın)</summary>
             <p style="margin-top: 10px; color: #ccc;">{{ item.aciklama }}</p>
             {% if item.cevirmen_notu %}
-              <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
+              <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: bs }}" data-kaynak="{{ item.kaynak }}">
                 <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
                 <p>{{ item.cevirmen_notu }}</p>
                 {% for parca in item.cevirmen_notu_ek %}
-                  <p class="notu-parca" data-unlock="{{ parca.sinir | default: 9999 }}">
+                  <p class="notu-parca" data-unlock="{{ parca.sinir | default: bs }}">
                     {% if parca.baslik %}<span class="notu-parca-etiket">{{ parca.baslik }}</span>{% endif %}
                     {{ parca.metin }}
                   </p>
@@ -322,11 +361,11 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
           <p style="color: #ccc; margin-bottom: 0;">{{ item.aciklama }}</p>
         {% endif %}
         {% if item.cevirmen_notu %}
-          <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: item.bolum_siniri | default: 0 }}">
+          <details class="cevirmen-notu-toggle" data-unlock="{{ item.cevirmen_notu_sinir | default: bs }}" data-kaynak="{{ item.kaynak }}">
             <summary>Çevirmen Notu (Tercih Gerekçesi)</summary>
             <p>{{ item.cevirmen_notu }}</p>
             {% for parca in item.cevirmen_notu_ek %}
-              <p class="notu-parca" data-unlock="{{ parca.sinir | default: 9999 }}">
+              <p class="notu-parca" data-unlock="{{ parca.sinir | default: bs }}">
                 {% if parca.baslik %}<span class="notu-parca-etiket">{{ parca.baslik }}</span>{% endif %}
                 {{ parca.metin }}
               </p>
@@ -344,20 +383,21 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
         {% endif %}
         <ul style="list-style: none; padding: 0; margin-top: 15px; border-top: 1px dashed #333; padding-top: 10px;">
           {% for mertebe in item.mertebeler %}
-            <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" style="margin-bottom: 8px; font-size: 0.95em;">
+            {%- assign mbs = mertebe.bolum_siniri | default: 0 -%}
+            <li class="sequence-row {% if mertebe.seviye == 0 %}hidden-sequence{% endif %}" data-unlock="{{ mbs }}" data-kaynak="{{ mertebe.kaynak }}" style="margin-bottom: 8px; font-size: 0.95em;">
               <strong style="color: #888;">Mertebe {{ mertebe.seviye }}:</strong>
               <span class="sr-only spoiler-uyari">Gizlenmiş terim, açmak için etkinleştirin</span>
-              <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">
+              <span class="dynamic-spoiler" data-unlock="{{ mbs }}" data-kaynak="{{ mertebe.kaynak }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">
                 {{ mertebe.isim }}
               </span>
               {% if mertebe.bolgesel %}
                 <span style="display: inline-block; background: #1b2b3d; color: #82b4d4; padding: 2px 6px; border-radius: 3px; font-size: 0.75em; margin-left: 6px; border: 1px solid #34527f;">
                   {{ mertebe.bolgesel.kultur }}:
-                  <span class="dynamic-spoiler" data-unlock="{{ mertebe.bolum_siniri | default: 9999 }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
+                  <span class="dynamic-spoiler" data-unlock="{{ mbs }}" data-kaynak="{{ mertebe.kaynak }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
                 </span>
               {% endif %}
               {% if mertebe.cevirmen_notu %}
-                <details class="mertebe-notu" data-unlock="{{ mertebe.cevirmen_notu_sinir | default: mertebe.bolum_siniri | default: 9999 }}">
+                <details class="mertebe-notu" data-unlock="{{ mertebe.cevirmen_notu_sinir | default: mbs }}" data-kaynak="{{ mertebe.kaynak }}">
                   <summary>Çevirmen Notu</summary>
                   <p>{{ mertebe.cevirmen_notu }}</p>
                 </details>
@@ -382,6 +422,34 @@ var currentChapterGlobal = 0;
 
 var OKUMA_ANAHTARI = "imperiumLastChapterTitle";
 var TERCIH_ANAHTARI = "sozlukBolumTercihi";
+var DISI_ANAHTARI   = "sozlukMetinDisi";
+var COI_ANAHTARI    = "sozlukCoi";
+
+var SON_BOLUM = 1409;   // LotM'un son bolumu; "seriyi bitirdim" bunu yazar
+
+var disiAcik = false;   // yazar_beyani + karma
+var coiAcik  = false;   // metin_coi
+
+// karma girdiler en kisitlayici temele tabidir: metin disi.
+function kaynakIzinli(kaynak) {
+  if (kaynak === "metin_coi") return coiAcik;
+  if (kaynak === "yazar_beyani" || kaynak === "karma") return disiAcik;
+  return true;
+}
+
+// Bir ogenin acik olmasi icin hem bolum hem kaynak esigini gecmesi gerekir.
+function ogeAcikMi(el, bolum) {
+  var esik = parseInt(el.getAttribute("data-unlock"), 10);
+  if (isNaN(esik)) esik = 0;
+  if (bolum < esik) return false;
+  return kaynakIzinli(el.getAttribute("data-kaynak"));
+}
+
+function kaynakDegistir() {
+  localStorage.setItem(DISI_ANAHTARI, document.getElementById("kaynakDisi").checked ? "1" : "0");
+  localStorage.setItem(COI_ANAHTARI,  document.getElementById("kaynakCoi").checked  ? "1" : "0");
+  location.reload();
+}
 
 function okumaIlerlemesi() {
   var baslik = localStorage.getItem(OKUMA_ANAHTARI);
@@ -413,7 +481,7 @@ function bolumUygula() {
 }
 
 function bolumBitirdim() {
-  localStorage.setItem(TERCIH_ANAHTARI, "9999");
+  localStorage.setItem(TERCIH_ANAHTARI, String(SON_BOLUM));
   location.reload();
 }
 
@@ -435,9 +503,9 @@ function bolumDurumunuYaz() {
 
   if (tercih !== null) {
     temizle.style.display = okuma !== null ? "" : "none";
-    girdi.value = tercih === 9999 ? "" : tercih;
-    durum.innerHTML = tercih >= 9999
-      ? "Seriyi bitirmiş olarak işaretlendiniz; <strong>tüm girdiler</strong> açık."
+    girdi.value = tercih >= SON_BOLUM ? "" : tercih;
+    durum.innerHTML = tercih >= SON_BOLUM
+      ? "Seriyi bitirmiş olarak işaretlendiniz; <strong>bölüme bağlı tüm girdiler</strong> açık."
       : "Şu an <strong>Bölüm " + tercih + "</strong> olarak ayarlı (elle).";
   } else if (okuma !== null) {
     temizle.style.display = "none";
@@ -453,6 +521,17 @@ function bolumDurumunuYaz() {
   var acik = document.querySelectorAll('.glossary-item[data-is-locked-hidden="false"]').length;
   if (etkin > 0 || okuma !== null) {
     durum.innerHTML += " " + acik + " / " + toplam + " girdi görünür.";
+  }
+
+  var kaynakGizli = 0;
+  document.querySelectorAll(".glossary-item").forEach(function(it) {
+    if (it.dataset.isLockedHidden === "true" && !kaynakIzinli(it.getAttribute("data-kaynak"))) {
+      kaynakGizli++;
+    }
+  });
+  if (kaynakGizli > 0) {
+    durum.innerHTML += " Bunlardan <strong>" + kaynakGizli +
+      "</strong> girdi roman metni dışındaki kaynaklardan geldiği için kapalı; yukarıdaki kutudan açabilirsiniz.";
   }
 }
 
@@ -475,7 +554,6 @@ function spoilerDurumuUygula(el, acik) {
 function filterTerms() {
   var searchVal = document.getElementById('termSearch').value.toLowerCase().trim();
   var categoryVal = document.getElementById('categoryFilter').value;
-  var spoilerVal = document.getElementById('spoilerFilter').value;
   var items = document.querySelectorAll('.glossary-item');
   var visibleCount = 0;
 
@@ -483,16 +561,18 @@ function filterTerms() {
     var terim = item.dataset.terim || "";
     var ingilizce = item.dataset.ingilizce || "";
     var kategori = item.dataset.kategori || "";
-    var spoiler = item.dataset.spoiler || "";
+    var mertebeler = item.dataset.mertebeler || "";
     
     var isLockedHidden = item.dataset.isLockedHidden === "true";
     var canShowLocked = isGlobalSpoilerActive ? true : !isLockedHidden;
 
-    var matchesSearch = !searchVal || terim.indexOf(searchVal) > -1 || ingilizce.indexOf(searchVal) > -1;
+    var matchesSearch = !searchVal
+      || terim.indexOf(searchVal) > -1
+      || ingilizce.indexOf(searchVal) > -1
+      || mertebeler.indexOf(searchVal) > -1;
     var matchesCategory = !categoryVal || kategori === categoryVal;
-    var matchesSpoiler = !spoilerVal || spoiler === spoilerVal;
 
-    if (matchesSearch && matchesCategory && matchesSpoiler && canShowLocked) {
+    if (matchesSearch && matchesCategory && canShowLocked) {
       item.style.display = "";
       visibleCount++;
     } else {
@@ -504,7 +584,7 @@ function filterTerms() {
   var noResultsEl = document.getElementById('noResults');
   var total = items.length;
 
-  if (visibleCount === total && !searchVal && !categoryVal && !spoilerVal && isGlobalSpoilerActive) {
+  if (visibleCount === total && !searchVal && !categoryVal && isGlobalSpoilerActive) {
     countEl.textContent = "";
   } else {
     countEl.textContent = visibleCount + " terim gösteriliyor.";
@@ -512,10 +592,10 @@ function filterTerms() {
   noResultsEl.style.display = visibleCount === 0 ? "block" : "none";
 }
 
+// Kaynak anahtarlari birer filtre degil kalici ayardir; sifirlama onlara dokunmaz.
 function resetFilters() {
   document.getElementById('termSearch').value = "";
   document.getElementById('categoryFilter').value = "";
-  document.getElementById('spoilerFilter').value = "";
   filterTerms();
 }
 
@@ -545,8 +625,7 @@ function toggleGlobalSpoiler() {
       d.open = false; 
     });
     document.querySelectorAll(".dynamic-spoiler").forEach(function(el) {
-      var unlockAt = parseInt(el.getAttribute("data-unlock"), 10);
-      spoilerDurumuUygula(el, currentChapterGlobal >= unlockAt);
+      spoilerDurumuUygula(el, ogeAcikMi(el, currentChapterGlobal));
     });
   }
   
@@ -554,25 +633,31 @@ function toggleGlobalSpoiler() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+  disiAcik = localStorage.getItem(DISI_ANAHTARI) === "1";
+  coiAcik  = localStorage.getItem(COI_ANAHTARI)  === "1";
+  var disiKutu = document.getElementById("kaynakDisi");
+  var coiKutu  = document.getElementById("kaynakCoi");
+  if (disiKutu) disiKutu.checked = disiAcik;
+  if (coiKutu)  coiKutu.checked  = coiAcik;
+
   var currentChapter = etkinBolum();
   currentChapterGlobal = currentChapter;
 
   var items = document.querySelectorAll('.glossary-item');
   items.forEach(function(item) {
-    var unlockAt = parseInt(item.getAttribute("data-unlock"), 10);
+    // Yol girdileri girdi duzeyinde hic gizlenmez; kaynak denetimi
+    // tek tek Mertebe satirlarinda yapilir.
     var kategori = item.getAttribute("data-kategori");
-    
-    if (currentChapter < unlockAt && kategori !== 'Aşkın Yolları') {
-      item.dataset.isLockedHidden = "true";
-    } else {
+    if (kategori === 'Aşkın Yolları') {
       item.dataset.isLockedHidden = "false";
+      return;
     }
+    item.dataset.isLockedHidden = ogeAcikMi(item, currentChapter) ? "false" : "true";
   });
 
   var mainSpoilers = document.querySelectorAll(".main-term-spoiler");
   mainSpoilers.forEach(function(container) {
-    var unlockAt = parseInt(container.getAttribute("data-unlock"), 10);
-    if (currentChapter >= unlockAt) {
+    if (ogeAcikMi(container, currentChapter)) {
       var pEl = container.querySelector("p");
       var pContent = pEl ? pEl.innerHTML : "";
       var notuBlock = container.querySelector(".cevirmen-notu-toggle");
@@ -587,11 +672,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var notuBlocks = document.querySelectorAll(".cevirmen-notu-toggle, .mertebe-notu");
   notuBlocks.forEach(function(notu) {
-    var unlockAt = parseInt(notu.getAttribute("data-unlock"), 10);
-    if (currentChapter < unlockAt) {
-      notu.classList.add("notu-locked");
-    } else {
+    if (ogeAcikMi(notu, currentChapter)) {
       notu.classList.remove("notu-locked");
+    } else {
+      notu.classList.add("notu-locked");
     }
   });
 
@@ -609,17 +693,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var seqRows = document.querySelectorAll(".sequence-row");
   seqRows.forEach(function(row) {
-    var unlockAt = parseInt(row.getAttribute("data-unlock"), 10);
-    if (currentChapter >= unlockAt) {
+    if (ogeAcikMi(row, currentChapter)) {
       row.classList.remove("hidden-sequence");
+    } else if (!kaynakIzinli(row.getAttribute("data-kaynak"))) {
+      row.classList.add("hidden-sequence");
     }
   });
 
   var spoilers = document.querySelectorAll(".dynamic-spoiler");
   spoilers.forEach(function(spoiler) {
-    var unlockAt = parseInt(spoiler.getAttribute("data-unlock"), 10);
-
-    spoilerDurumuUygula(spoiler, currentChapter >= unlockAt);
+    spoilerDurumuUygula(spoiler, ogeAcikMi(spoiler, currentChapter));
 
     spoiler.addEventListener("click", function() {
       spoilerDurumuUygula(this, !this.classList.contains("unlocked"));
