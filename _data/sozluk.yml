@@ -8,7 +8,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Yol"
   ingilizce: "Pathway"
@@ -17,7 +17,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Mertebe"
   ingilizce: "Sequence"
@@ -27,7 +27,25 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
+
+- terim: "İksir (Ana ve Yan Malzemeler)"
+  ingilizce: "Potion (Main and Supplementary Ingredients)"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların Mertebeler arasında yükselmesini sağlayan mistik karışımlar. Ana Malzemeler' ile, bu gücün getirdiği deliliği seyreltip sindirimi mümkün kılan 'Yan Malzemelerin' kusursuz oranlarda birleştirilmesidir."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Aslî Yaradan"
+  ingilizce: "The Original Creator"
+  kategori: "İlahlar ve Yüce Kadimler"
+  aciklama: "Her şeyin başlangıcı ve sonu olan; tüm Aşkın Yolların, Hasletlerin, evrenin ve Yüce Kadimlerin kendisinden koptuğu nihai varlık. Evrenin varoluşu Aslî Yaradan'ın parçalanmasıyla başlamıştır ve Aşkın Hasletlerin Yakınsama Kanunu uyarınca evrendeki her şey eninde sonunda yeniden ona dönme eğilimindedir."
+  bolum_siniri: 1409
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Yüce Kadim"
   ingilizce: "Great Old One"
@@ -48,6 +66,15 @@
   mudahale: ceviri
   denetim: denetlenmedi
 
+- terim: "Mertebelerin Fevki"
+  ingilizce: "Above the Sequence"
+  kategori: "Temel Kavramlar"
+  aciklama: "Standart 0-9 Mertebe sisteminin tamamen dışına çıkıldığı, Yüce Kadimlerin ve Aslî Menşeleri bünyesine katan varlıkların eriştiği mutlak kudret ve makam seviyesi."
+  bolum_siniri: 1224
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Melekler Kralı"
   ingilizce: "King of Angels"
   kategori: "Temel Kavramlar"
@@ -55,7 +82,7 @@
   bolum_siniri: 486
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Yegânelik"
   ingilizce: "Uniqueness"
@@ -66,6 +93,15 @@
   mudahale: ceviri
   denetim: denetlenmedi
 
+- terim: "İlahî Hükümranlık"
+  ingilizce: "Divine Kingdom"
+  kategori: "Temel Kavramlar"
+  aciklama: "Gerçek İlahların (Mertebe 0) Astral Alem'de inşa ettikleri, kendi yollarının otoritesi ve kurallarıyla şekillenen mutlak alanlar. Bir İlahın kendi hükümranlığı içinde mağlup edilmesi neredeyse imkânsızdır."
+  bolum_siniri: 1224
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Yıldızlı Gökkubbenin ötesi"
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
@@ -75,7 +111,7 @@
   bolum_siniri: 892
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "İlhad Levhası"
   ingilizce: "Blasphemy Slate"
@@ -84,7 +120,7 @@
   bolum_siniri: 6
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Oyunculuk Metodu / Rol İfası"
   ingilizce: "Acting Method"
@@ -93,7 +129,7 @@
   bolum_siniri: 93
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Şirazesini Yitirmek (Şirazeden Çıkmak)"
   ingilizce: "Losing Control"
@@ -103,7 +139,7 @@
   bolum_siniri: 14
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Hezeyanlar"
   ingilizce: "Ravings"
@@ -112,7 +148,7 @@
   bolum_siniri: 68
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Ruhani Alem (Alem-i Ervah)"
   ingilizce: "Spirit World"
@@ -126,7 +162,7 @@
   bolum_siniri: 14
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Astral Alem (Alem-i Misal)"
   ingilizce: "Astral World"
@@ -136,7 +172,7 @@
   bolum_siniri: 1345
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Tazim İsmi"
   ingilizce: "Honorific Name"
@@ -145,7 +181,7 @@
   bolum_siniri: 61
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Mühürlü Eserler"
   ingilizce: "Sealed Artifacts"
@@ -154,7 +190,7 @@
   bolum_siniri: 19
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Tılsım"
   ingilizce: "Charm"
@@ -163,7 +199,7 @@
   bolum_siniri: 127
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Ayin İlmi"
   ingilizce: "Ritualistic Magic"
@@ -172,7 +208,7 @@
   bolum_siniri: 61
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Aslî Menşe"
   ingilizce: "Sefirot"
@@ -182,7 +218,7 @@
   bolum_siniri: 1203
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Aslî Kale"
   ingilizce: "Sefirah Castle"
@@ -191,7 +227,37 @@
   bolum_siniri: 1127
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
+
+- terim: "Hercümerç Deryası"
+  ingilizce: "Chaos Sea"
+  kategori: "Temel Kavramlar"
+  aciklama: "Kadir-i Mutlak grubunun Aslî Menşesi. Tüm yozlaşmanın, ilksel kaosun ve yaratılıştan arta kalan karmaşanın yattığı karanlık ve dipsiz metafizik okyanus."
+  bolum_siniri: 1203
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "İlahiyat ve Beşeriyet"
+  ingilizce: "Divinity and Humanity"
+  kategori: "Temel Kavramlar"
+  aciklama: "Yüksek mertebeli Aşkınların (özellikle Mertebe 4 ve üzeri) içlerinde yaşadıkları nihai varoluşsal çatışma. Aşkın, mertebelerde yükseldikçe iksirin getirdiği ilahi doğa (İlahiyat) uyanır ve kişinin insanî duygularını, ahlakını ve dünyevi bağlarını (Beşeriyet) yutmaya başlar. Ruhani çıpalara duyulan ihtiyacın temel sebebi bu Beşeriyeti korumaktır."
+  cevirmen_notu: "'Humanity' kelimesi için doğrudan 'İnsanlık' yerine 'Beşeriyet' tercih edilmesi bilinçlidir. Aşkınların ilahi katmanlara çıktıkça geride bıraktıkları o aciz, fani ve dünyevi doğayı 'beşer olma hali' çok daha keskin yansıtır. 'İlahiyat' ile 'Beşeriyet' arasındaki bu gerilim, sözlüğün genel klasik/teolojik dil kaydına kusursuzca oturur."
+  bolum_siniri: 1403
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Aşkın Hasleti"
+  ingilizce: "Beyonder Characteristic"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların güçlerinin fiziksel ve ruhani kaynağı olan, evrenin başlangıcından beri var olan ve asla yok edilemeyen mistik özler. Bir Aşkın öldüğünde bu haslet vücudundan dışarı sızarak genellikle tuhaf bir kristal, renkli bir jöle veya parlayan bir nesne formunda geride kalır ve başka biri tarafından iksir yapımında kullanılabilir."
+  cevirmen_notu: "İngilizce 'Characteristic' kelimesi normal şartlarda 'Özellik' veya 'Karakteristik' olarak çevrilir. Ancak LotM evreninde bu nesneler sadece büyü gücü veren mekanik parçalar değil; içlerinde Aslî Yaradan'ın iradesini, önceki sahiplerinin kalıntılarını ve o Yol'un doğasını (deliliğini) barındıran yaşayan özlerdir. Türkçede 'Özellik' daha teknik ve cansız bir kelimeyken (bir telefonun veya arabanın özelliği gibi), 'Haslet' insanın veya bir varlığın doğuştan getirdiği, huy ve mizaçla bütünleşmiş asli niteliği ifade eder. Bu nesnelerin Aşkınların ruhuna ve bedenine nüfuz eden yapısı göz önüne alındığında, onları 'Aşkın Hasleti' olarak adlandırmak evrenin ruhuna çok daha uygundur."
+  cevirmen_notu_sinir: 1409
+  bolum_siniri: 1409
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Aşkın Hasletlerin Korunumu Kanunu"
   ingilizce: "Law of Beyonder Characteristic Conservation"
@@ -200,7 +266,7 @@
   bolum_siniri: 217
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Aşkın Hasletlerin Yok Edilemezliği Kanunu"
   ingilizce: "Law of Beyonder Characteristics Indestructibility"
@@ -209,7 +275,7 @@
   bolum_siniri: 207
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Aşkın Hasletlerin Yakınsama Kanunu"
   ingilizce: "Law of Beyonder Characteristics Convergence"
@@ -218,7 +284,7 @@
   bolum_siniri: 435
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Tefekkür"
   ingilizce: "Cogitation"
@@ -227,7 +293,7 @@
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Basiret"
   ingilizce: "Spirit Vision"
@@ -236,7 +302,85 @@
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
+
+- terim: "Ruhaniyet"
+  ingilizce: "Spirituality"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların yeteneklerini kullanmak, ayinleri gerçekleştirmek, tılsımları veya mistik eşyaları aktive etmek için bedenlerinde barındırdıkları ve harcadıkları temel ruhsal/okült enerji havuzu."
+  cevirmen_notu: "İngilizcedeki 'spirituality' kelimesi normalde dini veya ruhani bir hissiyatı/inancı tanımlar. Ancak bu evrende manevi bir durumdan ziyade, tıpkı 'mana' gibi harcanabilir, somut bir büyü ve algı enerjisidir. 'Ruhaniyet', Türkçede hem manevi mevcudiyeti hem de içsel bir kudreti ifade ettiği için bu mekanik işlevi de mükemmel şekilde karşılar. Zaten 'Tılsım' ve 'Tefekkür' gibi maddelerde bu karşılık kullanılarak tutarlılık önceden sağlanmıştı."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Fiziksel Beden"
+  ingilizce: "Physical Body"
+  kategori: "Temel Kavramlar"
+  aciklama: "Dörtlü okült anatomisinin en dış, en kaba ve maddi dünyayla doğrudan temas eden katmanı. İnsanın etten ve kemikten oluşan somut varlığı."
+  cevirmen_notu: "Bu katman için klasik terminolojiye uygun olarak 'Cismani Beden' de kullanılabilirdi (nitekim sözlükte Sefahat Ana Tanrıça için 'Cismani Alemin Hakimi' kullanımı mevcuttur[cite: 1]). Ancak metin boyunca Aşkınların fiziksel dünyayla ve sıradan nesnelerle olan olağan etkileşimlerini anlatırken çok sık geçeceği için, okumayı ağırlaştırmamak adına daha nötr ve modern olan 'Fiziksel Beden' tercih edilmiştir. Bu sadelik, katmanın 'Esir', 'Astral' ve 'Ruhani' gibi giderek incelen ve mistikleşen diğer boyutlardan dilsel olarak da ayrışıp dünyevi kalmasına yardımcı olur."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Ruhani Beden"
+  ingilizce: "Spirit Body"
+  kategori: "Temel Kavramlar"
+  aciklama: "İnsanın okült anatomisini oluşturan dört katmandan biri. Büyüsel yeteneklerin, ruhanî algının ve Alem-i Ervah (Ruhani Alem) ile doğrudan etkileşimin gerçekleştiği, kişinin bilincini ve mistik enerjisini taşıyan katman."
+  cevirmen_notu: "'Ruhani Beden İplikleri' (Spirit Body Threads) girdisinde zaten kullanılmış ve sisteme oturtulmuştu[cite: 1]. Düz 'Ruh Bedeni' yerine 'Ruhani Beden' denmesi hem 'Nefs Bedeni' (Soul Body) ile görsel ve işitsel karışıklığı önler, hem de bu bedenin doğrudan temas ettiği 'Ruhani Alem' (Spirit World) ile ismen kusursuz bir uyum içinde olmasını sağlar."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Esir Bedeni"
+  ingilizce: "Ether Body"
+  kategori: "Temel Kavramlar"
+  aciklama: "İnsan ruhunun dört temel katmanından biri. Canlıların fiziksel bedeninin hemen üzerinde yer alan, kişinin yaşam gücünü, sağlık durumunu ve anlık duygusal dalgalanmalarını (hâle/aura şeklinde) yansıtan enerji katmanı. Aşkınlar 'Basiret' güçlerini kullandıklarında genellikle bu katmanı gözlemlerler."
+  cevirmen_notu: "İslam ve Aristoteles felsefesinde (İlm-i Esîr) evreni dolduran beşinci element/öz olarak kabul edilen 'Esîr' (Aether/Ether) kelimesinden türetilmiştir. Hem 19. yüzyıl okültizminin terim dağarcığına tam uyar hem de köklü bir felsefi/klasik geçmişe sahiptir."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Astral İzdüşüm"
+  ingilizce: "Astral Projection"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhaniyetin ve bilincin fiziksel bedenin dışına yansıması; kişinin ruhani alemde veya rüyalarda seyahat etmesini sağlayan, fiziksel bedenden bağımsız ancak ona hala görünmez bağlarla bağlı olan form."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Nefs Bedeni"
+  ingilizce: "Soul Body"
+  kategori: "Temel Kavramlar"
+  aciklama: "İnsanın varoluşunun en derin, mutlak ve yıkılmaz çekirdeği. Fiziksel bedenin, Esir Bedeninin ve Ruhani Bedenin (Spirit Body) de ötesinde yatan en nihai katman."
+  cevirmen_notu: "Dörtlü okült beden yapısının (Physical, Ether, Astral, Spirit/Soul) en derini. Düz bir literal çeviriyle 'Ruh Bedeni' demek, 'Ruhani Beden' (Spirit Body) ile görsel ve işitsel olarak birbirine tamamen karışacağı için reddedildi. İslami kozmolojide 'Nefs', benliğin ve içsel varlığın ta kendisi, özüdür. (Yaratıcı/tanrısal figürlerin 'Kadir-i Mutlak' veya 'Hakiki Hâlık' gibi İslami/Klasik literatürle kurulduğu bu sözlükte, benliğin en derinine 'Nefs' demek sistemsel olarak son derece tutarlıdır). Bu tercih, en derin benliği ifade ederken 'Ruhani Beden' ile arasına net, karışmaz bir anlamsal sınır çeker."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "İlm-i Esrar"
+  ingilizce: "Mysticism"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların güçlerini, iksir formüllerini, ritüelleri ve evrenin görünmez kurallarını inceleyen okült ve akademik disiplin."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Esrari Müşahede"
+  ingilizce: "Mystic Experience"
+  kategori: "Temel Kavramlar"
+  aciklama: "Kişinin ruhani duyularının aniden (çoğunlukla da istemsizce) açılarak, fiziksel dünyanın ardındaki gizli gerçekleri, ruhani varlıkları veya tehlikeli kozmik fısıltıları doğrudan algılaması olayı."
+  cevirmen_notu: "Düz bir 'Mistik Tecrübe' çevirisi, LotM evreninde bu olayın taşıdığı ölümcül tehlikeyi ve doğasını tam yansıtmaz. Bu evrende mistik tecrübe pasif bir his değil; doğrudan 'görülmemesi gerekenin görüldüğü, duyulmaması gerekenin duyulduğu' bir tanıklık/maruz kalma anıdır. Klasik terminolojide görünmeyen alemin (gayb) sırlarına şahit olmayı anlatan 'Müşahede' (gözlemleyerek şahit olma) kelimesi, hem 'İlm-i Esrar' ile yapısal bir bütünlük kurar hem de olayın bu tekinsiz doğasını modern 'tecrübe' kelimesinden çok daha isabetli bir şekilde yakalar."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Mitolojik Suret"
   ingilizce: "Mythical Creature Form"
@@ -254,7 +398,7 @@
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Sarkaç Kehaneti"
   ingilizce: "Pendulum Dowsing"
@@ -263,7 +407,7 @@
   bolum_siniri: 40
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Rüya Kehaneti"
   ingilizce: "Dream Divination"
@@ -272,7 +416,7 @@
   bolum_siniri: 55
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Ruhani Beden İplikleri"
   ingilizce: "Spirit Body Threads"
@@ -281,16 +425,16 @@
   bolum_siniri: 665
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
-- terim: "Mazinin Dehlizleri (Mazi Sisi)"
+- terim: "Mazinin Dehlizleri / Mazi Sisi"
   ingilizce: "Historical Void / Fog of History"
   kategori: "Temel Kavramlar"
   aciklama: "Zamanın başlangıcından beri var olmuş eşyaların, olayların ve harabelerin izdüşümlerinin bulunduğu, sonsuz bir gri sisle kaplı melankolik boyut. 'Mazinin Alimi' mertebesine ulaşanlar bu dehlizlerde yürüyebilir ve geçmişten nesneler çağırabilir."
   bolum_siniri: 839
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Mazi İzdüşümü"
   ingilizce: "Historical Projection"
@@ -299,7 +443,7 @@
   bolum_siniri: 839
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Ruhani Çıpa"
   ingilizce: "Anchor"
@@ -308,7 +452,7 @@
   bolum_siniri: 429
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Sterlin, Soli ve Peni"
   ingilizce: "Pound, Soli, and Pence"
@@ -317,7 +461,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Antigonus Ailesinin El Yazması"
   ingilizce: "Antigonus Family Notebook"
@@ -326,7 +470,7 @@
   bolum_siniri: 9
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "İlahların Metruk Diyarı"
   ingilizce: "Forsaken Land of the Gods"
@@ -336,7 +480,7 @@
   bolum_siniri: 137
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 
 # -----------------------
@@ -350,7 +494,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Kızıl Eldivenler"
   ingilizce: "Red Gloves"
@@ -359,7 +503,7 @@
   bolum_siniri: 211
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Makine Külli Şuuru"
   ingilizce: "Machinery Hivemind"
@@ -368,7 +512,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Salahiyetli Tecziyeciler"
   ingilizce: "Mandated Punishers"
@@ -377,7 +521,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Engizisyon"
   ingilizce: "The Inquisition"
@@ -386,7 +530,7 @@
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "MI9"
   ingilizce: "MI9"
@@ -395,7 +539,7 @@
   bolum_siniri: 242
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Fecir Tarikatı"
   ingilizce: "Aurora Order"
@@ -404,7 +548,7 @@
   bolum_siniri: 61
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Tarikat-ı Hafiyye"
   ingilizce: "Secret Order"
@@ -413,7 +557,7 @@
   bolum_siniri: 28
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Mos Çilekeş Tarikatı"
   ingilizce: "Moses Ascetic Order"
@@ -423,7 +567,7 @@
   bolum_siniri: 28
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Şeytaniçe Tarikatı"
   ingilizce: "Demoness Sect"
@@ -432,7 +576,7 @@
   bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Ruhanî Ruhbanlık"
   ingilizce: "Numinous Episcopate"
@@ -441,15 +585,14 @@
   bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
-
+  denetim: tamam
 
 # -----------------------
 # İLAHLAR VE YÜCE KADİMLER
 # -----------------------
 
-- terim: "Soytarı"
-  ingilizce: "The Fool"
+- terim: "Soytarı Efendi"
+  ingilizce: "Mr. Fool"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Bu asra mensup olmayan Soytarı,<br>Gri sislerin fevkindeki esrarlı Hükümdar,<br>Talihe hükmeden Sarı ve Siyahın Kralı."
@@ -1728,13 +1871,13 @@
       kaynak: metin
   kaynak: karma
 
-- terim: "Mahkum Yolu"
+- terim: "Mahkûm Yolu"
   ingilizce: "Prisoner Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   mertebeler:
     - seviye: 9
-      isim: "Mahkum (Prisoner)"
+      isim: "Mahkûm (Prisoner)"
       bolum_siniri: 279
       metinde: true
       kaynak: metin
@@ -2103,7 +2246,7 @@
       metinde: true
       kaynak: metin
     - seviye: 5
-      isim: "Mistisizm Hakimi (Mysticism Magister)"
+      isim: "İlm-i Esrar Hakimi (Mysticism Magister)"
       bolum_siniri: 534
       metinde: true
       kaynak: metin
