@@ -363,6 +363,15 @@
   mudahale: ceviri
   denetim: tamam
 
+- terim: "hâle"
+  ingilizce: "aura"
+  kategori: "Temel Kavramlar"
+  aciklama: "Basiret açıkken görülen, Esir Bedeni'nin yüzeyinde beliren renkli ışıma; kişinin canlılığını ve anlık duygularını taşır."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "İlm-i Esrar"
   ingilizce: "Mysticism"
   kategori: "Temel Kavramlar"
@@ -603,10 +612,13 @@
     metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Kukla Üstadı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
   - sinir: 1384
     baslik: "Yükselişin vardığı yer"
-    metin: "Yukarıdaki yükseliş boşuna değildir. Sahne büyüdükçe icracının mevkisi de yükselir ve varılacak yer, performansın hem en yüksek hem en tehlikeli konumudur: hükümdarın huzuru. Kâhin Yolunun Tanrısı, hiçbir şey oynamadığı anın bile bir gösteri gibi durduğu nihai icracıdır; sahnesi dünyanın tamamı, seyircisi ölümlülerle ilahlardır. Kanonik tanım da bunu destekler: 'her şeyi kandıran bir hile ustası' denir ve mucizeleri 'sergilemek'ten söz edilir. Dahası Soytarı, bir yıldızı yok edebilecekken doğrudan bir yıldızla karşılaşamayacak kadar kırılgan olarak tarif edilir. Sınırsız imtiyaz, sıfır zırh. Bir saray soytarısının konumu tam olarak budur. Tarot tarafındaki 'köke dönüş' anlamı da burada tamamlanır: Garabet Efsuncusu, Mazinin Alimi, Mucizekâr ve Esrar Hadimi mertebelerinin tuhaflığından sonra ilahın yeniden bir icracı olması, yolun çıktığı yere dönmesidir. Kabiliyetler bunu pekiştirir; bu mertebede tarih, zaman ve kader birbirine dolanır, olmuş ile olacak ayırt edilemez hâle gelir."
+    metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Kralı olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
+  - sinir: 1384
+    baslik: "Çıkarılan Sonuç"
+    metin: "Buradan çıkardığımız okuma şu: mertebeler büyüdükçe seyirci basitçe genişlemez; önce niceliğe indirgenir, sonra metinden bütünüyle çekilir. Yol, zirveye çıkmadan önce kendini boşaltıyor gibi görünür. Ve tam bu boşluğun ardından Soytarı, kanonda tarif edilen en geniş seyirciyle karşımıza çıkar: 'Ölümlüler ve ilahlar', aynı anda. Bu örüntüyü tarot'taki 0 kartının hem baştan önce hem yolculuğun sonunda durabilmesiyle aynı hareket olarak okuyoruz: icracı sıfıra iner, yeniden belirdiğinde ise yeni bir basamağın en altında değil, basamaklandırmanın dışında görünür. Nitekim Mertebe 0, kanonda da Mertebe 1'den 'bir üstü' değil, kategorik olarak ayrı bir konumdur. Kanonik betimleme bu okumayı destekler: bir yıldızı yok edebilecek kadar güçlü, ona doğrudan bakamayacak kadar kırılgan; sınırsız imtiyaz, sıfır zırh. Bize göre tam olarak bir saray soytarısının, hükümdarın huzurunda bulunan ama hiçbir korumaya sahip olmayan konumu. Tarot tarafındaki 'köke dönüş' bu yorumda bir çağrışımdan öte, mertebenin iç mimarisinde işleyen bir mekanizma olarak öne sürülüyor: yol, sıfırlanarak biter ve sıfırdan başlar."
   - sinir: 1384
     baslik: "Kabul edilen kayıp"
-    metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar. Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık. 'Kandırmak' hem 'yalanı hakikat kılmak' etkisini birebir karşılar hem de Amon'un hilekârlık/aldatmaca alanıyla çakışmaz. İlahı mekaniğine göre adlandırmak, Ölüm'e sırf bir sıfatı öyle diye 'Ebedi Uykucu' demeye benzerdi; ad, varlığın ne olduğunu taşımalıdır."
+    metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Bu kaybın göründüğünden daha ağır olduğunu belirtmek gerekir: 'Kör Ahmaklık' (盲目痴愚) yalnızca soyut bir 'ahmaklık' temasına değil, doğrudan Azathoth'un kendi Çince unvanına (盲目痴愚之神, 'Kör Ahmak Tanrı') atıfta bulunur. Aslında bu unvan da Lovecraft'ın kendi kaleminden çıkma 'Blind Idiot God' ifadesinin birebir çevirisidir. Yani Soytarı, Mertebe 0'a ulaştığında bir bakıma Azathoth'un kendisiyle aynı unvanı taşır; bu, kanonun bilinçli kurduğu bir metinlerarası gönderme olarak okunabilir. 'Soytarı' adı bu göndermeyi taşımaz, yalnızca sembol düzeyinde (Kör Ahmaklık çevirisinde) hayatta kalır. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar: Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık."
   bolum_siniri: 5
   kaynak: metin
   mudahale: ceviri
@@ -924,7 +936,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
-  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
+  cevirmen_notu: "'Ece', sözlükteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
   bolum_siniri: 1
   kaynak: metin
   mudahale: ceviri
@@ -935,7 +947,6 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
-  cevirmen_notu: "'Ece', korpüsteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
   bolum_siniri: 1409
   kaynak: metin
   mudahale: ceviri
@@ -1175,6 +1186,7 @@
       kaynak: metin
     - seviye: 4
       isim: "Garabet Efsuncusu (Bizarro Sorcerer)"
+      cevirmen_notu: "'Efsuncu' tekrarının nedeni için bkz. Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5)."
       bolum_siniri: 675
       metinde: true
       kaynak: metin
@@ -1195,6 +1207,7 @@
       kaynak: metin
     - seviye: 0
       isim: "Soytarı (The Fool)"
+      cevirmen_notu: "Alternatif çeviriler yerine 'Soytarı'nın seçilme nedeni için (bkz. Soytarı Efendi)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
@@ -1293,6 +1306,7 @@
       kaynak: metin
     - seviye: 4
       isim: "Sır Efsuncusu (Secrets Sorcerer)"
+      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5). Bu tekrar rastgele değildir, ancak tek bir nedene dayanmaz; iki farklı bağ türünü aynı anda yansıtır.<br><br>Kâhin Yolu ile Çırak Yolu arasındaki bağ yapısaldır: ikisi de Esrarın Efendisi (Lord of Mysteries) grubunun, Kapkaççı Yolu'yla birlikte parçalarıdır; ortak Aslî Kale'dir. Kâhin Yolu ile Uykusuz Yolu arasındaki bağ ise başka girdidedir (bkz. Ruh Efsuncusu, Uykusuz Yolu Mertebe 5)"
       bolum_siniri: 688
       metinde: true
       kaynak: metin
@@ -1604,7 +1618,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Ruh Efsuncusu (Spirit Warlock)"
-      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu. Bu tekrar rastgele değildir: Ebedi Gece Tanrıçası (bu Yolun Mertebe 0'ı) ile Kâhin Yolu'nun Melekler Kralı Antigonus arasında kanonik, tarihsel bir bağ vardır. İki hanedanın şehirleri iç içe geçmişti, Ebedi Gece Tanrıçası Kâhin Yolu'nun Melek seviyesine kadar olan iksir tariflerine sahiptir ve Antigonus'un Soytarı Yolu'nun Yegâneliğini taşıması nedeniyle bu Yol üzerinde kısmi bir denetimi olmuştur. Bu üç Yol birbirine gerçekten bağlıdır, bu yüzden ortak kelime bilinçli bir yankıdır."
+      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5). Bu tekrar rastgele değildir, ancak tek bir nedene dayanmaz; iki farklı bağ türünü aynı anda yansıtır.<br><br>Kâhin Yolu ile Uykusuz Yolu arasındaki bağ, Kâhin ve Çırak yolları arasındaki bağlantının tam aksine yapısal değil, tarihseldir; hatta iki Yol normalde farklı gruplara aittir (Kâhin, Esrarın Efendisi grubunda; Uykusuz, Sermedi Zulmet grubunda). Bu iki grubu birbirine bağlayan şey, İkinci Çağ'ın Kadim Tanrısı Yıkım Şeytan Kurdu Flegrea'nın aynı anda her iki Yolun da Yegâneliğini taşımış olmasıdır.<br><br>Flegrea'nın en küçük oğlu Antigonus, Soytarı Yolu'nun Yegâneliğini miras almış ve serinin başladığı tarihte hâlâ bu Yolu kontrol eden hanedanı kurmuştur; kızkardeşi Gökyüzünün Anası (Philanias) ise Karanlık Yolu'nun Mertebe 2'sine (Sır Hadimi) ulaşmış ve iki kardeş, babalarının ölümünün ardından birlikte Ebedi Gece Ulusu'nu kurup yönetmiştir. Bu Yolun bugünkü Mertebe 0'ı olan Ebedi Gece Tanrıçası (Amanises) ise ayrı bir figürdür: Flegrea'nın astı olan Talihsizlik Tanrıçası'ydı ve efendisinin düşüşünün ardından onun yerini almıştır. Bağ burada ittifaktan çok çatışmaya döner: Ebedi Gece Tanrıçası'nın Kilisesi, daha sonra Gökyüzünün Anası ile Antigonus'un kurduğu krallığa saldırmış, Gökyüzünün Anası'nı yenilgiye uğratıp mühürlü bir eşyaya dönüştürmüş, Antigonus'u ise aynı olayda hapsetmiştir.<br><br>Bu bağ yalnızca kadim tarihle sınırlı değildir; Klein'ın kendi yükselişinde doğrudan işlemeye devam eder. Mertebe 3 (Mazinin Alimi) tarifi, Ebedi Gece Tanrıçası'na doğrudan bir kurban sunularak elde edilmiştir (Bölüm 1138). Mertebe 1 ve Mertebe 0'ın tarifleri ise Soytarı Kartı'ndan ve bizzat Antigonus'un çıldırmış bedeninden gelir (Bölüm 1268, 1352-1353, 1380). Aslında Antigonus'un bu çöküşünde Ebedi Gece Tanrıçası'nın payı olduğu bilinmektedir. Yani Tanrıça'nın kadim çağda Flegrea'nın mirasçılarını kırışı, yüzyıllar sonra Klein'ın tam da o kırılmış mirastan beslenmesinin zeminini hazırlamıştır. Bağ kopmamış, yalnızca biçim değiştirmiştir. Üç Yol arasındaki ortak kelime, bu yüzden bilinçli bir yankıdır. Yapısal neden başka girdidedir. (bkz. Sır Efsuncusu, Çırak Yolu Mertebe 4)"
       bolum_siniri: 750
       metinde: true
       kaynak: metin
@@ -1620,6 +1634,7 @@
       kaynak: metin
     - seviye: 2
       isim: "Sır Hadimi (Servant of Concealment)"
+      cevirmen_notu: "(bkz. Ruh Efsuncusu notu, Flegrea ve Antigonus bağlantısı.) 'Hadim' kökünün burada ve Esrar Hadimi'nde (Kâhin Yolu, Mertebe 1) tekrarı, Çince kaynaktaki bir sözcük yankısını yansıtmaz (诡秘侍者 ve 隐秘之仆 farklı köklerden gelir); bu, aradaki gerçek tarihsel bağı vurgulamak için bilinçli olarak kurulmuş bir yankıdır."
       bolum_siniri: 766
       metinde: true
       kaynak: metin
@@ -2199,6 +2214,7 @@
       kaynak: metin
     - seviye: 3
       isim: "Adalet Üstadı (Justice Mentor)"
+      cevirmen_notu: "'Mentor' bu sözlükte sistematik olarak 'Mürşid' olarak sabitlenmiştir (bkz. Hile Mürşidi notu), ancak bu girdide bilinçli olarak istisna yapılmıştır. O kuralın gerekçesi, sıcak/saygın bir kelimeyi karanlık veya ahlaki açıdan belirsiz bir Mertebeyle eşleştirerek kasıtlı bir gerilim yaratmaktı. Güneş Yolu'nda ise böyle bir gerilim kurulacak zemin yoktur: bu Yol doğrudan doğruluk, dürüstlük ve saflığı temsil eder, kanonda karanlık bir okumaya açık değildir. 'Mürşid' kelimesini burada da kullanmak, sözlüğün genelinde inşa edilen sıcak-kelime/karanlık-mertebe ilkesini bozar; okuyucu, düzenli olarak karşılaştığı bu örüntüden yola çıkarak Güneş Yolu'na da olmayan bir ahlaki belirsizlik yükleyebilir. Bu yüzden nötr ve saygın ama 'gerilimsiz' bir karşılık olan 'Üstad' tercih edilmiştir: rehberlik ilişkisini korur, ama tasavvufi ağırlığı ve ondan doğan çift anlamlılığı taşımaz."
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
@@ -2209,8 +2225,8 @@
       kaynak: metin
     - seviye: 1
       isim: "Pak Melek (White Angel)"
-      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu ancak Kadir-i Mutlak grubundaki kardeş Mertebesi olan Sır Talibi Yolu'nun Zulmani Melek'i (Mertebe 1, Dark Angel) ile kıyaslandığında bir ağırlık dengesizliği taşıyordu. 'Zulmani' yalnızca bir renk kelimesi değildir; 'zulüm' köküyle bağlantılı, baskıcı ve zorba bir karanlığı ifade eden yüklü bir kelimedir. 'Beyaz' ise sıradan, nötr bir renk sıfatıdır; bu da iki kardeş Mertebenin unvanları arasında birinin ahlaki ağırlık taşıyıp diğerinin yalnızca bir renk adı olması gibi bir asimetri yaratıyordu. 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu dengesizliği giderir: 'Pak Melek' artık yalnızca bir rengi değil, bir ahlaki/manevi durumu adlandırıyor ve 'Zulmani Melek' ile gerçek bir karşıtlık kuruyor."
-      bolum_siniri: 140
+      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu, ancak bu mertebenin güçleri veya yolun felsefesi yerine yalnızca rengini adlandırıyordu; Güneş Yolu'nun kendi doğasını değil. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Kaos Denizi'nin her çatışmaya müsamaha göstermesi, Sır Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
+      bolum_siniri: 812
       metinde: true
       kaynak: metin
     - seviye: 0
@@ -2261,7 +2277,7 @@
       metinde: false
       kaynak: yazar_beyani
     - seviye: 2
-      isim: "Bilgelik Meleği (Wisdom Angel)"
+      isim: "Hikmet Meleği (Wisdom Angel)"
       bolum_siniri: 812
       metinde: true
       kaynak: metin
@@ -2324,7 +2340,7 @@
       kaynak: yazar_beyani
     - seviye: 1
       isim: "Zulmani Melek (Dark Angel)"
-      cevirmen_notu: "bkz. Pak Melek (Ozan Yolu 1. Mertebe)"
+      cevirmen_notu: "'Karanlık Melek' düşünüldü ve reddedildi. 'Karanlık' Türkçede 'Beyaz' ile aynı sorunu taşır: nötr, tanımlayıcı bir durum/renk sıfatıdır, ahlaki bir yük taşımaz. 'Zulmani' ise 'zulüm' köküyle doğrudan bağlantılıdır ve yalnızca ışığın yokluğunu değil, baskıcı ve ağır bir karanlığı imler. Sır Talibi Yolu'nun tanımlı alanları Günah Taşıma, Kurban, Gölge, Yozlaşma (Degeneration) ve Yolsuzluk/Bozulma'dır (Corruption); bu Mertebe, kişiyi başkalarına zulmettiren değil, kendi içinde çürüten, günahı bünyesinde taşıyan bir karanlığı temsil eder. Klein'a göre bu Yol, Kötülüğü simgeleyen Hâviye Yolu'ndan bile daha kolay kontrolü kaybettiren, deliliğe sürükleyen bir yoldur. 'Zulmani' burada tam olarak zulüm/baskı eylemini değil, bu ağırlığın çağrıştırdığı yüklü, tehditkâr kaydı taşır."
       bolum_siniri: 667
       metinde: true
       kaynak: metin
@@ -2364,6 +2380,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Orman Derviş (Druid)"
+      cevirmen_notu: "Bu Mertebe için doğrudan 'Druid' transliterasyonu düşünüldü ve reddedildi. Batı fantazya kökenli bu kelime, sözlüğün genelinde kurulan tasavvufi/klasik kayıtla çatışırdı. 'Keşiş' de düşünüldü ancak bu kelime zaten Gizem Avcısı Yolu'nun kendi Mertebe 0 unvanı olarak sözlükte sabitlenmiştir; burada tekrar kullanılması yanlış bir kanonik yankı yaratırdı. 'Derviş' bu ikisinin arasında bir çözüm sunar: kelimenin kendisi doğada değil, dini/tasavvufi bir bağlamda yer alır, ancak 'gezgin, mülk sahibi olmayan, bir çağrıya adanmış' imgesi Druid'in 'Doğa'nın gözdesi, meşenin hizmetkârı' tanımına yeterince yakın düşer. 'Orman' ön eki, 'Derviş'in tek başına taşımadığı doğa/yabanıllık vurgusunu tamamlar. Bu, kelimenin kendisinin kavramsal bir eşleşmesi değil, register'ı korumak için bilinçli bir ödünç alma olduğunun altı çizilmelidir; 'Kam' (bkz. Bora Kamı notu) gibi gerçek bir şamanistik-doğa kökenine sahip değildir."
       bolum_siniri: 815
       metinde: true
       kaynak: metin
@@ -2399,6 +2416,7 @@
   ingilizce: "Apothecary Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
+  cevirmen_notu: "Sanguine için ilk tercih olan 'Soylu Kan', bu ırkın kendini nasıl gördüğüyle ilgiliydi: 'Vampir' adlandırmasından nefret eden bu varlıklar, kendilerini 'Sanguine' olarak anılmayı tercih eder ve kanonik olarak kurdukları toplum da gerçekten bir soyluluk sistemidir (bkz. aşağıdaki Mertebe unvanları). Ancak 'Soylu', 族 (zú) karakterinin taşıdığı 'soy/klan/topluluk' anlamını değil, doğrudan bir sıfat olarak 'asalet' iddiasını öne çıkarıyordu; bu da okuyucuya unvanlar henüz tanıtılmadan bir yargı sunmuş oluyordu. 'Zümre' (tarihsel olarak toplumsal/siyasi bir sınıfı, rütbeli bir tabakayı ifade eden bir kelime) aynı yapısal gerçeği taşıyor: bu bir kan bağı değil, kendi içinde rütbelenmiş bir kan topluluğu. 'Kan Zümresi' böylece hem 族'ün klan/topluluk anlamını korur hem de unvanlar sahneye çıktığında (Mertebe 6'dan itibaren Baron'dan Prens'e) doğal bir çerçeve sunar."
   mertebeler:
     - seviye: 9
       isim: "Aktar (Apothecary)"
@@ -2417,36 +2435,59 @@
       kaynak: metin
     - seviye: 6
       isim: "İksir Müderrisi (Potions Professor)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Baron"
       bolum_siniri: 592
       metinde: true
       kaynak: metin
     - seviye: 5
       isim: "Kızıl Alim (Scarlet Scholar)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Vikont"
       bolum_siniri: 595
       metinde: true
       kaynak: metin
     - seviye: 4
       isim: "Şaman Kralı (Shaman King)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Kont"
       bolum_siniri: 329
       metinde: true
       kaynak: metin
     - seviye: 3
       isim: "Ulu Celbedici (High Summoner)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Marki"
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
     - seviye: 2
       isim: "Hayat Bahşedici (Life-Giver)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Dük"
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
     - seviye: 1
       isim: "Güzellik Tanrıçası (Beauty Goddess)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Prens"
+      cevirmen_notu: "İngilizce fan çevirisi bu Mertebeyi 'Queen' olarak verir, ancak kanonik Çince kaynak 亲王 (qīnwáng, 'Prens') kullanır. Bu, İngilizcedeki gibi bir 'eksiklik' meselesi değildir: Çincede 'Prenses' için de ayrı ve yerleşik bir kelime vardır (公主, gōngzhǔ), Prens'in dişil biçimi ya da türevi değildir, bağımsız bir sözcüktür. Yani yazar bu Mertebe için 'kadın olduğu için kullanılabilecek doğru kelimeyi bulamadı' değil, elinde o kelime varken kullanmamayı seçti.<br><br>Bunun sebebi kanonda açıklanmaz ve burada iki okuma da mümkündür. Birincisi: alt Mertebelerin unvanları (男爵/子爵/伯爵/侯爵/公爵 — Baron'dan Dük'e) Çincede cinsiyete göre çekimlenmez, tek bir sıra izler; yazar bu sırayı sadece Mertebe 1'e kadar mekanik olarak sürdürmüş, kelimeyi cinsiyet açısından yeniden değerlendirmemiş olabilir. İkincisi: Mertebe 1'in Çin unvan sistemindeki tek gerçek cinsiyetlenmiş rütbe olması göz önüne alındığında, bu bilinçli bir tercih olabilir; zorla kadına dönüştürülen bir Aşkın'a, tam bu dönüşümün gerçekleştiği Mertebede, erkek varis varsayan bir unvan verilmesi. Bize göre bu ikinci okuma daha ilgi çekicidir ve bu yüzden 'Prens' (İngilizce 'Queen' değil) tercih edilmiştir; ancak hangi okumanın yazarın niyetine daha yakın olduğu kanon içinde belirsizdir."
       bolum_siniri: 1271
       metinde: true
       kaynak: metin
     - seviye: 0
       isim: "Ay (Moon)"
+      bolgesel:
+        kultur: "Kan Zümresi"
+        isim: "Ata"
+      cevirmen_notu: "İngilizce 'True Ancestor' kullanır, ancak Çince kaynak sade 始祖 (shǐzǔ) kullanır; 始 karakteri zaten 'ilk/köken' anlamını taşıdığından, İngilizcedeki 'True' fazladan bir vurgudur, kanonda karşılığı yoktur. 'Ata' bu yüzden tercih edildi. Bu aynı zamanda diğer Mertebe 0 unvanlarıyla (Ay, Ana, Güneş) tutarlıdır: alt Mertebeler özel bir kayıt taşırken (burada Fransız kökenli asalet unvanları), Mertebe 0 sade ve yerli bir kelimeye döner."
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
