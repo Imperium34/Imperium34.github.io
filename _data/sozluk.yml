@@ -295,6 +295,16 @@
   mudahale: ceviri
   denetim: tamam
 
+- terim: "Firaset"
+  ingilizce: "Spiritual Intuition"
+  kategori: "Temel Kavramlar"
+  aciklama: "Aşkınların tehlikeyi, gizli olanı ve kehanet işaretlerini sezme melekesi; mertebe yükseldikçe artar ve Gece Şahinleri gibi teşkilatların bir adayda aradığı başlıca vasıftır."
+  cevirmen_notu: "Kaynakta bu, harcanan bir enerji havuzu olan Ruhaniyet'ten de, ruhani görüşü sağlayan Basiret'ten de ayrı bir melekedir; İngilizce çeviri 'spiritual sensitivity' diyerek üçünü birbirine yaklaştırdığı için ayrı bir girdi şart oldu. 'Firaset' klasik kayıtta tam olarak bu manaya gelir: görünenden görünmeyeni okuma kabiliyeti. Kabul edilen risk, 'Basiret' ile işitsel yakınlığıdır; reddedilen alternatif, gerilimsiz ve modern kalan 'Sezgi'dir.."
+  bolum_siniri: 35
+  kaynak: metin
+  mudahale: ceviri
+  denetim: denetlenmedi
+
 - terim: "Basiret"
   ingilizce: "Spirit Vision"
   kategori: "Temel Kavramlar"
@@ -1804,8 +1814,8 @@
       kaynak: metin
     - seviye: 3
       isim: "Fitne Arıtan (Chaos Walker)"
-      bolum_siniri: 1227
       cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir."
+      bolum_siniri: 1227
       metinde: true
       kaynak: metin
     - seviye: 2
