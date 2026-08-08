@@ -1,41 +1,60 @@
-name: Deploy Jekyll Site
+- name: Send Discord Announcement
+        # ONLY run on scheduled cron triggers (ignores manual runs or code pushes)
+        if: github.event_type == 'publish_chapters'
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          import urllib.request
+          import json
+          import os
+          from datetime import datetime
 
-on:
-  repository_dispatch:
-    types: [publish_chapters]
-  workflow_dispatch:
+          webhook_url = os.environ.get('DISCORD_WEBHOOK')
+          if not webhook_url:
+              exit(0)
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+          tree = ET.parse('_site/feed.xml')
+          root = tree.getroot()
+          ns = {'atom': 'http://www.w3.org/2005/Atom'}
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+          entries = root.findall('atom:entry', ns)
+          if not entries:
+              exit(0)
 
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+          latest = entries[0]
+          updated_str = latest.find('atom:updated', ns).text  # e.g. 2026-08-12T20:00:00+03:00
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+          # Compare published date to today's UTC/local date
+          published_date = datetime.fromisoformat(updated_str).date()
+          today = datetime.now().date()
 
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+          # Optional: Only notify if the chapter was published today
+          if published_date != today:
+              print('No new chapter published today. Skipping Discord notification.')
+              exit(0)
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          title = latest.find('atom:title', ns).text.strip()
+          title = title.split(' · ')[0].split(' - ')[0]
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          link = latest.find('atom:link', ns).attrib['href']
+
+          payload = {
+              'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}** <1458903249175314493>',
+              'embeds': [{
+                  'title': title,
+                  'url': link,
+                  'color': 10754072,
+                  'description': f'**{title}** yayında. Keyifli okumalar!',
+                  'footer': {'text': 'Esrarın Hükümdarı · Tarot Kulübü'}
+              }]
+          }
+          req = urllib.request.Request(
+              webhook_url,
+              data=json.dumps(payload).encode('utf-8'),
+              headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
+          )
+          urllib.request.urlopen(req)
+          print('Discord notification sent for:', title)
+          "

@@ -29,6 +29,8 @@ kramdown:
   auto_ids: true
   hard_wrap: false
 
+timezone: Europe/Istanbul
+
 sass:
   sass_dir: css
   style: expanded
