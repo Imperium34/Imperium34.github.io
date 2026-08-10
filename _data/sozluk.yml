@@ -54,7 +54,7 @@
   bolum_siniri: 1224
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Öte İlahlar"
   ingilizce: "Outer Deities"
@@ -64,7 +64,7 @@
   bolum_siniri: 1223
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Mertebelerin Fevki"
   ingilizce: "Above the Sequence"
@@ -91,7 +91,7 @@
   bolum_siniri: 440
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "İlahî Hükümranlık"
   ingilizce: "Divine Kingdom"
@@ -205,7 +205,7 @@
   ingilizce: "Ritualistic Magic"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak (altar) kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
-  bolum_siniri: 61
+  bolum_siniri: 33
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -303,7 +303,7 @@
   bolum_siniri: 35
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Basiret"
   ingilizce: "Spirit Vision"
@@ -386,7 +386,7 @@
   ingilizce: "Mysticism"
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerini, iksir formüllerini, ritüelleri ve evrenin görünmez kurallarını inceleyen okült ve akademik disiplin."
-  bolum_siniri: 32
+  bolum_siniri: 18
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -408,7 +408,7 @@
   bolum_siniri: 705
   kaynak: metin
   mudahale: ceviri
-  denetim: denetlenmedi
+  denetim: tamam
 
 - terim: "Kehanet"
   ingilizce: "Divination"
@@ -1189,38 +1189,45 @@
       bolum_siniri: 251
       metinde: true
       kaynak: metin
+      ilk_gecis: 251
     - seviye: 5
       isim: "Kukla Üstadı (Marionettist)"
       bolum_siniri: 251
       metinde: true
       kaynak: metin
+      ilk_gecis: 251
     - seviye: 4
       isim: "Garabet Efsuncusu (Bizarro Sorcerer)"
       cevirmen_notu: "'Efsuncu' tekrarının nedeni için bkz. Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5)."
       bolum_siniri: 675
       metinde: true
       kaynak: metin
+      ilk_gecis: 675
     - seviye: 3
       isim: "Mazinin Alimi (Scholar of Yore)"
       bolum_siniri: 839
       metinde: true
       kaynak: metin
+      ilk_gecis: 839
     - seviye: 2
       isim: "Mucizekâr (Miracle Invoker)"
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 1
       isim: "Esrar Hadimi (Attendant of Mysteries)"
       bolum_siniri: 713
       metinde: true
       kaynak: metin
+      ilk_gecis: 713
     - seviye: 0
       isim: "Soytarı (The Fool)"
       cevirmen_notu: "Alternatif çeviriler yerine 'Soytarı'nın seçilme nedeni için (bkz. Soytarı Efendi)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 5
   kaynak: metin
 
 - terim: "Kapkaççı Yolu"
@@ -1234,6 +1241,7 @@
       bolum_siniri: 21
       metinde: true
       kaynak: metin
+      ilk_gecis: 21
     - seviye: 8
       isim: "Dolandırıcı (Swindler)"
       bolum_siniri: 65
@@ -1244,17 +1252,20 @@
       bolum_siniri: 697
       metinde: true
       kaynak: metin
+      ilk_gecis: 697
     - seviye: 6
       isim: "Ateşçalan (Prometheus)"
       cevirmen_notu: "Çince orijinali '盗火人' tam olarak 'Ateş Hırsızı' (Fire Stealer) demektir. 'Ateş Hırsızı' yerine birleşik yapıdaki 'Ateşçalan' tercih edildi. Bu birleştirme eylemi, kelimeyi sıradan bir hırsızlıktan çıkarıp mitolojik ve folklorik bir arketipe (tıpkı Yelkovan veya Kardelen gibi) dönüştürür. İngilizcedeki Prometheus'un taşıdığı mitik ağırlığı, Batı mitolojisine yaslanmadan, Türkçenin kendi yapısal imkânlarıyla karşılar."
       bolum_siniri: 697
       metinde: true
       kaynak: metin
+      ilk_gecis: 697
     - seviye: 5
       isim: "Hülya Hırsızı (Dream Stealer)"
       bolum_siniri: 697
       metinde: true
       kaynak: metin
+      ilk_gecis: 697
     - seviye: 4
       isim: "Tufeyli (Parasite)"
       bolum_siniri: 633
@@ -1266,16 +1277,19 @@
       bolum_siniri: 1162
       metinde: true
       kaynak: metin
+      ilk_gecis: 1162
     - seviye: 2
       isim: "Kaderin Truva Atı (Trojan Horse of Destiny)"
       bolum_siniri: 1005
       metinde: true
       kaynak: metin
+      ilk_gecis: 1005
     - seviye: 1
       isim: "Zaman Kurtçuğu (Worm of Time)"
       bolum_siniri: 393
       metinde: true
       kaynak: metin
+      ilk_gecis: 393
     - seviye: 0
       isim: "Error / Bug (Error / Bug)"
       cevirmen_notu: "Kaynak metinde 'Error' İngilizce olarak, 'Bug' ise açıkça 'bilinmeyen kökenli, yabancı bir kelime' olarak tanıtılır. Bu ayrım karakterlerin kendisi tarafından da fark edilir. Bu yüzden 'Bug' Türkçeye çevrilmedi ('Kusur' reddedildi): kelimenin yabancı ve teknik kökeni olay örgüsünde doğrudan işlevseldir (yalnızca Dünya kökenli birinin tanıyabileceği bir yazılım terimidir ve bu tanınırlık ilgili bölümde bir karakterin kimliğini sınayan bir ipucu olarak kullanılır). Kelimeyi Türkçeleştirmek bu işlevi söndürürdü. İki kelimenin de olduğu gibi bırakılması, kaynağın kendi yabancılaştırma jestini korumak içindir."
@@ -1309,6 +1323,7 @@
       bolum_siniri: 646
       metinde: true
       kaynak: metin
+      ilk_gecis: 252
     - seviye: 5
       isim: "Gezgin (Traveler)"
       bolum_siniri: 177
@@ -1320,22 +1335,26 @@
       bolum_siniri: 688
       metinde: true
       kaynak: metin
+      ilk_gecis: 688
     - seviye: 3
       isim: "Müstekşif (Wanderer)"
       cevirmen_notu: "İlk tercih olan 'Avare', İngilizce 'Wanderer' karşılığıydı ancak Mertebenin ilerleme ilkesiyle (yasak sınırları amaçsız değil, bilgiyle dönmek üzere bilinçli aşmak) çelişiyordu. 'Avare' Türkçede amaçsız, başıboş bir dolaşmayı çağrıştırır, yani bu mertebedeki Aşkınların tam olarak kaçınılması gereken hâli adlandırır. 'Seyrânî' ve benzeri 'seyr' kökenli alternatifler reddedildi, çünkü bu kök zaten 'Âlem Seyyahı'nda ve başka bir Yol'daki 'Doğa Seyyahı'nda kullanılıyor. Üçüncü bir türev gereksiz bir tekrar yaratacaktı. 'Kâşif' de düşünüldü ancak bu Mertebedeki bir Aşkın için fazla modern/günümüzsel bir ton taşıyordu. 'Müstekşif' (bilinçli, sürekli bir keşif çabası içinde olan) hem 'Müneccim' ve 'Kâtip' ile aynı register'a oturuyor hem de ilerleme ayininin gerektirdiği amaçlılığı doğrudan karşılıyor."
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
+      ilk_gecis: 182
     - seviye: 2
       isim: "Âlem Seyyahı (Planeswalker)"
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
+      ilk_gecis: 210
     - seviye: 1
       isim: "Yıldız Miftahı (Key of Stars)"
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
+      ilk_gecis: 1076
     - seviye: 0
       isim: "Kapı (Door)"
       bolum_siniri: 1409
@@ -1365,43 +1384,51 @@
       bolum_siniri: 323
       metinde: true
       kaynak: metin
+      ilk_gecis: 323
     - seviye: 6
       isim: "Fesat Baronu (Baron of Corruption)"
       cevirmen_notu: "'Fesat' tercih edildi çünkü klasik Osmanlı-İslam siyasi düşüncesinde bir sistemi içten çürüten yozlaşmayı tanımlayan gerçek bir terimdir ('fesat çıkarmak', 'ehl-i fesad'), 'İfrit'in aksine kişileştirilmiş bir varlık değil sistemsel bir bozulmayı işaret eder. Ayrıca klasik düşüncede fesat genellikle fitneyi doğuran önceki aşama olarak görülür; bu da Mertebe sıralamasıyla tutarlı bir kavramsal ilerleyiş sunar."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 5
       isim: "Fitne Mürşidi (Mentor of Disorder)"
       cevirmen_notu: "bkz. Hile Mürşidi (Kapkaççı Yolu, Mertebe 3)."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 4
       isim: "Sakıtlar Kontu (Earl of the Fallen)"
       bolum_siniri: 1052
       metinde: true
       kaynak: metin
+      ilk_gecis: 1052
     - seviye: 3
       isim: "Mecnun Büyücü (Frenzied Mage)"
       bolum_siniri: 323
       metinde: true
       kaynak: metin
+      ilk_gecis: 323
     - seviye: 2
       isim: "Zeval Dükü (Duke of Entropy)"
       bolum_siniri: 323
       metinde: true
       kaynak: metin
+      ilk_gecis: 323
     - seviye: 1
       isim: "İlga Prensi (Prince of Abolition)"
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 0
       isim: "Kara İmparator (Black Emperor)"
       bolum_siniri: 323
       metinde: true
       kaynak: metin
+      ilk_gecis: 5
   kaynak: metin
 
 - terim: "Arabulucu Yolu"
@@ -1414,11 +1441,13 @@
       bolum_siniri: 131
       metinde: true
       kaynak: metin
+      ilk_gecis: 114
     - seviye: 8
       isim: "Zaptiye (Sheriff)"
       bolum_siniri: 131
       metinde: true
       kaynak: metin
+      ilk_gecis: 131
     - seviye: 7
       isim: "Sorgucu (Interrogator)"
       bolum_siniri: 200
@@ -1434,26 +1463,31 @@
       bolum_siniri: 693
       metinde: true
       kaynak: metin
+      ilk_gecis: 693
     - seviye: 4
       isim: "Ferman İcracısı (Imperative Mage)"
       bolum_siniri: 475
       metinde: true
       kaynak: metin
+      ilk_gecis: 475
     - seviye: 3
       isim: "Kargaşa Avcısı (Chaos Hunter)"
       bolum_siniri: 1146
       metinde: true
       kaynak: metin
+      ilk_gecis: 1146
     - seviye: 2
       isim: "Muvazenedar (Balancer)"
       bolum_siniri: 1110
       metinde: true
       kaynak: metin
+      ilk_gecis: 1110
     - seviye: 1
       isim: "Nizamın Eli (Hand of Order)"
       bolum_siniri: 1110
       metinde: true
       kaynak: metin
+      ilk_gecis: 1110
     - seviye: 0
       isim: "Yargı (Justiciar)"
       cevirmen_notu: "'Yargı'nın hem Xio Derecha'nın Tarot kod adı hem de bu yolun Mertebe 0 adı olması bir Türkçe çakışması değildir; kaynaktan gelir. Çincede yolun adı 审判者途径'dir ve hem Mertebe 0 hem de Xio'nun son unvan satırı aynı kelimeyi kullanır. İngilizce çeviri bu ikisini 'Justiciar' ve 'Judgment' olarak ayırmıştır, Çince ayırmaz. Xio'nun bu yola mensup olduğu düşünüldüğünde örtüşme tesadüfi değil anlamlıdır ve bilinçli olarak korunmuştur."
@@ -1483,6 +1517,7 @@
       bolum_siniri: 200
       metinde: true
       kaynak: metin
+      ilk_gecis: 200
     - seviye: 7
       isim: "Ateş Müptelası (Pyromaniac)"
       bolgesel:
@@ -1491,6 +1526,7 @@
       bolum_siniri: 200
       metinde: true
       kaynak: metin
+      ilk_gecis: 200
     - seviye: 6
       isim: "Müfsitçi (Conspirer)"
       bolgesel:
@@ -1516,28 +1552,33 @@
       bolum_siniri: 484
       metinde: true
       kaynak: metin
+      ilk_gecis: 484
     - seviye: 3
       isim: "Cenk Ruhbanı (War Bishop)"
       bolum_siniri: 940
       metinde: true
       kaynak: metin
+      ilk_gecis: 940
     - seviye: 2
       isim: "Bora Kamı (Weather Warlock)"
       cevirmen_notu: "Önceki tercih olan 'Bora Efsuncusu', sözlükte tekrarlanan 'Efsuncu' kökünün (bkz. Ruh Efsuncusu notu) parçası gibi görünüyordu; ancak o tekrar yalnızca Kâhin, Çırak ve Uykusuz Yolları arasındaki gerçek kanonik bağa dayanır ve Avcı Yolu bu bağın dışındadır. Bu yüzden 'Efsuncu' (Arapça/Farsça kökenli) yerine öz Türkçe bir kelime tercih edildi: 'Kam', Dede Korkut geleneği ve eski Türk şamanizminde büyücü/şaman için kullanılan gerçek bir terimdir. 'Bora Kamı' hem Mertebenin fırtına/savaş temalı gücünü hem de Loen'in resmî isimlerindeki arkaik register'ı korurken, kelimeyi yanlış bir kanonik yankıdan ayırır."
       bolum_siniri: 577
       metinde: true
       kaynak: metin
+      ilk_gecis: 577
     - seviye: 1
       isim: "Fatih (Conqueror)"
       bolum_siniri: 940
       metinde: true
       kaynak: metin
+      ilk_gecis: 940
     - seviye: 0
       isim: "Ahmer Hünkar (Red Priest)"
       bolum_siniri: 456
       cevirmen_notu: "'Priest' için 'Rahip' bilinçli olarak kullanılmadı. Türkçede 'Rahip' kelimesi bir harp ilahına tonal olarak yanlış oturur. 'Hünkar', Osmanlı sultanlarına verilen ve hükümdarlığın kutsal yönünü taşıyan bir unvandır. Sultanlar aynı zamanda halife ve 'Allah'ın yeryüzündeki gölgesi' sıfatını taşıdığından, unvan hem hükümranlık hem ruhbanî boyutu birlikte kapsar. Bu, Red Priest'in Fetih (Conquest) ile Kurban (Sacrifices) otoritelerini birleştiren doğasına 'Rahip'ten daha sadıktır. Kanon gloss da bunu destekler: 'Priest, bir kuvvet ayini olarak anlaşılabilir' yani unvan aslen ruhbanî değildir."
       metinde: true
       kaynak: metin
+      ilk_gecis: 456
   kaynak: metin
 
 - terim: "Suikastçı Yolu"
@@ -1581,6 +1622,7 @@
       bolum_siniri: 589
       metinde: true
       kaynak: metin
+      ilk_gecis: 495
     - seviye: 2
       isim: "Afet (Catastrophe)"
       cevirmen_notu: "'Afet' Türkçede iki anlamı aynı anda taşır: felaket, yıkım; halk dilinde ise tehlikeli derecede güzel bir kadın için kullanılan bir tabirdir. Bu ikilik tesadüf değildir: kanon bu Yolun otoritesini doğrudan 'yıkıcı kadınlık' (Femme Fatale tiplemesi) olarak tanımlar. 'Afet' bu temayı tek bir kelimede, hem gücün ölçeği hem de Yolun kadınlıkla kurduğu ilişki üzerinden karşılar."
@@ -1616,6 +1658,7 @@
       bolum_siniri: 21
       metinde: true
       kaynak: metin
+      ilk_gecis: 21
     - seviye: 7
       isim: "Kabus (Nightmare)"
       bolum_siniri: 22
@@ -1626,33 +1669,39 @@
       bolum_siniri: 402
       metinde: true
       kaynak: metin
+      ilk_gecis: 402
     - seviye: 5
       isim: "Ruh Efsuncusu (Spirit Warlock)"
       cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5). Bu tekrar rastgele değildir, ancak tek bir nedene dayanmaz; iki farklı bağ türünü aynı anda yansıtır.<br><br>Kâhin Yolu ile Uykusuz Yolu arasındaki bağ, Kâhin ve Çırak yolları arasındaki bağlantının tam aksine yapısal değil, tarihseldir; hatta iki Yol normalde farklı gruplara aittir (Kâhin, Esrarın Efendisi grubunda; Uykusuz, Sermedi Zulmet grubunda). Bu iki grubu birbirine bağlayan şey, İkinci Çağ'ın Kadim Tanrısı Yıkım Şeytan Kurdu Flegrea'nın aynı anda her iki Yolun da Yegâneliğini taşımış olmasıdır.<br><br>Flegrea'nın en küçük oğlu Antigonus, Soytarı Yolu'nun Yegâneliğini miras almış ve serinin başladığı tarihte hâlâ bu Yolu kontrol eden hanedanı kurmuştur; kızkardeşi Gökyüzünün Anası (Philanias) ise Karanlık Yolu'nun Mertebe 2'sine (Sır Hadimi) ulaşmış ve iki kardeş, babalarının ölümünün ardından birlikte Ebedi Gece Ulusu'nu kurup yönetmiştir. Bu Yolun bugünkü Mertebe 0'ı olan Ebedi Gece Tanrıçası (Amanises) ise ayrı bir figürdür: Flegrea'nın astı olan Talihsizlik Tanrıçası'ydı ve efendisinin düşüşünün ardından onun yerini almıştır. Bağ burada ittifaktan çok çatışmaya döner: Ebedi Gece Tanrıçası'nın Kilisesi, daha sonra Gökyüzünün Anası ile Antigonus'un kurduğu krallığa saldırmış, Gökyüzünün Anası'nı yenilgiye uğratıp mühürlü bir eşyaya dönüştürmüş, Antigonus'u ise aynı olayda hapsetmiştir.<br><br>Bu bağ yalnızca kadim tarihle sınırlı değildir; Klein'ın kendi yükselişinde doğrudan işlemeye devam eder. Mertebe 3 (Mazinin Alimi) tarifi, Ebedi Gece Tanrıçası'na doğrudan bir kurban sunularak elde edilmiştir (Bölüm 1138). Mertebe 1 ve Mertebe 0'ın tarifleri ise Soytarı Kartı'ndan ve bizzat Antigonus'un çıldırmış bedeninden gelir (Bölüm 1268, 1352-1353, 1380). Aslında Antigonus'un bu çöküşünde Ebedi Gece Tanrıçası'nın payı olduğu bilinmektedir. Yani Tanrıça'nın kadim çağda Flegrea'nın mirasçılarını kırışı, yüzyıllar sonra Klein'ın tam da o kırılmış mirastan beslenmesinin zeminini hazırlamıştır. Bağ kopmamış, yalnızca biçim değiştirmiştir. Üç Yol arasındaki ortak kelime, bu yüzden bilinçli bir yankıdır. Yapısal neden başka girdidedir. (bkz. Sır Efsuncusu, Çırak Yolu Mertebe 4)"
       bolum_siniri: 750
       metinde: true
       kaynak: metin
+      ilk_gecis: 750
     - seviye: 4
       isim: "Gece Bekçisi (Nightwatcher)"
       bolum_siniri: 210
       metinde: true
       kaynak: metin
+      ilk_gecis: 210
     - seviye: 3
       isim: "Dehşet Piskoposu (Horror Bishop)"
       bolum_siniri: 1164
       metinde: true
       kaynak: metin
+      ilk_gecis: 1164
     - seviye: 2
       isim: "Sır Hadimi (Servant of Concealment)"
       cevirmen_notu: "(bkz. Ruh Efsuncusu notu, Flegrea ve Antigonus bağlantısı.) 'Hadim' kökünün burada ve Esrar Hadimi'nde (Kâhin Yolu, Mertebe 1) tekrarı, Çince kaynaktaki bir sözcük yankısını yansıtmaz (诡秘侍者 ve 隐秘之仆 farklı köklerden gelir); bu, aradaki gerçek tarihsel bağı vurgulamak için bilinçli olarak kurulmuş bir yankıdır."
       bolum_siniri: 766
       metinde: true
       kaynak: metin
+      ilk_gecis: 766
     - seviye: 1
       isim: "Şeamet Süvarisi (Knight of Misfortune)"
       bolum_siniri: 1347
       metinde: true
       kaynak: metin
+      ilk_gecis: 1347
     - seviye: 0
       isim: "Karanlık (Darkness)"
       bolum_siniri: 1409
@@ -1670,26 +1719,31 @@
       bolum_siniri: 28
       metinde: true
       kaynak: metin
+      ilk_gecis: 28
     - seviye: 8
       isim: "Kabir Kazıcı (Grave Digger)"
       bolum_siniri: 65
       metinde: true
       kaynak: metin
+      ilk_gecis: 65
     - seviye: 7
       isim: "Ruh Aracısı (Spirit Medium)"
       bolum_siniri: 13
       metinde: true
       kaynak: metin
+      ilk_gecis: 13
     - seviye: 6
       isim: "Ruh Rehberi (Spirit Guide)"
       bolum_siniri: 148
       metinde: true
       kaynak: metin
+      ilk_gecis: 148
     - seviye: 5
       isim: "Berzah Bekçisi (Gate Keeper)"
       bolum_siniri: 19
       metinde: true
       kaynak: metin
+      ilk_gecis: 19
     - seviye: 4
       isim: "Ölümsüz (Undying)"
       bolum_siniri: 916
@@ -1700,16 +1754,19 @@
       bolum_siniri: 900
       metinde: true
       kaynak: metin
+      ilk_gecis: 900
     - seviye: 2
       isim: "Ölüm Sefiri (Death Consul)"
       bolum_siniri: 588
       metinde: true
       kaynak: metin
+      ilk_gecis: 588
     - seviye: 1
       isim: "Solgun Hükümdar (Pale Emperor)"
       bolum_siniri: 1347
       metinde: true
       kaynak: metin
+      ilk_gecis: 1347
     - seviye: 0
       isim: "Ölüm (Death)"
       bolum_siniri: 1409
@@ -1732,16 +1789,19 @@
       bolum_siniri: 138
       metinde: true
       kaynak: metin
+      ilk_gecis: 138
     - seviye: 7
       isim: "Silahşör (Weapon Master)"
       bolum_siniri: 279
       metinde: true
       kaynak: metin
+      ilk_gecis: 279
     - seviye: 6
       isim: "Şafak Şövalyesi (Dawn Paladin)"
       bolum_siniri: 138
       metinde: true
       kaynak: metin
+      ilk_gecis: 138
     - seviye: 5
       isim: "Muhafız (Guardian)"
       bolum_siniri: 138
@@ -1752,11 +1812,13 @@
       bolum_siniri: 138
       metinde: true
       kaynak: metin
+      ilk_gecis: 138
     - seviye: 3
       isim: "Gümüş Şövalye (Silver Knight)"
       bolum_siniri: 900
       metinde: true
       kaynak: metin
+      ilk_gecis: 900
     - seviye: 2
       isim: "Şan (Glory)"
       bolum_siniri: 1409
@@ -1767,11 +1829,13 @@
       bolum_siniri: 1159
       metinde: true
       kaynak: metin
+      ilk_gecis: 1159
     - seviye: 0
       isim: "Alacakaranlık Devi (Twilight Giant)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 1347
   kaynak: metin
 
 # Nur Miftahı (Key of Light)
@@ -1796,12 +1860,14 @@
       bolum_siniri: 909
       metinde: true
       kaynak: metin
+      ilk_gecis: 727
     - seviye: 6
       isim: "Felaket Müjdecisi (Calamity Priest)"
       cevirmen_notu: "'Müjde/Müjdeci' normalde sevindirici bir haberin; doğum, zafer, kabul olmuş dua vs. habercisini tanımlar; burada bilinçli olarak 'Felaket' ile eşleştirilmiştir. Bu tercih tesadüfi bir ironi değildir: Mertebenin gerçek yeteneği (Calamity Attraction, Psyche Storm) bir rahibin felaketlere sadece katlanmasından ibaret değildir. Felaketleri öngörüp bizzat düşmana yönlendirebilir, adeta kaçınılmaz bir haberi 'müjdeler gibi' sunabilir. Yani 'Müjdeci' burada karanlık bir zevki de örtük olarak taşır: bu rahip için felaket gerçekten de bir tür 'muştu'dur."
       bolum_siniri: 910
       metinde: true
       kaynak: metin
+      ilk_gecis: 910
     - seviye: 5
       isim: "Galip (Winner)"
       bolum_siniri: 237
@@ -1812,28 +1878,33 @@
       bolum_siniri: 1227
       metinde: true
       kaynak: metin
+      ilk_gecis: 1227
     - seviye: 3
       isim: "Fitne Arıtan (Chaos Walker)"
       cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir."
       bolum_siniri: 1227
       metinde: true
       kaynak: metin
+      ilk_gecis: 1227
     - seviye: 2
       isim: "Resul (Soothsayer)"
       cevirmen_notu: "'Kâhin' yerine 'Resul' bilinçli tercih edildi. Kaynak: Şans Çarkı Yolu'nun Soothsayer Mertebesi (S2) yeteneği pasif kehanet değil, aktif bir kehanetin gerçekliğe dönüşme olasılığını yükseltmesidir (bkz. Lumian Lee örneği). Yani sözleri edilgen bir öngörü değil neredeyse performatif bir bildirimdir. Bu, 'gizli işaretleri yorumlayan' Kâhin'den çok, 'yetkiyle ileten' Resul tanımına daha yakındır."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 68
     - seviye: 1
       isim: "Merkür Yılanı (Snake of Mercury)"
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 0
       isim: "Şans Çarkı (Wheel of Fortune)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 82
   kaynak: metin
 
 # Arzuların Ana Şeceresi (Mother Tree of Desire)
@@ -1853,11 +1924,13 @@
       bolum_siniri: 258
       metinde: true
       kaynak: metin
+      ilk_gecis: 258
     - seviye: 7
       isim: "Seri Katil (Serial Killer)"
       bolum_siniri: 258
       metinde: true
       kaynak: metin
+      ilk_gecis: 258
     - seviye: 6
       isim: "Gulyabani (Devil)"
       cevirmen_notu: "İlk tercih olan 'İblis', İngilizcedeki 'Devil' karşılığı olarak doğru görünse de bu Mertebenin gerçek doğasıyla örtüşmüyordu: kanon bu aşamadaki bir Aşkının en büyük zaafının kolayca kontrolü kaybetmesi olduğunu, kan ve cinayet arzusuyla ele geçirilmeye açık, vahşi ve fiziksel bir varlık olduğunu belirtir. Burada bir parantez açmak gerekir: yaygın olarak okunan Webnovel sitesinin resmi İngilizce çeviride Mertebe 6 'Devil', Mertebe 4 ise 'Demon' olarak adlandırılmıştır; ancak bu isimlendirme wikiden de görebileceğiniz gibi bir çeviri hatasıdır ve iki isim yer değiştirmesi gerekir. Zira 'Devil' (bu Mertebede olduğu gibi vahşi, kontrolsüz, bedensel bir varlık) ile 'Demon' (Mertebe 4'teki soğukkanlı, hesaplı, zihinsel bir varlık) arasındaki beklenen anlam ilişkisi tam tersinedir. Bu yüzden bu sözlük İngilizce isimlere değil, doğrudan her Mertebenin kendi kanonik doğasına sadık kalmıştır.<br><br>'İblis' (özellikle çoğul kullanımda, örn. 'İblisler Şehri' gibi Batı medyası çevirilerinde görüldüğü üzere) Türkçede gerçekten de genel bir 'demon' sınıfı için kullanılabilir. Ancak bu Mertebe için asıl belirleyici olan başka bir husus var: Suçlu Yolu, Mahkum Yolu'nun (Chained Pathway) kardeş yoludur ve Mahkum Yolu'nun 'kamp ateşi hikayesi' niteliğindeki klasik canavar kadrosuyla (Kurtadam, Hortlak, Tayf) aynı halk anlatısı köküne ait bir kelime, iki kardeş yol arasında hafif ama gerçek bir bağ kurar. Bu yüzden 'Gulyabani' (gerçek bir Osmanlı-Türk halk anlatısı canavarı, insan yiyen, tamamen fiziksel bir dehşet figürü) tercih edildi: hem bu Mertebenin vahşi, kontrolsüz doğasını İblis'ten daha isabetli karşılıyor hem de Mahkum Yolu ile örtük bir yankı kuruyor. Bu tercih, Suçlu Yolu'nun İblis Avcısı (Alacakaranlık Devi Yolu) ile kurduğu doğrudan metin-içi karşıtlığı zayıflatır; ancak bu kaybı, Mertebenin kendi doğasına ve kardeş yoluna olan sadakat karşısında kabul edilebilirdir."
@@ -1869,6 +1942,7 @@
       bolum_siniri: 414
       metinde: true
       kaynak: metin
+      ilk_gecis: 414
     - seviye: 4
       isim: "Şeytan (Demon)"
       bolum_siniri: 687
@@ -1879,6 +1953,7 @@
       bolum_siniri: 687
       metinde: true
       kaynak: metin
+      ilk_gecis: 687
     - seviye: 2
       isim: "Kan Arşidükü (Bloody Archduke)"
       bolum_siniri: 0
@@ -1889,6 +1964,7 @@
       bolum_siniri: 1347
       metinde: true
       kaynak: metin
+      ilk_gecis: 1347
     - seviye: 0
       isim: "Hâviye (Abyss)"
       bolum_siniri: 1409
@@ -1937,11 +2013,13 @@
       bolum_siniri: 1042
       metinde: true
       kaynak: metin
+      ilk_gecis: 1042
     - seviye: 2
       isim: "Kadim Melanet (Ancient Bane)"
       bolum_siniri: 721
       metinde: true
       kaynak: metin
+      ilk_gecis: 721
     - seviye: 1
       isim: "Hilkat Garibesi (Abomination)"
       bolum_siniri: 735
@@ -1966,11 +2044,13 @@
       bolum_siniri: 22
       metinde: true
       kaynak: metin
+      ilk_gecis: 22
     - seviye: 8
       isim: "Dövüş Alimi (Melee Scholar)"
       bolum_siniri: 81
       metinde: true
       kaynak: metin
+      ilk_gecis: 81
     - seviye: 7
       isim: "Büyücü (Warlock)"
       bolum_siniri: 65
@@ -1981,11 +2061,13 @@
       bolum_siniri: 217
       metinde: true
       kaynak: metin
+      ilk_gecis: 217
     - seviye: 5
       isim: "Takımyıldızlar Üstadı (Constellations Master)"
       bolum_siniri: 565
       metinde: true
       kaynak: metin
+      ilk_gecis: 565
     - seviye: 4
       isim: "Gizemşinas (Mystilogist)"
       bolum_siniri: 0
@@ -2006,6 +2088,7 @@
       bolum_siniri: 715
       metinde: true
       kaynak: metin
+      ilk_gecis: 715
     - seviye: 0
       isim: "Keşiş (Hermit)"
       bolum_siniri: 1409
@@ -2023,6 +2106,7 @@
       bolum_siniri: 65
       metinde: true
       kaynak: metin
+      ilk_gecis: 59
     - seviye: 8
       isim: "Arkeolog (Archaeologist)"
       bolum_siniri: 65
@@ -2033,6 +2117,7 @@
       bolum_siniri: 65
       metinde: true
       kaynak: metin
+      ilk_gecis: 65
     - seviye: 6
       isim: "Zanaatkâr (Artisan)"
       bolum_siniri: 217
@@ -2049,11 +2134,13 @@
       cevirmen_notu: "İngilizce özgün terim 'Alchemist' olsa da bilinçli olarak 'Simyacı' değil 'Kimyager' tercih edildi. Sebep iki yönlü: (1) Çiftçi Yolu'ndaki 'Kadim Simyacı' ile aynı Mertebede iki 'Simya' türevinin çakışmasını önlemek; (2) Bilgin Yolu özünde dönüşüm/simya değil, zanaat, bilim ve inovasyon yoludur bu yüzden modern 'Kimya' yolun ruhuna daha uygundur. Kanon da bu esnekliği destekler: Roselle Gustav'ın hizmetleri sayesinde bu yolun ilahı, Beşinci Çağ'da mukaddes bir fermanla kendi adını dahi 'Zanaatkârlık İlahı'ndan 'Buhar ve Çarkların İlahı'na çevirmiştir; tek bir mertebe adının uyarlanması bu bağlamda gayet mümkündür."
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 3
       isim: "Sır Alimi (Arcane Scholar)"
       bolum_siniri: 237
       metinde: true
       kaynak: metin
+      ilk_gecis: 237
     - seviye: 2
       isim: "Bilgi Hakimi (Knowledge Magister)"
       bolum_siniri: 0
@@ -2064,11 +2151,13 @@
       bolum_siniri: 1347
       metinde: true
       kaynak: metin
+      ilk_gecis: 1347
     - seviye: 0
       isim: "Erdem (Paragon)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 1261
   kaynak: karma
 
 # Kadir-i Mutlak (God Almighty)
@@ -2088,6 +2177,7 @@
       bolum_siniri: 60
       metinde: true
       kaynak: metin
+      ilk_gecis: 60
     - seviye: 7
       isim: "Ruh Hekimi (Psychiatrist)"
       bolum_siniri: 60
@@ -2103,6 +2193,7 @@
       bolum_siniri: 970
       metinde: true
       kaynak: metin
+      ilk_gecis: 970
     - seviye: 4
       isim: "Kurgucu (Manipulator)"
       bolum_siniri: 677
@@ -2113,11 +2204,13 @@
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 1053
     - seviye: 2
       isim: "Mümeyyiz (Discerner)"
       bolum_siniri: 485
       metinde: true
       kaynak: metin
+      ilk_gecis: 485
     - seviye: 1
       isim: "Yazar (Author)"
       bolum_siniri: 485
@@ -2145,6 +2238,7 @@
       bolum_siniri: 65
       metinde: true
       kaynak: metin
+      ilk_gecis: 65
     - seviye: 7
       isim: "Gemici (Seafarer)"
       bolum_siniri: 65
@@ -2155,21 +2249,25 @@
       bolum_siniri: 145
       metinde: true
       kaynak: metin
+      ilk_gecis: 145
     - seviye: 5
       isim: "Derya Ozanı (Ocean Songster)"
       bolum_siniri: 366
       metinde: true
       kaynak: metin
+      ilk_gecis: 366
     - seviye: 4
       isim: "Yıkım Gömücü (Cataclysmic Interrer)"
       bolum_siniri: 244
       metinde: true
       kaynak: metin
+      ilk_gecis: 244
     - seviye: 3
       isim: "Denizlerin Kralı (Sea King)"
       bolum_siniri: 540
       metinde: true
       kaynak: metin
+      ilk_gecis: 540
     - seviye: 2
       isim: "Felaket (Calamity)"
       bolum_siniri: 815
@@ -2180,6 +2278,7 @@
       bolum_siniri: 768
       metinde: true
       kaynak: metin
+      ilk_gecis: 768
     - seviye: 0
       isim: "Tiran (Tyrant)"
       bolum_siniri: 815
@@ -2202,11 +2301,13 @@
       bolum_siniri: 140
       metinde: true
       kaynak: metin
+      ilk_gecis: 140
     - seviye: 7
       isim: "Güneş Başrahibi (Solar High Priest)"
       bolum_siniri: 140
       metinde: true
       kaynak: metin
+      ilk_gecis: 140
     - seviye: 6
       isim: "Kâtibiadil (Notary)"
       bolum_siniri: 686
@@ -2217,28 +2318,33 @@
       bolum_siniri: 140
       metinde: true
       kaynak: metin
+      ilk_gecis: 140
     - seviye: 4
       isim: "Gölgesiz (Unshadowed)"
       bolum_siniri: 140
       metinde: true
       kaynak: metin
+      ilk_gecis: 140
     - seviye: 3
       isim: "Adalet Üstadı (Justice Mentor)"
       cevirmen_notu: "'Mentor' bu sözlükte sistematik olarak 'Mürşid' olarak sabitlenmiştir (bkz. Hile Mürşidi notu), ancak bu girdide bilinçli olarak istisna yapılmıştır. O kuralın gerekçesi, sıcak/saygın bir kelimeyi karanlık veya ahlaki açıdan belirsiz bir Mertebeyle eşleştirerek kasıtlı bir gerilim yaratmaktı. Güneş Yolu'nda ise böyle bir gerilim kurulacak zemin yoktur: bu Yol doğrudan doğruluk, dürüstlük ve saflığı temsil eder, kanonda karanlık bir okumaya açık değildir. 'Mürşid' kelimesini burada da kullanmak, sözlüğün genelinde inşa edilen sıcak-kelime/karanlık-mertebe ilkesini bozar; okuyucu, düzenli olarak karşılaştığı bu örüntüden yola çıkarak Güneş Yolu'na da olmayan bir ahlaki belirsizlik yükleyebilir. Bu yüzden nötr ve saygın ama 'gerilimsiz' bir karşılık olan 'Üstad' tercih edilmiştir: rehberlik ilişkisini korur, ama tasavvufi ağırlığı ve ondan doğan çift anlamlılığı taşımaz."
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
+      ilk_gecis: 1034
     - seviye: 2
       isim: "Işıkperest (Lightseeker)"
       bolum_siniri: 1266
       metinde: true
       kaynak: metin
+      ilk_gecis: 1266
     - seviye: 1
       isim: "Pak Melek (White Angel)"
       cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu, ancak bu mertebenin güçleri veya yolun felsefesi yerine yalnızca rengini adlandırıyordu; Güneş Yolu'nun kendi doğasını değil. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Kaos Denizi'nin her çatışmaya müsamaha göstermesi, Sır Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
       bolum_siniri: 812
       metinde: true
       kaynak: metin
+      ilk_gecis: 140
     - seviye: 0
       isim: "Güneş (Sun)"
       bolum_siniri: 1409
@@ -2271,11 +2377,13 @@
       bolum_siniri: 418
       metinde: true
       kaynak: metin
+      ilk_gecis: 418
     - seviye: 5
       isim: "İlm-i Esrar Hakimi (Mysticism Magister)"
       bolum_siniri: 534
       metinde: true
       kaynak: metin
+      ilk_gecis: 534
     - seviye: 4
       isim: "Peygamber (Prophet)"
       bolum_siniri: 445
@@ -2291,16 +2399,19 @@
       bolum_siniri: 812
       metinde: true
       kaynak: metin
+      ilk_gecis: 812
     - seviye: 1
       isim: "Külli Bâsır Göz (Omniscient Eye)"
       bolum_siniri: 1345
       metinde: true
       kaynak: metin
+      ilk_gecis: 1345
     - seviye: 0
       isim: "Beyaz Kule (White Tower)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 1345
   kaynak: karma
 
 - terim: "Sır Talibi Yolu"
@@ -2313,6 +2424,7 @@
       bolum_siniri: 105
       metinde: true
       kaynak: metin
+      ilk_gecis: 105
     - seviye: 8
       isim: "Dinleyici (Listener)"
       bolum_siniri: 105
@@ -2323,11 +2435,13 @@
       bolum_siniri: 138
       metinde: true
       kaynak: metin
+      ilk_gecis: 138
     - seviye: 6
       isim: "Gül Ruhbanı (Rose Bishop)"
       bolum_siniri: 138
       metinde: true
       kaynak: metin
+      ilk_gecis: 138
     - seviye: 5
       isim: "Çoban (Shepherd)"
       bolum_siniri: 146
@@ -2338,11 +2452,13 @@
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
+      ilk_gecis: 1034
     - seviye: 3
       isim: "Teslis Muhafızı (Trinity Templar)"
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
+      ilk_gecis: 1034
     - seviye: 2
       isim: "Melun Vaiz (Profane Presbyter)"
       bolum_siniri: 0
@@ -2354,11 +2470,13 @@
       bolum_siniri: 667
       metinde: true
       kaynak: metin
+      ilk_gecis: 667
     - seviye: 0
       isim: "Asılmış Adam (Hanged Man)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
+      ilk_gecis: 5
   kaynak: karma
 
 # Köken Tanrıçası (Goddess of Origin)
@@ -2373,6 +2491,7 @@
       bolum_siniri: 302
       metinde: true
       kaynak: metin
+      ilk_gecis: 240
     - seviye: 8
       isim: "Hekim (Doctor)"
       bolum_siniri: 403
@@ -2383,6 +2502,7 @@
       bolum_siniri: 707
       metinde: true
       kaynak: metin
+      ilk_gecis: 707
     - seviye: 6
       isim: "Tabiatşinas (Biologist)"
       bolum_siniri: 707
@@ -2394,6 +2514,7 @@
       bolum_siniri: 815
       metinde: true
       kaynak: metin
+      ilk_gecis: 708
     - seviye: 4
       isim: "Kadim Simyacı (Ancient Alchemist)"
       bolum_siniri: 1136
@@ -2404,17 +2525,20 @@
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
+      ilk_gecis: 1321
     - seviye: 2
       isim: "Çorak Mader (Desolate Matriarch)"
       cevirmen_notu: "Sözlükteki tüm diğer 'anne' figürleri (Cümle Varlığın Anası, Cümle Alemin Anası, ve bu Yolun kendi Mertebe 0'ı olan sade 'Ana') için 'Ana' kullanılırken, bu Mertebede bilinçli olarak Farsça 'Mader' tercih edilmiştir. Sebep: Sequence 0'ın unvanı olan çıplak/sade 'Ana' kelimesinin bir alt-Mertebede sıfat olarak tekrar kullanılması, sade kelimenin taşıdığı ağırlığı zedeler diye düşünüldü. 'Mader' daha soğuk/yabancı bir kayıt sunarak, Toprak Ana'nın bu en sert/kısır yönünü, sıcak ve yerleşik 'Ana' kelimesinden bilinçli olarak ayırır."
       bolum_siniri: 1271
       metinde: true
       kaynak: metin
+      ilk_gecis: 1271
     - seviye: 1
       isim: "Doğa Seyyahı (Naturewalker)"
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
+      ilk_gecis: 1321
     - seviye: 0
       isim: "Ana (Mother)"
       bolum_siniri: 1409
@@ -2438,6 +2562,7 @@
       bolum_siniri: 78
       metinde: true
       kaynak: metin
+      ilk_gecis: 78
     - seviye: 7
       isim: "Vampir (Vampire)"
       bolum_siniri: 370
@@ -2451,6 +2576,7 @@
       bolum_siniri: 592
       metinde: true
       kaynak: metin
+      ilk_gecis: 592
     - seviye: 5
       isim: "Kızıl Alim (Scarlet Scholar)"
       bolgesel:
@@ -2459,6 +2585,7 @@
       bolum_siniri: 595
       metinde: true
       kaynak: metin
+      ilk_gecis: 595
     - seviye: 4
       isim: "Şaman Kralı (Shaman King)"
       bolgesel:
@@ -2467,6 +2594,7 @@
       bolum_siniri: 329
       metinde: true
       kaynak: metin
+      ilk_gecis: 329
     - seviye: 3
       isim: "Ulu Celbedici (High Summoner)"
       bolgesel:
@@ -2475,6 +2603,7 @@
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
+      ilk_gecis: 1321
     - seviye: 2
       isim: "Hayat Bahşedici (Life-Giver)"
       bolgesel:
@@ -2483,6 +2612,7 @@
       bolum_siniri: 1321
       metinde: true
       kaynak: metin
+      ilk_gecis: 1321
     - seviye: 1
       isim: "Güzellik Tanrıçası (Beauty Goddess)"
       bolgesel:
@@ -2492,6 +2622,7 @@
       bolum_siniri: 1271
       metinde: true
       kaynak: metin
+      ilk_gecis: 1271
     - seviye: 0
       isim: "Ay (Moon)"
       bolgesel:
