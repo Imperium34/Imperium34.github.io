@@ -29,7 +29,8 @@ plugins:
 
 feed:
   collections:
-    chapters: {}
+    chapters:
+      excerpt_only: true
 
 # -----------------------
 # MARKDOWN / BUILD SETTINGS

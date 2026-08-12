@@ -56,15 +56,29 @@ jobs:
           if not entries:
               exit(0)
 
-          latest = entries[0]
-          updated_str = latest.find('atom:updated', ns).text  # e.g. 2026-08-12T20:00:00+03:00
+          # NOTE: unlike _posts, custom collections (chapters) are NOT filtered
+          # by future date in Jekyll/jekyll-feed, so the feed can contain
+          # chapters scheduled for later too. Filter to already-released
+          # chapters ourselves before picking the 'latest' one.
+          tz = datetime.fromisoformat(entries[0].find('atom:published', ns).text).tzinfo
+          now = datetime.now(tz)
 
-          # Compare published date to today's date, both in +03:00 local time
-          published_date = datetime.fromisoformat(updated_str).date()
-          today = datetime.now(datetime.fromisoformat(updated_str).tzinfo).date()
+          released = []
+          for entry in entries:
+              published_str = entry.find('atom:published', ns).text
+              published_dt = datetime.fromisoformat(published_str)
+              if published_dt <= now:
+                  released.append((published_dt, entry))
 
-          # Optional: Only notify if the chapter was published today
-          if published_date != today:
+          if not released:
+              print('No released chapters found in feed. Skipping Discord notification.')
+              exit(0)
+
+          released.sort(key=lambda pair: pair[0], reverse=True)
+          published_dt, latest = released[0]
+
+          # Only notify if the newest *released* chapter was published today
+          if published_dt.date() != now.date():
               print('No new chapter published today. Skipping Discord notification.')
               exit(0)
 
