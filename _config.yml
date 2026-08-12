@@ -27,11 +27,6 @@ collections:
 plugins:
   - jekyll-feed
 
-feed:
-  collections:
-    chapters:
-      excerpt_only: true
-
 # -----------------------
 # MARKDOWN / BUILD SETTINGS
 # -----------------------
