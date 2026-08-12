@@ -1,19 +1,20 @@
 # -----------------------
 # SITE IDENTITY
 # -----------------------
-title:  Gizemlerin Efendisi (Esrarın Hükümdarı Edisyon)
+title: Gizemlerin Efendisi (Esrarın Hükümdarı Edisyon)
 description: "Viktorya dönemi gizemi ve kozmik dehşet üzerine atmosferik bir çeviri."
 author:
   name: "Cuttlefish That Loves Diving (Çeviri: Imperium)"
 
 # -----------------------
-# GITHUB PAGES SETTINGS
+# SITE URL / HOSTING
 # -----------------------
 url: "https://esrarinhukumdari.com"
 baseurl: ""
+timezone: Europe/Istanbul
 
 # -----------------------
-# THEME SETTINGS
+# COLLECTIONS
 # -----------------------
 collections:
   chapters:
@@ -21,7 +22,17 @@ collections:
     permalink: /:collection/:name/
 
 # -----------------------
-# BUILD SETTINGS
+# PLUGINS
+# -----------------------
+plugins:
+  - jekyll-feed
+
+feed:
+  collections:
+    chapters: {}
+
+# -----------------------
+# MARKDOWN / BUILD SETTINGS
 # -----------------------
 markdown: kramdown
 kramdown:
@@ -29,19 +40,13 @@ kramdown:
   auto_ids: true
   hard_wrap: false
 
-timezone: Europe/Istanbul
-
-plugins:
-  - jekyll-feed
-
-feed:
-  collections:
-    chapters:
-
 sass:
   sass_dir: css
   style: expanded
 
+# -----------------------
+# EXCLUDES
+# -----------------------
 exclude:
   - README.md
   - Gemfile
