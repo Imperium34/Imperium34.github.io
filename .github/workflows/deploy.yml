@@ -72,7 +72,7 @@ jobs:
           link = latest.find('atom:link', ns).attrib['href']
 
           payload = {
-              'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}** <1458903249175314493>',
+              'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}**\n\n<@&1458903249175314493>',
               'embeds': [{
                   'title': title,
                   'url': link,
