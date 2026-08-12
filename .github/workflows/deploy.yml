@@ -1,6 +1,39 @@
-- name: Send Discord Announcement
-        # ONLY run on scheduled cron triggers (ignores manual runs or code pushes)
-        if: github.event_type == 'publish_chapters'
+name: Deploy Jekyll Site
+on:
+  repository_dispatch:
+    types: [publish_chapters]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Send Discord Announcement
+        # ONLY run on repository_dispatch triggers (ignores manual workflow_dispatch runs)
+        if: github.event.action == 'publish_chapters'
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
@@ -26,9 +59,9 @@
           latest = entries[0]
           updated_str = latest.find('atom:updated', ns).text  # e.g. 2026-08-12T20:00:00+03:00
 
-          # Compare published date to today's UTC/local date
+          # Compare published date to today's date, both in +03:00 local time
           published_date = datetime.fromisoformat(updated_str).date()
-          today = datetime.now().date()
+          today = datetime.now(datetime.fromisoformat(updated_str).tzinfo).date()
 
           # Optional: Only notify if the chapter was published today
           if published_date != today:
