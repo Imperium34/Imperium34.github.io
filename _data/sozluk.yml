@@ -440,7 +440,7 @@
 - terim: "Ruhani Beden İplikleri"
   ingilizce: "Spirit Body Threads"
   kategori: "Temel Kavramlar"
-  aciklama: "Her canlının Esir Bedeni ile Ruhani Bedeni arasında var olan ve fiziksel dünyaya uzanan görünmez mistik bağlar. 'Kukla Üstadı' (Marionettist) mertebesine ulaşan Aşkınlar, bu iplikleri Basiret aracılığıyla görebilir ve onları yavaşça ele geçirerek canlıları mutlak itaatkâr, ruhsuz kuklalara dönüştürebilir."
+  aciklama: "Her canlının Esir Bedeni ile Ruhani Bedeni arasında var olan ve fiziksel dünyaya uzanan görünmez mistik bağlar. 'Sır Kuklabazı' mertebesine ulaşan Aşkınlar, bu iplikleri Basiret aracılığıyla görebilir ve onları yavaşça ele geçirerek canlıları mutlak itaatkâr, ruhsuz kuklalara dönüştürebilir."
   bolum_siniri: 665
   kaynak: metin
   mudahale: ceviri
@@ -619,7 +619,7 @@
   cevirmen_notu_ek:
   - sinir: 251
     baslik: "Yolun dokusu"
-    metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Kukla Üstadı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
+    metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Sır Kuklabazı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
   - sinir: 1384
     baslik: "Yükselişin vardığı yer"
     metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Kralı olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
@@ -946,7 +946,8 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
-  cevirmen_notu: "'Ece', sözlükteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır. Ayrıca Tanrıça'nın panteonun en 'yeni' üyelerinden olmasına dair kompleksi (bkz. Bölüm 18), onu diğerlerinden farklı, daha 'ilkel/Türki' bir kelimeyle işaretlemekle de örtüşür."
+  cevirmen_notu: "'Ece', sözlükteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Bu tercih üç katmanlıdır.\n\nBirinci katman kimlikle ilgilidir: Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır.\n\nİkinci katman ise daha işlevseldir. Tanrıça panteonun en 'yeni' üyelerinden biridir ve bu, hem kendisinde hem inananlarında gerçek bir meşruiyet kompleksi yaratır (bkz. Bölüm 18): Yaradan'ın ruhundan doğrudan doğan İlahlarla kıyaslandığında, o yalnızca İkinci Çağ'ın sonunda uyanmıştır 'kim daha kadimse kim daha muteber' mantığında açıkça geride kalan taraf odur. Ne var ki Tanrıça'nın kendi tazim ismi bu hiyerarşiye sessizce boyun eğmez; 'bekadan daha baki' gibi ifadelerle doğrudan zamanın kendisini aşan bir iddiada bulunur. Yani unvan, gerçekte daha genç olan birinin daha kadim görünme çabasıdır.\n\n'Ece' de tam olarak aynı hamleyi, kelime düzeyinde tekrarlar. Sözlükteki diğer tüm hükümranlık kelimeleri Osmanlı/tasavvuf kayıtına aitken, 'Ece' bilinçli olarak daha eski bir Türkçe katmana çekilmiştir. Bu seçimdeki amaç, bizzat unvanının yaptığı şeyi, kelimenin kendi yaşıyla sessizce taklit etmektir. Tazim ismi nasıl retorik olarak kıdemden daha eski görünmeye çalışıyorsa, 'Ece' de dilsel olarak sözlüğün geri kalanından daha eski durarak aynı telafi hareketini bir kez daha, bu sefer çeviri katmanında sahneler.\n\nÜçüncü bir katman ise doğrudan Çince orijinaldeki morfolojik tercihtir. Yazar, unvanın bu satırında kraliçe/kral eşi anlamına gelen 王后 (Wánghòu) veya standart kraliçe anlamına gelen 女王 (Nǚwáng) yerine, spesifik olarak 女皇 (Nǚhuáng - Kadın İmparator) kelimesini seçmiştir. Çin tarihinde bu nadir unvan, göğün iradesini bir erkeğe bağlı olmadan kendi başına taşıyan mutlak kadın hükümdarları (örn. Wu Zetian) tanımlar. İngilizcedeki 'Empress' bu ayrımı kısmen verse de, Türkçeye 'İmparatoriçe' olarak aktarıldığında Batılı ve daha güncel bir tını yaratır. 'Ece', hem Nǚhuáng kelimesinin talep ettiği o mutlak, arkaik egemenliği karşılar hem de sözlüğün klasik dokusunu bozmadan kelimeyi 'kraliçe' mefhumunun bir adım ötesine, asıl ait olduğu yere taşır."
+  cevirmen_notu_sinir: 18
   bolum_siniri: 1
   kaynak: metin
   mudahale: ceviri
@@ -1191,7 +1192,9 @@
       kaynak: metin
       ilk_gecis: 251
     - seviye: 5
-      isim: "Kukla Üstadı (Marionettist)"
+      isim: "Sır Kuklabazı (Marionettist)"
+      cevirmen_notu: "Başlangıçta İngilizce 'Marionettist' karşılığı olarak 'Kukla Üstadı' kullanılmıştı, ancak dizgesel tutarlılık adına 'Sır Kuklabazı' olarak revize edildi. Bunun sebebi, İngilizce çevirinin metindeki devasa bir yapısal iskeleti tamamen yok etmesidir. Çince orijinalde bu mertebe 秘偶大师 (Mì'ǒu dàshī) şeklindedir ve ilk karakter olan 'Mì' (秘) doğrudan 'Sır/Gizem' anlamına gelir. Bu kelimenin eklenmesi metindeki iki temel kanonik bağı onarır.<br><br>Birincisi yatay bağdır: Çırak Yolu'nun 4. Mertebesi olan Sır Efsuncusu (秘法师 - Mì fǎshī) ile birebir paylaşılan 'Mì' kökü, İngilizcede silinmiş olan bu iki yol arasındaki yapısal akrabalığı kelime düzeyinde yeniden kurar.<br><br>İkincisi ve asıl önemlisi ise dikey bağdır: Soytarı yolunda bir Aşkın yarı tanrılığa adım atarken 5. Mertebeden 4. Mertebeye tırmanır. 5. Mertebe 'Mì' (秘 - Sır), 4. Mertebe ise 'Garabet Efsuncusu'ndaki 'Guǐ' (诡 - Garabet/Tuhaflık) karakterini taşır. Bu iki karakterin birleşimi olan 'Guǐmì' (诡秘), romanın ve Yüce Kadim'in asıl adı olan 'Esrar'ın (Mysteries) ta kendisidir. Yani kanon, Yüce Kadim'in DNA'sını kelimenin tam anlamıyla beşeriyetten ilahiyatın ilk adımlarına geçişin yaşandığı bu iki mertebeye paylaştırmıştır. İngilizce çeviri ('Marionettist' ve 'Bizarro Sorcerer') bu inşayı körleştirir. Türkçede ise Mertebe 5'e 'Sır' kökünün yerleştirilmesi, Aşkın'ın Mertebe 1 (Esrar Hadimi) ve ötesine (Esrarın Hükümdarı) ulaştığında tekil olan 'Sır'dan çoğul/mutlak olan 'Esrar'a geçişini birbirine bağlar."
+      cevirmen_notu_sinir: 713
       bolum_siniri: 251
       metinde: true
       kaynak: metin
@@ -1248,7 +1251,8 @@
       metinde: true
       kaynak: metin
     - seviye: 7
-      isim: "Rumuzcu (Cryptologist)"
+      isim: "Sırbozan (Cryptologist)"
+      cevirmen_notu: "Başlangıçta bu mertebe için akademik ve mesleki bir tınısı olan 'Rumuzcu' tercih edilmişti. Ancak yolun genel kötücül ve yıkıcı temasına uyum sağlaması ve kanonik bağları görünür kılması amacıyla 'Sırbozan' olarak revize edildi. Çince orijinali 解密学者 (Jiěmì xuézhě) içindeki 密 (mì - şifre/giz) karakteri, Soytarı ve Çırak yollarındaki 秘 (Mì - sır/gizem) ile eşseslidir. Bu iki yol gerçekliği 'Sır' (Sır Kuklabazı, Sır Efsuncusu) ile şifrelerken, Kapkaççı yolu bu sırları çözer ve istismar eder. 'Rumuzcu' pasif bir okuyucuyu imlerken, 'Sırbozan' doğrudan Amon'un ve bu yolun doğasındaki kural tanımaz, yıkıcı ve asalak karakteri ('bozmak' eylemi üzerinden) yansıtır."
       bolum_siniri: 697
       metinde: true
       kaynak: metin
