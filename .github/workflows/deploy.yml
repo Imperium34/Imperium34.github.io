@@ -36,6 +36,7 @@ jobs:
         if: github.event.action == 'publish_chapters'
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_2: ${{ secrets.DISCORD_WEBHOOK_2 }}
         run: |
           python3 -c "
           import xml.etree.ElementTree as ET
@@ -44,8 +45,13 @@ jobs:
           import os
           from datetime import datetime
 
-          webhook_url = os.environ.get('DISCORD_WEBHOOK')
-          if not webhook_url:
+          # (env var, whether this server gets the role tag)
+          webhook_configs = [
+              (os.environ.get('DISCORD_WEBHOOK'), True),
+              (os.environ.get('DISCORD_WEBHOOK_2'), False),
+          ]
+          webhook_configs = [(url, tag) for url, tag in webhook_configs if url]
+          if not webhook_configs:
               exit(0)
 
           tree = ET.parse('_site/feed/chapters.xml')
@@ -71,21 +77,25 @@ jobs:
 
           link = latest.find('atom:link', ns).attrib['href']
 
-          payload = {
-              'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}**\n\n<@&1458903249175314493>',
-              'embeds': [{
-                  'title': title,
-                  'url': link,
-                  'color': 10754072,
-                  'description': f'**{title}** yayında. Keyifli okumalar!',
-                  'footer': {'text': 'Esrarın Hükümdarı · Tarot Kulübü'}
-              }]
+          embed = {
+              'title': title,
+              'url': link,
+              'color': 10754072,
+              'description': f'**{title}** yayında. Keyifli okumalar!',
+              'footer': {'text': 'Esrarın Hükümdarı · Tarot Kulübü'}
           }
-          req = urllib.request.Request(
-              webhook_url,
-              data=json.dumps(payload).encode('utf-8'),
-              headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
-          )
-          urllib.request.urlopen(req)
+
+          for webhook_url, include_tag in webhook_configs:
+              tag_part = '\n\n<@&1458903249175314493>' if include_tag else ''
+              payload = {
+                  'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}**{tag_part}',
+                  'embeds': [embed]
+              }
+              req = urllib.request.Request(
+                  webhook_url,
+                  data=json.dumps(payload).encode('utf-8'),
+                  headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
+              )
+              urllib.request.urlopen(req)
           print('Discord notification sent for:', title)
           "

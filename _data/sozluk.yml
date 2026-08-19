@@ -75,7 +75,7 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Melekler Kralı"
+- terim: "Melekler Hanı"
   ingilizce: "King of Angels"
   kategori: "Temel Kavramlar"
   aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 hasleti ile o Yol'un Yegânelik parçasını barındıran veya birden fazla Mertebe 1 hasleti taşıyan eşsiz figürleri tanımlar."
@@ -622,7 +622,7 @@
     metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Sır Kuklabazı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
   - sinir: 1384
     baslik: "Yükselişin vardığı yer"
-    metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Kralı olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
+    metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Hanı olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
   - sinir: 1384
     baslik: "Çıkarılan Sonuç"
     metin: "Buradan çıkardığımız okuma şu: mertebeler büyüdükçe seyirci basitçe genişlemez; önce niceliğe indirgenir, sonra metinden bütünüyle çekilir. Yol, zirveye çıkmadan önce kendini boşaltıyor gibi görünür. Ve tam bu boşluğun ardından Soytarı, kanonda tarif edilen en geniş seyirciyle karşımıza çıkar: 'Ölümlüler ve ilahlar', aynı anda. Bu örüntüyü tarot'taki 0 kartının hem baştan önce hem yolculuğun sonunda durabilmesiyle aynı hareket olarak okuyoruz: icracı sıfıra iner, yeniden belirdiğinde ise yeni bir basamağın en altında değil, basamaklandırmanın dışında görünür. Nitekim Mertebe 0, kanonda da Mertebe 1'den 'bir üstü' değil, kategorik olarak ayrı bir konumdur. Kanonik betimleme bu okumayı destekler: bir yıldızı yok edebilecek kadar güçlü, ona doğrudan bakamayacak kadar kırılgan; sınırsız imtiyaz, sıfır zırh. Bize göre tam olarak bir saray soytarısının, hükümdarın huzurunda bulunan ama hiçbir korumaya sahip olmayan konumu. Tarot tarafındaki 'köke dönüş' bu yorumda bir çağrışımdan öte, mertebenin iç mimarisinde işleyen bir mekanizma olarak öne sürülüyor: yol, sıfırlanarak biter ve sıfırdan başlar."
@@ -777,7 +777,7 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Tahayyül Meleği Âdem (Melekler Kralı)"
+- terim: "Tahayyül Meleği Âdem (Melekler Hanı)"
   ingilizce: "Angel of Imagination Adam"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
@@ -808,7 +808,7 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Mülhid Amon (Melekler Kralı)"
+- terim: "Mülhid Amon (Melekler Hanı)"
   ingilizce: "Blasphemer Amon (King of Angels)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
