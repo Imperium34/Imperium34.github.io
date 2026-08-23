@@ -344,6 +344,15 @@
   mudahale: ceviri
   denetim: tamam
 
+- terim: "Kalp ve Zihin Bedeni"
+  ingilizce: "Heart and Mind Body"
+  kategori: "Temel Kavramlar"
+  aciklama: "Dörtlü okült beden yapısında fiziksel bedenle bağlantının başladığı katman; muhakeme, düşünme, kavrama ve idrak yeteneğinin bütünsel tezahürüdür. Bazı iksirler ve büyüler doğrudan bu katmanı hedefler."
+  bolum_siniri: 32
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Esir Bedeni"
   ingilizce: "Ether Body"
   kategori: "Temel Kavramlar"
@@ -1015,11 +1024,11 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "İlim ve Hikmetin İlahı"
+- terim: "İlim ve Hikmet İlahı"
   ingilizce: "God of Knowledge and Wisdom"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "İlim Burcu,<br>İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
+  aciklama: "İlim Burcu,<br>İlim ve Hikmet İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
   cevirmen_notu: "Kanonik unvan dört satırdır (知识之塔 / 理性化身 / 智慧之神 / 洞悉万物的学者). Türkçe versiyonda üç müdahale bulunur. (1) 2. ve 3. satırlar yer değiştirmiştir; ayrıca kanonun 智慧之神 ('hikmet ilahı') satırı yerine ilahın tam adı kullanılmıştır. (2) 'Aklın Nuru', 理性化身'in literal karşılığı değildir. 'Tecessüm/化身' bedenlenmeye dayalı bir imgedir. 'Nur' ise İşrâkî geleneğin akıl-ışık özdeşliğine (nûr-ı akl) yaslanarak aynı işlevi görür. (3) 4. satır 'Bahr-i İrfan' literal çeviri değildir; kanondaki 洞悉万物的学者 ('her şeyi kavrayan alim') satırının yerine yazılmıştır. Kanon satırı bir fail (alim) tanımlarken Türkçe satır bir mahiyet (derya) tanımlar. Sebep: 'irfan', klasik tasnifte 'ilim'den (kesbî bilgi) ayrı olarak vehbî/tecrübî bilgiyi imler. Bu satırla birlikte unvan ilim–hikmet–akıl–irfan dörtlüsünü kapsar; kanonun bilgi/akıl/hikmet/kavrayış dizisinin Türkçedeki tam karşılığı bu dörtlüdür."
   bolum_siniri: 3
   kaynak: metin
