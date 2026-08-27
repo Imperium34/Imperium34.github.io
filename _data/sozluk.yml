@@ -223,7 +223,7 @@
 - terim: "Aslî Kale"
   ingilizce: "Sefirah Castle"
   kategori: "Temel Kavramlar"
-  aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın mutlak hakimiyet sürdüğü, Tarot Kulübü toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
+  aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın mutlak hakimiyet sürdüğü, Tarot Cemiyeti toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
   bolum_siniri: 1127
   kaynak: metin
   mudahale: ceviri
@@ -515,6 +515,15 @@
 # ORGANİZASYONLAR VE KİLİSE TİMLERİ
 # -----------------------
 
+- terim: "Tarot Cemiyeti"
+  ingilizce: "The Tarot Club"
+  kategori: "Organizasyonlar"
+  aciklama: "Soytarı'nın liderliğinde Gri Sisin fevkinde toplanan, üyeleri birbirini sadece Tarot kartı kod adlarıyla tanıyan gizli meclis."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Gece Şahinleri"
   ingilizce: "Nighthawks"
   kategori: "Organizasyonlar"
@@ -606,11 +615,119 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Ruhanî Ruhbanlık"
+- terim: "Gurûb Münzevîleri Meclisi"
+  ingilizce: "Twilight Hermit Order"
+  kategori: "Organizasyonlar"
+  aciklama: "Kökenleri çok eskilere dayanan, tarihin akışını perde arkasından yönlendirmeyi amaçlayan ve en güçlü Aşkınları bünyesinde barındıran son derece gizli, kadim bir meclis."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Lâhutî Heyet"
   ingilizce: "Numinous Episcopate"
   kategori: "Organizasyonlar"
   aciklama: "Ölüm'e tapan, ruhlarla ve ölü diriltme sanatlarıyla ilgilenen yeraltı kilisesi/örgütü."
   bolum_siniri: 66
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Ruhiyat Simyagerleri"
+  ingilizce: "Psychology Alchemists"
+  kategori: "Organizasyonlar"
+  aciklama: "Seyirci yolu Aşkınlarının kurduğu, insan zihni, psikoloji ve kolektif bilinçaltı üzerinde araştırmalar yapan yarı gizli bir cemiyet."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Hayat Ekolü"
+  ingilizce: "Life School of Thought"
+  kategori: "Organizasyonlar"
+  aciklama: "Kader, talih ve yaşam felsefesine odaklanan, Canavar ve İrfan yollarıyla bağlantılı gizli bir mektep."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Gül Ekolü"
+  ingilizce: "Rose School of Thought"
+  kategori: "Organizasyonlar"
+  aciklama: "Mahkûm ve Suçlu yollarını barındıran, radikal tutkular ve kısıtlamalar üzerine kurulu güçlü, tehlikeli ve kanlı bir gizli örgüt."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "İtidal Fırkası"
+  ingilizce: "Temperance Faction"
+  kategori: "Organizasyonlar"
+  aciklama: "Gül Ekolü içinde, arzuları dizginlemeyi ve katı bir ahlaki disiplinle yozlaşmadan korunmayı savunan, günümüzde zayıflamış ve yeraltına çekilmiş alt grup."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Sefahat Fırkası"
+  ingilizce: "Indulgence Faction"
+  kategori: "Organizasyonlar"
+  aciklama: "Gül Ekolü'nde arzuların serbest bırakılmasını ve kötülüğün sınırsızca yaşanmasını savunan, Ekol'ün mevcut yönetimini elinde tutan yozlaşmış ve baskın grup."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Gül Halâsı"
+  ingilizce: "Rose Redemption"
+  kategori: "Organizasyonlar"
+  aciklama: "Üçüncü Çağ'da Kadim Güneş Tanrısı döneminde üst düzey başmelekler tarafından kurulan, tarihin akışını değiştiren son derece kadim ve mistik bir teşkilat."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Tezkiyet-i Dem Fırkası"
+  ingilizce: "Blood Sanctify Sect"
+  kategori: "Organizasyonlar"
+  aciklama: "Kökeni Dördüncü Çağ'a dayanan, kan kurbanları ve karanlık arınma ritüelleri üzerine kurulu tekinsiz bir gizli tarikat."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Fecr-i Anasır"
+  ingilizce: "Element Dawn"
+  kategori: "Organizasyonlar"
+  aciklama: "Denizlerde ve beşeri dünyada faaliyet gösteren, genellikle element büyüleri ve doğa felsefesiyle ilgilenen gizli bir cemiyet."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Demirkan Salibi Tarikatı"
+  ingilizce: "Iron and Blood Cross Order"
+  kategori: "Organizasyonlar"
+  aciklama: "Avcı yolunun militarist disiplinini benimseyen, savaş ve kan dökme üzerinden güç kazanan gizli bir şövalye tarikatı."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Hikmet-i İlahiye Tarikatı"
+  ingilizce: "Theosophy Order"
+  kategori: "Organizasyonlar"
+  aciklama: "Çeşitli mistik öğretileri araştıran, felsefe ile ezoterizmi harmanlayarak okültizm dünyasında kendine has bir yer edinen cemiyet."
+  bolum_siniri: 0
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Peygamberdevesi Mezhebi"
+  ingilizce: "Mantis Religion"
+  kategori: "Organizasyonlar"
+  aciklama: "Güney Kıtası'na özgü, ilkel doğa inançları ve tekinsiz ritüeller barındıran yerel bir kült."
+  bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -794,7 +911,7 @@
   cevirmen_notu: "Kanonda karşılığı yoktur ve tamamen özgündür. 'Kurgucu' bilinçli olarak modern registerdedir ve Seyirci yolunun ilgili Mertebesine atıf yapar. 'Külli Şuur-altı Deryası' yolun özünü (kolektif bilinçaltı) yansıtır."
   bolum_siniri: 815
   kaynak: metin
-  mudahale: ozgun
+  mudahale: ceviri
   denetim: tamam
 
 - terim: "Halas Meleği Amon"
@@ -1032,7 +1149,7 @@
   cevirmen_notu: "Kanonik unvan dört satırdır (知识之塔 / 理性化身 / 智慧之神 / 洞悉万物的学者). Türkçe versiyonda üç müdahale bulunur. (1) 2. ve 3. satırlar yer değiştirmiştir; ayrıca kanonun 智慧之神 ('hikmet ilahı') satırı yerine ilahın tam adı kullanılmıştır. (2) 'Aklın Nuru', 理性化身'in literal karşılığı değildir. 'Tecessüm/化身' bedenlenmeye dayalı bir imgedir. 'Nur' ise İşrâkî geleneğin akıl-ışık özdeşliğine (nûr-ı akl) yaslanarak aynı işlevi görür. (3) 4. satır 'Bahr-i İrfan' literal çeviri değildir; kanondaki 洞悉万物的学者 ('her şeyi kavrayan alim') satırının yerine yazılmıştır. Kanon satırı bir fail (alim) tanımlarken Türkçe satır bir mahiyet (derya) tanımlar. Sebep: 'irfan', klasik tasnifte 'ilim'den (kesbî bilgi) ayrı olarak vehbî/tecrübî bilgiyi imler. Bu satırla birlikte unvan ilim–hikmet–akıl–irfan dörtlüsünü kapsar; kanonun bilgi/akıl/hikmet/kavrayış dizisinin Türkçedeki tam karşılığı bu dörtlüdür."
   bolum_siniri: 3
   kaynak: metin
-  mudahale: degistirme
+  mudahale: ceviri
   denetim: tamam
 
 - terim: "Cenk Tanrısı"
@@ -1046,12 +1163,12 @@
   denetim: tamam
 
 # -----------------------
-# TAROT KULÜBÜ ÜYELERİ
+# TAROT CEMİYETİ ÜYELERİ
 # -----------------------
 
 - terim: "Halas Meleği Gehrman Sparrow"
   ingilizce: "Angel of Redemption Gehrman Sparrow"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
   bolum_siniri: 1409
@@ -1061,7 +1178,7 @@
 
 - terim: "Dünya (The World) V2"
   ingilizce: "Gehrman Sparrow"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Backlund'ın cümle fukara çocuklarının Hamisi,<br>Yüce Gehrman Sparrow."
   bolum_siniri: 1177
@@ -1071,7 +1188,7 @@
 
 - terim: "Dünya (The World) V1"
   ingilizce: "Gehrman Sparrow"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Sihir ve temaşa ehlinin Hamisi,<br>Yüce Gehrman Sparrow."
   bolum_siniri: 1139
@@ -1081,7 +1198,7 @@
 
 - terim: "Adalet (Justice)"
   ingilizce: "Audrey Hall"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Cümle ızdırabı teskin eden Mümeyyiz;<br>Ahir zamanda güzelliği muhafaza eden Hülya Dokuyan;<br>Hakikat ve Vehim arasında var olan Ruh Hekimi;<br>Yürekten ve hakkaniyetten neşet eden Adalet;<br>Esrarın Hükümdarı'nın inayetine mazhar olmuş Mütevazı Şifacı."
   bolum_siniri: 0
@@ -1091,7 +1208,7 @@
 
 - terim: "Asılmış Adam (The Hanged Man)"
   ingilizce: "Alger Wilson"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Felakete ayin sunan Rahip;<br>Deryalara hükmeden Piskopos;<br>Necaset ve Sefahatı sırtlayan Vaiz;<br>Esrarın gölgesinde adımlayan Papa;<br>Fedakârlık ve adanmışlıktan yılmayan Asılmış Adam."
   bolum_siniri: 0
@@ -1101,7 +1218,7 @@
 
 - terim: "Güneş (The Sun)"
   ingilizce: "Derrick Berg"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Zulmeti defeden Pak Zat;<br>Her ameli adil olan Rahip;<br>Işığın izini süren Ozan;<br>Zaman ve Mekan Sultanı'nın Mukaddes Makamı;<br>İlelebet ümit ve mefkûre taşıyan Sıcak Güneş."
   bolum_siniri: 0
@@ -1111,7 +1228,7 @@
 
 - terim: "Yıldız (The Star)"
   ingilizce: "Leonard Mitchell"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Ebedi Gece'nin Muhafızı;<br>Dehşeti gözetleyen Uykusuz Melek;<br>Gizliliğe hizmet eden Geceyarısı Şairi;<br>Kaderin Mihenk Taşı'nın zirvesindeki Nur;<br>Yolunu yitirenlere kılavuzluk eden Yıldız."
   bolum_siniri: 0
@@ -1121,7 +1238,7 @@
 
 - terim: "Hokkabaz (The Magician)"
   ingilizce: "Fors Wall"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "<b>Mertebe 2:</b><br>Yıldızlı Kubbede Seyran Eden Seyyah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Dünya'nın Vakanüvis Efsuncusu.<br><br><b>Mertebe 1:</b><br>Dünya'nın Vakanüvis Efsuncusu;<br>Yıldızlı Kubbede Seyran Eden Seyyah;<br>Zifiri Kainatı Aralayan Miftah;<br>Sarı ve Siyahın Kralı'nın Bendesi;<br>Yollara ve Amellere Hükmeden Hokkabaz."
   bolum_siniri: 0
@@ -1131,7 +1248,7 @@
 
 - terim: "Ay (The Moon)"
   ingilizce: "Emlyn White"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
   aciklama: "Celb Kapılarının Muhafızı;<br>Cümle Varlığın Ruhaniyetinin Tecessümü;<br>Hayat Kanı Damlatan Hayat Bahşedici;<br>Nebatat ve Hayvanatı Besleyen Ay;<br>Alem-i Ervah Hakimi'nin İlahi Sefiri."
   bolum_siniri: 0
@@ -1141,7 +1258,7 @@
 
 - terim: "Keşiş (The Hermit)"
   ingilizce: "Cattleya"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
   aciklama: "Masal Aleminin Büyücüsü;<br>Kaderi İrdeleyen Gözler;<br>Esrarın İzini Süren Bilge;<br>Marifetin Bağrında Saklı Muamma;<br>Arif Keşiş."
   bolum_siniri: 0
@@ -1151,7 +1268,7 @@
 
 - terim: "Yargı (Judgment)"
   ingilizce: "Xio Derecha"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Anarşi (Anarchy)"
   aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İcracısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Mihenk Taşı'nın Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
   bolum_siniri: 0
@@ -1161,7 +1278,7 @@
 
 - terim: "İtidal (Temperance)"
   ingilizce: "Sharron"
-  kategori: "Tarot Kulübü"
+  kategori: "Tarot Cemiyeti"
   yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
   aciklama: "Cümle varlığı lanetleyen Kukla;<br>Tarihin dehlizlerinden kopan Garibe;<br>Sessizlik ve sıradanlık bahşeden Mürit;<br>Arzu ve şer düşüncelere başkaldıran İtidal Hanımefendisi;<br>Alem-i Ervah Hakimi'nin Naibi."
   bolum_siniri: 0
@@ -2448,7 +2565,7 @@
       metinde: true
       kaynak: metin
     - seviye: 7
-      isim: "Gölge Münzevisi (Shadow Ascetic)"
+      isim: "Gölge Zâhidi (Shadow Ascetic)"
       bolum_siniri: 138
       metinde: true
       kaynak: metin
