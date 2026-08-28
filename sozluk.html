@@ -195,6 +195,9 @@ body.spoiler-mode-active .hidden-sequence {
 .rozet-coi       { background: #2e2418; color: #c4a882; border-color: #5c4a34; }
 .rozet-karma     { background: #1e2422; color: #8fb3a8; border-color: #35514a; }
 .rozet-denetim   { background: #1a1a1a; color: #666;    border-color: #333;    }
+.rozet-sistem    { background: #0f2430; color: #7ec4e0; border-color: #1c4a5c; cursor: pointer; text-decoration: none; }
+.rozet-sistem:hover { background: #16323f; }
+.rozet-mini      { font-size: 0.72em; padding: 2px 6px; margin-bottom: 0; }
 
 .notu-parca {
   margin-top: 8px !important;
@@ -325,6 +328,7 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
       <div><span class="rozet rozet-coi">Circle of Inevitability</span> <span>Devam kitabının metninden gelir.</span></div>
       <div><span class="rozet rozet-karma">Karma kaynak</span> <span>Girdideki maddelerin bir kısmı metinden, bir kısmı metin dışıdır.</span></div>
       <div><span class="rozet rozet-denetim">Denetlenmedi</span> <span>Kanona uygunluğu henüz tek tek denetlenmedi.</span></div>
+      <div><span class="rozet rozet-sistem">📘 Sistem Kuralı</span> <span>Bu tercih, birden çok Mertebe veya Yolu kapsayan dokümante edilmiş bir sisteme dahildir. Rozete tıklayınca ilgili kural <a href="{{ '/sistem-kurallari/' | relative_url }}">Sistem Kuralları</a> sayfasında yeni sekmede açılır ve kısa süreliğine vurgulanır.</span></div>
     </div>
     <p style="margin-top: 12px;">
       Son rozet önemlidir: <strong>rozetin yokluğu "doğrulandı" anlamına gelmez.</strong>
@@ -340,7 +344,11 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
       basamaklar güç dereceleri değil manevi makamlardır. Her terimin kendi
       gerekçesi girdisindeki çevirmen notundadır;
       <a href="{{ '/hakkinda/' | relative_url }}">bütün sözlüğe uygulanan
-      ilkeler ve Kadir-i Mutlak tercihinin gerekçesi</a> ayrı sayfada.
+      ilkeler ve Kadir-i Mutlak tercihinin gerekçesi</a> ayrı sayfada. Birden çok Mertebe veya
+      Yolu kapsayan dokümante edilmiş tercihlerin tam listesi ve her birinin testi ise
+      <a href="{{ '/sistem-kurallari/' | relative_url }}">Sistem Kuralları</a> sayfasındadır;
+      <span class="rozet rozet-sistem" style="cursor:default;">📘 Sistem Kuralı</span> rozetini
+      taşıyan her girdi oraya tek tıkla bağlanır.
     </p>
 
   </div>
@@ -445,6 +453,15 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
         <span class="rozet rozet-denetim" title="Bu girdinin kanona uygunluğu henüz tek tek denetlenmedi.">Denetlenmedi</span>
       {% endif %}
 
+      {% if item.sistem_kural %}
+        {% for anahtar in item.sistem_kural %}
+          {% assign kural = site.data.sistem_kurallari[anahtar] %}
+          {% if kural %}
+            <a class="rozet rozet-sistem" href="{{ '/sistem-kurallari/' | relative_url }}#{{ kural.id }}" target="_blank" rel="noopener" title="Bu tercih dokümante edilmiş bir sistem kuralına dayanır: {{ kural.baslik }}. Yeni sekmede açılır.">📘 {{ kural.baslik }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
       {% if bs > 0 %}
         <div class="main-term-spoiler" data-unlock="{{ bs }}" data-kaynak="{{ item.kaynak }}">
           <details style="cursor: pointer;">
@@ -504,6 +521,14 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
                   {{ mertebe.bolgesel.kultur }}:
                   <span class="dynamic-spoiler" data-unlock="{{ mbs }}" data-kaynak="{{ mertebe.kaynak }}" role="button" tabindex="0" title="Açmak/Kapatmak için tıklayın">{{ mertebe.bolgesel.isim }}</span>
                 </span>
+              {% endif %}
+              {% if mertebe.sistem_kural %}
+                {% for anahtar in mertebe.sistem_kural %}
+                  {% assign mkural = site.data.sistem_kurallari[anahtar] %}
+                  {% if mkural %}
+                    <a class="rozet rozet-sistem rozet-mini" href="{{ '/sistem-kurallari/' | relative_url }}#{{ mkural.id }}" target="_blank" rel="noopener" title="Sistem Kuralı: {{ mkural.baslik }}. Yeni sekmede açılır.">📘</a>
+                  {% endif %}
+                {% endfor %}
               {% endif %}
               {% if mertebe.cevirmen_notu %}
                 <details class="mertebe-notu" data-unlock="{{ mertebe.cevirmen_notu_sinir | default: mbs }}" data-kaynak="{{ mertebe.kaynak }}">

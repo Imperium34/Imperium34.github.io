@@ -37,15 +37,17 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 6
 
 - terim: "Aslî Yaradan"
   ingilizce: "The Original Creator"
   kategori: "İlahlar ve Yüce Kadimler"
   aciklama: "Her şeyin başlangıcı ve sonu olan; tüm Aşkın Yolların, Hasletlerin, evrenin ve Yüce Kadimlerin kendisinden koptuğu nihai varlık. Evrenin varoluşu Aslî Yaradan'ın parçalanmasıyla başlamıştır ve Aşkın Hasletlerin Yakınsama Kanunu uyarınca evrendeki her şey eninde sonunda yeniden ona dönme eğilimindedir."
-  bolum_siniri: 1409
+  bolum_siniri: 812
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 812
 
 - terim: "Yüce Kadim"
   ingilizce: "Great Old One"
@@ -55,6 +57,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1224
 
 - terim: "Öte İlahlar"
   ingilizce: "Outer Deities"
@@ -65,6 +68,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1223
 
 - terim: "Mertebelerin Fevki"
   ingilizce: "Above the Sequence"
@@ -74,6 +78,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 65
 
 - terim: "Melekler Hanı"
   ingilizce: "King of Angels"
@@ -83,6 +88,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 486
 
 - terim: "Yegânelik"
   ingilizce: "Uniqueness"
@@ -96,11 +102,12 @@
 - terim: "İlahî Hükümranlık"
   ingilizce: "Divine Kingdom"
   kategori: "Temel Kavramlar"
-  aciklama: "Gerçek İlahların (Mertebe 0) Astral Alem'de inşa ettikleri, kendi yollarının otoritesi ve kurallarıyla şekillenen mutlak alanlar. Bir İlahın kendi hükümranlığı içinde mağlup edilmesi neredeyse imkânsızdır."
-  bolum_siniri: 1224
+  aciklama: "Gerçek İlahların Astral Alem'de inşa ettikleri, kendi yollarının otoritesi ve kurallarıyla şekillenen mutlak alanlar. Bir İlahın kendi hükümranlığı içinde mağlup edilmesi neredeyse imkânsızdır."
+  bolum_siniri: 463
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 463
 
 - terim: "Yıldızlı Gökkubbenin ötesi"
   ingilizce: "Cosmos"
@@ -121,6 +128,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 6
 
 - terim: "Oyunculuk Metodu / Rol İfası"
   ingilizce: "Acting Method"
@@ -130,6 +138,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 93
 
 - terim: "Şirazesini Yitirmek (Şirazeden Çıkmak)"
   ingilizce: "Losing Control"
@@ -140,6 +149,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 16
 
 - terim: "Hezeyanlar"
   ingilizce: "Ravings"
@@ -163,6 +173,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 96
 
 - terim: "Astral Alem (Alem-i Misal)"
   ingilizce: "Astral World"
@@ -173,6 +184,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1345
 
 - terim: "Tazim İsmi"
   ingilizce: "Honorific Name"
@@ -182,6 +194,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 226
 
 - terim: "Mühürlü Eserler"
   ingilizce: "Sealed Artifacts"
@@ -191,6 +204,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 19
 
 - terim: "Tılsım"
   ingilizce: "Charm"
@@ -209,13 +223,14 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 51
 
 - terim: "Aslî Menşe"
   ingilizce: "Sefirot"
   kategori: "Temel Kavramlar"
   aciklama: "Evrenin ve yolların en temel, kozmik ve teolojik özleri."
   cevirmen_notu: "Çince orijinalde bu terimler düz 'Köken Kaynağı' ve 'Köken Kalesi'dir; Kabalistik 'Sefirot' çağrışımı yalnızca İngilizce çeviride mevcuttur. Türkçe seçim iki kaynağı da köprüleyecek şekilde yapıldı: 'Aslî' hem 'köken/asıl' hem de Sefirot'un gerçek anlamı olan 'sudur/köken' ile örtüşüyor. Tek bir kaynağa sadakat yerine kesişim noktası tercih edildi."
-  bolum_siniri: 1203
+  bolum_siniri: 1140
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -224,19 +239,21 @@
   ingilizce: "Sefirah Castle"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani Alem'in ve sonsuz gri sisin üzerinde süzülen, zaman ile mekanın kurallarını aşan kadim ve gizemli mekan. Soytarı'nın mutlak hakimiyet sürdüğü, Tarot Cemiyeti toplantılarının yapıldığı ve evrenin en büyük sırlarından birini barındıran ilahi bölge."
-  bolum_siniri: 1127
+  bolum_siniri: 1054
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1054
 
 - terim: "Hercümerç Deryası"
   ingilizce: "Chaos Sea"
   kategori: "Temel Kavramlar"
   aciklama: "Kadir-i Mutlak grubunun Aslî Menşesi. Tüm yozlaşmanın, ilksel kaosun ve yaratılıştan arta kalan karmaşanın yattığı karanlık ve dipsiz metafizik okyanus."
-  bolum_siniri: 1203
+  bolum_siniri: 1136
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1136
 
 - terim: "İlahiyat ve Beşeriyet"
   ingilizce: "Divinity and Humanity"
@@ -253,8 +270,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerinin fiziksel ve ruhani kaynağı olan, evrenin başlangıcından beri var olan ve asla yok edilemeyen mistik özler. Bir Aşkın öldüğünde bu haslet vücudundan dışarı sızarak genellikle tuhaf bir kristal, renkli bir jöle veya parlayan bir nesne formunda geride kalır ve başka biri tarafından iksir yapımında kullanılabilir."
   cevirmen_notu: "İngilizce 'Characteristic' kelimesi normal şartlarda 'Özellik' veya 'Karakteristik' olarak çevrilir. Ancak LotM evreninde bu nesneler sadece büyü gücü veren mekanik parçalar değil; içlerinde Aslî Yaradan'ın iradesini, önceki sahiplerinin kalıntılarını ve o Yol'un doğasını (deliliğini) barındıran yaşayan özlerdir. Türkçede 'Özellik' daha teknik ve cansız bir kelimeyken (bir telefonun veya arabanın özelliği gibi), 'Haslet' insanın veya bir varlığın doğuştan getirdiği, huy ve mizaçla bütünleşmiş asli niteliği ifade eder. Bu nesnelerin Aşkınların ruhuna ve bedenine nüfuz eden yapısı göz önüne alındığında, onları 'Aşkın Hasleti' olarak adlandırmak evrenin ruhuna çok daha uygundur."
-  cevirmen_notu_sinir: 1409
-  bolum_siniri: 1409
+  bolum_siniri: 207
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -276,6 +292,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 207
 
 - terim: "Aşkın Hasletlerin Yakınsama Kanunu"
   ingilizce: "Law of Beyonder Characteristics Convergence"
@@ -285,6 +302,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 560
 
 - terim: "Tefekkür"
   ingilizce: "Cogitation"
@@ -294,6 +312,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Firaset"
   ingilizce: "Spiritual Intuition"
@@ -304,6 +323,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 309
 
 - terim: "Basiret"
   ingilizce: "Spirit Vision"
@@ -313,6 +333,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Ruhaniyet"
   ingilizce: "Spirituality"
@@ -333,6 +354,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Ruhani Beden"
   ingilizce: "Spirit Body"
@@ -362,6 +384,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Astral İzdüşüm"
   ingilizce: "Astral Projection"
@@ -371,6 +394,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Nefs Bedeni"
   ingilizce: "Soul Body"
@@ -381,6 +405,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "hâle"
   ingilizce: "aura"
@@ -409,6 +434,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 32
 
 - terim: "Mitolojik Suret"
   ingilizce: "Mythical Creature Form"
@@ -418,6 +444,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 705
 
 - terim: "Kehanet"
   ingilizce: "Divination"
@@ -436,6 +463,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 40
 
 - terim: "Rüya Kehaneti"
   ingilizce: "Dream Divination"
@@ -445,6 +473,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 199
 
 - terim: "Ruhani Beden İplikleri"
   ingilizce: "Spirit Body Threads"
@@ -454,6 +483,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 665
 
 - terim: "Mazinin Dehlizleri / Mazi Sisi"
   ingilizce: "Historical Void / Fog of History"
@@ -463,6 +493,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 838
 
 - terim: "Mazi İzdüşümü"
   ingilizce: "Historical Projection"
@@ -472,6 +503,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1145
 
 - terim: "Ruhani Çıpa"
   ingilizce: "Anchor"
@@ -499,6 +531,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 13
 
 - terim: "İlahların Metruk Diyarı"
   ingilizce: "Forsaken Land of the Gods"
@@ -509,6 +542,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 853
 
 
 # -----------------------
@@ -519,10 +553,11 @@
   ingilizce: "The Tarot Club"
   kategori: "Organizasyonlar"
   aciklama: "Soytarı'nın liderliğinde Gri Sisin fevkinde toplanan, üyeleri birbirini sadece Tarot kartı kod adlarıyla tanıyan gizli meclis."
-  bolum_siniri: 0
+  bolum_siniri: 7
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 7
 
 - terim: "Gece Şahinleri"
   ingilizce: "Nighthawks"
@@ -532,6 +567,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 6
 
 - terim: "Kızıl Eldivenler"
   ingilizce: "Red Gloves"
@@ -541,6 +577,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 211
 
 - terim: "Makine Külli Şuuru"
   ingilizce: "Machinery Hivemind"
@@ -550,6 +587,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 6
 
 - terim: "Salahiyetli Tecziyeciler"
   ingilizce: "Mandated Punishers"
@@ -559,6 +597,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 6
 
 - terim: "Engizisyon"
   ingilizce: "The Inquisition"
@@ -577,6 +616,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 242
 
 - terim: "Fecir Tarikatı"
   ingilizce: "Aurora Order"
@@ -586,6 +626,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 53
 
 - terim: "Tarikat-ı Hafiyye"
   ingilizce: "Secret Order"
@@ -595,6 +636,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 28
 
 - terim: "Mos Çilekeş Tarikatı"
   ingilizce: "Moses Ascetic Order"
@@ -605,6 +647,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 28
 
 - terim: "Şeytaniçe Tarikatı"
   ingilizce: "Demoness Sect"
@@ -614,15 +657,17 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Gurûb Münzevîleri Meclisi"
   ingilizce: "Twilight Hermit Order"
   kategori: "Organizasyonlar"
   aciklama: "Kökenleri çok eskilere dayanan, tarihin akışını perde arkasından yönlendirmeyi amaçlayan ve en güçlü Aşkınları bünyesinde barındıran son derece gizli, kadim bir meclis."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 427
 
 - terim: "Lâhutî Heyet"
   ingilizce: "Numinous Episcopate"
@@ -632,103 +677,114 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Ruhiyat Simyagerleri"
   ingilizce: "Psychology Alchemists"
   kategori: "Organizasyonlar"
   aciklama: "Seyirci yolu Aşkınlarının kurduğu, insan zihni, psikoloji ve kolektif bilinçaltı üzerinde araştırmalar yapan yarı gizli bir cemiyet."
-  bolum_siniri: 0
+  bolum_siniri: 14
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 14
 
 - terim: "Hayat Ekolü"
   ingilizce: "Life School of Thought"
   kategori: "Organizasyonlar"
   aciklama: "Kader, talih ve yaşam felsefesine odaklanan, Canavar ve İrfan yollarıyla bağlantılı gizli bir mektep."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Gül Ekolü"
   ingilizce: "Rose School of Thought"
   kategori: "Organizasyonlar"
   aciklama: "Mahkûm ve Suçlu yollarını barındıran, radikal tutkular ve kısıtlamalar üzerine kurulu güçlü, tehlikeli ve kanlı bir gizli örgüt."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "İtidal Fırkası"
   ingilizce: "Temperance Faction"
   kategori: "Organizasyonlar"
   aciklama: "Gül Ekolü içinde, arzuları dizginlemeyi ve katı bir ahlaki disiplinle yozlaşmadan korunmayı savunan, günümüzde zayıflamış ve yeraltına çekilmiş alt grup."
-  bolum_siniri: 0
+  bolum_siniri: 723
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 723
 
 - terim: "Sefahat Fırkası"
   ingilizce: "Indulgence Faction"
   kategori: "Organizasyonlar"
   aciklama: "Gül Ekolü'nde arzuların serbest bırakılmasını ve kötülüğün sınırsızca yaşanmasını savunan, Ekol'ün mevcut yönetimini elinde tutan yozlaşmış ve baskın grup."
-  bolum_siniri: 0
+  bolum_siniri: 735
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 735
 
 - terim: "Gül Halâsı"
   ingilizce: "Rose Redemption"
   kategori: "Organizasyonlar"
   aciklama: "Üçüncü Çağ'da Kadim Güneş Tanrısı döneminde üst düzey başmelekler tarafından kurulan, tarihin akışını değiştiren son derece kadim ve mistik bir teşkilat."
-  bolum_siniri: 0
+  bolum_siniri: 342
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 342
 
 - terim: "Tezkiyet-i Dem Fırkası"
   ingilizce: "Blood Sanctify Sect"
   kategori: "Organizasyonlar"
   aciklama: "Kökeni Dördüncü Çağ'a dayanan, kan kurbanları ve karanlık arınma ritüelleri üzerine kurulu tekinsiz bir gizli tarikat."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Fecr-i Anasır"
   ingilizce: "Element Dawn"
   kategori: "Organizasyonlar"
   aciklama: "Denizlerde ve beşeri dünyada faaliyet gösteren, genellikle element büyüleri ve doğa felsefesiyle ilgilenen gizli bir cemiyet."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Demirkan Salibi Tarikatı"
   ingilizce: "Iron and Blood Cross Order"
   kategori: "Organizasyonlar"
   aciklama: "Avcı yolunun militarist disiplinini benimseyen, savaş ve kan dökme üzerinden güç kazanan gizli bir şövalye tarikatı."
-  bolum_siniri: 0
+  bolum_siniri: 66
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 66
 
 - terim: "Hikmet-i İlahiye Tarikatı"
   ingilizce: "Theosophy Order"
   kategori: "Organizasyonlar"
   aciklama: "Çeşitli mistik öğretileri araştıran, felsefe ile ezoterizmi harmanlayarak okültizm dünyasında kendine has bir yer edinen cemiyet."
-  bolum_siniri: 0
+  bolum_siniri: 64
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 64
 
 - terim: "Peygamberdevesi Mezhebi"
   ingilizce: "Mantis Religion"
   kategori: "Organizasyonlar"
   aciklama: "Güney Kıtası'na özgü, ilkel doğa inançları ve tekinsiz ritüeller barındıran yerel bir kült."
   bolum_siniri: 0
-  kaynak: metin
+  kaynak: metin_coi
   mudahale: ceviri
   denetim: tamam
 
@@ -755,10 +811,11 @@
   - sinir: 1384
     baslik: "Kabul edilen kayıp"
     metin: "Bu tercihin bir bedeli var: kanondaki Kandırma salahiyeti ve onun Kör Ahmaklık sembolü, adın kendisinde duyulmaz. Bu kaybın göründüğünden daha ağır olduğunu belirtmek gerekir: 'Kör Ahmaklık' (盲目痴愚) yalnızca soyut bir 'ahmaklık' temasına değil, doğrudan Azathoth'un kendi Çince unvanına (盲目痴愚之神, 'Kör Ahmak Tanrı') atıfta bulunur. Aslında bu unvan da Lovecraft'ın kendi kaleminden çıkma 'Blind Idiot God' ifadesinin birebir çevirisidir. Yani Soytarı, Mertebe 0'a ulaştığında bir bakıma Azathoth'un kendisiyle aynı unvanı taşır; bu, kanonun bilinçli kurduğu bir metinlerarası gönderme olarak okunabilir. 'Soytarı' adı bu göndermeyi taşımaz, yalnızca sembol düzeyinde (Kör Ahmaklık çevirisinde) hayatta kalır. Buna karşılık kanon da bu ikisini ayrı katmanlarda tutar: Ahmaklık ilahın adında değil, salahiyetin sembolündedir. Bu sözlükte de öyle dağıtıldı: ad Soytarı, salahiyet Kandırma, sembol Kör Ahmaklık."
-  bolum_siniri: 5
+  bolum_siniri: 7
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 7
 
 - terim: "Esrarın Hükümdarı"
   ingilizce: "Lord of the Mysteries"
@@ -770,6 +827,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1271
 
 - terim: "Semavi Muazzez"
   ingilizce: "Celestial Worthy of Heaven and Earth"
@@ -782,13 +840,15 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 2
 
 - terim: "Kadir-i Mutlak"
   ingilizce: "God Almighty"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bari,<br>Alimi ve Kudreti Mutlak,<br>Alem-i Misal Efendisi."
-  cevirmen_notu: "Bu girdinin ve bağlı yolların İslami terminolojiyle karşılanması, bu çevirinin en çok sorgulanacak tercihidir. Kadir-i Mutlak, serinin İbrahimî tektanrıcılık tasavvurudur: yaratan, her şeyi bilen ve her şeye gücü yeten bir Hâlık; Âdem; düşüş. Bu figür Hristiyanlığa özgü değildir, üç dinin ortak atasıdır. Türkçenin tektanrılı bir yaratıcıdan söz ederken sahip olduğu en derin, en gelişmiş sözcük dağarcığı ise İslamîdir; çünkü o dağarcığı kuran gelenek budur. Dolayısıyla Esmâ-ül Hüsnâ'dan gelen Hâlık, Bari, Alîm ve Kadîr'e başvurmak bir mezhep aktarması değil, Türkçede bu yükseklikte iş gören tek kaydı kullanmaktır. Yöntem, 'Mertebe' tercihiyle aynıdır: Mertebeler gerçekten de manevi makamlardır ve Türkçe bu kavramları tasavvuf sözlüğünde saklar. Sözcükler ait oldukları göndergeye göre seçilmiştir, süs olsun diye değil. Bazı okuyucuların bu tercihi rahatsız edici bulabileceğinin farkındayım. Özellikle serinin ilerleyen bölümlerinde bu figürün izlediği seyir düşünüldüğünde, itiraz muhtemelen adlandırmaya değil olay örgüsüne gelecektir. Yine de kayıt açıktır: burada kullanılan kelimeler, kurgusal bir varlığı gerçek bir inancın yerine koymak için değil, o varlığın romandaki işlevini Türkçede en iyi ve isabetli şekilde karşılamak için seçilmiştir."
+  cevirmen_notu: "Kadir-i Mutlak, serinin İbrahimî tektanrıcılık tasavvurudur: yaratan, her şeyi bilen ve her şeye gücü yeten bir Hâlık; Âdem; düşüş. Bu figür Hristiyanlığa özgü değildir, üç dinin ortak atasıdır — Esmâ-ül Hüsnâ'dan Hâlık, Bari, Alîm ve Kadîr'e başvurmanın genel gerekçesi ve bu tercihe yönelik olası itirazlar için bkz. Sistem Kuralları #7 (Esmâ-ül Hüsnâ Ödünçlemesi) ve Hakkında sayfası."
+  sistem_kural: [esma]
   bolum_siniri: 1260
   kaynak: metin
   mudahale: ceviri
@@ -803,6 +863,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1270
 
 - terim: "Kadim Ay"
   ingilizce: "Primordial Moon"
@@ -813,6 +874,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 352
 
 - terim: "Arzuların Ana Şeceresi"
   ingilizce: "Mother Tree of Desire"
@@ -823,6 +885,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 624
 
 - terim: "Kadim Şeytaniçe"
   ingilizce: "Primordial Demoness"
@@ -834,6 +897,7 @@
   kaynak: metin
   mudahale: degistirme
   denetim: tamam
+  ilk_gecis: 61
 
 - terim: "Kadim Şeytaniçe (Tam Tazim İsmi)"
   ingilizce: "Primordial Demoness (Full Honorific)"
@@ -845,6 +909,7 @@
   kaynak: metin_coi
   mudahale: degistirme
   denetim: tamam
+  ilk_gecis: 61
 
 - terim: "Haiter"
   ingilizce: "Haiter"
@@ -856,6 +921,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 976
 
 - terim: "Ölüm"
   ingilizce: "Death"
@@ -877,10 +943,11 @@
   - sinir: 1409
     baslik: "Çıkarılan satır nereye gitti"
     metin: "Kullanılmayan kanonik satır, cümle zîhayatın yozlaşmış fıtratına dair olandır ve 'Yarı Kadir-i Mutlak Âdem' girdisinde 'Cümle Zîhayatın Sefil Fıtratı' olarak karşılanmıştır. Ayrım bilinçlidir: Fecir Tarikatı onu 'Müşfik Peder' diye çağırırken, aynı varlığın kendi hakikatini bildiren satır ona tapanların değil, onu tanıyanların kaydında durur. Böylece iki girdi aynı varlığın iki farklı yüzünü taşır. Biri ibadetin, diğeri bilginin dilinde."
-  bolum_siniri: 61
+  bolum_siniri: 87
   kaynak: metin
   mudahale: degistirme
   denetim: tamam
+  ilk_gecis: 87
 
 - terim: "Kadim Güneş Tanrısı"
   ingilizce: "Ancient Sun God"
@@ -891,6 +958,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 359
 
 - terim: "Yarı Kadir-i Mutlak Âdem (Yarı Yüce Kadim)"
   ingilizce: "Half God Almighty Adam (Half Great Old One)"
@@ -909,10 +977,11 @@
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
   cevirmen_notu: "Kanonda karşılığı yoktur ve tamamen özgündür. 'Kurgucu' bilinçli olarak modern registerdedir ve Seyirci yolunun ilgili Mertebesine atıf yapar. 'Külli Şuur-altı Deryası' yolun özünü (kolektif bilinçaltı) yansıtır."
-  bolum_siniri: 815
+  bolum_siniri: 941
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 941
 
 - terim: "Halas Meleği Amon"
   ingilizce: "Angel of Redemption Amon"
@@ -933,6 +1002,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 265
 
 - terim: "Mülhid Amon (Melekler Hanı)"
   ingilizce: "Blasphemer Amon (King of Angels)"
@@ -943,6 +1013,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 444
 
 - terim: "Kapı Efendi"
   ingilizce: "Mr. Door"
@@ -953,6 +1024,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 216
 
 - terim: "Kotar"
   ingilizce: "Kotar"
@@ -964,6 +1036,7 @@
   kaynak: metin
   mudahale: tamamlama
   denetim: tamam
+  ilk_gecis: 1188
 
 - terim: "Medici"
   ingilizce: "Medici"
@@ -974,6 +1047,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 457
 
 - terim: "Will Auceptin"
   ingilizce: "Will Auceptin"
@@ -984,16 +1058,18 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 326
 
 - terim: "Ouroboros"
   ingilizce: "Ouroboros"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nur Miftahı (Key of Light)"
   aciklama: "Özünü yutan Merkür Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Resulü."
-  bolum_siniri: 87
+  bolum_siniri: 389
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 389
 
 - terim: "Kızıl Işık (Aiur Moria)"
   ingilizce: "Red Light"
@@ -1004,6 +1080,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 417
 
 - terim: "Deniz İlahı Kalvetua"
   ingilizce: "Sea God Kalvetua"
@@ -1014,6 +1091,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 536
 
 - terim: "Sihirli Ayna Arrodes"
   ingilizce: "Arrodes the Magic Mirror"
@@ -1034,6 +1112,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 535
 
 - terim: "Batınî Bilge"
   ingilizce: "The Hidden Sage"
@@ -1045,6 +1124,7 @@
   kaynak: metin
   mudahale: ozgun
   denetim: tamam
+  ilk_gecis: 61
 
 - terim: "Prangalı İlah"
   ingilizce: "The Chained God"
@@ -1056,6 +1136,7 @@
   kaynak: metin
   mudahale: ozgun
   denetim: tamam
+  ilk_gecis: 180
 
 - terim: "Ebedi Gece Tanrıçası (Sermedi Zulmet)"
   ingilizce: "Evernight Goddess (Eternal Darkness)"
@@ -1066,6 +1147,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1
 
 - terim: "Ebedi Gece Tanrıçası"
   ingilizce: "Evernight Goddess"
@@ -1078,6 +1160,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1
 
 - terim: "Ebedi Gece Tanrıçası (Dünya Savaşı Sonrası)"
   ingilizce: "Evernight Goddess (After the World War)"
@@ -1088,6 +1171,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 1
 
 - terim: "Fırtınalar Hakimi"
   ingilizce: "Lord of Storms"
@@ -1098,6 +1182,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "Ebedi Yanan Güneş"
   ingilizce: "Eternal Blazing Sun"
@@ -1110,6 +1195,7 @@
   kaynak: metin
   mudahale: birlestirme
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "Buhar ve Çarkların İlahı"
   ingilizce: "God of Steam and Machinery"
@@ -1120,6 +1206,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "Toprak Ana (Dünya Savaşı Sonrası)"
   ingilizce: "Earth Mother (After The World War)"
@@ -1130,6 +1217,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "Toprak Ana"
   ingilizce: "Earth Mother"
@@ -1140,6 +1228,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "İlim ve Hikmet İlahı"
   ingilizce: "God of Knowledge and Wisdom"
@@ -1151,6 +1240,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 - terim: "Cenk Tanrısı"
   ingilizce: "God of Combat"
@@ -1161,6 +1251,7 @@
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 3
 
 # -----------------------
 # TAROT CEMİYETİ ÜYELERİ
@@ -1205,6 +1296,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 5
 
 - terim: "Asılmış Adam (The Hanged Man)"
   ingilizce: "Alger Wilson"
@@ -1215,6 +1307,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 5
 
 - terim: "Güneş (The Sun)"
   ingilizce: "Derrick Berg"
@@ -1225,6 +1318,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 139
 
 - terim: "Yıldız (The Star)"
   ingilizce: "Leonard Mitchell"
@@ -1235,6 +1329,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 21
 
 - terim: "Hokkabaz (The Magician)"
   ingilizce: "Fors Wall"
@@ -1245,6 +1340,7 @@
   kaynak: karma
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 107
 
 - terim: "Ay (The Moon)"
   ingilizce: "Emlyn White"
@@ -1255,6 +1351,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 316
 
 - terim: "Keşiş (The Hermit)"
   ingilizce: "Cattleya"
@@ -1265,6 +1362,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 292
 
 - terim: "Yargı (Judgment)"
   ingilizce: "Xio Derecha"
@@ -1275,6 +1373,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 112
 
 - terim: "İtidal (Temperance)"
   ingilizce: "Sharron"
@@ -1285,6 +1384,7 @@
   kaynak: yazar_beyani
   mudahale: ceviri
   denetim: tamam
+  ilk_gecis: 278
 
 # -----------------------
 # MERTEBE YOLLARI (PATHWAYS)
@@ -1319,7 +1419,8 @@
       ilk_gecis: 251
     - seviye: 5
       isim: "Sır Kuklabazı (Marionettist)"
-      cevirmen_notu: "Başlangıçta İngilizce 'Marionettist' karşılığı olarak 'Kukla Üstadı' kullanılmıştı, ancak dizgesel tutarlılık adına 'Sır Kuklabazı' olarak revize edildi. Bunun sebebi, İngilizce çevirinin metindeki devasa bir yapısal iskeleti tamamen yok etmesidir. Çince orijinalde bu mertebe 秘偶大师 (Mì'ǒu dàshī) şeklindedir ve ilk karakter olan 'Mì' (秘) doğrudan 'Sır/Gizem' anlamına gelir. Bu kelimenin eklenmesi metindeki iki temel kanonik bağı onarır.<br><br>Birincisi yatay bağdır: Çırak Yolu'nun 4. Mertebesi olan Sır Efsuncusu (秘法师 - Mì fǎshī) ile birebir paylaşılan 'Mì' kökü, İngilizcede silinmiş olan bu iki yol arasındaki yapısal akrabalığı kelime düzeyinde yeniden kurar.<br><br>İkincisi ve asıl önemlisi ise dikey bağdır: Soytarı yolunda bir Aşkın yarı tanrılığa adım atarken 5. Mertebeden 4. Mertebeye tırmanır. 5. Mertebe 'Mì' (秘 - Sır), 4. Mertebe ise 'Garabet Efsuncusu'ndaki 'Guǐ' (诡 - Garabet/Tuhaflık) karakterini taşır. Bu iki karakterin birleşimi olan 'Guǐmì' (诡秘), romanın ve Yüce Kadim'in asıl adı olan 'Esrar'ın (Mysteries) ta kendisidir. Yani kanon, Yüce Kadim'in DNA'sını kelimenin tam anlamıyla beşeriyetten ilahiyatın ilk adımlarına geçişin yaşandığı bu iki mertebeye paylaştırmıştır. İngilizce çeviri ('Marionettist' ve 'Bizarro Sorcerer') bu inşayı körleştirir. Türkçede ise Mertebe 5'e 'Sır' kökünün yerleştirilmesi, Aşkın'ın Mertebe 1 (Esrar Hadimi) ve ötesine (Esrarın Hükümdarı) ulaştığında tekil olan 'Sır'dan çoğul/mutlak olan 'Esrar'a geçişini birbirine bağlar."
+      cevirmen_notu: "Başlangıçta İngilizce 'Marionettist' karşılığı olarak 'Kukla Üstadı' kullanılmıştı, ancak dizgesel tutarlılık adına 'Sır Kuklabazı' olarak revize edildi. Bunun sebebi, İngilizce çevirinin metindeki devasa bir yapısal iskeleti tamamen yok etmesidir. Çince orijinalde bu mertebe 秘偶大师 (Mì'ǒu dàshī) şeklindedir ve ilk karakter olan 'Mì' (秘) doğrudan 'Sır/Gizem' anlamına gelir. Bu kelimenin eklenmesi metindeki iki temel kanonik bağı onarır.<br><br>Birincisi yatay bağdır: Çırak Yolu'nun 4. Mertebesi olan Sır Efsuncusu (秘法师 - Mì fǎshī) ile birebir paylaşılan 'Mì' kökü, İngilizcede silinmiş olan bu iki yol arasındaki yapısal akrabalığı kelime düzeyinde yeniden kurar.<br><br>İkincisi ve asıl önemlisi ise dikey bağdır: Soytarı yolunda bir Aşkın yarı tanrılığa adım atarken 5. Mertebeden 4. Mertebeye tırmanır. 5. Mertebe 'Mì' (秘 - Sır), 4. Mertebe ise 'Garabet Efsuncusu'ndaki 'Guǐ' (诡 - Garabet/Tuhaflık) karakterini taşır. Bu iki karakterin birleşimi olan 'Guǐmì' (诡秘), romanın ve Yüce Kadim'in asıl adı olan 'Esrar'ın (Mysteries) ta kendisidir. Yani kanon, Yüce Kadim'in DNA'sını kelimenin tam anlamıyla beşeriyetten ilahiyatın ilk adımlarına geçişin yaşandığı bu iki mertebeye paylaştırmıştır. İngilizce çeviri ('Marionettist' ve 'Bizarro Sorcerer') bu inşayı körleştirir. Sır/Esrar ayrımının genel mantığı için bkz. Sistem Kuralları #8 (Sır / Esrar / Gizem / Hafi Sistemi)."
+      sistem_kural: [sir_esrar_gizem_hafi]
       cevirmen_notu_sinir: 713
       bolum_siniri: 251
       metinde: true
@@ -1327,7 +1428,8 @@
       ilk_gecis: 251
     - seviye: 4
       isim: "Garabet Efsuncusu (Bizarro Sorcerer)"
-      cevirmen_notu: "'Efsuncu' tekrarının nedeni için bkz. Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5)."
+      cevirmen_notu: "'Efsuncu' tekrarının genel gerekçesi için bkz. Sistem Kuralları #1 (Büyücü / Efsuncu / Sahir Sistemi); bu Mertebeye özgü Guǐmì bağı için bkz. Sır Efsuncusu (Çırak Yolu, Mertebe 4)."
+      sistem_kural: [buyucu_efsuncu_sahir]
       bolum_siniri: 675
       metinde: true
       kaynak: metin
@@ -1346,6 +1448,7 @@
       ilk_gecis: 237
     - seviye: 1
       isim: "Esrar Hadimi (Attendant of Mysteries)"
+      sistem_kural: [sir_esrar_gizem_hafi]
       bolum_siniri: 713
       metinde: true
       kaynak: metin
@@ -1378,7 +1481,8 @@
       kaynak: metin
     - seviye: 7
       isim: "Sırbozan (Cryptologist)"
-      cevirmen_notu: "Başlangıçta bu mertebe için akademik ve mesleki bir tınısı olan 'Rumuzcu' tercih edilmişti. Ancak yolun genel kötücül ve yıkıcı temasına uyum sağlaması ve kanonik bağları görünür kılması amacıyla 'Sırbozan' olarak revize edildi. Çince orijinali 解密学者 (Jiěmì xuézhě) içindeki 密 (mì - şifre/giz) karakteri, Soytarı ve Çırak yollarındaki 秘 (Mì - sır/gizem) ile eşseslidir. Bu iki yol gerçekliği 'Sır' (Sır Kuklabazı, Sır Efsuncusu) ile şifrelerken, Kapkaççı yolu bu sırları çözer ve istismar eder. 'Rumuzcu' pasif bir okuyucuyu imlerken, 'Sırbozan' doğrudan Amon'un ve bu yolun doğasındaki kural tanımaz, yıkıcı ve asalak karakteri ('bozmak' eylemi üzerinden) yansıtır."
+      cevirmen_notu: "Başlangıçta bu mertebe için akademik ve mesleki bir tınısı olan 'Rumuzcu' tercih edilmişti. Ancak yolun genel kötücül ve yıkıcı temasına uyum sağlaması amacıyla 'Sırbozan' olarak revize edildi: 'Rumuzcu' pasif bir okuyucuyu imlerken, 'Sırbozan' Amon'un ve bu yolun kural tanımaz, yıkıcı ve asalak karakterini ('bozmak' eylemi üzerinden) yansıtır. Çince orijinali 解密学者 (Jiěmì xuézhě) içindeki 密 (mì) karakterinin Soytarı/Çırak yollarındaki 秘 (Mì) ile eşsesli olmasının genel sistemi için bkz. Sistem Kuralları #8 (Sır / Esrar / Gizem / Hafi Sistemi)."
+      sistem_kural: [sir_esrar_gizem_hafi]
       bolum_siniri: 697
       metinde: true
       kaynak: metin
@@ -1403,7 +1507,8 @@
       kaynak: metin
     - seviye: 3
       isim: "Hile Mürşidi (Mentor of Deceit)"
-      cevirmen_notu: "'Mentor' karşılığı bu sözlükte her Mertebede sistematik olarak 'Mürşid' olarak sabitlenmiştir. Bu, yalnızca bu Mertebeye özgü bir tercih değil, genel bir kuraldır. 'Mürşid' Türkçede, özellikle tasavvuf bağlamında, gerçek bir saygınlık taşır: doğru yola götüren, kişiyi dönüştüren manevi rehber anlamına gelir. Bunu 'Hile' (aldatma, düzenbazlık) ile birleştirmek kasıtlı bir gerilim yaratır: sıcak ve saygın kelime soğuk ve karanlık olanı meşrulaştırıyor da olabilir, karanlık kelime saygın olanı kirletiyor da olabilir. İkisi de aynı anda doğru ve eksik kalır. Sıcak ve karanlık kelimelerin bilinçli olarak yan yana kullanılması bu sözlükte genel bir ilkedir, tek bir Mertebeye özgü değildir. Aynı gerekçeyle her 'Mentor' unvanı 'Mürşid' olarak çevrilmiştir; diğer örnekler bu nottan referans alır."
+      cevirmen_notu: "Bu Mertebe, 'Mürşid'in geçerli olduğu iki koşulu (gerçek bir öğretmen-öğrenci ilişkisi + Yolun ahlaki gerilim taşıyabilmesi) birlikte sağlayan çapa örnektir: 'Hile' (aldatma) ile sıcak/saygın 'Mürşid'i birleştirmek bilinçli bir gerilim yaratır. Genel kural ve istisnaları için bkz. Sistem Kuralları #2 (Mürşid Kuralı)."
+      sistem_kural: [murshid]
       bolum_siniri: 1162
       metinde: true
       kaynak: metin
@@ -1421,8 +1526,11 @@
       kaynak: metin
       ilk_gecis: 393
     - seviye: 0
-      isim: "Error / Bug (Error / Bug)"
-      cevirmen_notu: "Kaynak metinde 'Error' İngilizce olarak, 'Bug' ise açıkça 'bilinmeyen kökenli, yabancı bir kelime' olarak tanıtılır. Bu ayrım karakterlerin kendisi tarafından da fark edilir. Bu yüzden 'Bug' Türkçeye çevrilmedi ('Kusur' reddedildi): kelimenin yabancı ve teknik kökeni olay örgüsünde doğrudan işlevseldir (yalnızca Dünya kökenli birinin tanıyabileceği bir yazılım terimidir ve bu tanınırlık ilgili bölümde bir karakterin kimliğini sınayan bir ipucu olarak kullanılır). Kelimeyi Türkçeleştirmek bu işlevi söndürürdü. İki kelimenin de olduğu gibi bırakılması, kaynağın kendi yabancılaştırma jestini korumak içindir."
+      isim: "Kusur (Error)"
+      bolgesel:
+        kultur: "Alternatif İsim"
+        isim: "Bug (Bug)"
+      cevirmen_notu: "'Error' için 'Kusur' tercih edildi; Çince kanonik ad 错误 (cuòwù), doğrudan 'hata, kusur, yanlışlık' anlamına gelir. 'Kusur', hem bu temel anlamı karşılar hem de Mertebenin kurallardaki açıkları, istisnaları ve gerçekliğin mantığındaki bozuklukları kullanma doğasını taşır.<br><br>Ancak Mertebenin diğer adı olan 'Bug' çevrilmemiştir. Bunun nedeni 'Bug'ın yalnızca Error'ın eşanlamlısı olmaması, kaynak metinde özellikle İngilizce ve kökeni bilinmeyen yabancı bir kelime olarak sunulmasıdır. Amon'un babası bu kelimeyi 错误'u adlandırmak için kullanmış; Amon'un 'Bug' demesi ise Klein'ın onun Dünya kökenini fark etmesini sağlayan doğrudan bir ipucudur. Klein'ın kelimeyi özellikle kullanmaktan kaçınması ve İngilizceyi doğal telaffuz etmesinin kimliğini açığa çıkarabileceğinden endişe etmesi, kelimenin yabancı niteliğinin olay örgüsünde işlevsel olduğunu açıkça gösterir. Bu nedenle 'Kusur' kanonik Sequence adının Türkçeleştirilmiş karşılığı, 'Bug' ise özellikle korunması gereken İngilizce bir adlandırmadır."
       bolum_siniri: 1152
       metinde: true
       kaynak: metin
@@ -1461,7 +1569,8 @@
       kaynak: metin
     - seviye: 4
       isim: "Sır Efsuncusu (Secrets Sorcerer)"
-      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5). Bu tekrar rastgele değildir, ancak tek bir nedene dayanmaz; iki farklı bağ türünü aynı anda yansıtır.<br><br>Kâhin Yolu ile Çırak Yolu arasındaki bağ yapısaldır: ikisi de Esrarın Efendisi (Lord of Mysteries) grubunun, Kapkaççı Yolu'yla birlikte parçalarıdır; ortak Aslî Kale'dir. Kâhin Yolu ile Uykusuz Yolu arasındaki bağ ise başka girdidedir (bkz. Ruh Efsuncusu, Uykusuz Yolu Mertebe 5)"
+      cevirmen_notu: "'Efsuncu' kuralının genel gerekçesi için bkz. Sistem Kuralları #1. Bu Mertebenin özel bağı yapısaldır: Kâhin Yolu ile Çırak Yolu, Esrarın Efendisi (Lord of Mysteries) grubunun Kapkaççı Yolu'yla birlikte parçalarıdır; ortak Aslî Kale'dir. Kâhin Yolu ile Uykusuz Yolu arasındaki bağ ise tarihseldir (bkz. Ruh Efsuncusu, Uykusuz Yolu Mertebe 5)."
+      sistem_kural: [buyucu_efsuncu_sahir, sir_esrar_gizem_hafi]
       bolum_siniri: 688
       metinde: true
       kaynak: metin
@@ -1475,6 +1584,7 @@
       ilk_gecis: 182
     - seviye: 2
       isim: "Âlem Seyyahı (Planeswalker)"
+      cevirmen_notu: "Çince Mertebe 2 adı 旅法师 (lǚfǎshī), kelime yapısı bakımından 'Gezgin Efsuncu/Seyyah Efsuncu' gibi bir anlam taşır ve 4. Mertebedeki 秘法师 (mìfǎshī) ile ortak olan 法师 (fǎshī) yani Efsuncu unsurunu yeniden kullanır. İngilizcedeki 'Planeswalker' bu bağı görünmez kılar. Türkçede ise 'Âlem Seyyahı' tercih edildi; çünkü bu Mertebenin boyutlar/arazi âlemleri arasında dolaşma niteliğini doğrudan ve doğal biçimde karşılar."
       bolum_siniri: 1076
       metinde: true
       kaynak: metin
@@ -1517,14 +1627,16 @@
       ilk_gecis: 323
     - seviye: 6
       isim: "Fesat Baronu (Baron of Corruption)"
-      cevirmen_notu: "'Fesat' tercih edildi çünkü klasik Osmanlı-İslam siyasi düşüncesinde bir sistemi içten çürüten yozlaşmayı tanımlayan gerçek bir terimdir ('fesat çıkarmak', 'ehl-i fesad'), 'İfrit'in aksine kişileştirilmiş bir varlık değil sistemsel bir bozulmayı işaret eder. Ayrıca klasik düşüncede fesat genellikle fitneyi doğuran önceki aşama olarak görülür; bu da Mertebe sıralamasıyla tutarlı bir kavramsal ilerleyiş sunar."
+      sistem_kural: [fitne_fesat_mufsit]
+      cevirmen_notu: "'Fesat' tercih edildi çünkü klasik Osmanlı-İslam siyasi düşüncesinde bir sistemi içten çürüten yozlaşmayı tanımlayan gerçek bir terimdir ('fesat çıkarmak', 'ehl-i fesad'), 'İfrit'in aksine kişileştirilmiş bir varlık değil sistemsel bir bozulmayı işaret eder. Ayrıca klasik düşüncede fesat genellikle fitneyi doğuran önceki aşama olarak görülür; bu da Mertebe sıralamasıyla tutarlı bir kavramsal ilerleyiş sunar. Fesat/Fitne/Müfsit ayrımının tamamı için bkz. Sistem Kuralları #5."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
       ilk_gecis: 237
     - seviye: 5
       isim: "Fitne Mürşidi (Mentor of Disorder)"
-      cevirmen_notu: "bkz. Hile Mürşidi (Kapkaççı Yolu, Mertebe 3)."
+      cevirmen_notu: "Genel gerekçe için bkz. Sistem Kuralları #2 (Mürşid Kuralı) ve #5 (Fitne / Fesat / Müfsit Ailesi)."
+      sistem_kural: [murshid, fitne_fesat_mufsit]
       bolum_siniri: 237
       metinde: true
       kaynak: metin
@@ -1536,13 +1648,15 @@
       kaynak: metin
       ilk_gecis: 1052
     - seviye: 3
-      isim: "Mecnun Büyücü (Frenzied Mage)"
+      isim: "Mecnun Sahiri (Frenzied Mage)"
+      sistem_kural: [buyucu_efsuncu_sahir]
       bolum_siniri: 323
       metinde: true
       kaynak: metin
       ilk_gecis: 323
     - seviye: 2
-      isim: "Zeval Dükü (Duke of Entropy)"
+      isim: "İnhilal Dükü (Duke of Entropy)"
+      cevirmen_notu: "İlk tercih olan 'Zeval', bu Mertebenin ruhuna değil, yalnızca genel 'çöküş/geçicilik' temasına hitap ediyordu. Çince orijinali 熵 (shāng) doğrudan termodinamik 'entropi' kelimesidir ve kanon bunu süs olarak kullanmaz: Mertebenin gücü, düşmanın yeteneklerini, düşüncelerini ve bütünlüğünü zamanla rastgeleleştirip bir 'çamura' dönüştürüp tuhaf bir dinginlik/sönümlenme haline sokar; hedef yalnızca bir kişi değil, bir çevre veya kural sistemi de olabilir. Terfi ayini ise en az on milyon kişilik bir ulusu, hiçbir dış müdahale olmaksızın, yalnızca içeriden çürüyerek çökmeye zorlamaktır. Bu 'dış müdahale olmaksızın kendiliğinden düzensizleşme' şartı, entropinin fiziksel tanımının (kapalı bir sistemin kendi haline bırakıldığında düzensizliğe evrilmesi) doğrudan metne işlenmiş halidir; yani kanon burada 'entropi'yi mecazi değil yapısal olarak kullanır. 'Zeval' bu mekanik/yapısal çöküşü kaybedip yerine dinî-şiirsel bir 'geçicilik/fanilik' okuması koyuyordu.<br><br>'Entropi' teriminin doğrudan alınması ise sözlüğün genel kayıt ilkesine (Batı bilimsel jargonundan kaçınma, karşılığı Türkçenin kendi dağarcığında arama) aykırı düşerdi. 'İnhilal' (bir yapının, düzenin veya devletin dışarıdan bir darbe almadan, kendi içinden çözülüp dağılması) bu boşluğu dolduruyor: hem Osmanlı siyasi düşüncesinde gerçek bir karşılığı var ('devletin inhilali'), hem de 'bütünlüğü kaybetmek' anlamı doğrudan Mertebenin 'çamura dönüştürme' tasvirine ve terfi ayinindeki 'kendiliğinden içten çöküş' şartına örtüşüyor. Böylece Fesat/Sakıtlar/Tasfiye gibi diğer Avukat Yolu unvanlarıyla aynı klasik registerde kalırken, gücün fiziksel/yapısal doğası da korunmuş oluyor."
       bolum_siniri: 323
       metinde: true
       kaynak: metin
@@ -1596,7 +1710,8 @@
       kaynak: metin
       ilk_gecis: 693
     - seviye: 4
-      isim: "Ferman İcracısı (Imperative Mage)"
+      isim: "Ferman Sahiri (Imperative Mage)"
+      sistem_kural: [buyucu_efsuncu_sahir]
       bolum_siniri: 475
       metinde: true
       kaynak: metin
@@ -1660,6 +1775,7 @@
       ilk_gecis: 200
     - seviye: 6
       isim: "Müfsitçi (Conspirer)"
+      sistem_kural: [fitne_fesat_mufsit]
       bolgesel:
         kultur: "Intis"
         isim: "Komplocu"
@@ -1671,12 +1787,13 @@
       bolgesel:
         kultur: "Intis"
         isim: "*Mareşal"
-      cevirmen_notu: "Özgün terim 'Reaper' (Loen'de 'Hasatçı' olarak korunmuştur) hasat/ruh-biçen imgesini taşır; Intis bölgesel adı 'Mareşal' ise saf askerî bir rütbedir ve bu imgeyi karşılamaz. Tercih iki gerekçeyle yapıldı: (1) Intis bölgesel adları resmî/Fransızca registerdedir (Provokatör, Piroman) ve 'Mareşal' bu örüntüye tam oturur; (2) her ne kadar mertebenin yeteneklerine değilse de, ilerleme ayinine ve özellikle Avcı Yolu'nun genel kumandanlık/komuta temalarına uygundur. Ayin, kişinin kendinden yüksek Mertebeli bir hedefi kuşatıp esir alarak zaferini onlara seyrettirmesini gerektirir; bu, bir kumandanın stratejik zaferini yansıtır. Şimdilik sabittir; daha iyi bir alternatif bulunursa gözden geçirilecektir. (Asteriks bu belirsizliği işaretler.)"
+      cevirmen_notu: "İngilizce terim 'Reaper' (Loen'de 'Hasatçı' olarak korunmuştur) hasat/ruh-biçen imgesini taşır; Intis bölgesel adı 'Mareşal' ise saf askerî bir rütbedir ve bu imgeyi karşılamaz. Tercih iki gerekçeyle yapıldı: (1) Intis bölgesel adları resmî/Fransızca registerdedir (Provokatör, Piroman) ve 'Mareşal' bu örüntüye tam oturur; (2) her ne kadar mertebenin yeteneklerine değilse de, ilerleme ayinine ve özellikle Avcı Yolu'nun genel kumandanlık/komuta temalarına uygundur. Ayin, kişinin kendinden yüksek Mertebeli bir hedefi kuşatıp esir alarak zaferini onlara seyrettirmesini gerektirir; bu, bir kumandanın stratejik zaferini yansıtır. Şimdilik sabittir; daha iyi bir alternatif bulunursa gözden geçirilecektir. (Asteriks bu belirsizliği işaretler.)"
       bolum_siniri: 653
       metinde: true
       kaynak: metin
     - seviye: 4
       isim: "Demirkan Akıncısı (Iron-Blooded Knight)"
+      sistem_kural: [sovalye]
       bolgesel:
         kultur: "Intis"
         isim: "Demirkan Şövalyesi"
@@ -1686,6 +1803,7 @@
       ilk_gecis: 484
     - seviye: 3
       isim: "Cenk Ruhbanı (War Bishop)"
+      sistem_kural: [piskopos_ruhban]
       bolum_siniri: 940
       metinde: true
       kaynak: metin
@@ -1739,7 +1857,10 @@
       kaynak: metin
     - seviye: 5
       isim: "Maraz (Afflictions)"
-      cevirmen_notu: "'Maraz' Türkçede iki katmanlı bir anlam taşır: eski kullanımda hastalık, illet demektir; günlük dilde ise başkalarının talihsizliğinden zevk alan, kötü niyetli bir kişi anlamına gelir. Bu Mertebenin gücü tam olarak bu iki anlamı birleştirir: toplumsal bir hastalık gibi yayılan gerçek bir illet ile kötücül, manipülatif bir toplumsal karakter aynı kelimede birleşir. Kelime bilerek bu çift anlam için seçilmiştir."
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Hastalık Hanımefendisi (Lady of Diseases)"
+      cevirmen_notu: "'Maraz' Türkçede iki katmanlı bir anlam taşır: eski kullanımda hastalık, illet demektir; günlük dilde ise başkalarının talihsizliğinden zevk alan, kötü niyetli bir kişi anlamına gelir. Bu Mertebenin gücü tam olarak bu iki anlamı birleştirir: toplumsal bir hastalık gibi yayılan gerçek bir illet ile kötücül, manipülatif bir toplumsal karakter aynı kelimede birleşir. Kelime bilerek bu çift anlam için seçilmiştir.<br><br>Çince ad 痛苦魔女 (Tòngkǔ mónǚ) 'Izdırap/Acı Şeytaniçesi' anlamına gelirken, bu Mertebenin alternatif adı 疾病女士 (Jíbìng nǚshì), literal olarak 'Hastalık Hanımefendisi'dir. Dolayısıyla kanonun kendisi bu Mertebede 'ıstırap' ile 'hastalık' arasında bir anlam alanı kurmaktadır. 'Maraz', Türkçede bu iki kavramı tek kelimede birbirine bağlayabildiği için tercih edildi. Böylece İngilizcedeki 'Afflictions'ın doğrudan sözlük karşılığını vermek yerine, özgün adlandırmadaki acı-hastalık ilişkisini Türkçenin kendi anlam katmanlarıyla yeniden kurar."
       bolum_siniri: 249
       metinde: false
       kaynak: yazar_beyani
@@ -1750,12 +1871,14 @@
       kaynak: metin
     - seviye: 3
       isim: "Solmaz (Unaging)"
+      cevirmen_notu: "Çince ad 不老魔女 (Bùlǎo mónǚ) literal olarak 'Yaşlanmayan Şeytaniçe' veya 'Yaşlanmaz Şeytaniçe' anlamına gelir. 'Solmaz' ise doğrudan birebir çeviri değildir; bilinçli bir anlam aktarımıdır. Türkçede 'solmak' yalnızca bir şeyin rengini veya canlılığını kaybetmesini değil, özellikle çiçek, güzellik ve gençlik bağlamında tazeliğini ve çekiciliğini yitirmesini ifade eder. 'Solmaz' bu nedenle 'yaşlanmayan' niteliğini Türkçede daha şiirsel ve tematik bir biçimde karşılar: yaşlanmadığı için güzelliği solmayan kişi.<br><br>Bu tercih, Suikastçı Yolu'nun Mertebe 7 'Cadı' aşamasında gerçekleşen biyolojik dönüşümle özellikle anlamlıdır. Mertebe 7'den itibaren Aşkın giderek daha güzel ve çekici hâle gelir; yüksek Mertebelerdeki güzellikleri o kadar doğaüstü bir seviyeye ulaşır ki sıradan insanların dikkatini çekmemek için görünüşlerini bilinçli olarak çirkinleştirmeleri gerekir. Dolayısıyla Mertebe 3'ün 'Unaging' niteliği yalnızca biyolojik yaşlanmanın durması değildir: Cadı olarak başlayan kadınsı dönüşümün ardından güzelliğin ve gençliğin solmaması anlamını da taşır. 'Solmaz', bu iki anlamı tek bir Türkçe kelimede birleştirir.<br><br>Bu nedenle 'Yaşlanmaz' daha literal olsa da, 'Solmaz' Mertebenin kanonik işlevi ile Suikastçı Yolu'nun güzellik temasını birlikte yansıttığı için tercih edilmiştir."
       bolum_siniri: 589
       metinde: true
       kaynak: metin
       ilk_gecis: 495
     - seviye: 2
       isim: "Afet (Catastrophe)"
+      sistem_kural: [tekil_rezerve]
       cevirmen_notu: "'Afet' Türkçede iki anlamı aynı anda taşır: felaket, yıkım; halk dilinde ise tehlikeli derecede güzel bir kadın için kullanılan bir tabirdir. Bu ikilik tesadüf değildir: kanon bu Yolun otoritesini doğrudan 'yıkıcı kadınlık' (Femme Fatale tiplemesi) olarak tanımlar. 'Afet' bu temayı tek bir kelimede, hem gücün ölçeği hem de Yolun kadınlıkla kurduğu ilişki üzerinden karşılar."
       bolum_siniri: 66
       metinde: false
@@ -1796,15 +1919,16 @@
       metinde: true
       kaynak: metin
     - seviye: 6
-      isim: "Ruh Teskincisi (Soul Assurer)"
-      cevirmen_notu: "Başlangıçta İngilizce 'Soul Assurer' çevirisinin yönlendirmesiyle 'Ruh Kefili' kullanılmıştı. Ancak 'kefil' kelimesi hukuki ve ahlaki bir teminatı/sponsorluğu imler. Çince orijinal olan 安魂师 (Ānhúnshī) ise bambaşka bir eylemi tarif eder: 'Ān' (安) yatıştırmak, huzura erdirmek ve teskin etmek demektir. (Hatta 'Ānhún' doğrudan ölülerin ruhlarını huzura erdiren ağıt/requiem anlamında kullanılır). Bu mertebenin temel gücü de öfkeli ruhları ve zihinsel yozlaşmayı şiir ve ninnilerle yatıştırmaktır. Bu yüzden 'Ruh Teskincisi' olarak revize edildi. 'Teskin', hem mertebenin gerçek okült eylemini karşılar hem de Ebedi Gece Tanrıçası'nın tazim ismindeki 'Sükûnet' otoritesiyle doğrudan kavramsal bir bağ kurar."
+      isim: "Nüve Teskincisi (Soul Assurer)"
+      cevirmen_notu: "Başlangıçta İngilizce 'Soul Assurer' çevirisinin yönlendirmesiyle 'Ruh Kefili' kullanılmıştı. Ancak bu karşılık hem 'Assurer'ın 'kefil' üzerinden yorumlanması hem de 'Soul'un doğrudan 'ruh' olarak aktarılması nedeniyle Çince adın anlam yapısını yeterince yansıtmıyordu. Çince 安魂师 (Ānhúnshī) incelendiğinde ise burada iki ayrı unsur bulunduğu görülür: 魂 (hún) ve 安 (ān). 'Ān' yatıştırmak, huzura erdirmek ve teskin etmek anlamına gelir; 安魂 bütünüyle ise ruhu huzura erdirmek, özellikle ölünün ruhunu sakinleştirmek anlamında kullanılır. Bu nedenle 'Assurer' için 'Kefil' yerine 'Teskinci' tercih edildi.<br><br>Aynı zamanda bu mertebenin adındaki 魂 (hún) ile başka mertebelerde kullanılan 灵 (líng) arasında sözlük genelinde terminolojik bir ayrım korunmuştur. 魂 için 'Nüve', 灵 için ise 'Ruh' kullanılmaktadır. Böylece Uykusuz Yolu'nun Mertebe 6'sı 'Nüve Teskincisi' adını alırken, aynı Yolun Mertebe 5'inde bulunan 灵巫 (líng wū) 'Ruh Efsuncusu' olarak kalır. 'Nüve' burada 魂'un sözlük anlamının birebir karşılığı olarak değil, ruhsal varlığın veya metafizik özün teknik bir Türkçe karşılığı olarak kullanılır.<br><br>'Nüve Teskincisi' böylece hem 安魂'daki temel eylemi hem de bu eylemin nesnesi olan 魂'u ayrı ayrı görünür kılar. Ayrıca 'Teskin' tercihi, mertebenin öfkeli ruhları ve zihinsel yozlaşmayı şiir ve ninnilerle yatıştıran temel işleviyle doğrudan örtüşür ve Ebedi Gece Tanrıçası'nın tazim isminde yer alan 'Sükûnet' otoritesiyle kavramsal bir bağ kurar."
       bolum_siniri: 402
       metinde: true
       kaynak: metin
       ilk_gecis: 402
     - seviye: 5
       isim: "Ruh Efsuncusu (Spirit Warlock)"
-      cevirmen_notu: "'Efsuncu' bu sözlükte toplam üç Mertebede kullanılmıştır: Garabet Efsuncusu (Kâhin Yolu, Mertebe 4), Sır Efsuncusu (Çırak Yolu, Mertebe 4) ve burada Ruh Efsuncusu (Uykusuz Yolu, Mertebe 5). Bu tekrar rastgele değildir, ancak tek bir nedene dayanmaz; iki farklı bağ türünü aynı anda yansıtır.<br><br>Kâhin Yolu ile Uykusuz Yolu arasındaki bağ, Kâhin ve Çırak yolları arasındaki bağlantının tam aksine yapısal değil, tarihseldir; hatta iki Yol normalde farklı gruplara aittir (Kâhin, Esrarın Efendisi grubunda; Uykusuz, Sermedi Zulmet grubunda). Bu iki grubu birbirine bağlayan şey, İkinci Çağ'ın Kadim Tanrısı Yıkım Şeytan Kurdu Flegrea'nın aynı anda her iki Yolun da Yegâneliğini taşımış olmasıdır.<br><br>Flegrea'nın en küçük oğlu Antigonus, Soytarı Yolu'nun Yegâneliğini miras almış ve serinin başladığı tarihte hâlâ bu Yolu kontrol eden hanedanı kurmuştur; kızkardeşi Gökyüzünün Anası (Philanias) ise Karanlık Yolu'nun Mertebe 2'sine (Sır Hadimi) ulaşmış ve iki kardeş, babalarının ölümünün ardından birlikte Ebedi Gece Ulusu'nu kurup yönetmiştir. Bu Yolun bugünkü Mertebe 0'ı olan Ebedi Gece Tanrıçası (Amanises) ise ayrı bir figürdür: Flegrea'nın astı olan Şeamet Tanrıçası'ydı ve efendisinin düşüşünün ardından onun yerini almıştır. Bağ burada ittifaktan çok çatışmaya döner: Ebedi Gece Tanrıçası'nın Kilisesi, daha sonra Gökyüzünün Anası ile Antigonus'un kurduğu krallığa saldırmış, Gökyüzünün Anası'nı yenilgiye uğratıp mühürlü bir eşyaya dönüştürmüş, Antigonus'u ise aynı olayda hapsetmiştir.<br><br>Bu bağ yalnızca kadim tarihle sınırlı değildir; Klein'ın kendi yükselişinde doğrudan işlemeye devam eder. Mertebe 3 (Mazinin Alimi) tarifi, Ebedi Gece Tanrıçası'na doğrudan bir kurban sunularak elde edilmiştir (Bölüm 1138). Mertebe 1 ve Mertebe 0'ın tarifleri ise Soytarı Kartı'ndan ve bizzat Antigonus'un çıldırmış bedeninden gelir (Bölüm 1268, 1352-1353, 1380). Aslında Antigonus'un bu çöküşünde Ebedi Gece Tanrıçası'nın payı olduğu bilinmektedir. Yani Tanrıça'nın kadim çağda Flegrea'nın mirasçılarını kırışı, yüzyıllar sonra Klein'ın tam da o kırılmış mirastan beslenmesinin zeminini hazırlamıştır. Bağ kopmamış, yalnızca biçim değiştirmiştir. Üç Yol arasındaki ortak kelime, bu yüzden bilinçli bir yankıdır. Yapısal neden başka girdidedir. (bkz. Sır Efsuncusu, Çırak Yolu Mertebe 4)"
+      sistem_kural: [buyucu_efsuncu_sahir]
+      cevirmen_notu: "'Efsuncu' kuralının genel gerekçesi için bkz. Sistem Kuralları #1 (Büyücü / Efsuncu / Sahir Sistemi). Kâhin Yolu ile Uykusuz Yolu arasındaki bu Mertebeye özgü bağ, Kâhin ve Çırak yolları arasındaki bağlantının tam aksine yapısal değil, tarihseldir; hatta iki Yol normalde farklı gruplara aittir (Kâhin, Esrarın Efendisi grubunda; Uykusuz, Sermedi Zulmet grubunda). Bu iki grubu birbirine bağlayan şey, İkinci Çağ'ın Kadim Tanrısı Yıkım Şeytan Kurdu Flegrea'nın aynı anda her iki Yolun da Yegâneliğini taşımış olmasıdır.<br><br>Flegrea'nın en küçük oğlu Antigonus, Soytarı Yolu'nun Yegâneliğini miras almış ve serinin başladığı tarihte hâlâ bu Yolu kontrol eden hanedanı kurmuştur; kızkardeşi Gökyüzünün Anası (Philanias) ise Karanlık Yolu'nun Mertebe 2'sine (Sır Hadimi) ulaşmış ve iki kardeş, babalarının ölümünün ardından birlikte Ebedi Gece Ulusu'nu kurup yönetmiştir. Bu Yolun bugünkü Mertebe 0'ı olan Ebedi Gece Tanrıçası (Amanises) ise ayrı bir figürdür: Flegrea'nın astı olan Şeamet Tanrıçası'ydı ve efendisinin düşüşünün ardından onun yerini almıştır. Bağ burada ittifaktan çok çatışmaya döner: Ebedi Gece Tanrıçası'nın Kilisesi, daha sonra Gökyüzünün Anası ile Antigonus'un kurduğu krallığa saldırmış, Gökyüzünün Anası'nı yenilgiye uğratıp mühürlü bir eşyaya dönüştürmüş, Antigonus'u ise aynı olayda hapsetmiştir.<br><br>Bu bağ yalnızca kadim tarihle sınırlı değildir; Klein'ın kendi yükselişinde doğrudan işlemeye devam eder. Mertebe 3 (Mazinin Alimi) tarifi, Ebedi Gece Tanrıçası'na doğrudan bir kurban sunularak elde edilmiştir (Bölüm 1138). Mertebe 1 ve Mertebe 0'ın tarifleri ise Soytarı Kartı'ndan ve bizzat Antigonus'un çıldırmış bedeninden gelir (Bölüm 1268, 1352-1353, 1380). Aslında Antigonus'un bu çöküşünde Ebedi Gece Tanrıçası'nın payı olduğu bilinmektedir. Yani Tanrıça'nın kadim çağda Flegrea'nın mirasçılarını kırışı, yüzyıllar sonra Klein'ın tam da o kırılmış mirastan beslenmesinin zeminini hazırlamıştır. Bağ kopmamış, yalnızca biçim değiştirmiştir. Üç Yol arasındaki ortak kelime, bu yüzden bilinçli bir yankıdır. Yapısal neden başka girdidedir. (bkz. Sır Efsuncusu, Çırak Yolu Mertebe 4)"
       bolum_siniri: 750
       metinde: true
       kaynak: metin
@@ -1817,12 +1941,14 @@
       ilk_gecis: 210
     - seviye: 3
       isim: "Dehşet Piskoposu (Horror Bishop)"
+      sistem_kural: [piskopos_ruhban]
       bolum_siniri: 1164
       metinde: true
       kaynak: metin
       ilk_gecis: 1164
     - seviye: 2
       isim: "Sır Hadimi (Servant of Concealment)"
+      sistem_kural: [sir_esrar_gizem_hafi]
       cevirmen_notu: "(bkz. Ruh Efsuncusu notu, Flegrea ve Antigonus bağlantısı.) 'Hadim' kökünün burada ve Esrar Hadimi'nde (Kâhin Yolu, Mertebe 1) tekrarı, Çince kaynaktaki bir sözcük yankısını yansıtmaz (诡秘侍者 ve 隐秘之仆 farklı köklerden gelir); bu, aradaki gerçek tarihsel bağı vurgulamak için bilinçli olarak kurulmuş bir yankıdır."
       bolum_siniri: 766
       metinde: true
@@ -1830,6 +1956,7 @@
       ilk_gecis: 766
     - seviye: 1
       isim: "Şeamet Süvarisi (Knight of Misfortune)"
+      cevirmen_notu: "'Şeamet' tercihi öncelikle Ebedi Gece Tanrıçası'nın tazim isminde yer alan 厄难 (ènàn) ile kurulan doğrudan terminolojik bağı korumak içindir: 'Şeamet ve Dehşet Ecesi' ifadesindeki 'Şeamet', bu kavramın sözlükteki yerleşik Türkçe karşılığıdır. Aynı 厄难, Mertebe 1'de 厄难骑士 (Knight of Misfortune) biçiminde yeniden ortaya çıktığı için burada da 'Şeamet' korunmuştur. Böylece Mertebenin taşıdığı uğursuzluk/musibet otoritesi ile Ebedi Gece Tanrıçası'nın aynı kavram üzerindeki hâkimiyeti Türkçe terminolojide görünür kalır. 'Felaket' veya 'Afet' gibi başka karşılıklar anlam bakımından mümkün olsa da bunlar hem farklı Çince terimlerin Türkçe karşılıkları olarak sözlükte zaten işlev görür hem de 厄难 ile Tanrıça'nın tazim ismi arasındaki doğrudan bağı koparır."
       bolum_siniri: 1347
       metinde: true
       kaynak: metin
@@ -1866,12 +1993,14 @@
       ilk_gecis: 13
     - seviye: 6
       isim: "Ruh Rehberi (Spirit Guide)"
+      sistem_kural: [murshid]
       bolum_siniri: 148
       metinde: true
       kaynak: metin
       ilk_gecis: 148
     - seviye: 5
       isim: "Berzah Bekçisi (Gate Keeper)"
+      cevirmen_notu: "'Gate Keeper'ın doğrudan karşılığı olan 'Kapı Bekçisi' ilk bakışta doğal görünür ve Çince orijinal 看门人 (kān ménrén) kelimenin tam anlamıyla 'kapı/giriş bekçisi' veya 'nöbetçi' anlamına geldiği için bu çeviriyi destekler. Ancak bu Mertebe'nin özellikleri ve güçleri düşünüldüğünde buradaki 'kapı'nın sıradan bir fiziksel kapı olarak değil, yaşam ile ölüm arasındaki sınırın bekçiliği olarak yorumlanması daha doğru olur. Bu nedenle 'Berzah' tercih edildi: İslamî gelenekte berzah, ölüm ile diriliş arasındaki ara âlem ve yaşayanlarla ölüleri birbirinden ayıran sınırdır. Mertebenin ruhlar, ölüler ve ruhlar dünyasıyla kurduğu ilişki bu kavramı sıradan bir 'kapı'dan çok daha isabetli kılar. 'Bekçi' ise mertebenin temel işlevini, sınırı koruma ve geçişi denetleme fikrini doğrudan muhafaza eder. Böylece 'Berzah Bekçisi', kanonik 'Gate Keeper'ı kelimesi kelimesine değil, bu Mertebenin ölüm ile ruhlar arasındaki eşik niteliğini esas alarak karşılar."
       bolum_siniri: 19
       metinde: true
       kaynak: metin
@@ -1883,6 +2012,7 @@
       kaynak: metin
     - seviye: 3
       isim: "Ahiret Kayıkçısı (Ferryman)"
+      cevirmen_notu: "'Ferryman' doğrudan 'kayıkçı' veya 'sandalcı' olarak çevrilebilirdi; ancak bu Mertebenin anlam alanı yalnızca bir kayık kullanan kişiden ibaret değildir. Çince 摆渡人 (bǎidù rén), insanları veya ruhları bir kıyıdan diğerine geçiren 'karşıya geçirici' anlamını taşır ve ölüm bağlamında özellikle ölüleri öte yakaya götüren figür (Yunan mitolojisindeki Charon ve diğer mitolojilerdeki benzer varlıklar) çağrışımına sahiptir. 'Ahiret Kayıkçısı' bu iki katmanı birlikte korur: 'kayıkçı' klasik öte-dünya kayıkçısı imgesini, 'ahiret' ise geçilen yerin sıradan bir kıyı değil ölümün ötesindeki âlem olduğunu belirtir. Tercih aynı zamanda Mertebenin önceki basamaklardaki 'ruhları yatıştırma / yönlendirme / kapıda bekleme' çizgisinin doğal sonucunu da görünür kılar: Ruh Teskincisi ruhu sakinleştirir, Ruh Rehberi ona yol gösterir, Berzah Bekçisi eşiği tutar ve Ahiret Kayıkçısı onu karşıya geçirir. Böylece mertebe adları yalnızca ayrı ayrı meslekleri değil, ruhun ölümden sonraki yolculuğunu adım adım anlatan bir doku oluşturur."
       bolum_siniri: 900
       metinde: true
       kaynak: metin
@@ -1901,6 +2031,9 @@
       ilk_gecis: 1347
     - seviye: 0
       isim: "Ölüm (Death)"
+      bolgesel:
+        kultur: "Alternatif İsim"
+        isim: "Ebedî Uykucu (Eternal Sleeper)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
@@ -1917,7 +2050,10 @@
       metinde: true
       kaynak: metin
     - seviye: 8
-      isim: "Cengâver / Gladyatör (Pugilist / Gladiator)"
+      isim: "Cengâver (Pugilist)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Gladyatör (Gladiator)"
       bolum_siniri: 138
       metinde: true
       kaynak: metin
@@ -1930,6 +2066,7 @@
       ilk_gecis: 279
     - seviye: 6
       isim: "Şafak Şövalyesi (Dawn Paladin)"
+      sistem_kural: [sovalye]
       bolum_siniri: 138
       metinde: true
       kaynak: metin
@@ -1940,13 +2077,14 @@
       metinde: true
       kaynak: metin
     - seviye: 4
-      isim: "İblis Avcısı (Demon Hunter)"
+      isim: "Şeytan Avcısı (Demon Hunter)"
       bolum_siniri: 138
       metinde: true
       kaynak: metin
       ilk_gecis: 138
     - seviye: 3
       isim: "Gümüş Şövalye (Silver Knight)"
+      sistem_kural: [sovalye]
       bolum_siniri: 900
       metinde: true
       kaynak: metin
@@ -1957,7 +2095,7 @@
       metinde: true
       kaynak: metin
     - seviye: 1
-      isim: "Tanrının Eli (Hand of God)"
+      isim: "İlahın Eli (Hand of God)"
       bolum_siniri: 1159
       metinde: true
       kaynak: metin
@@ -1988,7 +2126,7 @@
       metinde: true
       kaynak: metin
     - seviye: 7
-      isim: "Şanslı (Lucky One)"
+      isim: "Talihli (Lucky One)"
       bolum_siniri: 909
       metinde: true
       kaynak: metin
@@ -2006,15 +2144,17 @@
       metinde: true
       kaynak: metin
     - seviye: 4
-      isim: "Kemtalih Büyücüsü (Misfortune Mage)"
-      cevirmen_notu: "Çince orijinali 厄运法师 (Èyùn fǎshī)'dir. Karanlık (Uykusuz) yolunun 1. Mertebesi olan Şeamet Süvarisi (厄难骑士 - Ènàn qíshì) ile aynı 'È' (厄 - felaket/keder) ön ekini paylaşsa da, kökleri tamamen farklıdır. Karanlık yolu 'nàn' (难 - yıkım/kıyamet) kökünü kullanırken, Canavar yolu kendi sistematiğine sadık kalarak 'Yùn' (运 - talih/kader) kökünü kullanır. 'Talih' kökünü koruyup kelimenin mistik ve tekinsiz ağırlığını artırmak için, 'kötü/şer' anlamındaki Farsça 'kem' ön ekiyle kurulan 'Kemtalih' tercih edilmiştir.<br>(Not: Bu yoldaki bağımsız/yalıtılmış yapıdan ötürü, 'Efsuncu' tekrarından kaçınılmış ve 'Büyücü' kullanılmıştır.)"
+      isim: "Kemtalih Sahiri (Misfortune Mage)"
+      cevirmen_notu: "Çince orijinali 厄运法师 (Èyùn fǎshī)'dir. Karanlık (Uykusuz) yolunun 1. Mertebesi olan Şeamet Süvarisi (厄难骑士 - Ènàn qíshì) ile aynı 'È' (厄 - felaket/keder) ön ekini paylaşsa da, kökleri tamamen farklıdır. Karanlık yolu 'nàn' (难 - yıkım/kıyamet) kökünü kullanırken, Canavar yolu kendi sistematiğine sadık kalarak 'Yùn' (运 - talih/kader) kökünü kullanır. 'Talih' kökünü koruyup kelimenin mistik ve tekinsiz ağırlığını artırmak için, 'kötü/şer' anlamındaki Farsça 'kem' ön ekiyle kurulan 'Kemtalih' tercih edilmiştir. 'Sahir' seçiminin genel gerekçesi için bkz. Sistem Kuralları #1."
+      sistem_kural: [buyucu_efsuncu_sahir]
       bolum_siniri: 1227
       metinde: true
       kaynak: metin
       ilk_gecis: 1227
     - seviye: 3
       isim: "Fitne Arıtan (Chaos Walker)"
-      cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir."
+      sistem_kural: [fitne_fesat_mufsit]
+      cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir. Fitne/Fesat/Müfsit ayrımı için bkz. Sistem Kuralları #5."
       bolum_siniri: 1227
       metinde: true
       kaynak: metin
@@ -2028,12 +2168,15 @@
       ilk_gecis: 68
     - seviye: 1
       isim: "Merkür Yılanı (Snake of Mercury)"
+      bolgesel:
+        kultur: "Alternatif İsim"
+        isim: "Kader Yılanı (Snake of Fate)"
       bolum_siniri: 237
       metinde: true
       kaynak: metin
       ilk_gecis: 237
     - seviye: 0
-      isim: "Şans Çarkı (Wheel of Fortune)"
+      isim: "Kader Çarkı (Wheel of Fortune)"
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
@@ -2053,7 +2196,10 @@
       metinde: true
       kaynak: metin
     - seviye: 8
-      isim: "Kanatsız Melek / Cani (Unwinged Angel / Coldblooded)"
+      isim: "Kanatsız Melek (Unwinged Angel)"
+      bolgesel:
+        kultur: "Alternatif İsim"
+        isim: "Cani (Coldblooded)"
       bolum_siniri: 258
       metinde: true
       kaynak: metin
@@ -2066,7 +2212,7 @@
       ilk_gecis: 258
     - seviye: 6
       isim: "Gulyabani (Devil)"
-      cevirmen_notu: "İlk tercih olan 'İblis', İngilizcedeki 'Devil' karşılığı olarak doğru görünse de bu Mertebenin gerçek doğasıyla örtüşmüyordu: kanon bu aşamadaki bir Aşkının en büyük zaafının kolayca kontrolü kaybetmesi olduğunu, kan ve cinayet arzusuyla ele geçirilmeye açık, vahşi ve fiziksel bir varlık olduğunu belirtir. Burada bir parantez açmak gerekir: yaygın olarak okunan Webnovel sitesinin resmi İngilizce çeviride Mertebe 6 'Devil', Mertebe 4 ise 'Demon' olarak adlandırılmıştır; ancak bu isimlendirme wikiden de görebileceğiniz gibi bir çeviri hatasıdır ve iki isim yer değiştirmesi gerekir. Zira 'Devil' (bu Mertebede olduğu gibi vahşi, kontrolsüz, bedensel bir varlık) ile 'Demon' (Mertebe 4'teki soğukkanlı, hesaplı, zihinsel bir varlık) arasındaki beklenen anlam ilişkisi tam tersinedir. Bu yüzden bu sözlük İngilizce isimlere değil, doğrudan her Mertebenin kendi kanonik doğasına sadık kalmıştır.<br><br>'İblis' (özellikle çoğul kullanımda, örn. 'İblisler Şehri' gibi Batı medyası çevirilerinde görüldüğü üzere) Türkçede gerçekten de genel bir 'demon' sınıfı için kullanılabilir. Ancak bu Mertebe için asıl belirleyici olan başka bir husus var: Suçlu Yolu, Mahkum Yolu'nun (Chained Pathway) kardeş yoludur ve Mahkum Yolu'nun 'kamp ateşi hikayesi' niteliğindeki klasik canavar kadrosuyla (Kurtadam, Hortlak, Tayf) aynı halk anlatısı köküne ait bir kelime, iki kardeş yol arasında hafif ama gerçek bir bağ kurar. Bu yüzden 'Gulyabani' (gerçek bir Osmanlı-Türk halk anlatısı canavarı, insan yiyen, tamamen fiziksel bir dehşet figürü) tercih edildi: hem bu Mertebenin vahşi, kontrolsüz doğasını İblis'ten daha isabetli karşılıyor hem de Mahkum Yolu ile örtük bir yankı kuruyor. Bu tercih, Suçlu Yolu'nun İblis Avcısı (Alacakaranlık Devi Yolu) ile kurduğu doğrudan metin-içi karşıtlığı zayıflatır; ancak bu kaybı, Mertebenin kendi doğasına ve kardeş yoluna olan sadakat karşısında kabul edilebilirdir."
+      cevirmen_notu: "İlk tercih olan 'İblis', İngilizcedeki 'Devil' karşılığı olarak doğru görünse de bu Mertebenin gerçek doğasıyla örtüşmüyordu: kanon bu aşamadaki bir Aşkının en büyük zaafının kolayca kontrolü kaybetmesi olduğunu, kan ve cinayet arzusuyla ele geçirilmeye açık, vahşi ve fiziksel bir varlık olduğunu belirtir. Burada bir parantez açmak gerekir: yaygın olarak okunan Webnovel sitesinin resmi İngilizce çeviride Mertebe 6 'Devil', Mertebe 4 ise 'Demon' olarak adlandırılmıştır; ancak İngilizce wikide de belirtildiği üzere bu isimlendirme bir çeviri hatasıdır ve iki isim yer değiştirmesi gerekir. Zira normalde 'Demon' (bu Mertebede olduğu gibi vahşi, kontrolsüz, bedensel bir varlık) ile 'Devil' (Mertebe 4'teki soğukkanlı, hesaplı, zihinsel bir varlık) arasındaki beklenen anlam ilişkisi tersine çevrilmiştir. Dolayısıyla kanonik anlam ilişkisine göre Mertebe 6'nın 'Demon', Mertebe 4'ün ise 'Devil' olması gerekmektedir. Bu yüzden bu sözlük İngilizce isimlere değil, doğrudan her Mertebenin kendi kanonik doğasına sadık kalmıştır.<br><br>'İblis' kelimesi İslam geleneğinde Allah'a isyan eden ve insanı saptırmaya çalışan varlığın özel adı olarak kullanılsa da özellikle çoğul kullanımda, örn. 'İblisler Şehri' gibi Batı medyası çevirileri yüzünden Türkçede genel bir 'demon' sınıfı için kullanılabilir. Ancak bu Mertebe için asıl belirleyici olan başka bir husus var: Suçlu Yolu, Mahkûm Yolu'nun (Chained Pathway) kardeş yoludur ve Mahkûm Yolu'nun 'kamp ateşi hikayesi' niteliğindeki klasik canavar kadrosuyla (Kurtadam, Hortlak, Tayf) aynı halk anlatısı köküne ait bir kelime, iki kardeş yol arasında hafif ama gerçek bir bağ kurar. Bu yüzden 'Gulyabani' (gerçek bir Osmanlı-Türk halk anlatısı canavarı, insan yiyen, tamamen fiziksel bir dehşet figürü) tercih edildi. Hem bu Mertebenin vahşi, kontrolsüz doğasını 'İblis'ten daha isabetli karşılıyor hem de Mahkûm Yolu ile örtük bir yankı kuruyor.<br><br>Bu tercih, Suçlu Yolu'nun Savaşçı Yolu'ndaki 'Şeytan Avcısı' ile kurduğu doğrudan kelime bağını ise ortadan kaldırmıyor. Aksine, Mertebe 4'te 'Şeytan' tercih edilerek bu bağ Türkçede yeniden kuruluyor. 'Gulyabani' Mertebenin fiziksel ve folklorik doğasını, 'Şeytan' ise Suçlu Yolu'nun Savaşçı Yolu'ndaki avcısıyla kurduğu terminolojik bağı taşır. Böylece İngilizcedeki 'Demon → Demon Hunter' yankısı birebir aynı Mertebelerde korunmak yerine, Türkçede Mertebelerin gerçek anlamlarına ve aralarındaki ilişkiye göre yeniden dağıtılmış olur."
       bolum_siniri: 414
       metinde: true
       kaynak: metin
@@ -2186,6 +2332,8 @@
       ilk_gecis: 81
     - seviye: 7
       isim: "Büyücü (Warlock)"
+      cevirmen_notu: "'Büyücü'nün bu sözlükte yalnızca bu Mertebeye ayrılmasının nedeni, Gizem Avcısı Yolu'nun diğer Yollardan farklı olarak önceden belirlenmiş büyüleri kullanmakla kalmayıp kendi büyülerini de yaratabilen tek Mertebe olmasıdır. Genel sistem için bkz. Sistem Kuralları #1 (Büyücü / Efsuncu / Sahir Sistemi)."
+      sistem_kural: [buyucu_efsuncu_sahir]
       bolum_siniri: 65
       metinde: true
       kaynak: metin
@@ -2196,13 +2344,15 @@
       kaynak: metin
       ilk_gecis: 217
     - seviye: 5
-      isim: "Takımyıldızlar Üstadı (Constellations Master)"
+      isim: "Burç Üstadı (Constellations Master)"
+      cevirmen_notu: "Çince 星象师 (xīngxiàng shī), yıldızların konumları ve görünüşlerinden anlam çıkaran, astrolojik işaretleri yorumlayan uzmanı ifade eder. 星象 kelimesi yıldızların ve göksel cisimlerin düzenlenişi veya görünüşü anlamını taşırken, 师 burada üstat/uzman anlamındadır. 'Astrolog' daha doğrudan bir karşılık olsa da modern bir meslek adı gibi duyulduğundan Mertebe unvanının yüksek ve okült register'ını yeterince taşımaz. Bu nedenle 'Burç Üstadı' tercih edildi. 'Burç' ayrıca sözlükte 星象 ile ilişkili constellation kavramının yerleşik Türkçe karşılığı olarak kullanıldığından, burada aynı terminolojik sistem korunmuş olur. Böylece unvan hem yıldızların ve burçların bilgisine hâkimiyeti hem de Mertebenin Aşkın bir 'üstat' niteliğini doğrudan görünür kılar."
       bolum_siniri: 565
       metinde: true
       kaynak: metin
       ilk_gecis: 565
     - seviye: 4
       isim: "Gizemşinas (Mystilogist)"
+      sistem_kural: [sinas]
       bolum_siniri: 0
       metinde: false
       kaynak: yazar_beyani
@@ -2263,19 +2413,22 @@
       kaynak: metin
     - seviye: 4
       isim: "Kimyager (Alchemist)"
+      sistem_kural: [tekil_rezerve]
       bolum_siniri: 237
-      cevirmen_notu: "İngilizce özgün terim 'Alchemist' olsa da bilinçli olarak 'Simyacı' değil 'Kimyager' tercih edildi. Sebep iki yönlü: (1) Çiftçi Yolu'ndaki 'Kadim Simyacı' ile aynı Mertebede iki 'Simya' türevinin çakışmasını önlemek; (2) Bilgin Yolu özünde dönüşüm/simya değil, zanaat, bilim ve inovasyon yoludur bu yüzden modern 'Kimya' yolun ruhuna daha uygundur. Kanon da bu esnekliği destekler: Roselle Gustav'ın hizmetleri sayesinde bu yolun ilahı, Beşinci Çağ'da mukaddes bir fermanla kendi adını dahi 'Zanaatkârlık İlahı'ndan 'Buhar ve Çarkların İlahı'na çevirmiştir; tek bir mertebe adının uyarlanması bu bağlamda gayet mümkündür."
+      cevirmen_notu: "İngilizce çeviri 'Alchemist' olsa da bilinçli olarak 'Simyacı' değil 'Kimyager' tercih edildi. Sebep iki yönlü:<br><br>(1) Çiftçi Yolu'ndaki 'Kadim Simyacı' ile aynı Mertebede iki 'Simya' türevinin çakışmasını önlemek (bkz. Sistem Kuralları #9)<br><br>(2) Bilgin Yolu özünde dönüşüm/simya değil, zanaat, bilim ve inovasyon yoludur bu yüzden modern 'Kimya' yolun ruhuna daha uygundur. Kanon da bu esnekliği destekler: Roselle Gustav'ın hizmetleri sayesinde bu yolun ilahı, Beşinci Çağ'da mukaddes bir fermanla kendi adını dahi 'Zanaatkârlık İlahı'ndan 'Buhar ve Çarkların İlahı'na çevirmiştir; tek bir mertebe adının uyarlanması bu bağlamda gayet mümkündür."
       metinde: true
       kaynak: metin
       ilk_gecis: 237
     - seviye: 3
-      isim: "Sır Alimi (Arcane Scholar)"
+      isim: "Gizem Alimi (Arcane Scholar)"
+      sistem_kural: [sir_esrar_gizem_hafi]
       bolum_siniri: 237
       metinde: true
       kaynak: metin
       ilk_gecis: 237
     - seviye: 2
       isim: "Bilgi Hakimi (Knowledge Magister)"
+      sistem_kural: [murshid]
       bolum_siniri: 0
       metinde: false
       kaynak: yazar_beyani
@@ -2313,6 +2466,9 @@
       ilk_gecis: 60
     - seviye: 7
       isim: "Ruh Hekimi (Psychiatrist)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Ruh Tahlilcisi (Psychoanalyst)"
       bolum_siniri: 60
       metinde: true
       kaynak: metin
@@ -2346,11 +2502,15 @@
       ilk_gecis: 485
     - seviye: 1
       isim: "Yazar (Author)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Masal Yazarı (Fairy tale Author)"
       bolum_siniri: 485
       metinde: true
       kaynak: metin
     - seviye: 0
       isim: "Musavvir (Visionary)"
+      sistem_kural: [esma]
       bolum_siniri: 1409
       metinde: true
       kaynak: metin
@@ -2363,17 +2523,27 @@
   mertebeler:
     - seviye: 9
       isim: "Denizci (Sailor)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Derya Hâmisi (Keeper of the Seas)"
       bolum_siniri: 6
       metinde: true
       kaynak: metin
     - seviye: 8
       isim: "Hiddet Halkı (Folk of Rage)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Fırtına Muhafızı (Guardian of the Storm)"
       bolum_siniri: 65
       metinde: true
       kaynak: metin
       ilk_gecis: 65
     - seviye: 7
       isim: "Gemici (Seafarer)"
+      bolgesel:
+        kultur: "Kadim İsim"
+        isim: "Fırtına Rahibi (Storm Priest)"
+      cevirmen_notu: "'Seafarer' için kullanılan 'Gemici', Çince 航海家 (hánghǎi jiā)'nın yalnızca denizde bulunan bir kişiyi değil, deniz yolculuğu yapan veya denizcilikle uğraşan kişiyi ifade etmesinden hareketle tercih edildi. 'Denizci' bu yolun Mertebe 9'unun adı olduğundan aynı kelimeyi tekrarlamak yerine 'Gemici' kullanılması, yolun erken mertebelerinde denizcilik mesleğinin farklı yüzlerini sembolize ettiği içindir. Bu tercih aynı zamanda Mertebe'nin kadim adı 风暴牧师 ('Fırtına Rahibi') ile birlikte düşünüldüğünde bir anlam daha kazanır: yolun eski adlandırmasındaki ruhbanî kimliğini bu Mertebe özelinde zamanla geride bırakmışken, güncel adlandırmadaki denizcilik katmanı Türkçede belirgin tutulur."
       bolum_siniri: 65
       metinde: true
       kaynak: metin
@@ -2404,6 +2574,8 @@
       ilk_gecis: 540
     - seviye: 2
       isim: "Felaket (Calamity)"
+      cevirmen_notu: "Çince 天灾 (tiānzāi) kelimesi tam anlamıyla 'göksel afet' veya 'semavî felaket' anlamına gelir; 天 burada gök/semâ, 灾 ise felaket/afet anlamındadır. Buna rağmen 'Felaket' tercih edildi. 'Göksel' unsurunun Türkçe unvanda korunması, Mertebenin doğal felaketler üzerindeki otoritesini ifade etmek açısından zorunlu olmadığı gibi, Kadir-i Mutlak yolunun yüksek ruhbanî ve kozmik register'ına gereksiz bir sıfat ekleyecekti. Tek başına 'Felaket' ise hem 天灾'ın temel anlamını korur hem de Mertebenin artık belirli bir deniz veya fırtına uygulayıcısı olmaktan çıkıp doğrudan felaket kavramının taşıyıcısı hâline geldiğini daha güçlü biçimde ifade eder. 'Afet'in neden burada kullanılmadığının genel gerekçesi için bkz. Sistem Kuralları #9 (Tekil Rezerve Kelimeler)."
+      sistem_kural: [tekil_rezerve]
       bolum_siniri: 815
       metinde: true
       kaynak: metin
@@ -2437,7 +2609,8 @@
       kaynak: metin
       ilk_gecis: 140
     - seviye: 7
-      isim: "Güneş Başrahibi (Solar High Priest)"
+      isim: "Güneş Naibi (Solar High Priest)"
+      cevirmen_notu: "'Solar High Priest' ilk bakışta 'Güneş Başrahibi' olarak çevrilmişti ancak bu kullanım Mertebeler arasındaki ilerleme sırasına ters bir hiyerarşi yaratır: 7. Mertebedeki unvan, 5. Mertebedeki 'Işık Rahibi'nden daha yüksek bir ruhbanlık makamı gibi okunur. Bu nedenle 'High Priest' karşılığı olarak 'Naib' tercih edildi. 'Naib', vekâleten veya bir otoritenin adına hükmeden yüksek bir dinî/idari makamı ifade eder; böylece 'Güneş Naibi' hem Mertebenin yüksek statüsünü korur hem de daha sonraki 'Işık Rahibi' ile anlamsal bir rütbe çelişkisi yaratmaz."
       bolum_siniri: 140
       metinde: true
       kaynak: metin
@@ -2461,20 +2634,22 @@
       ilk_gecis: 140
     - seviye: 3
       isim: "Adalet Üstadı (Justice Mentor)"
-      cevirmen_notu: "'Mentor' bu sözlükte sistematik olarak 'Mürşid' olarak sabitlenmiştir (bkz. Hile Mürşidi notu), ancak bu girdide bilinçli olarak istisna yapılmıştır. O kuralın gerekçesi, sıcak/saygın bir kelimeyi karanlık veya ahlaki açıdan belirsiz bir Mertebeyle eşleştirerek kasıtlı bir gerilim yaratmaktı. Güneş Yolu'nda ise böyle bir gerilim kurulacak zemin yoktur: bu Yol doğrudan doğruluk, dürüstlük ve saflığı temsil eder, kanonda karanlık bir okumaya açık değildir. 'Mürşid' kelimesini burada da kullanmak, sözlüğün genelinde inşa edilen sıcak-kelime/karanlık-mertebe ilkesini bozar; okuyucu, düzenli olarak karşılaştığı bu örüntüden yola çıkarak Güneş Yolu'na da olmayan bir ahlaki belirsizlik yükleyebilir. Bu yüzden nötr ve saygın ama 'gerilimsiz' bir karşılık olan 'Üstad' tercih edilmiştir: rehberlik ilişkisini korur, ama tasavvufi ağırlığı ve ondan doğan çift anlamlılığı taşımaz."
+      cevirmen_notu: "Güneş Yolu doğrudan doğruluk ve saflığı temsil eder, kanonda karanlık bir okumaya açık değildir; 'Mürşid'in gerektirdiği ahlaki gerilim için zemin yoktur. 'Üstad' bu yüzden tercih edilmiştir: rehberlik ilişkisini korur, tasavvufi ağırlığın çift anlamlılığını taşımaz. Genel kural için bkz. Sistem Kuralları #2 (Mürşid Kuralı)."
+      sistem_kural: [murshid]
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
       ilk_gecis: 1034
     - seviye: 2
       isim: "Işıkperest (Lightseeker)"
+      cevirmen_notu: "Çince 逐光者 (zhúguāng zhě) kelimesi doğrudan 'ışığı takip eden', 'ışığın peşinden giden' veya 'ışığı arayan kişi' anlamına gelir; İngilizce 'Lightseeker' de bu anlamı büyük ölçüde korur. 'Işıkperest' ise bilinçli bir anlam kaymasıdır: 'perest' eki Türkçede bir şeye tutkuyla bağlanan, onu yücelten veya ona taparcasına yönelen kişiyi ifade eder. Bu tercih, Mertebenin yalnızca ışığı arayan değil, Güneş Yolu'nun giderek daha belirgin hâle gelen kutsal ve teolojik niteliği içerisinde ışığı bir yüce ilke olarak benimseyen Aşkın olduğunu vurgular. Böylece 'Işıkperest', 逐光者'deki 'ışığa yönelme' fikrini korurken bu yönelmenin Yolun yüksek Mertebelerinde kazandığı dinî anlamı da Türkçede görünür kılar. 'Işık Arayıcısı' veya 'Işık Talibi' gibi daha kelimesi kelimesine karşılıklar ise bu teolojik yükselişi yeterince taşımadıkları için tercih edilmedi."
       bolum_siniri: 1266
       metinde: true
       kaynak: metin
       ilk_gecis: 1266
     - seviye: 1
       isim: "Pak Melek (White Angel)"
-      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu, ancak bu mertebenin güçleri veya yolun felsefesi yerine yalnızca rengini adlandırıyordu; Güneş Yolu'nun kendi doğasını değil. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Kaos Denizi'nin her çatışmaya müsamaha göstermesi, Sır Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
+      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu; ancak bu karşılık Çince 纯白天使'deki 纯 ('saf, arı, katışıksız') unsurunu da fiilen silerek unvanı yalnızca renge indirger. 'Pak Melek' ise 纯白'deki saflık unsurunu ahlaki ve metafizik bir nitelik olarak öne çıkarır. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Kaos Denizi'nin her çatışmaya müsamaha göstermesi, Hafi Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
       bolum_siniri: 812
       metinde: true
       kaynak: metin
@@ -2514,6 +2689,7 @@
       ilk_gecis: 418
     - seviye: 5
       isim: "İlm-i Esrar Hakimi (Mysticism Magister)"
+      sistem_kural: [murshid]
       bolum_siniri: 534
       metinde: true
       kaynak: metin
@@ -2536,6 +2712,8 @@
       ilk_gecis: 812
     - seviye: 1
       isim: "Külli Bâsır Göz (Omniscient Eye)"
+      sistem_kural: [esma]
+      cevirmen_notu: "'Omniscient Eye' ilk bakışta 'Âlim-i Mutlak' olarak karşılanabilirdi; ancak bu, Çince 全知之眼 (Quánzhī zhī yǎn) ifadesindeki temel imgeyi değiştirerek 'her şeyi bilen bir bilge' anlamına yaklaşır. Buradaki 'Göz', bilgeliğin sahibi olan bir kişiyi değil, her şeyi bilen ve gören bir kozmik idrak organını ifade eder. Bu nedenle 'Külli Bâsır Göz' tercih edildi: 'Küllî' 全知'nin kapsamını, 'Bâsır' ise görme/idrak otoritesini karşılar; sondaki 'Göz' de kaynak unvanın somut imgesini muhafaza eder. Esmâ-ül Hüsnâ ödünçlemesinin genel kapsamı için bkz. Sistem Kuralları #7."
       bolum_siniri: 1345
       metinde: true
       kaynak: metin
@@ -2548,13 +2726,15 @@
       ilk_gecis: 1345
   kaynak: karma
 
-- terim: "Sır Talibi Yolu"
+- terim: "Hafi Talibi Yolu"
   ingilizce: "Secrets Supplicant Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   mertebeler:
     - seviye: 9
-      isim: "Sır Talibi (Secrets Suppliant)"
+      isim: "Hafi Talibi (Secrets Suppliant)"
+      sistem_kural: [sir_esrar_gizem_hafi]
+      cevirmen_notu: "İlk tercih olan 'Sır Talibi', 秘祈人'deki 秘 (mì) karakterine sadıktı, ancak bu Yol Esrarın Efendisi grubunun değil Kadir-i Mutlak grubunun bir parçasıdır; 'Sır' o gruba özgü tutulmalıdır. 'Hafi' (Arapça 'gizli/saklı') bu Yol için türetilen, Kadir-i Mutlak'ın kendi mistik terminolojisine ait yeni bir kelimedir. Genel sistem için bkz. Sistem Kuralları #8 (Sır / Esrar / Gizem / Hafi Sistemi)."
       bolum_siniri: 105
       metinde: true
       kaynak: metin
@@ -2572,6 +2752,7 @@
       ilk_gecis: 138
     - seviye: 6
       isim: "Gül Ruhbanı (Rose Bishop)"
+      sistem_kural: [piskopos_ruhban]
       bolum_siniri: 138
       metinde: true
       kaynak: metin
@@ -2582,7 +2763,9 @@
       metinde: true
       kaynak: metin
     - seviye: 4
-      isim: "Kara Süvari (Black Knight)"
+      isim: "Kara Zırhlı (Black Knight)"
+      sistem_kural: [sovalye]
+      cevirmen_notu: "İlk tercih olan 'Kara Süvari', bu Mertebenin imgesiyle çelişir: mitsel biçim, atlı hiçbir unsur içermeyen, hareketli kara zırhlı, dev bir kılıç taşıyan golem benzeri bir figürdür. 'Süvari' bu görseli doğrudan yanlışladığı için 'Zırhlı'ya revize edildi. Şövalye/Akıncı/Süvari/Zırhlı ekonomisinin tamamı için bkz. Sistem Kuralları #4."
       bolum_siniri: 1034
       metinde: true
       kaynak: metin
@@ -2600,7 +2783,7 @@
       kaynak: yazar_beyani
     - seviye: 1
       isim: "Zulmani Melek (Dark Angel)"
-      cevirmen_notu: "'Karanlık Melek' düşünüldü ve reddedildi. 'Karanlık' Türkçede 'Beyaz' ile aynı sorunu taşır: nötr, tanımlayıcı bir durum/renk sıfatıdır, ahlaki bir yük taşımaz. 'Zulmani' ise 'zulüm' köküyle doğrudan bağlantılıdır ve yalnızca ışığın yokluğunu değil, baskıcı ve ağır bir karanlığı imler. Sır Talibi Yolu'nun tanımlı alanları Günah Taşıma, Kurban, Gölge, Yozlaşma (Degeneration) ve Yolsuzluk/Bozulma'dır (Corruption); bu Mertebe, kişiyi başkalarına zulmettiren değil, kendi içinde çürüten, günahı bünyesinde taşıyan bir karanlığı temsil eder. Klein'a göre bu Yol, Kötülüğü simgeleyen Hâviye Yolu'ndan bile daha kolay kontrolü kaybettiren, deliliğe sürükleyen bir yoldur. 'Zulmani' burada tam olarak zulüm/baskı eylemini değil, bu ağırlığın çağrıştırdığı yüklü, tehditkâr kaydı taşır."
+      cevirmen_notu: "'Karanlık Melek' düşünüldü ve reddedildi. 'Karanlık' Türkçede 'Beyaz' ile aynı sorunu taşır: nötr, tanımlayıcı bir durum/renk sıfatıdır, ahlaki bir yük taşımaz. 'Zulmani' ise yalnızca ışığın yokluğunu değil, baskıcı ve ağır bir karanlığı imler. Hafi Talibi Yolu'nun tanımlı alanları Günah Taşıma, Kurban, Gölge, Yozlaşma (Degeneration) ve Yolsuzluk/Bozulma'dır (Corruption); bu Mertebe, kişiyi başkalarına zulmettiren değil, kendi içinde çürüten, günahı bünyesinde taşıyan bir karanlığı temsil eder. Klein'a göre bu Yol, Kötülüğü simgeleyen Hâviye Yolu'ndan bile daha kolay kontrolü kaybettiren, deliliğe sürükleyen bir yoldur. 'Zulmani' burada tam olarak zulüm/baskı eylemini değil, bu ağırlığın çağrıştırdığı yüklü, tehditkâr kaydı taşır."
       bolum_siniri: 667
       metinde: true
       kaynak: metin
@@ -2639,6 +2822,7 @@
       ilk_gecis: 707
     - seviye: 6
       isim: "Tabiatşinas (Biologist)"
+      sistem_kural: [sinas]
       bolum_siniri: 707
       metinde: true
       kaynak: metin
@@ -2651,6 +2835,7 @@
       ilk_gecis: 708
     - seviye: 4
       isim: "Kadim Simyacı (Ancient Alchemist)"
+      sistem_kural: [tekil_rezerve]
       bolum_siniri: 1136
       metinde: false
       kaynak: yazar_beyani

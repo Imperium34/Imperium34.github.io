@@ -1,0 +1,343 @@
+---
+layout: page
+title: "Sözlük Sistem Kuralları"
+permalink: /sistem-kurallari/
+---
+
+<style>
+.sk-intro {
+  color: #b9b3a2;
+  font-size: 0.95em;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.sk-intro code {
+  background: #1f1a10;
+  color: #d4bb63;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+
+.sk-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+  padding: 14px;
+  background: #12100a;
+  border: 1px solid #4a3d1a;
+  border-radius: 6px;
+}
+.sk-nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.82em;
+  text-decoration: none;
+  background: #1f1a10;
+  color: #d4bb63;
+  border: 1px solid #4a3d1a;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.sk-nav a:hover {
+  background: #2f2814;
+  border-color: #6b5520;
+}
+
+.kural-blok {
+  background: #151515;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  scroll-margin-top: 20px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease, border-color 0.5s ease;
+}
+.kural-blok.kural-vurgu {
+  background-color: #201a0a;
+  border-color: #6b5520;
+  box-shadow: 0 0 0 2px #4a3d1a, 0 0 24px rgba(212, 175, 55, 0.15);
+}
+.kural-blok h2 {
+  color: #d4af37;
+  margin-top: 0;
+  font-size: 1.15em;
+}
+.kural-blok .kural-no {
+  color: #6e6e6e;
+  font-weight: normal;
+  font-size: 0.75em;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 2px;
+}
+.kural-blok p {
+  color: #ccc;
+  font-size: 0.92em;
+  line-height: 1.65;
+}
+.kural-blok code {
+  background: #1f1a10;
+  color: #d4bb63;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+.kural-blok ul {
+  margin: 10px 0;
+  padding-left: 22px;
+  color: #ccc;
+  font-size: 0.92em;
+  line-height: 1.65;
+}
+.kural-blok li {
+  margin-bottom: 6px;
+}
+.kural-test {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #1a1a1a;
+  border-left: 3px solid #4a3d1a;
+  border-radius: 4px;
+  color: #a89a6a;
+  font-size: 0.85em;
+  font-style: italic;
+}
+.kural-ornekler {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.kural-ornek {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 3px;
+  font-size: 0.78em;
+  background: #1f1a10;
+  color: #d4bb63;
+  border: 1px solid #4a3d1a;
+}
+</style>
+
+<p class="sk-intro">
+  Bu sayfa, <a href="{{ '/sozluk/' | relative_url }}">sözlükteki</a> bireysel çevirmen notlarında
+  tekrar tekrar açıklanmak yerine, birden fazla Mertebe veya Yol'u kapsayan sistemik tercihleri
+  tek bir yerde toplar. Bir girdinin adının yanında <span class="rozet rozet-sistem" style="cursor:default;">📘 Sistem Kuralı</span>
+  rozetini görüyorsanız, o tercih burada listelenen bir kuralın parçasıdır. Rozete tıklamak
+  sizi doğrudan ilgili kurala getirir. Her kural en az bir doğrulanmış kanonik örneğe dayanır ve
+  üslup tercihiyle değil, kontrol edilebilir bir testle çalışır.
+</p>
+
+<div class="sk-nav">
+  <a href="#kural-1">1. Büyücü/Efsuncu/Sahir</a>
+  <a href="#kural-2">2. Mürşid</a>
+  <a href="#kural-3">3. Piskopos/Ruhban</a>
+  <a href="#kural-4">4. Şövalye Ekonomisi</a>
+  <a href="#kural-5">5. Fitne/Fesat/Müfsit</a>
+  <a href="#kural-6">6. "-şinas"</a>
+  <a href="#kural-7">7. Esmâ-ül Hüsnâ</a>
+  <a href="#kural-8">8. Sır/Esrar/Gizem/Hafi</a>
+  <a href="#kural-9">9. Tekil Rezerveler</a>
+</div>
+
+<section class="kural-blok" id="kural-1">
+  <h2><span class="kural-no">KURAL 1</span>Büyücü / Efsuncu / Sahir Sistemi</h2>
+  <p>
+    Çince <code>法师</code> (fǎshī) kökünü taşıyan Mertebe adları tek bir kelimeyle değil, üç ayrı
+    kelimeyle karşılanır; bu üçü birbirinin yerine geçmez.
+  </p>
+  <ul>
+    <li><strong>Büyücü</strong> (öz Türkçe): yalnızca <strong>Gizem Avcısı Yolu Mertebe 7</strong>'ye (<code>巫师</code>) ayrılmıştır. Kanonik olarak gerçekten yeni büyüler icat edebilen tek Mertebe.</li>
+    <li><strong>Efsuncu</strong> (Farsça): yalnızca Esrarın Efendisi grubundaki, gerçek bir kanonik bağla (诡秘/Guǐmì kelime oyunu) veya tarihsel bağla (Flegrea-Antigonus soy zinciri) birbirine bağlı üç Mertebeye ayrılmıştır.</li>
+    <li><strong>Sahir</strong> (Arapça): yukarıdaki iki kategoriye girmeyen her <code>法师</code> Mertebesi için varsayılan karşılıktır.</li>
+  </ul>
+  <div class="kural-test">Test: Önce "bu Mertebe kendi büyülerini icat edebiliyor mu" (Büyücü), sonra "bu Mertebe Esrarın Efendisi grubunun Guǐmì bağına veya tarihsel Flegrea bağının parçası mı" (Efsuncu) sorulur. İkisi de hayırsa varsayılan Sahir'dir.</div>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Büyücü</span>
+    <span class="kural-ornek">Garabet Efsuncusu</span>
+    <span class="kural-ornek">Sır Efsuncusu</span>
+    <span class="kural-ornek">Ruh Efsuncusu</span>
+    <span class="kural-ornek">Mecnun Sahir</span>
+    <span class="kural-ornek">Ferman Sahiri</span>
+    <span class="kural-ornek">Kemtalih Sahiri</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-2">
+  <h2><span class="kural-no">KURAL 2</span>Mürşid Kuralı</h2>
+  <p>
+    "Mentor" (<code>导师</code>, dǎoshī) unvanı otomatik olarak "Mürşid" ile karşılanmaz. Kelimenin
+    metinde geçmesi yeterli değildir; iki koşulun <strong>birlikte</strong> sağlanması gerekir:
+  </p>
+  <ul>
+    <li>Mertebenin gücü, gerçek bir öğretmen-öğrenci ilişkisi sergiler.</li>
+    <li>Yolun ahlaki register'ı, sıcak/saygın bir tasavvufi kelimeyi karanlık veya belirsiz bir Mertebeyle eşleştirmenin yarattığı gerilimi taşıyabilir.</li>
+  </ul>
+  <p>İki koşuldan biri sağlanmazsa, karşılık <strong>hangi koşulun</strong> başarısız olduğuna göre seçilir:</p>
+  <ul>
+    <li><strong>Hiçbir öğretmen-öğrenci ilişkisi yok</strong> (yalnız başına ustalık, içgörü veya icat) → <strong>Hakim</strong> (Bilgi Hakimi, İlm-i Esrar Hakimi)</li>
+    <li><strong>İlişki var, ama Yolun ahlakı fazla net/tartışmasız</strong> (gerilim kurulacak zemin yok) → <strong>Üstad</strong> (Adalet Üstadı)</li>
+    <li><strong>İlişki yok, ve o Yola özgü bir anlatı yönlendirme fiili gerekiyor</strong> (öğretme değil) → <strong>Rehber</strong> (Ruh Rehberi)</li>
+  </ul>
+</section>
+
+<section class="kural-blok" id="kural-3">
+  <h2><span class="kural-no">KURAL 3</span>Piskopos / Ruhban Ayrımı</h2>
+  <p>
+    "Piskopos" yalnızca <strong>Yedi Ortodoks İlah Kilisesi</strong>'ne ait Mertebelerde kullanılır.
+  </p>
+  <p>
+    Bunların dışındaki her din adamı unvanı <strong>Ruhban</strong> ile karşılanır.
+  </p>
+  <div class="kural-test">
+    Örnek uygulama: Gül Ruhbanı (Hafi Talibi Yolu M6). Bağlı olduğu örgüt kanonda açıkça bir "邪神"
+    (sapkın ilah) ve "隐秘组织" (gizli örgüt) olarak tanımlanır. Yedi Ortodoks Kilisesi'nden biri
+    olmadığı için, çevresindeki Teslis/Vaiz ne kadar Hristiyan-kodlu olursa olsun istisnasız Ruhban kalır.
+  </div>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Dehşet Piskoposu (Ortodoks)</span>
+    <span class="kural-ornek">Gül Ruhbanı</span>
+    <span class="kural-ornek">Cenk Ruhbanı</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-4">
+  <h2><span class="kural-no">KURAL 4</span>Şövalye Ekonomisi</h2>
+  <p>"Knight" (<code>骑士</code>) tek bir kelimeyle karşılanmaz; sırasıyla kontrol edilir:</p>
+  <ul>
+    <li><strong>Şövalye</strong>, Savaşçı Yolu'nun kendi imzasıdır; yalnızca o Yol içinde resmî unvan olarak serbestçe kullanılır.</li>
+    <li><strong>Akıncı</strong>, ilerleme ayini veya tarif edilen doğa bir akıncı-beyi/kumandan-müfreze dinamiği (tek liderin peşinden giden sadık bir ekip) gösterdiğinde kullanılır.</li>
+    <li><strong>Şövalye, Savaşçı Yolu dışında yalnızca bölgesel/kadim varyant adı olarak</strong> ikinci kez görünebilir, hiçbir zaman başka bir Mertebenin birincil unvanı olarak değil.</li>
+    <li><strong>Süvari</strong>, klasik Osmanlı register'ında saygın bir savaşçı kelimesi olarak kullanılır</li>
+    <li><strong>Süvari, yalnızca kaynak metin doğrudan ve pozitif olarak çelişen bir imge verdiğinde</strong> yerini betimleyici bir kelimeye (örn. <strong>Zırhlı</strong>) bırakır. "atlı olduğuna dair kanıt yok" yeterli değildir, kelimeyi yanlışlayan açık bir görsel gerekir.</li>
+    <li><strong>Muhafız bu ekonominin bir parçası değildir.</strong> Yalnızca gerçekten koruyucu/savunmacı bir işlevi olan Mertebeler için ayrılmıştır; saldırgan bir savaşçı figürü için kullanmak tehdit düzeyini düşürür.</li>
+  </ul>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Şafak Şövalyesi</span>
+    <span class="kural-ornek">Gümüş Şövalye</span>
+    <span class="kural-ornek">Demirkan Akıncısı</span>
+    <span class="kural-ornek">Kara Zırhlı</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-5">
+  <h2><span class="kural-no">KURAL 5</span>Fitne / Fesat / Müfsit Ailesi</h2>
+  <p>
+    Üç Arapça kökenli kelime ortak bir ahlaki alanı (yozlaşma, bozgunculuk) paylaşsa da birbirinin
+    yerine geçmez. Fesat ve Müfsit aynı kökten (ف-س-د) gelirken, Fitne ayrı bir kökten (ف-ت-ن) gelir;
+    gruplama etimolojik değil kavramsaldır.
+  </p>
+  <ul>
+    <li><strong>Fesat</strong> → <code>腐化</code> (corruption): içeriden çürüme, bir <em>durum</em>.</li>
+    <li><strong>Fitne</strong> → <code>混乱</code> (disorder): istikrarsızlaştıran, genellikle öğretilen/yayılan bir <em>kuvvet</em>.</li>
+    <li><strong>Müfsit</strong> → <code>阴谋</code> (scheming): bir failin kişisel komplo <em>eylemi</em>.</li>
+  </ul>
+  <div class="kural-test">Test: Hangi Çince kavram karşılanıyor; bir durum mu, bir kuvvet mi, yoksa bir eylem mi?</div>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Fesat Baronu</span>
+    <span class="kural-ornek">Fitne Mürşidi</span>
+    <span class="kural-ornek">Fitne Arıtan</span>
+    <span class="kural-ornek">Müfsitçi</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-6">
+  <h2><span class="kural-no">KURAL 6</span>"-şinas" Neolojizmi</h2>
+  <p>
+    Bu kural yalnızca Çince kaynağın <strong>学 (xué)</strong> ile kurulmuş terimlerine uygulanır.
+    Gerçek dünyadaki bir "-oloji"ye paralel, tamamen kurgusal bir <em>akademik disiplini</em>
+    adlandıran bileşikler (<code>神秘学</code>, <code>生物学</code> gibi). Böyle bir terimle
+    karşılaşıldığında, jenerik bir "bilgini/uzmanı" ifadesi yerine Farsça "-şinas" (bilen/tanıyan)
+    ekiyle yeni bir kelime türetilir.
+  </p>
+  <p>
+    Kural, <strong>术 (shù)</strong> ile kurulmuş terimlere <em>uygulanmaz</em>. Bunlar bir bilim
+    dalı değil, kurgusal bir <em>sanat/teknik/zanaat</em> bütünü adlandırır (<code>魔术</code>,
+    <code>武术</code> gibi köklerle aynı aile). Burada icat edilmiş bir disiplin yoktur, yalnızca
+    gerçek bir bilgi/pratik türü söz konusudur; bu yüzden "-şinas" yerine klasik bir isim tamlaması
+    kullanılır (örn. <code>秘术</code> için İlm-i Esrar, "gizlinin ilmi").
+  </p>
+  <div class="kural-test">
+    Test: Çince terim 学 mü, 术 mü? 学 ise ve alan kurgusalsa "-şinas" türetilir. İngilizce
+    çevirinin de kendi kelimesini icat etmiş olması (örn. "Mystilogist") şart değildir, yalnızca
+    ek bir kanıttır. 术 ise "-şinas" hiç gündeme gelmez; gerçek bir klasik terim aranır.
+  </div>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Gizemşinas ← 神秘学</span>
+    <span class="kural-ornek">Tabiatşinas ← 生物学</span>
+    <span class="kural-ornek">İlm-i Esrar Hakimi ← 秘术 (kural dışı)</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-7">
+  <h2><span class="kural-no">KURAL 7</span>Esmâ-ül Hüsnâ Ödünçlemesi</h2>
+  <p>
+    Allah'ın 99 isminden alınan kelimeler yalnızca <strong>Kadir-i Mutlak</strong> yol grubu için
+    ayrılmıştır. Evrenin İbrahimî tektanrıcılık tasavvurunu doğrudan temsil eden tek grup. Başka
+    hiçbir Yolda, bir Mertebe ne kadar yüce olursa olsun bu kaynağa başvurulmaz.
+  </p>
+  <p>
+    Kadir-i Mutlak içinde dahi bir isim yalnızca prestij için seçilmez; seçilen ismin anlamı, o
+    Mertebenin belgelenmiş gücüyle veya rolüyle birebir örtüşmelidir.
+  </p>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Hâlık, Bari (Kadir-i Mutlak tazim ismi)</span>
+    <span class="kural-ornek">Musavvir</span>
+    <span class="kural-ornek">Külli Bâsır Göz</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-8">
+  <h2><span class="kural-no">KURAL 8</span>Sır / Esrar / Gizem / Hafi Sistemi</h2>
+  <p>
+    "Gizem/sır" anlamına gelen bir Çince terim göründüğünde otomatik olarak tek bir kelimeyle
+    karşılanmaz. Her yol grubunun (varsa) kendi kelimesi vardır; bir grubun kelimesi başka bir grup
+    için kullanılmaz.
+  </p>
+  <ul>
+    <li><strong>Sır</strong>: yalnızca Esrarın Efendisi grubunun kendi içindeki Mertebeler, veya o gruba doğrulanmış tarihsel bağla bağlı Mertebeler için.</li>
+    <li><strong>Esrar</strong>: genel bir çoğul karşılık değildir. Eizzat Esrarın Hükümdarı varlığının adı-adayıdır, bu grubun dışında Esrar olarak hiç kullanılmaz.</li>
+    <li><strong>Gizem</strong>: Marifet İfriti yol grubunun kendi kelimesi.</li>
+    <li><strong>Hafi</strong>: Kadir-i Mutlak grubunun kendi kelimesi (Arapça "gizli/saklı", Esmâ-ül Hüsnâ'ya dahil olmayan klasik bir terim).</li>
+  </ul>
+  <div class="kural-test">Test: Mertebe hangi yol grubuna ait? Grubun kendi kelimesi kullanılır; henüz yoksa yeni bir kelime türetilir, Sır/Esrar'a varsayılan olarak başvurulmaz.</div>
+  <div class="kural-ornekler">
+    <span class="kural-ornek">Sır Efsuncusu</span>
+    <span class="kural-ornek">Esrar Hadimi</span>
+    <span class="kural-ornek">Gizem Alimi</span>
+    <span class="kural-ornek">Hafi Talibi</span>
+  </div>
+</section>
+
+<section class="kural-blok" id="kural-9">
+  <h2><span class="kural-no">KURAL 9</span>Tekil Rezerve Kelimeler</h2>
+  <p>Bazı kelimeler yalnızca tek bir Mertebeye özgülenmiştir; geniş bir sistem oluşturmazlar ama tekrar kullanılmamalıdır.</p>
+  <ul>
+    <li><strong>Afet</strong>: yalnızca Suikastçı Yolu'ndaki çift anlamlılık (felaket + tehlikeli derecede güzel kadın) için ayrılmıştır. Aynı Çince kavram başka bir Yolda geçtiğinde "Felaket" gibi nötr bir kelime tercih edilir.</li>
+    <li><strong>Kimyager / Simyacı ayrımı</strong>: "Simyacı" Çiftçi Yolu'nda (Kadim Simyacı) kullanıldığından, çakışmayı önlemek için Bilgin Yolu'nda bilinçli olarak "Kimyager" tercih edilmiştir.</li>
+  </ul>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function vurgula() {
+    if (!location.hash) return;
+    var hedef;
+    try {
+      hedef = document.querySelector(location.hash);
+    } catch (e) {
+      return;
+    }
+    if (!hedef) return;
+    hedef.scrollIntoView({ behavior: "smooth", block: "start" });
+    hedef.classList.add("kural-vurgu");
+    window.setTimeout(function () {
+      hedef.classList.remove("kural-vurgu");
+    }, 2200);
+  }
+  vurgula();
+  window.addEventListener("hashchange", vurgula);
+});
+</script>

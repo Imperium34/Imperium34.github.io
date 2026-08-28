@@ -1,0 +1,27 @@
+buyucu_efsuncu_sahir:
+  id: kural-1
+  baslik: "Büyücü / Efsuncu / Sahir Sistemi"
+murshid:
+  id: kural-2
+  baslik: "Mürşid Kuralı"
+piskopos_ruhban:
+  id: kural-3
+  baslik: "Piskopos / Ruhban Ayrımı"
+sovalye:
+  id: kural-4
+  baslik: "Şövalye Ekonomisi"
+fitne_fesat_mufsit:
+  id: kural-5
+  baslik: "Fitne / Fesat / Müfsit Ailesi"
+sinas:
+  id: kural-6
+  baslik: "\"-şinas\" Neolojizmi"
+esma:
+  id: kural-7
+  baslik: "Esmâ-ül Hüsnâ Ödünçlemesi"
+sir_esrar_gizem_hafi:
+  id: kural-8
+  baslik: "Sır / Esrar / Gizem / Hafi Sistemi"
+tekil_rezerve:
+  id: kural-9
+  baslik: "Tekil Rezerve Kelimeler"

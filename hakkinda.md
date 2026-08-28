@@ -45,7 +45,7 @@ Bir terimi karşılarken sorulan soru "kulağa hoş geliyor mu" değil, "bu kavr
 
 Okuyucu sözlüğü madde madde ezberlemez. Terimlerin birbiriyle kurduğu ilişkiyi öğrenir. Bu yüzden, kendi içinde tutarlı bir dizgede biraz kayan bir terim, dizgesi dağınık ama tek başına kusursuz bir terimden daha çok iş görür.
 
-Bu tercihlerin nerede yapıldığı gizlenmiyor. **Sözlük sayfasındaki her girdi, hangi kararın neden alındığını açıklayan bir çevirmen notu taşıyabilir**. Kanona sadık olan, tamamlanan ve tamamen özgün olan karşılıklar ayrı ayrı işaretlenmiştir.
+Bu tercihlerin nerede yapıldığı gizlenmiyor. **Sözlük sayfasındaki her girdi, hangi kararın neden alındığını açıklayan bir çevirmen notu taşıyabilir**. Kanona sadık olan, tamamlanan ve tamamen özgün olan karşılıklar ayrı ayrı işaretlenmiştir. Bir tercih tek bir girdiyi değil, birden çok Mertebe veya Yolu kapsayan bir sistemi takip ediyorsa, bu bir daha her notta yeniden anlatılmaz; [Sözlük Sistem Kuralları](/sistem-kurallari/) sayfasında tek bir yerde, test edilebilir bir mantıkla toplanır.
 
 Sözlüğün kendi çalışma kuralları (parantez içindeki İngilizcenin neden bir karşılık değil arama anahtarı olduğu, spoiler korumasının iki ayrı eksende nasıl işlediği ve rozetlerin ne anlama geldiği) [Sözlük sayfasının](/sozluk/) başındaki "Bu sözlük nasıl okunur?" bölümünde açıklanmıştır.
 
