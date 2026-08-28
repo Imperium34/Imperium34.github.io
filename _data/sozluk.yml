@@ -2688,8 +2688,9 @@
       kaynak: metin
       ilk_gecis: 418
     - seviye: 5
-      isim: "İlm-i Esrar Hakimi (Mysticism Magister)"
-      sistem_kural: [murshid]
+      isim: "Havas Hakimi (Mysticism Magister)"
+      sistem_kural: [murshid, sinas]
+      cevirmen_notu: "İlk tercih olan 'İlm-i Esrar Hakimi' bu sözlükteki genel 'Mysticism' (神秘学) karşılığıyla çakışıyordu. Bu Mertebenin Çince aslı ise 秘术导师'dir (mì shù dǎoshī); 秘术 (mìshù, 'gizli sanatlar/teknikler'), 神秘学 (shénmìxué, 'Mysticism') ile aynı kelime değildir. İkisi ilişkilidir ama özdeş değildir: 神秘学 gerçekten keşfedilebilir, denenip yanlışlanabilen bir bilimdir (Klein'ın tüm araştırma yöntemi buna dayanır); 秘术 ise o bilimin ürettiği veya mümkün kıldığı somut, uygulanabilir teknikler/büyülerdir. Fizik ile mühendislik ürünü bir alet arasındaki ilişkiye benzer. İngilizce çeviri ('Mysticism Magister') bu ayrımı sildiği için orijinal Türkçe tercih de İngilizceyi izleyerek aynı hataya düşmüştü; oysa yeteneğin kendisi (nadir 'Mystic Arts'ı öğrenme VE kendi büyülerini icat edebilme) doğrudan 秘术'ün somut, uygulanabilir doğasını tarif eder, 神秘学'in teorik bütününü değil.<br><br>'Havas' (klasik dönemde uygulamalı gizli sanatlar; tılsım, ebced, ilm-i havas gibi pratik tekniklerin adı, tefekkürî/teorik bilgiden ayrı tutulan bir gelenek) bu yüzden tercih edildi. Kasıtlı olarak 'İlm-i Esrar' ile aynı 'İlm-i X' kalıbını paylaşmaz: paylaşsaydı, iki kelime görsel olarak eşleşmiş bir çift gibi okunur ve tam da kaçınılmak istenen 学/术 karışıklığını yeniden üretirdi. Ayrı bir kökten gelmesi ayrıca bu Yolun kendi Yegâneliği olan Bâtını Bilge'nin (gizli/bâtın bilgi alanı) sözcük dağarcığıyla da çakışmaz. Genel 学/术 sistemi için bkz. Sistem Kuralları #6."
       bolum_siniri: 534
       metinde: true
       kaynak: metin
