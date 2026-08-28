@@ -186,6 +186,15 @@
   denetim: tamam
   ilk_gecis: 1345
 
+- terim: "Zihinsel Alem (Alem-i Zihin)"
+  ingilizce: "Mind World"
+  kategori: "Temel Kavramlar"
+  aciklama: "Her canlının kendi 'bilinç adası'ndan, bu adaları çevreleyen ortak 'Külli Şuur-altı Deryası'ndan ve ikisinin üzerini örten 'Ruhaniyet Göğü'nden oluşan, insan zihninin kendi kozmolojisi. Ruhani Alem ile örtük ve esrarengiz bir bağı vardır; burada herkes, hangi dili konuşursa konuşsun birbirini anlayabilir. Seyirci Yolu'nun Mertebe 0'ı, kendi 'bilinç adası' ile Külli Şuur-altı Deryası dahil bütün zihinsel alemler üzerinde hükümranlık iddia eder. Ritüellerde ve kadim yakarışlarda 'Alem-i Zihin' olarak zikredilir."
+  bolum_siniri: 418
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Tazim İsmi"
   ingilizce: "Honorific Name"
   kategori: "Temel Kavramlar"
@@ -797,7 +806,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Bu asra mensup olmayan Soytarı,<br>Gri sislerin fevkindeki esrarlı Hükümdar,<br>Talihe hükmeden Sarı ve Siyahın Kralı."
-  cevirmen_notu: "Aptal, Ahmak, Budala, Meczup gibi doğrudan karşılıklar yerine 'Soytarı' seçildi. Tarot destesinde 0 numaralı kart bir aptallığı değil; bir başlangıcı, kuralların dışına çıkmayı ve henüz biçimlenmemiş sonsuz potansiyeli imler. 'Aptal' bu kartın hiçbir anlamını taşımaz, yalnızca bir hakaret taşır. Klein özelinde daha da belirleyici bir gerekçe var: bu ismi seçtiği sahnede kendisiyle sürekli dalga geçen, ne olduğunu bilmediği bir dünyada rol yapan biridir. Kendine 'aptal' ya da 'şapşal' demek şaka değil, sövgü olurdu. 'Soytarı' demek ise dürüstlüktür. Aşkınların varlığından bile habersizken ilah rolü oynayan bir adamın kendi durumunu tam olarak tarif etmesidir. Sözcük, dünyayı kurmadan önce karakteri kuruyor."
+  cevirmen_notu: "Aptal, Ahmak, Budala, Meczup veya Mecnun gibi doğrudan karşılıklar yerine 'Soytarı' seçildi. Tarot destesinde 0 numaralı kart bir aptallığı değil; bir başlangıcı, kuralların dışına çıkmayı ve henüz biçimlenmemiş sonsuz potansiyeli imler. 'Aptal' bu kartın hiçbir anlamını taşımaz, yalnızca bir hakaret taşır. 'Mecnun' ise farklı bir sebeple reddedildi. Bu kelime Aptal/Ahmak ailesi gibi düz bir hakaret değildir, ama taşıdığı çılgınlık çok spesifik bir çılgınlıktır: Leyla ile Mecnun'dan miras kalan, aşk yüzünden aklını kaybetme hâli. Kartın kendisinde, Klein'ın durumunda ya da Kâhin Yolu'nun tarif edilen doğasında bu türden bir aşk-delilik teması yoktur. Böyle bir çağrışım eklemek, kartın hiç sahip olmadığı bir anlamı ithal etmek olurdu. Kısacası Aptal/Ahmak kelimeyi aşağılar, Mecnun ise yanlış bir çılgınlık türü yükler. İkisi de kartın gerçek anlamını taşımaz.<br><br>Klein özelinde daha da belirleyici bir gerekçe var: bu ismi seçtiği sahnede kendisiyle sürekli dalga geçen, ne olduğunu bilmediği bir dünyada rol yapan biridir. Kendine 'aptal' ya da 'şapşal' demek şaka değil, sövgü olurdu. 'Soytarı' demek ise dürüstlüktür. Aşkınların varlığından bile habersizken ilah rolü oynayan bir adamın kendi durumunu tam olarak tarif etmesidir. Sözcük, dünyayı kurmadan önce karakteri kuruyor."
   cevirmen_notu_ek:
   - sinir: 251
     baslik: "Yolun dokusu"
@@ -822,7 +831,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Esrarın Hükümdarı,<br>Zaman ve Mekan Sultanı,<br>Kaderin Mihenk Taşı,<br>Aslî Kale'nin Tecessümü,<br>Alem-i Ervah Hakimi."
-  cevirmen_notu: "İlk tercih 'Meşale' idi ama Çince '道标' (yol işareti) ışıktan çok yön göstermeyle ilgilidir. 'Mihenk Taşı' (mihenk/dokunma taşı, kıymet ölçüm standardı) tercih edildi çünkü Korkak Üçlü Yollarının en üstünde bulunun bu varlık temelde hakikati sahteden ayırır hatta gerçek ve sahtenin ne olduğuna karar verendir. 'Beacon' burada yön göstermekten çok kader/hakikatin sınandığı bir ölçüt olarak okunabilir. Poetik nesne-imge korunmuş, anlam yönü kesinlik/doğrulama eksenine kaydırılmıştır.<br>'Sultan' bilinçli seçildi çünkü Soytarı Yolu'nun Mertebe 1 ismi 'Esrar Hadimi'dir (İngilizce: Attendant of Mysteries) ve bu iki unvan arasında saltanat temalı bir tutarlılık istendi."
+  cevirmen_notu: "İlk tercih 'Meşale' idi ama Çince '道标' (yol işareti) ışıktan çok yön göstermeyle ilgilidir. 'Mihenk Taşı' (mihenk/dokunma taşı, kıymet ölçüm standardı) tercih edildi çünkü Aslî Kale Yollarının en üstünde bulunun bu varlık temelde hakikati sahteden ayırır hatta gerçek ve sahtenin ne olduğuna karar verendir. 'Beacon' burada yön göstermekten çok kader/hakikatin sınandığı bir ölçüt olarak okunabilir. Poetik nesne-imge korunmuş, anlam yönü kesinlik/doğrulama eksenine kaydırılmıştır.<br>'Sultan' bilinçli seçildi çünkü Soytarı Yolu'nun Mertebe 1 ismi 'Esrar Hadimi'dir (İngilizce: Attendant of Mysteries) ve bu iki unvan arasında saltanat temalı bir tutarlılık istendi."
   bolum_siniri: 1271
   kaynak: metin
   mudahale: ceviri
@@ -938,7 +947,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Zulmet Perdesi Ardından Hükmeden,<br>Mevcudatın Sanii,<br>Müşfik Peder,<br>Cümle Cürümü Sırtlayan Rab."
-  cevirmen_notu: "Bu tazim ismi literal çeviri değildir; kanondaki üç satırdan ikisi korunmuş, bir tanesi bilinçli olarak kullanılmamış ve yerine iki satır ('Müşfik Peder', 'Cümle Cürümü Sırtlayan Rab') eklenmiştir. Gerekçe bir yöntem tercihidir: tazim isimleri bir varlığın objektif tarifi değil, ona inananların ağzından okunan ayinsel bir hitaptır. Dolayısıyla bir kilisenin kendi ilahını nasıl yücelteceği, o ilahın gerçekte ne olduğundan farklı olabilir ve olmalıdır da. Buradaki satırlar, bu ilaha tapanların onu nasıl gördüğünü yansıtacak biçimde seçilmiştir. Aynı ilkenin sonucu olarak, kanondaki daha yıkıcı ve mesafeli satır bu girdide değil, başka bir girdide değerlendirilmiştir."
+  cevirmen_notu: "Bu tazim ismi literal çeviri değildir; kanondaki üç satırdan ikisi korunmuş, bir tanesi bilinçli olarak kullanılmamıştır (bkz. aşağıdaki not). Yerine eklenen 'Müşfik Peder' ve 'Cümle Cürümü Sırtlayan Rab' satırları ise boşluktan icat edilmiş değildir; Fecir Tarikatı'nın hem LOTM hem CoI'deki dağınık ama gerçek ifadelerinin bir sentezidir. 'Cümle Cürümü Sırtlayan Rab', tarikat üyelerinin fiilen ettiği bir duaya ('Praise be to you, who carries the burdens of the world's sins', CoI Bölüm 232) doğrudan yakındır. 'Müşfik Peder' ise tarikatın kayıtlı doktrininden ('the great being who created this world, the father of all living creatures', CoI Bölüm 232) ve paylaşılan ilahilik inancından ('Divinity exists within every living being, and no one is inherently more noble than another', CoI Bölüm 232) damıtılmıştır.<br><br>Gerekçe bir yöntem tercihi olarak kalır: tazim isimleri bir varlığın objektif tarifi değil, ona inananların ağzından okunan ayinsel bir hitaptır; dolayısıyla bir kilisenin kendi ilahını nasıl yücelttiği, o ilahın gerçekte ne olduğundan farklı olabilir ve olmalıdır da. Ancak bu farkın kendisi kanonda gerçekten mevcuttur: tarikatın dışarıdan 'neredeyse tamamı çılgın' olarak tarif edilmesiyle, içeriden kaydedilen bu sıcak ve tutarlı teolojisi (paylaşılan ilahilik, günahı sırtlayan bir baba) arasındaki çelişki icat edilmiş değil, metnin kendisinde durur. Buradaki satırlar bu iç sesi yansıtır; dışarıdan bakışın kaydı ise başka bir girdidedir (bkz. aşağıdaki not).<br><br>(Aşağıdaki not, içerisinde spoiler içerdiğinden sadece LotM'u bitiren kişilerin görebileceği şekilde ayarlanmıltır.)"
   cevirmen_notu_ek:
   - sinir: 1409
     baslik: "Çıkarılan satır nereye gitti"
@@ -960,12 +969,12 @@
   denetim: tamam
   ilk_gecis: 359
 
-- terim: "Yarı Kadir-i Mutlak Âdem (Yarı Yüce Kadim)"
-  ingilizce: "Half God Almighty Adam (Half Great Old One)"
+- terim: "Yarı Kadir-i Mutlak Âdem (Âdem ve Hakiki Hâlık'ın birleşimi sonrası)"
+  ingilizce: "Half God Almighty Adam (After Adam and the True Creator merge)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak İlah,<br>Zıl Perdesinin Ardındaki Hükümdar,<br>Alem-i Zihnin Hâkimi,<br>Cümle Zîhayatın Sefil Fıtratı."
-  cevirmen_notu: "Hakiki Hâlık'ta kullanılmayan Kanon üçüncü satır ('Degenerate Nature of all Living Things') burada. Bilinçli olarak bu girdide kullanılmıştır (bkz: Hakiki Hâlık notu). 'Sefil' (aşağılanmış/perişan) + 'Fıtrat' (İslami düşüncede doğuştan gelen saf/temiz tabiat, bkz. hadis) eşleşmesi kasıtlı bir oksimorondur: özünde saf olması gereken bir kavrama 'sefil' sıfatının zorla eklenmesi, tasvirin konusu olan yozlaşmanın kendisini kelimenin içinde yeniden üretir."
+  cevirmen_notu: "Hakiki Hâlık'ta kullanılmayan Kanon üçüncü satır ('Degenerate Nature of all Living Things') burada. Bu satır orijinal Çincede de bu varlık için kullanılır. Hakiki Hâlık'ta çıkarıldı diye eklenmedi, sadece iki yerde kullanılar bir satır tek yere indirgenmiştir. 'Sefil' (aşağılanmış/perişan) + 'Fıtrat' (İslami düşüncede doğuştan gelen saf/temiz tabiat, bkz. hadis) eşleşmesi kasıtlı bir oksimorondur: özünde saf olması gereken bir kavrama 'sefil' sıfatının zorla eklenmesi, tasvirin konusu olan yozlaşmanın kendisini kelimenin içinde yeniden üretir."
   bolum_siniri: 0
   kaynak: metin_coi
   mudahale: ceviri
@@ -975,11 +984,11 @@
   ingilizce: "Angel of Imagination Adam"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Külli Şuur-altı Deryasının Tecessümü."
+  aciklama: "Alemin İnkişafını Yazan Kurgucu;<br>Mukadderatın İdarecisi;<br>Zihinsel Alemin Yegâne Hâkimi."
   cevirmen_notu: "Kanonda karşılığı yoktur ve tamamen özgündür. 'Kurgucu' bilinçli olarak modern registerdedir ve Seyirci yolunun ilgili Mertebesine atıf yapar. 'Külli Şuur-altı Deryası' yolun özünü (kolektif bilinçaltı) yansıtır."
   bolum_siniri: 941
   kaynak: metin
-  mudahale: ceviri
+  mudahale: ozgun
   denetim: tamam
   ilk_gecis: 941
 
@@ -1201,7 +1210,7 @@
   ingilizce: "God of Steam and Machinery"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Marifet İfriti (Demon of Knowledge)"
-  aciklama: "Tabiiyatın Özü,<br>Zanaatkârların Piri.<br>Fenniyatın Ziyası"
+  aciklama: "Tabiiyatın Özü,<br>Zanaatkârların Piri,<br>Fenniyatın Ziyası"
   bolum_siniri: 3
   kaynak: metin
   mudahale: ceviri
@@ -1212,7 +1221,7 @@
   ingilizce: "Earth Mother (After The World War)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
-  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Bereketin Pınarı,<br>Tenasül ve Kızıl Ayın Timsali,<br>Her Şeyin Evveli ve Ahiri."
+  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Bereketli Arzın Hâmili,<br>Tenasül ve Kızıl Ayın Timsali,<br>Mebde ve Meâd'ın Zâtı."
   bolum_siniri: 1409
   kaynak: metin
   mudahale: ceviri
@@ -1223,7 +1232,7 @@
   ingilizce: "Earth Mother"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Köken Tanrıçası (Goddess of Origin)"
-  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Nihai Menzil,<br>Bereketin Pınarı,<br>Tevellüt ve Tenasülün Timsali."
+  aciklama: "Hayatın Menşei,<br>Cümle Varlığın Anası,<br>Nihai Menzil,<br>Bereketli Arzın Hâmili,<br>Tevellüt ve Tenasülün Timsali."
   bolum_siniri: 3
   kaynak: metin
   mudahale: ceviri
