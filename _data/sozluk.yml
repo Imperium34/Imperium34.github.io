@@ -369,7 +369,7 @@
   ingilizce: "Spirit Body"
   kategori: "Temel Kavramlar"
   aciklama: "İnsanın okült anatomisini oluşturan dört katmandan biri. Büyüsel yeteneklerin, ruhanî algının ve Alem-i Ervah (Ruhani Alem) ile doğrudan etkileşimin gerçekleştiği, kişinin bilincini ve mistik enerjisini taşıyan katman."
-  cevirmen_notu: "'Ruhani Beden İplikleri' girdisinde zaten kullanılmış ve sisteme oturtulmuştu. Düz 'Ruh Bedeni' yerine 'Ruhani Beden' denmesi hem 'Nefs Bedeni' ile görsel ve işitsel karışıklığı önler, hem de bu bedenin doğrudan temas ettiği 'Ruhani Alem' ile ismen kusursuz bir uyum içinde olmasını sağlar."
+  cevirmen_notu: "'Ruhani Beden İplikleri' girdisinde zaten kullanılmış ve sisteme oturtulmuştu. Düz 'Ruh Bedeni' yerine 'Ruhani Beden' denmesi bu bedenin doğrudan temas ettiği 'Ruhani Alem' ile ismen kusursuz bir uyum içinde olmasını sağlar."
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
@@ -399,17 +399,6 @@
   ingilizce: "Astral Projection"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhaniyetin ve bilincin fiziksel bedenin dışına yansıması; kişinin ruhani alemde veya rüyalarda seyahat etmesini sağlayan, fiziksel bedenden bağımsız ancak ona hala görünmez bağlarla bağlı olan form."
-  bolum_siniri: 32
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-  ilk_gecis: 32
-
-- terim: "Nefs Bedeni"
-  ingilizce: "Soul Body"
-  kategori: "Temel Kavramlar"
-  aciklama: "İnsanın varoluşunun en derin, mutlak ve yıkılmaz çekirdeği. Fiziksel bedenin, Esir Bedeninin ve Ruhani Bedenin (Spirit Body) de ötesinde yatan en nihai katman."
-  cevirmen_notu: "Dörtlü okült beden yapısının (Physical, Ether, Astral, Spirit/Soul) en derini. Düz bir literal çeviriyle 'Ruh Bedeni' demek, 'Ruhani Beden' (Spirit Body) ile görsel ve işitsel olarak birbirine tamamen karışacağı için reddedildi. İslami kozmolojide 'Nefs', benliğin ve içsel varlığın ta kendisi, özüdür. (Yaratıcı/tanrısal figürlerin 'Kadir-i Mutlak' veya 'Hakiki Hâlık' gibi İslami/Klasik literatürle kurulduğu bu sözlükte, benliğin en derinine 'Nefs' demek sistemsel olarak son derece tutarlıdır). Bu tercih, en derin benliği ifade ederken 'Ruhani Beden' ile arasına net, karışmaz bir anlamsal sınır çeker."
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
