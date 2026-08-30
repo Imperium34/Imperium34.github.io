@@ -5,6 +5,7 @@
   ingilizce: "Beyonder"
   kategori: "Temel Kavramlar"
   aciklama: "Sıradan insanların ötesinde güçlere sahip olan, iksir içerek evrilmiş varlıklar."
+  cevirmen_notu: "'Beyonder' (非凡者) İngilizcede 'Beyond' kökünden gelir ve sınırların ötesindeki kişiyi imler. Bu mantığın doğrudan kopyalanması ('Ötedekiler', 'Sınır Aşanlar') kelimeyi mistik ağırlığından ederek tarif edici bir unvana indirger; çoğu çeviri bu yüzden kelimeyi İngilizce bırakır. 'Aşkın' aynı kökü korur ama zaten yerleşik bir terimdir: nefsin sıradan tabiatını aşıp yeni bir hâle geçmek. Sâlik bu hâle doğuştan sahip değildir; disiplinle, çileyle ve dönüşerek kazanır. Bir Aşkın'ın iksirle kazandığı gibi. Bedeli de aynı yerden gelir: sülûk sırasında nefis nasıl yanılıp sapabiliyorsa, Aşkın da güç yolunda şirazesini yitirebilir.<br><br>Kelimenin gündelik Türkçede 'fazla/üzeri' anlamında kullanılması (yüzü aşkın kişi) bilinen bir itirazdır. O kullanım niteleyicidir ve daima bir sayıya bağlanır; terim ise isim olarak ve büyük harfle geçer. Metin içinde ikisi çakışmaz."
   bolum_siniri: 0
   kaynak: metin
   mudahale: ceviri
@@ -148,7 +149,7 @@
   ingilizce: "Losing Control"
   kategori: "Temel Kavramlar"
   aciklama: "Bir Aşkın'ın iksirin kudretini sindirememesi, yüksek mertebeli habis bir varlığın yozlaştırmasına maruz kalması ve daha nice sebepler sonucu benliğini yitirmesi durumu. Bu safhaya geçen bir Aşkın; insanlığını, aklî melekelerini ve ruhunu sonsuza dek kaybederek bedeni korkunç şekillerde mutasyona uğramış, kana susamış irrasyonel bir canavara dönüşür. Her Aşkın'ın eninde sonunda yüzleşmekten korktuğu nihai ve kaçınılmaz kabustur."
-  cevirmen_notu: "Şiraze, bir kitabın formalarını bir arada tutan dikiş bandıdır; 'şirazesi çıkmak' ise Türkçede düzenini, tutarlılığını yitirmek anlamında yerleşik bir deyimdir. 'Kontrolü kaybetmek' literal karşılık olurdu, 'delirmek' veya 'çıldırmak' ise kolay ama yanlış olurdu. Çünkü bu evrende Şirazesini Yitirmek yalnızca delilik değildir. Aşkın ortadan kalkmaz, bütünlüğü dağılır. Güçleri, hafızası, bedeni yerinde durmaya devam eder ama artık hiçbiri bir arada tutulmamaktadır ve kişi bu yüzden bir canavara dönüşür. Şiraze tam olarak bunu adlandırır: kitap durur, sayfalar durur, yalnızca onları bir arada tutan şey gitmiştir. Deyimin bir başka avantajı, çeviri kokmamasıdır; Türkçe konuşan biri bu ifadeyi zaten bilir, dolayısıyla terim metne yabancı bir teknik etiket gibi değil, dilin kendi malzemesi gibi yerleşir."
+  cevirmen_notu: "Şiraze, bir kitabın formalarını bir arada tutan dikiş bandıdır; 'şirazesi çıkmak' ise Türkçede düzenini, tutarlılığını yitirmek anlamında yerleşik bir deyimdir. 'Kontrolü kaybetmek' literal karşılık olurdu, 'delirmek' veya 'çıldırmak' ise kolay ama yanlış olurdu. Çünkü bu evrende Şirazesini Yitirmek yalnızca delilik değildir. Aşkın ortadan kalkmaz, bütünlüğü dağılır. Güçleri, hafızası, bedeni yerinde durmaya devam eder ama artık hiçbiri bir arada tutulmamaktadır ve kişi bu yüzden bir canavara dönüşür. Şiraze tam olarak bunu adlandırır: kitap durur, sayfalar durur, yalnızca onları bir arada tutan şey gitmiştir. Deyimin bir başka avantajı, çeviri gibi hissettirmemesidir. Türkçe konuşan biri bu ifadeyi zaten bilir, dolayısıyla terim metne yabancı bir teknik etiket gibi değil, dilin kendi malzemesi gibi yerleşir."
   bolum_siniri: 14
   kaynak: metin
   mudahale: ceviri
@@ -231,12 +232,28 @@
 - terim: "Ayin İlmi"
   ingilizce: "Ritualistic Magic"
   kategori: "Temel Kavramlar"
-  aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak kurulur ve o varlığın Tazim İsmi zikredilerek ritüel gerçekleştirilir."
+  aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya
+    çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına
+    uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak kurulur ve o varlığın
+    Tazim İsmi zikredilerek ayin gerçekleştirilir."
   bolum_siniri: 33
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
   ilk_gecis: 51
+
+- terim: "Ayin"
+  ingilizce: "Ritual"
+  cince: "仪式"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhani bir varlığın yahut İlahın kudretini fiziki aleme çekmek
+    maksadıyla icra edilen tekil merasim. Ayin İlmi bu merasimleri konu edinen
+    disiplindir; bu girdi ise tek tek icra edilen edimi karşılar."
+  eski_karsiliklar: ["ritüel"]
+  bolum_siniri: 33
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Aslî Menşe"
   ingilizce: "Sefirot"
@@ -423,6 +440,7 @@
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerini, iksir formüllerini, ritüelleri ve evrenin görünmez kurallarını inceleyen okült ve akademik disiplin."
   bolum_siniri: 18
+  eski_karsiliklar: ["mistisizm"]
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -1340,11 +1358,11 @@
   denetim: tamam
   ilk_gecis: 3
 
-- terim: "İlim ve Hikmet İlahı"
+- terim: "İlim ve Hikmetin İlahı"
   ingilizce: "God of Knowledge and Wisdom"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "İlim Burcu,<br>İlim ve Hikmet İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
+  aciklama: "İlim Burcu,<br>İlim ve Hikmetin İlahı,<br>Aklın Nuru,<br>Bahr-i İrfan."
   cevirmen_notu: "Kanonik unvan dört satırdır (知识之塔 / 理性化身 / 智慧之神 / 洞悉万物的学者). Türkçe versiyonda üç müdahale bulunur.<br><br>(1) 2. ve 3. satırlar yer değiştirmiştir; ayrıca kanonun 智慧之神 ('hikmet ilahı') satırı yerine ilahın tam adı kullanılmıştır.<br><br>(2) 'Aklın Nuru', 理性化身'in literal karşılığı değildir. 'Tecessüm/化身' bedenlenmeye dayalı bir imgedir. 'Nur' ise İşrâkî geleneğin akıl-ışık özdeşliğine (nûr-ı akl) yaslanarak aynı işlevi görür.<br><br>(3) 4. satır 'Bahr-i İrfan' literal çeviri değildir; kanondaki 洞悉万物的学者 ('her şeyi kavrayan alim') satırının yerine yazılmıştır. Kanon satırı bir fail (alim) tanımlarken Türkçe satır bir mahiyet (derya) tanımlar. Sebep: 'irfan', klasik tasnifte 'ilim'den (kesbî bilgi) ayrı olarak vehbî/tecrübî bilgiyi imler. Bu satırla birlikte unvan ilim–hikmet–akıl–irfan dörtlüsünü kapsar; kanonun bilgi/akıl/hikmet/kavrayış dizisinin Türkçedeki tam karşılığı bu dörtlüdür."
   bolum_siniri: 3
   kaynak: metin
