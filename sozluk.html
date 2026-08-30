@@ -189,7 +189,9 @@ body.spoiler-mode-active .hidden-sequence {
   border: 1px solid transparent;
   cursor: help;
 }
-.rozet-ekleme    { background: #2a2010; color: #d4a747; border-color: #574117; }
+.rozet-ekleme      { background: #2a2010; color: #d4a747; border-color: #574117; }
+.rozet-degisiklik  { background: #2a1810; color: #d4863f; border-color: #5c3d1f; }
+.rozet-birlestirme { background: #1e2436; color: #8fa0d4; border-color: #35406e; }
 .rozet-ozgun     { background: #2a1418; color: #d48a94; border-color: #572329; }
 .rozet-beyani    { background: #241f2e; color: #a99ac4; border-color: #443a5c; }
 .rozet-coi       { background: #2e2418; color: #c4a882; border-color: #5c4a34; }
@@ -321,8 +323,9 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
       yerde bir tercih ya da bir belirsizlik vardır.
     </p>
     <div class="rozet-cetvel">
-      <div><span class="rozet rozet-ekleme">Kanon + ekleme</span> <span>Kanonik tazim isminde çevirmen eklemesi veya değişikliği var.</span></div>
-      <div><span class="rozet rozet-ekleme">Kanon + birleştirme</span> <span>Kanonik satırlar birleştirilerek tek bir tazim ismi yapılmış.</span></div>
+      <div><span class="rozet rozet-ekleme">Kanon + ekleme</span> <span>Yazarın eksik bıraktığı tazim ismine, doğrulanmış kanonik verilere dayanarak çevirmen tarafından satır eklenmiştir.</span></div>
+      <div><span class="rozet rozet-degisiklik">Kanon + değişiklik</span> <span>Kanonda mevcut olan bir satırın yerine, çevirmen tarafından bilinçli olarak farklı bir ifade yazılmıştır; literal çeviri değildir.</span></div>
+      <div><span class="rozet rozet-birlestirme">Kanon + birleştirme</span> <span>Kanonik satırlar birleştirilerek tek bir tazim ismi yapılmış.</span></div>
       <div><span class="rozet rozet-ozgun">Özgün</span> <span>Kanonda karşılığı yok; tamamen çevirmen tarafından yazılmış.</span></div>
       <div><span class="rozet rozet-beyani">Metin dışı</span> <span>Romanda geçmez; yazarın metin dışı açıklamalarından gelir.</span></div>
       <div><span class="rozet rozet-coi">Circle of Inevitability</span> <span>Devam kitabının metninden gelir.</span></div>
@@ -358,13 +361,12 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
   <input type="text" id="termSearch" oninput="filterTerms()" placeholder="Terim veya İngilizce karşılığını ara..." style="width: 100%; padding: 12px; font-size: 16px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px; box-sizing: border-box;">
   
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    {%- assign kategoriler = site.data.sozluk | map: 'kategori' | uniq | sort -%}
     <select id="categoryFilter" onchange="filterTerms()" style="flex: 1; min-width: 180px; padding: 10px 12px; font-size: 14px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px;">
       <option value="">Tüm Kategoriler</option>
-      <option value="Temel Kavramlar">Temel Terimler</option>
-      <option value="Organizasyonlar">Organizasyonlar</option>
-      <option value="İlahlar ve Yüce Kadimler">İlahlar ve Yüce Kadimler</option>
-      <option value="Tarot Kulübü">Tarot Kulübü</option>
-      <option value="Aşkın Yolları">Aşkın Yolları</option>
+      {%- for kat in kategoriler %}
+      <option value="{{ kat }}">{{ kat }}</option>
+      {%- endfor %}
     </select>
 
     <div class="kaynak-kutusu">
@@ -433,10 +435,12 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
         "dogrulandi" anlamina gelmemeli.
       {% endcomment %}
 
-      {% if item.mudahale == 'tamamlama' or item.mudahale == 'degistirme' %}
-        <span class="rozet rozet-ekleme" title="Kanonik tazim isminde çevirmen eklemesi veya değişikliği var. Ayrıntı için çevirmen notuna bakınız.">Kanon + ekleme</span>
+      {% if item.mudahale == 'tamamlama' %}
+        <span class="rozet rozet-ekleme" title="Yazarın eksik bıraktığı tazim ismine, doğrulanmış kanonik verilere dayanarak çevirmen tarafından satır eklenmiştir. Ayrıntı için çevirmen notuna bakınız.">Kanon + ekleme</span>
+      {% elsif item.mudahale == 'degistirme' %}
+        <span class="rozet rozet-degisiklik" title="Kanonda mevcut olan bir satırın yerine, çevirmen tarafından bilinçli olarak farklı bir ifade yazılmıştır; literal çeviri değildir. Ayrıntı için çevirmen notuna bakınız.">Kanon + değişiklik</span>
       {% elsif item.mudahale == 'birlestirme' %}
-        <span class="rozet rozet-ekleme" title="Kanonik satırlar birleştirilerek tek bir tazim ismi hâline getirilmiştir. Ayrıntı için çevirmen notuna bakınız.">Kanon + birleştirme</span>
+        <span class="rozet rozet-birlestirme" title="Kanonik satırlar birleştirilerek tek bir tazim ismi hâline getirilmiştir. Ayrıntı için çevirmen notuna bakınız.">Kanon + birleştirme</span>
       {% elsif item.mudahale == 'ozgun' %}
         <span class="rozet rozet-ozgun" title="Kanonda karşılığı yoktur; tamamen çevirmen tarafından yazılmıştır.">Özgün</span>
       {% endif %}

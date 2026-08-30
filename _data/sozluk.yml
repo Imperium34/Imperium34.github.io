@@ -109,12 +109,16 @@
   denetim: tamam
   ilk_gecis: 463
 
-- terim: "Yıldızlı Gökkubbenin Ötesi"
+- terim: "Yıldızlı Gökkubbenin Ötesi / Kâinat"
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
   cevirmen_notu: "Çince orijinali sadece 'Yıldızlı Gökyüzü'dür; İngilizce 'Cosmos' ise nötr bir terimdir. 'Gökkubbe' bilinçli tercih edildi çünkü kubbe/mimari çağrışımı, bu kavramın aynı zamanda Aslî Yaradan'ın kurduğu bariyer olma işlevini önceden haber veriyor. Gökyüzünün aslında dünyayı çevreleyen bir kabuk olduğunu ima ediyor. Ne Çince ne İngilizce kaynak bunu mimari olarak kodlamıyor."
   cevirmen_notu_sinir: 1203
+  cevirmen_notu_ek:
+  - sinir: 1203
+    baslik: "Gökkubbe ve Kâinat Ayrımı"
+    metin: "Çeviride bu kavram perspektife ve bağlama göre ikiye ayrılmıştır. Aslî Yaradan'ın kurduğu bariyer, Dünya'nın sınırı veya Dünya'dan dışarıya (veya içeriye) bakış kastedildiğinde 'Yıldızlı Gökkubbe' (koruyucu kabuk/mimari sınır) kullanılır. Ancak bariyerin ötesindeki sınırsız uzay, derin kozmos ve Öte İlahların saltanat sürdüğü sonsuz boşluk kastedildiğinde (örn. Supernova Dominator'un tazim ismindeki 'Namütenahi Kâinat') 'Kâinat' kelimesi tercih edilir. Bu ikili kullanım, Dünya'yı saran 'kabuk' ile onun dışındaki 'sonsuzluk' arasındaki yapısal farkı Türkçe terminolojide görünür kılar."
   bolum_siniri: 892
   kaynak: metin
   mudahale: ceviri
@@ -178,7 +182,7 @@
 - terim: "Astral Alem (Alem-i Misal)"
   ingilizce: "Astral World"
   kategori: "Temel Kavramlar"
-  aciklama: "Ruhlar Aleminin de ötesinde, fiziksel evrenin dış çeperini oluşturan ve mutlak kavramların (sembollerin) bulunduğu nihai boyut. Gerçek İlahların (Mertebe 0) ilahi krallıkları bu alemde bulunur. Dışarıdan gelen Yüce Kadimlerin tehditlerine karşı evrenin bariyeri işlevini görür. Ritüellerde ve kadim yakarışlarda 'Alem-i Misal' olarak zikredilir."
+  aciklama: "Ruhani Aleminin de ötesinde, fiziksel evrenin dış çeperini oluşturan ve mutlak kavramların (sembollerin) bulunduğu nihai boyut. Gerçek İlahların (Mertebe 0) ilahi krallıkları bu alemde bulunur. Dışarıdan gelen Yüce Kadimlerin tehditlerine karşı evrenin bariyeri işlevini görür. Ritüellerde ve kadim yakarışlarda 'Alem-i Misal' olarak zikredilir."
   cevirmen_notu: "Bu terim, klasik tasavvuf kozmolojisiyle bilerek çelişen tek tercihtir. 'Misal' kelimesi 'suret, benzer, sembol' demektir ve Astral Alem tam olarak mutlak kavramların, yani sembollerin bulunduğu boyuttur. Anlam örtüşmesi kusursuzdur. Ne var ki klasik tasnifte âlem-i misal (Berzah) âlem-i ervah'ın ALTINDA, cisimler alemiyle ruhlar alemi arasındaki geçiş bölgesinde durur. Romanda ise Astral Alem, Ruhani Alem'in üzerindedir. Yani sıralama tersine dönmüştür. Tasavvufa aşina bir okuyucu bunu fark edecektir. Buna rağmen 'misal' tercih edildi, çünkü bu sözlükte tekil doğruluk değil dizgesel tutarlılık esas alınmıştır: okuyucu tek tek girdileri değil, terimlerin birbiriyle kurduğu ilişkiler ağını öğrenir. Kavramlar alemini 'suretler alemi' olarak adlandırmak, klasik sıralamaya sadık ama anlamca opak bir karşılık kullanmaktan daha çok iş görür.<br><br>İlgili bir not: 'Berzah' bu sözlükte Styx nehri ve Naaş Toplayıcı yolundaki mertebeler için kullanılmıştır. 'Berzah' ile 'Alem-i Misal' klasik kozmolojide birbirine yakın kavram alanlarına sahip olsa da bu sözlükte bilinçli olarak ayrıştırılmıştır. 'Berzah', iki varoluş hâli arasındaki eşik ve ara âlem anlamıyla hayat ile ölüm arasındaki geçişi karşılar. 'Alem-i Misal' ise 'misal'in suret, temsil ve kavramsal biçim anlamlarından hareketle, ilahların temsil ettikleri Yol'un kavramsal mahiyetinin bulunduğu âlem için kullanılır."
   bolum_siniri: 1345
   kaynak: metin
@@ -296,7 +300,7 @@
 - terim: "Aşkın Hasletlerin Yok Edilemezliği Kanunu"
   ingilizce: "Law of Beyonder Characteristics Indestructibility"
   kategori: "Temel Kavramlar"
-  aciklama: "Aşkın özelliklerin asla yok edilemeyeceğini belirten temel kanun. Bir Aşkın öldüğünde, içindeki güç kaybolmaz; ardında fiziksel bir obje veya ham bir özellik bırakarak dünyada kalmaya devam eder."
+  aciklama: "Aşkın özelliklerin asla yok edilemeyeceğini belirten temel kanun. Bir Aşkın öldüğünde, içindeki güç kaybolmaz; ardında fiziksel bir obje veya ham bir haslet bırakarak dünyada kalmaya devam eder."
   bolum_siniri: 207
   kaynak: metin
   mudahale: ceviri
@@ -306,7 +310,7 @@
 - terim: "Aşkın Hasletlerin Yakınsama Kanunu"
   ingilizce: "Law of Beyonder Characteristics Convergence"
   kategori: "Temel Kavramlar"
-  aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın özelliklerin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
+  aciklama: "Aynı veya komşu yollara ait (birbiriyle değiştirilebilir) Aşkın hasletlerinin birbirlerini kaçınılmaz bir şekilde çekeceğini belirten kanun. Yüksek mertebeli varlıklar, bilerek veya bilmeyerek alt mertebedekileri kendilerine doğru çekerler."
   bolum_siniri: 435
   kaynak: metin
   mudahale: ceviri
@@ -541,7 +545,6 @@
   mudahale: ceviri
   denetim: tamam
   ilk_gecis: 853
-
 
 # -----------------------
 # ORGANİZASYONLAR VE KİLİSE TİMLERİ
@@ -845,7 +848,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
   aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bârî,<br>Alîmi ve Kudreti Mutlak,<br>Alem-i Misal Efendisi."
-  cevirmen_notu: “Kadir-i Mutlak”, seride İbrahimî tektanrıcılık tasavvurunun kozmolojik karşılığını temsil eden bu yol grubunun adı olarak tercih edildi. God Almighty; yaratıcı, her şeyi bilen ve her şeye gücü yeten mutlak ilah, Âdem ve Düşüş gibi açık biçimde İbrahimî teolojik unsurlar etrafında kurulmuştur. Bu nedenle Türkçede sıradan bir “Yüce Tanrı” veya “Mutlak Tanrı” karşılığı yerine, İslamî ilahiyatın yerleşik terminolojisinden yararlanmak bilinçli bir tercihtir.<br><br>Bu kapsamda **Hâlık**, **Bârî**, **Alîm** ve **Kadir-i Mutlak** gibi ifadeler Esmâ-ül Hüsnâ'dan ödünçlenmiştir. Bu kullanım, bu kelimelerin yalnızca kulağa görkemli veya mistik gelmesi sebebiyle yapılmaz; her biri kaynak metindeki yaratma, ilim ve kudret gibi belgelenmiş ilahî niteliklerle ilişkilidir. Bu sebeple Esmâ-ül Hüsnâ'ya başvurma hakkı yalnızca Kadir-i Mutlak yol grubuna tanınmış, diğer hiçbir Yol veya Mertebe için aynı kaynak kullanılmamıştır.<br><br>Buradaki amaç karakteri “İslamî bir tanrı” olarak yeniden yorumlamak değil, kanonda zaten bulunan İbrahimî tektanrıcılık tasavvurunu Türkçede tarihî ve teolojik karşılıkları bulunan bir terminolojiyle muhafaza etmektir. Böylece **Kadir-i Mutlak**, yalnızca bir isim değil, sözlüğün geri kalanından ayrılan belirli bir kozmolojik ve teolojik dilin de işareti hâline gelir.
+  cevirmen_notu: "'Kadir-i Mutlak', seride İbrahimî tektanrıcılık tasavvurunun kozmolojik karşılığını temsil eden bu yol grubunun adı olarak tercih edildi. God Almighty; yaratıcı, her şeyi bilen ve her şeye gücü yeten mutlak ilah, Âdem ve Düşüş gibi açık biçimde İbrahimî teolojik unsurlar etrafında kurulmuştur. Bu nedenle Türkçede sıradan bir 'Yüce Tanrı' veya 'Mutlak Tanrı' karşılığı yerine, İslamî ilahiyatın yerleşik terminolojisinden yararlanmak bilinçli bir tercihtir.<br><br>Bu kapsamda Hâlık, Bârî, Alîm ve Kadir-i Mutlak gibi ifadeler Esmâ-ül Hüsnâ'dan ödünçlenmiştir. Bu kullanım, bu kelimelerin yalnızca kulağa görkemli veya mistik gelmesi sebebiyle yapılmaz; her biri kaynak metindeki yaratma, ilim ve kudret gibi belgelenmiş ilahî niteliklerle ilişkilidir. Bu sebeple Esmâ-ül Hüsnâ'ya başvurma hakkı yalnızca Kadir-i Mutlak yol grubuna tanınmış, diğer hiçbir Yol veya Mertebe için aynı kaynak kullanılmamıştır.<br><br>Buradaki amaç karakteri 'İslamî bir tanrı' olarak yeniden yorumlamak değil, kanonda zaten bulunan İbrahimî tektanrıcılık tasavvurunu Türkçede tarihî ve teolojik karşılıkları bulunan bir terminolojiyle muhafaza etmektir. Böylece Kadir-i Mutlak, yalnızca bir isim değil, sözlüğün geri kalanından ayrılan belirli bir kozmolojik ve teolojik dilin de işareti hâline gelir."
   sistem_kural: [esma]
   bolum_siniri: 1260
   kaynak: metin
@@ -893,7 +896,7 @@
   cevirmen_notu: "Tazim ismi satırları Circle of Inevitability Kanonundaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   bolum_siniri: 61
   kaynak: metin
-  mudahale: degistirme
+  mudahale: ozgun
   denetim: tamam
   ilk_gecis: 61
 
@@ -902,12 +905,121 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
   aciklama: "Kadim Şeytaniçe,<br>Hilkat'i Nihayete Erdiren Kargaşa,<br>İllet ve Fesadın Tecessümü,<br>Alemin Helak Edicisi.<br>Kadir-i Mutlak'ın Nisvani Bedeni,<br>Ayinedeki Aslî Yaradan."
-  cevirmen_notu: "Kaynak Circle of Inevitability'dir (LotM değil). Son iki satır ('Kadir-i Mutlak'ın Nisvani Bedeni', 'Ayinedeki Aslî Yaradan') kanona sadıktır. Buna karşın ilk dört satır, kanondaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
+  cevirmen_notu: "Kaynak Circle of Inevitability'dir. Son iki satır ('Kadir-i Mutlak'ın Nisvani Bedeni', 'Ayinedeki Aslî Yaradan') kanona sadıktır. Buna karşın ilk dört satır, kanondaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   bolum_siniri: 0
   kaynak: metin_coi
   mudahale: degistirme
   denetim: tamam
   ilk_gecis: 61
+
+- terim: "Nizamı Yitiren"
+  ingilizce: "The Anarchy"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Nizamın İnhilali (Anarchy)"
+  aciklama: "Nizamın İnhilali,<br>Kaidelerin Ardındaki Gölge,<br>Kara İmparator'un Tahtı,<br>Yargı'nın Tedip Kılıcı,<br>Hercümerçten Neşet Eden,<br>Nizam Kisvesine Bürünen Kadim."
+  cevirmen_notu: "Bu Yüce Kadim'in kanonda kendi başına duran bir tazim ismi yoktur. Mevcut tek kaynak, Hercümercin Oğlu'nun altı satırlık birleşik tazim isminin ilk iki satırıdır; kalan dört satır Müphem Sis'e aittir ve bu ayrım kanonik olarak doğrulanmıştır (bkz. Hercümercin Oğlu ve Müphem Sis maddeleri). Bu iki satır burada Nizamın İnhilali grubunun (Avukat ve Arabulucu Yolları) kendi tazim ismi olarak çıkarılmış ve ayrıştırılmıştır; 'Kotar' maddesindeki tamamlama mantığıyla aynı yöntemdir.<br><br>1. satır (失序者): 'Nizamı Yitiren' tercih edildi. 'Yitirmek' fiili bilinçli olarak seçildi; 'Şirazesini Yitirmek' maddesinde zaten kurulu olan bütünlük-kaybı temasıyla aynı kökü paylaşır, ancak nesnesi farklıdır (şirazesini değil, nizamı). Bu, iki farklı 'kaybetme' halini aynı dilsel aile içinde tutar: biri bireysel/psikolojik (Aşkın'ın şirazesi), diğeri kozmik/yapısal (evrenin nizamı).<br><br>2. satır (秩序阴影): 'Nizamın Gölgesi' doğrudan çeviridir."
+  bolum_siniri: 0
+  kaynak: yazar_beyani
+  mudahale: tamamlama
+  denetim: tamam
+
+- terim: "Müphem Sis"
+  ingilizce: "Uncertain Mist"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Müphem Sis (Uncertain Mist)"
+  aciklama: "Nur ile Zulmet Arasındaki Cisr,<br>Siyah ile Beyaz Arasındaki Rahne,<br>Ebediyen Müphem Sis,<br>Cümle Eşyaya Nâzır Hakikat."
+  cevirmen_notu: "Bu dört satır, Hercümercin Oğlu'nun altı satırlık birleşik tazim isminin kalan dört satırıdır (光与暗的桥梁，黑与白之间隙，永不确定的迷雾，监督万物的真理) ve kanonda tam olarak mevcuttur; 'Nizamın İnhilali' maddesinin aksine bir tamamlamaya ihtiyaç yoktur.<br><br>1. satır: 光 (ışık) için 'Işık' değil 'Nur' tercih edildi. 'Cisr' klasik registeri korumak için 'köprü' yerine tercih edildi.<br>2. satır: 'Rahne' (gedik/yarık) doğrudan 隙 karşılığıdır; 1. satırdaki 'Cisr' (birleştiren) ile kasıtlı bir karşıtlık kurar (birleştiren/köprü kuran vs. ayıran/yaran).<br>3. satır: 'Müphem', 永不确定 ('asla kesinleşmeyen/belirlenemeyen') için tercih edildi; daha güncel 'belirsiz' yerine klasik registeri koruyan bir Arapça köken kelimedir. Bu satır aynı zamanda varlığın Türkçe adının (Müphem Sis) doğrudan kaynağıdır.<br><br>4. satır: 监督 (gözetmek/nezaret etmek) için 'Nâzır' tercih edildi."
+  bolum_siniri: 0
+  kaynak: yazar_beyani
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Hercümercin Oğlu"
+  ingilizce: "Son of Chaos"
+  kategori: "İlahlar ve Yüce Kadimler"
+  aciklama: "Nizamın İnhilali,<br>Kaidelerin Ardındaki Gölge,<br>Nur ile Zulmet Arasındaki Cisr,<br>Siyah ile Beyaz Arasındaki Rahne,<br>Ebediyen Müphem Sis,<br>Cümle Eşyaya Nâzır Hakikat."
+  cevirmen_notu: "Aslî Yaradan'ın üçüncü çocuğu; Sefahat Ana Tanrıça ve Arzuların Ana Şeceresi'nin kardeşidir. Adı ('Chaos'un Oğlu/Çocuğu') 混沌之子'nin doğrudan çevirisidir; 'Hercümerç' kelimesi bilinçli olarak 'Hercümerç Deryası' (Chaos Sea) maddesiyle aynı kökten (混沌, hùndùn) geldiği için tercih edildi, böylece bu varlığın kökeninin Kadir-i Mutlak grubunun Aslî Menşesiyle aynı ilksel karmaşa olduğu Türkçede de görünür kalır.<br><br>Bu varlık artık tek bir bütün olarak faal değildir: aslen Kara İmparator ve Yargı Yollarını (bugünkü Nizamın İnhilali) ve Hercümerc Sisi Yolu'nu (bugünkü Müphem Sis) birlikte elinde tutarken, ilk ikisini Dünya'ya kaybetmiş ve geriye kalan parçası Müphem Sis olarak kozmosta varlığını sürdürmüştür. Yukarıdaki altı satır, bu ikiye bölünmeden önceki, kaynakta hâlâ tek parça olarak alıntılanan özgün tazim ismidir (bkz. Bölüm 1270, Iesus'un nakli). Bu nedenle yalnızca Nizamın İnhilali'nin kanonik iki satırını ve Müphem Sis'in tam dört satırını içerir; Nizamın İnhilali maddesindeki tamamlama satırları (Kara İmparator'un Tahtı vd.) bu bileşik alıntının bir parçası değildir, yalnızca o maddenin kendi bağımsız girişine aittir."
+  bolum_siniri: 1270
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Zeval Hâkimi"
+  ingilizce: "Monarch of Decay"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Zeval Hâkimi (Monarch of Decay)"
+  aciklama: "Cümle Mevcudatın Çürüyüşünün Timsali,<br>Zaman Nehri'nin Payanı,<br>Taaffün ve Zevalin Hâkimi,<br>Geri Dönüşü Olmayan İnhilal,<br>Fenanın Arta Bıraktığı,<br>Zaman ile Zevalin Doğurduğu Kat'i Ölüm."
+  cevirmen_notu: "Kaynak, yazarın WeChat paylaşımında ve ardından İngilizce wikideki Symbols/Authorities sayfasında bu tazim isminin Zeval, Zaman ve Hastalık Yolları'nın (Pathway of Decay, Pathway of Time, Pathway of Disease) birleşimi olduğunu doğrudan belirtir. İlk dört satır bu üçlü kelime ayrımını korur.<br><br>1. satır (万物终朽/朽 xiǔ): 'Çürüyüş', Zeval Yolu'nun kendi tasvirindeki düz çürüme kelimesi.<br>3. satır, ilk kelime (腐烂/fǔlàn): 'Taaffün', Hastalık Yolu'nun tasvirinden ödünçlenmiştir; kokuşma/irinlenme çağrışımı taşıyan gerçek bir Osmanlıca tıbbi terimdir.<br>3. satır, ikinci kelime (衰败/shuāibài): 'Zeval', Zeval Yolu'nun adında ve 'Zevalin Sol Eli' unvanında geçen özel isim kelimesidir. Daha önce 'İnhilal Dükü' maddesinde structural çöküşü yeterince taşımadığı için reddedilmişti; 衰败 düz 'zeval/gerileme' anlamına geldiğinden burada doğru yerdedir.<br><br>4. satır (不可逆转之熵): 'İnhilal', 'İnhilal Dükü' maddesinde 熵 (entropi) için kurulmuş kelimenin tekrarıdır.<br><br>5-6. satırlar, wikinin Termination ve Time bölümlerinden gelen ek bilgiye dayanır: Bu varlık, Helak Felaketi ile Sermedi Zulmet'in yakınlaşmasından oluşacak 'Dördüncü Sütun'un artık malzemesidir; ayrıca Zaman ile Zeval'in birleşiminden 'Kesinlik/Sureness' (Certain Death, Sol Eli aracılığıyla kullandığı bir sembol) doğduğu belirtilir.<br>5. satır ('Fenanın Arta Bıraktığı'): Bu iki Yüce Kadim'i (Helak Felaketi, Sermedi Zulmet) doğrudan adlandırmamak bilinçli olarak tercih edilmiştir. Bunun yerine 'Fena' (tasavvufta varlığın kendi özünde yok oluşu/fenâ fillâh) tercih edildi; bu kelime iki Yüce Kadim'in yakınlaşıp kendi ayrı benliklerini kaybederek yeni bir varlığa dönüşmesi fikrini, doğrudan isim vermeden taşır. Genealojik bağlantının kendisi bu notta belgelenmiştir.<br><br>6. satır: Zaman+Zeval'in birleşiminden doğan 'Certain Death/Sureness' sembolüne karşılık gelir."
+  bolum_siniri: 1270
+  kaynak: yazar_beyani
+  mudahale: tamamlama
+  denetim: tamam
+
+- terim: "İstikbal Tanrıçası"
+  ingilizce: "Goddess of Fate"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "İstikbal Tanrıçası (Goddess of Fate)"
+  aciklama: "Cümle Eşyanın Mukadderatını Dokuyan,<br>Nihai Hükmün Timsali,<br>İstikbalin Fena Bilmez Tanrıçası."
+  cevirmen_notu: "Aslî Yaradan ile Sefahat Ana Tanrıça'nın (Mother Goddess of Depravity) birleşiminden doğan ilk çocuktur; Hercümercin Oğlu ve kardeşleriyle aynı nesilden değil, bir sonraki nesildendir.<br><br>2. satırdaki 'Hüküm' bilinçli olarak 'Yargı' değildir: kaynak Çincede de bu iki kavram farklı kelimelerdir (裁决/karar-verdict vs 审判/muhakeme-trial), ve 'Yargı' zaten Arabulucu Yolu'nun (Nizamın İnhilali grubu) kendi Mertebe 0 unvanı olduğundan burada kullanılamaz."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Sönmez Hezeyan"
+  ingilizce: "Inextinguishable Ravings"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Sönmez Hezeyan (Inextinguishable Ravings)"
+  aciklama: "Felsefenin Menbaı,<br>Sönmez Hezeyan,<br>Cümle Zîhayat Ruhunun Timsali,<br>Fena Bilmez Şuur."
+  cevirmen_notu: "Aslî Yaradan ile Sefahat Ana Tanrıça'nın birleşiminden doğmuştur; İstikbalin Tanrıçası'nın kardeşidir.<br><br>2. satır bilinçli olarak 'Hezeyanlar' maddesinde zaten tanımlı olan terimi kullanır (bkz. Temel Kavramlar); bu varlık, sözlükte önceden tarif edilmiş 'Hezeyan' fenomeninin bizzat kaynağıdır.<br><br>3. satırda 'Ruh', 4. satırda 'Şuur' bilinçli olarak ayrı tutulmuştur: kaynak, bu varlığın yetkisini 'Consciousness' ve 'Spirit' olarak iki ayrı sembol/Yol (Felsefe Yolu + Şuur ve Ruh Yolu) şeklinde tanımlar; tek kelimeye indirgemek bu ayrımı kaybederdi.<br><br>4. satırdaki 'Fena Bilmez', İstikbalin Tanrıçası'nın kapanış satırıyla aynıdır; bilinçli bir tekrardır, iki kardeşin de farklı mekanizmalarla ölümsüz olmasına işaret eder."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Ebedî Tenasüh"
+  ingilizce: "Circle of Inevitability"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Ebedî Tenasüh (Circle of Inevitability)"
+  aciklama: "Ebedî Tenasüh,<br>Mukadder Mukadderat,<br>Sebep, Netice ve Cereyanın Tecessümü,<br>Mazi, Hal ve İstikbalin Timsali."
+  cevirmen_notu: "Aslî Yaradan ile Sefahat Ana Tanrıça'nın en büyük oğludur; İstikbalin Tanrıçası'nın (en büyük kızları) kardeşidir. Kaynağa göre İlk Çağ'dan önce ikisi sürekli çatışmıştır.<br><br>1. satır: 轮回 için düz 'devir/döngü' yerine 'Tenasüh' tercih edildi; kelime Budist kökenli reenkarnasyon-döngüsü anlamını taşır, sıradan bir 'devir'den daha spesifiktir.<br><br>2. satır: Kaynak da 注定 (zhùdìng) ve 命运 (mìngyùn) gibi iki yakın anlamlı kelimeyi yan yana kullanır; 'Mukadder Mukadderat' aynı kökten bilinçli bir tekrardır, yazım hatası değildir. 'Talih' değerlendirildi ancak Canavar Yolu'nda zaten yerleşik olduğundan elendi.<br><br>3. satır: 过程 (süreç) için modern 'Süreç' yerine klasik registeri koruyan 'Cereyan' tercih edildi."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Yıldızların Hükümranı"
+  ingilizce: "Supernova Dominator"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Yıldızların Hükümranı (Supernova Dominator)"
+  aciklama: "Yıldızların Hükümranı,<br>Ağırlık ve Kesafetin Timsali,<br>Aslî Kuvvetlerin Mütasarrıfı,<br>Namütenahi Kâinatın Kanunu."
+  cevirmen_notu: "4. satırdaki 'Kanun' bilinçli bir tercihtir: sözlükte zaten 'Aşkın Hasletlerin Korunumu/Yok Edilemezliği/Yakınsama Kanunu' gibi evrensel/fiziksel meta-yasalar için kurulmuş özel bir kullanımı vardır; bu satır aynı kategoriye (evrenin temel yasası) girdiği için aynı kelime tercih edildi.<br><br>3. satırda 'Hâkim' yerine 'Mütasarrıf' kullanıldı; 'kuvvetler üzerinde tasarruf/denetim sahibi olmak' fikri, yargısal bir hakimiyetten çok idari bir elden geçirme/kontrol fikrine daha yakındır ve 'Hâkim' kelimesi zaten Zevalin Hâkimi'nde yük taşımaktadır.<br><br>4. satırda 'Kâinat' düz tercih edildi; sözlükteki 'Yıldızlı Gökkubbenin Ötesi' (Cosmos) terimiyle bağlantı kurulması denendi ancak çift tamlama ('...Ötesinin Kanunu') hantallaştığı için vazgeçildi."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Ebâdın Hükümranı"
+  ingilizce: "High-Dimensional Overseer"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Ebâdın Hükümranı (High-Dimensional Overseer)"
+  aciklama: "Ebâdın Hükümranı,<br>Dâr-ı Fani'yi Gözleyen Göz,<br>Cümle Hayalin Menbaı,<br>Nakış İçindeki Alemin Sânii."
+  cevirmen_notu: "1. satırda 'Boyut' yerine klasik registeri koruyan Osmanlıca 'Ebâd' tercih edildi.<br><br>2. satırda '尘世' (fani/tozlu dünya, Budist kökenli bir çağrışım) için 'Dâr-ı Fani' kullanıldı; İslamî gelenekte de dünyanın 'fanilik' üzerinden tanımlanması, kaynaktaki imgeyle örtüşen bağımsız bir paralellik sunuyor.<br><br>3. satırda 幻想 (fantasy) için önce 'Hülya' düşünüldü (vikinin kendi çeviri notu 'Illusion' yerine 'Fantasy'yi işaret ediyor) ancak 'Hülya' zaten Rüya kümesinde ('Hülya Dokuyan', 'Hülya Hırsızı', 'Hülya Gezgini') yerleşik olduğundan elendi. 'Tahayyül' de değerlendirildi ancak bu kelime zaten 'Tahayyül Meleği Âdem' unvanına ait olduğundan elendi. Sonuç olarak düz 'Hayal' tercih edildi; aynı kökten olsa da 'Tahayyül'den (eylem/masdar) farklı bir isim formudur ve sözlükte başka yerde geçmez.<br><br>4. satırda 造物主 (yaratıcı) için 'Yaradan/Hâlık' değil 'Sâni'' kullanıldı; ilk ikisi Aslî Yaradan ve Hakiki Hâlık'a ayrılmıştır. 'Sâni'' zaten 'Mevcudatın Sanii' ifadesinde bir kez geçmiştir."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Kadim Açlık"
+  ingilizce: "Primordial Hunger"
+  kategori: "İlahlar ve Yüce Kadimler"
+  yol_grubu: "Kadim Açlık (Primordial Hunger)"
+  aciklama: "Kadim Açlık,<br>İltihamın Timsali,<br>Doymaz Yakınsama,<br>Cümle Eşyayı Pâk Eden."
+  cevirmen_notu: "2. satırda 吞噬 (yutma/yutuş) için 'İltiham' tercih edildi; kelimenin kökü 'lahm' (et) olup hem 'et kaynaşması/yara kapanması' hem de 'şiddetli çarpışma/göğüs göğüse çatışma' (iltiham-ı harp) anlamlarını taşır. Böylece kelime tek başına hem Yutma hem Yakınsama (kaynaşma/birleşme) fikrini birden taşıyor, iki satır arasında örtük bir bağ kuruyor.<br><br>3. satırda 'Yakınsama', sözlükte yalnızca 'Aşkın Hasletlerin Yakınsama Kanunu'nda geçen kelimenin tekrarıdır; bu varlığın kendi 'Convergence' yeteneği (başkalarının bedenlerini kendine doğru çekmesi), o kozmik yasanın kişileşmiş/şiddetli bir tezahürü gibi okunabilir."
+  bolum_siniri: 0
+  kaynak: metin_coi
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Haiter"
   ingilizce: "Haiter"
@@ -1062,7 +1174,7 @@
   ingilizce: "Ouroboros"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nur Miftahı (Key of Light)"
-  aciklama: "Özünü yutan Merkür Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Resulü."
+  aciklama: "Özünü yutan Merkür Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Münadili."
   bolum_siniri: 389
   kaynak: metin
   mudahale: ceviri
@@ -1152,7 +1264,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Yıldızlı Gökkubbe'nin fevkinde, bekadan daha baki olan Ebedi Gece Tanrıçası;<br>Kızılın Hâkimesi,<br>Gizlilik Anası,<br>Şeamet ve Dehşet Ecesi,<br>Sükûnet ve Sükûtun Sahibesi."
-  cevirmen_notu: "'Ece', sözlükteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Bu tercih üç katmanlıdır.\n\nBirinci katman kimlikle ilgilidir: Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Zebani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır.\n\nİkinci katman ise daha işlevseldir. Tanrıça panteonun en 'yeni' üyelerinden biridir ve bu, hem kendisinde hem inananlarında gerçek bir meşruiyet kompleksi yaratır (bkz. Bölüm 18): Yaradan'ın ruhundan doğrudan doğan İlahlarla kıyaslandığında, o yalnızca İkinci Çağ'ın sonunda uyanmıştır 'kim daha kadimse kim daha muteber' mantığında açıkça geride kalan taraf odur. Ne var ki Tanrıça'nın kendi tazim ismi bu hiyerarşiye sessizce boyun eğmez; 'bekadan daha baki' gibi ifadelerle doğrudan zamanın kendisini aşan bir iddiada bulunur. Yani unvan, gerçekte daha genç olan birinin daha kadim görünme çabasıdır.\n\n'Ece' de tam olarak aynı hamleyi, kelime düzeyinde tekrarlar. Sözlükteki diğer tüm hükümranlık kelimeleri Osmanlı/tasavvuf kayıtına aitken, 'Ece' bilinçli olarak daha eski bir Türkçe katmana çekilmiştir. Bu seçimdeki amaç, bizzat unvanının yaptığı şeyi, kelimenin kendi yaşıyla sessizce taklit etmektir. Tazim ismi nasıl retorik olarak kıdemden daha eski görünmeye çalışıyorsa, 'Ece' de dilsel olarak sözlüğün geri kalanından daha eski durarak aynı telafi hareketini bir kez daha, bu sefer çeviri katmanında sahneler.<br><br>Üçüncü bir katman ise doğrudan Çince orijinaldeki morfolojik tercihtir. Yazar, unvanın bu satırında kraliçe/kral eşi anlamına gelen 王后 (Wánghòu) veya standart kraliçe anlamına gelen 女王 (Nǚwáng) yerine, spesifik olarak 女皇 (Nǚhuáng - Kadın İmparator) kelimesini seçmiştir. Çin tarihinde bu nadir unvan, göğün iradesini bir erkeğe bağlı olmadan kendi başına taşıyan mutlak kadın hükümdarları (örn. Wu Zetian) tanımlar. İngilizcedeki 'Empress' bu ayrımı kısmen verse de, Türkçeye 'İmparatoriçe' olarak aktarıldığında Batılı ve daha güncel bir tını yaratır. 'Ece', hem Nǚhuáng kelimesinin talep ettiği o mutlak, arkaik egemenliği karşılar hem de sözlüğün klasik dokusunu bozmadan kelimeyi 'kraliçe' mefhumunun bir adım ötesine, asıl ait olduğu yere taşır."
+  cevirmen_notu: "'Ece', sözlükteki diğer tüm hükümranlık kelimelerinden (Sultan, Hükümdar, Hakim, Kral) farklı olarak bilinçli şekilde öz Türkçe/eski Türkçe kökenlidir. Bu tercih üç katmanlıdır.\n\nBirinci katman kimlikle ilgilidir: Ebedi Gece Tanrıçası kanonik olarak bir insan değil bir Şeytani Kurt'tur. 'Ece' seçimi eski Türk kültüründeki kurt-atalık ilişkisine (Asena/Bozkurt) bilinçli bir gönderme içeren, bilgiye dayalı bir 'headcanon'dır.\n\nİkinci katman ise daha işlevseldir. Tanrıça panteonun en 'yeni' üyelerinden biridir ve bu, hem kendisinde hem inananlarında gerçek bir meşruiyet kompleksi yaratır (bkz. Bölüm 18): Yaradan'ın ruhundan doğrudan doğan İlahlarla kıyaslandığında, o yalnızca İkinci Çağ'ın sonunda uyanmıştır 'kim daha kadimse kim daha muteber' mantığında açıkça geride kalan taraf odur. Ne var ki Tanrıça'nın kendi tazim ismi bu hiyerarşiye sessizce boyun eğmez; 'bekadan daha baki' gibi ifadelerle doğrudan zamanın kendisini aşan bir iddiada bulunur. Yani unvan, gerçekte daha genç olan birinin daha kadim görünme çabasıdır.\n\n'Ece' de tam olarak aynı hamleyi, kelime düzeyinde tekrarlar. Sözlükteki diğer tüm hükümranlık kelimeleri Osmanlı/tasavvuf kayıtına aitken, 'Ece' bilinçli olarak daha eski bir Türkçe katmana çekilmiştir. Bu seçimdeki amaç, bizzat unvanının yaptığı şeyi, kelimenin kendi yaşıyla sessizce taklit etmektir. Tazim ismi nasıl retorik olarak kıdemden daha eski görünmeye çalışıyorsa, 'Ece' de dilsel olarak sözlüğün geri kalanından daha eski durarak aynı telafi hareketini bir kez daha, bu sefer çeviri katmanında sahneler.<br><br>Üçüncü bir katman ise doğrudan Çince orijinaldeki morfolojik tercihtir. Yazar, unvanın bu satırında kraliçe/kral eşi anlamına gelen 王后 (Wánghòu) veya standart kraliçe anlamına gelen 女王 (Nǚwáng) yerine, spesifik olarak 女皇 (Nǚhuáng - Kadın İmparator) kelimesini seçmiştir. Çin tarihinde bu nadir unvan, göğün iradesini bir erkeğe bağlı olmadan kendi başına taşıyan mutlak kadın hükümdarları (örn. Wu Zetian) tanımlar. İngilizcedeki 'Empress' bu ayrımı kısmen verse de, Türkçeye 'İmparatoriçe' olarak aktarıldığında Batılı ve daha güncel bir tını yaratır. 'Ece', hem Nǚhuáng kelimesinin talep ettiği o mutlak, arkaik egemenliği karşılar hem de sözlüğün klasik dokusunu bozmadan kelimeyi 'kraliçe' mefhumunun bir adım ötesine, asıl ait olduğu yere taşır."
   cevirmen_notu_sinir: 18
   bolum_siniri: 1
   kaynak: metin
@@ -1236,7 +1348,7 @@
   cevirmen_notu: "Kanonik unvan dört satırdır (知识之塔 / 理性化身 / 智慧之神 / 洞悉万物的学者). Türkçe versiyonda üç müdahale bulunur. (1) 2. ve 3. satırlar yer değiştirmiştir; ayrıca kanonun 智慧之神 ('hikmet ilahı') satırı yerine ilahın tam adı kullanılmıştır. (2) 'Aklın Nuru', 理性化身'in literal karşılığı değildir. 'Tecessüm/化身' bedenlenmeye dayalı bir imgedir. 'Nur' ise İşrâkî geleneğin akıl-ışık özdeşliğine (nûr-ı akl) yaslanarak aynı işlevi görür. (3) 4. satır 'Bahr-i İrfan' literal çeviri değildir; kanondaki 洞悉万物的学者 ('her şeyi kavrayan alim') satırının yerine yazılmıştır. Kanon satırı bir fail (alim) tanımlarken Türkçe satır bir mahiyet (derya) tanımlar. Sebep: 'irfan', klasik tasnifte 'ilim'den (kesbî bilgi) ayrı olarak vehbî/tecrübî bilgiyi imler. Bu satırla birlikte unvan ilim–hikmet–akıl–irfan dörtlüsünü kapsar; kanonun bilgi/akıl/hikmet/kavrayış dizisinin Türkçedeki tam karşılığı bu dörtlüdür."
   bolum_siniri: 3
   kaynak: metin
-  mudahale: ceviri
+  mudahale: degistirme
   denetim: tamam
   ilk_gecis: 3
 
@@ -1365,7 +1477,7 @@
 - terim: "Yargı (Judgment)"
   ingilizce: "Xio Derecha"
   kategori: "Tarot Cemiyeti"
-  yol_grubu: "Anarşi (Anarchy)"
+  yol_grubu: "Nizamın İnhilali (Anarchy)"
   aciklama: "Kargaşayı avlayan Şövalye;<br>Ferman ve salahiyetlerin İcracısı;<br>Nizam ve gölge arasındaki Muvazene Hattı;<br>Kaderin Mihenk Taşı'nın Tedip Kılıcı;<br>Nefsini muhakeme eden Yargı."
   bolum_siniri: 0
   kaynak: yazar_beyani
@@ -1600,12 +1712,12 @@
       kaynak: metin
   kaynak: metin
 
-# Anarşi (Anarchy)
+# Nizamın İnhilali (Anarchy)
 
 - terim: "Avukat Yolu"
   ingilizce: "Lawyer Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Anarşi (Anarchy)"
+  yol_grubu: "Nizamın İnhilali (Anarchy)"
   mertebeler:
     - seviye: 9
       isim: "Avukat (Lawyer)"
@@ -1677,7 +1789,7 @@
 - terim: "Arabulucu Yolu"
   ingilizce: "Arbiter Pathway"
   kategori: "Aşkın Yolları"
-  yol_grubu: "Anarşi (Anarchy)"
+  yol_grubu: "Nizamın İnhilali (Anarchy)"
   mertebeler:
     - seviye: 9
       isim: "Arabulucu (Arbiter)"
@@ -2010,13 +2122,13 @@
       kaynak: metin
     - seviye: 3
       isim: "Ahiret Kayıkçısı (Ferryman)"
-      cevirmen_notu: "'Ferryman' doğrudan 'kayıkçı' veya 'sandalcı' olarak çevrilebilirdi; ancak bu Mertebenin anlam alanı yalnızca bir kayık kullanan kişiden ibaret değildir. Çince 摆渡人 (bǎidù rén), insanları veya ruhları bir kıyıdan diğerine geçiren 'karşıya geçirici' anlamını taşır ve ölüm bağlamında özellikle ölüleri öte yakaya götüren figür (Yunan mitolojisindeki Charon ve diğer mitolojilerdeki benzer varlıklar) çağrışımına sahiptir. 'Ahiret Kayıkçısı' bu iki katmanı birlikte korur: 'kayıkçı' klasik öte-dünya kayıkçısı imgesini, 'ahiret' ise geçilen yerin sıradan bir kıyı değil ölümün ötesindeki âlem olduğunu belirtir. Tercih aynı zamanda Mertebenin önceki basamaklardaki 'ruhları yatıştırma / yönlendirme / kapıda bekleme' çizgisinin doğal sonucunu da görünür kılar: Ruh Teskincisi ruhu sakinleştirir, Ruh Rehberi ona yol gösterir, Berzah Bekçisi eşiği tutar ve Ahiret Kayıkçısı onu karşıya geçirir. Böylece mertebe adları yalnızca ayrı ayrı meslekleri değil, ruhun ölümden sonraki yolculuğunu adım adım anlatan bir doku oluşturur."
+      cevirmen_notu: "'Ferryman' doğrudan 'kayıkçı' veya 'sandalcı' olarak çevrilebilirdi; ancak bu Mertebenin anlam alanı yalnızca bir kayık kullanan kişiden ibaret değildir. Çince 摆渡人 (bǎidù rén), insanları veya ruhları bir kıyıdan diğerine geçiren 'karşıya geçirici' anlamını taşır ve ölüm bağlamında özellikle ölüleri öte yakaya götüren figür (Yunan mitolojisindeki Charon ve diğer mitolojilerdeki benzer varlıklar) çağrışımına sahiptir. 'Ahiret Kayıkçısı' bu iki katmanı birlikte korur: 'kayıkçı' klasik öte-dünya kayıkçısı imgesini, 'ahiret' ise geçilen yerin sıradan bir kıyı değil ölümün ötesindeki âlem olduğunu belirtir. Tercih aynı zamanda Mertebenin önceki basamaklardaki 'ruhlara iletişim / yönlendirme / kapıda bekleme' çizgisinin doğal sonucunu da görünür kılar: Ruh Aracısı ruhlar ile iletişime geçer, Ruh Rehberi ona yol gösterir, Berzah Bekçisi eşiği tutar ve Ahiret Kayıkçısı onu karşıya geçirir. Böylece mertebe adları yalnızca ayrı ayrı meslekleri değil, ruhun ölümden sonraki yolculuğunu adım adım anlatan bir doku oluşturur."
       bolum_siniri: 900
       metinde: true
       kaynak: metin
       ilk_gecis: 900
     - seviye: 2
-      isim: "Ölüm Sefiri (Death Consul)"
+      isim: "Ölüm Veliahdı (Death Consul)"
       bolum_siniri: 588
       metinde: true
       kaynak: metin
@@ -2152,14 +2264,14 @@
     - seviye: 3
       isim: "Fitne Arıtan (Chaos Walker)"
       sistem_kural: [fitne_fesat_mufsit]
-      cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Kaos, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir. Fitne/Fesat/Müfsit ayrımı için bkz. Sistem Kuralları #5."
+      cevirmen_notu: "Kanon çeviri notuna göre Çince orijinalinde 'Chaoswalker' (混乱行者) 混乱/hǔnluàn (Disorder) karakterlerini kullanır, 混沌/hùndùn (İlksel Hercümercin, yaratılış mitlerinde kullanılan ayrı bir otorite) değil. Bu yüzden 'Fitne' (Fitne Mürşidi ile aynı otoriteyi paylaşarak) burada doğru ve tutarlı seçimdir. 'Arıtan' ise bilinçli olarak literal 'yürüyen/gezen' yerine tercih edildi: Mertebenin yeteneklerinin üçte ikisi (Fate Keeper, fitneli/deli kaderi ayırt edip mühürleme; Spiritual Baptism, ruhu bir vaftiz gibi durultup 'başlangıçtaki gibi' temiz ve istikrarlı hale getirme) doğrudan 'arıtma/temizleme' imgesi üzerine kuruludur. İroni bilinçlidir: bu 'arıtıcı', yalnızca üçüncü yeteneğinde (Disorder otoritesi) tam tersini yapar, düşmanının kaderini ve ruhunu bizzat fitneye ve çılgınlığa sürükleyebilir. Yani 'temizleyen' kişi, gerektiğinde bizzat kirleten kişidir. Bu, insanların 'iyi' görünen bir unvanın kötücül bir Mertebeye verilmesi tercihimin (bkz. Müjdeci, Meczup) bir başka örneğidir. Fitne/Fesat/Müfsit ayrımı için bkz. Sistem Kuralları #5."
       bolum_siniri: 1227
       metinde: true
       kaynak: metin
       ilk_gecis: 1227
     - seviye: 2
-      isim: "Resul (Soothsayer)"
-      cevirmen_notu: "'Kâhin' yerine 'Resul' bilinçli tercih edildi. Kaynak: Şans Çarkı Yolu'nun Soothsayer Mertebesi (S2) yeteneği pasif kehanet değil, aktif bir kehanetin gerçekliğe dönüşme olasılığını yükseltmesidir (bkz. Lumian Lee örneği). Yani sözleri edilgen bir öngörü değil neredeyse performatif bir bildirimdir. Bu, 'gizli işaretleri yorumlayan' Kâhin'den çok, 'yetkiyle ileten' Resul tanımına daha yakındır."
+      isim: "Münadi (Soothsayer)"
+      cevirmen_notu: "'Kâhin' yerine 'Münadi' bilinçli tercih edildi. Kaynak: Kader Çarkı Yolu'nun Soothsayer Mertebesi (S2) yeteneği pasif kehanet değil, aktif bir kehanetin gerçekliğe dönüşme olasılığını yükseltmesidir (bkz. Lumian Lee örneği). Yani sözleri edilgen bir öngörü değil neredeyse performatif bir bildirimdir. Bu, 'gizli işaretleri yorumlayan' Kâhin'den çok, 'yetkiyle ileten' Münadi tanımına daha yakındır."
       bolum_siniri: 237
       metinde: true
       kaynak: metin
@@ -2647,7 +2759,7 @@
       ilk_gecis: 1266
     - seviye: 1
       isim: "Pak Melek (White Angel)"
-      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu; ancak bu karşılık Çince 纯白天使'deki 纯 ('saf, arı, katışıksız') unsurunu da fiilen silerek unvanı yalnızca renge indirger. 'Pak Melek' ise 纯白'deki saflık unsurunu ahlaki ve metafizik bir nitelik olarak öne çıkarır. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Kaos Denizi'nin her çatışmaya müsamaha göstermesi, Hafi Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
+      cevirmen_notu: "İlk tercih olan 'Beyaz Melek', İngilizce 'White Angel' ile birebir örtüşüyordu; ancak bu karşılık Çince 纯白天使'deki 纯 ('saf, arı, katışıksız') unsurunu da fiilen silerek unvanı yalnızca renge indirger. 'Pak Melek' ise 纯白'deki saflık unsurunu ahlaki ve metafizik bir nitelik olarak öne çıkarır. Kanon bu Yolu doğrudan 'Arınmayı yöneten yol' olarak tanımlar (Franca Roland, Circle of Inevitability, Bölüm 725). 'Pak' (arı, temiz; dini ve ahlaki saflık bağlamında kullanılan bir kelime, örn. Necis Hükümdar'daki 'Necis' ile zıt anlamlı bir aile) bu yüzden yalnızca rengi değil, Yolun tanımlayıcı yetkisini adlandırır.<br><br>Bu tercih aynı zamanda kanonik bir bağı yansıtır: Hercümercin Denizi'nin her çatışmaya müsamaha göstermesi, Hafi Talibi Yolu (Hanged Man) ile Güneş Yolu arasındaki uyumun doğrudan belirtilen sebebidir. Kadir-i Mutlak'ın birleşik Mertebe-üstü yeteneği bu iki Yolun otoritesini aynı alanda kaynaştırır: kutsal, arındırıcı bir ışık okyanusu hiçbir Gölge bırakmadan yayılır, ama bu alanın içinde Yozlaşmış bir Gölge yine de var olmaya devam eder ve hedefi arındırırken aynı anda yozlaştırır. Yani 'Pak Melek' ile 'Zulmani Melek' arasındaki karşıtlık, çevirmenin kurduğu bir simetri değil, kanonun kendisinin aynı alanda birleştirdiği iki otoritenin adıdır."
       bolum_siniri: 812
       metinde: true
       kaynak: metin
