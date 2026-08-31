@@ -110,7 +110,7 @@
   denetim: tamam
   ilk_gecis: 463
 
-- terim: "Yıldızlı Gökkubbenin Ötesi / Kâinat"
+- terim: "Yıldızlı Gökkubbe"
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
   aciklama: "Dünyanın (ve Astral Alemin) koruyucu bariyerinin ötesindeki uçsuz bucaksız, karanlık ve tekinsiz uzay. Öte İlahların ve Dünya'yı yozlaştırmak isteyen tarif edilemez dehşetlerin asıl mekanıdır."
@@ -121,6 +121,7 @@
     baslik: "Gökkubbe ve Kâinat Ayrımı"
     metin: "Çeviride bu kavram perspektife ve bağlama göre ikiye ayrılmıştır. Aslî Yaradan'ın kurduğu bariyer, Dünya'nın sınırı veya Dünya'dan dışarıya (veya içeriye) bakış kastedildiğinde 'Yıldızlı Gökkubbe' (koruyucu kabuk/mimari sınır) kullanılır. Ancak bariyerin ötesindeki sınırsız uzay, derin kozmos ve Öte İlahların saltanat sürdüğü sonsuz boşluk kastedildiğinde (örn. Supernova Dominator'un tazim ismindeki 'Namütenahi Kâinat') 'Kâinat' kelimesi tercih edilir. Bu ikili kullanım, Dünya'yı saran 'kabuk' ile onun dışındaki 'sonsuzluk' arasındaki yapısal farkı Türkçe terminolojide görünür kılar."
   bolum_siniri: 892
+  arama_adi: ["yıldızlı gökkubbe", "gökkubbe", "yıldızlar", "kâinat"]
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -151,6 +152,7 @@
   aciklama: "Bir Aşkın'ın iksirin kudretini sindirememesi, yüksek mertebeli habis bir varlığın yozlaştırmasına maruz kalması ve daha nice sebepler sonucu benliğini yitirmesi durumu. Bu safhaya geçen bir Aşkın; insanlığını, aklî melekelerini ve ruhunu sonsuza dek kaybederek bedeni korkunç şekillerde mutasyona uğramış, kana susamış irrasyonel bir canavara dönüşür. Her Aşkın'ın eninde sonunda yüzleşmekten korktuğu nihai ve kaçınılmaz kabustur."
   cevirmen_notu: "Şiraze, bir kitabın formalarını bir arada tutan dikiş bandıdır; 'şirazesi çıkmak' ise Türkçede düzenini, tutarlılığını yitirmek anlamında yerleşik bir deyimdir. 'Kontrolü kaybetmek' literal karşılık olurdu, 'delirmek' veya 'çıldırmak' ise kolay ama yanlış olurdu. Çünkü bu evrende Şirazesini Yitirmek yalnızca delilik değildir. Aşkın ortadan kalkmaz, bütünlüğü dağılır. Güçleri, hafızası, bedeni yerinde durmaya devam eder ama artık hiçbiri bir arada tutulmamaktadır ve kişi bu yüzden bir canavara dönüşür. Şiraze tam olarak bunu adlandırır: kitap durur, sayfalar durur, yalnızca onları bir arada tutan şey gitmiştir. Deyimin bir başka avantajı, çeviri gibi hissettirmemesidir. Türkçe konuşan biri bu ifadeyi zaten bilir, dolayısıyla terim metne yabancı bir teknik etiket gibi değil, dilin kendi malzemesi gibi yerleşir."
   bolum_siniri: 14
+  arama_adi: ["şiraze"]
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -390,13 +392,13 @@
   ingilizce: "Spirit Body"
   kategori: "Temel Kavramlar"
   aciklama: "İnsanın okült anatomisini oluşturan dört katmandan biri. Büyüsel yeteneklerin, ruhanî algının ve Alem-i Ervah (Ruhani Alem) ile doğrudan etkileşimin gerçekleştiği, kişinin bilincini ve mistik enerjisini taşıyan katman."
-  cevirmen_notu: "'Ruhani Beden İplikleri' girdisinde zaten kullanılmış ve sisteme oturtulmuştu. Düz 'Ruh Bedeni' yerine 'Ruhani Beden' denmesi bu bedenin doğrudan temas ettiği 'Ruhani Alem' ile ismen kusursuz bir uyum içinde olmasını sağlar."
+  cevirmen_notu: "'Ruhani Beden İplikleri' girdisinde zaten kullanılmış ve sisteme oturtulmuştu. Düz 'Ruh Beden' yerine 'Ruhani Beden' denmesi bu bedenin doğrudan temas ettiği 'Ruhani Alem' ile ismen kusursuz bir uyum içinde olmasını sağlar."
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Kalp ve Zihin Bedeni"
+- terim: "Kalp ve Zihin Beden"
   ingilizce: "Heart and Mind Body"
   kategori: "Temel Kavramlar"
   aciklama: "Dörtlü okült beden yapısında fiziksel bedenle bağlantının başladığı katman; muhakeme, düşünme, kavrama ve idrak yeteneğinin bütünsel tezahürüdür. Bazı iksirler ve büyüler doğrudan bu katmanı hedefler."
@@ -405,7 +407,7 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Esir Bedeni"
+- terim: "Esir Beden"
   ingilizce: "Ether Body"
   kategori: "Temel Kavramlar"
   aciklama: "İnsan ruhunun dört temel katmanından biri. Canlıların fiziksel bedeninin hemen üzerinde yer alan, kişinin yaşam gücünü, sağlık durumunu ve anlık duygusal dalgalanmalarını (hâle/aura şeklinde) yansıtan enerji katmanı. Aşkınlar 'Basiret' güçlerini kullandıklarında genellikle bu katmanı gözlemlerler."
@@ -429,7 +431,7 @@
 - terim: "Hâle"
   ingilizce: "Aura"
   kategori: "Temel Kavramlar"
-  aciklama: "Basiret açıkken görülen, Esir Bedeni'nin yüzeyinde beliren renkli ışıma; kişinin canlılığını ve anlık duygularını taşır."
+  aciklama: "Basiret açıkken görülen, Esir Beden'in yüzeyinde beliren renkli ışıma; kişinin canlılığını ve anlık duygularını taşır."
   bolum_siniri: 32
   kaynak: metin
   mudahale: ceviri
@@ -498,7 +500,7 @@
 - terim: "Ruhani Beden İplikleri"
   ingilizce: "Spirit Body Threads"
   kategori: "Temel Kavramlar"
-  aciklama: "Her canlının Esir Bedeni ile Ruhani Bedeni arasında var olan ve fiziksel dünyaya uzanan görünmez mistik bağlar. 'Sır Kuklabazı' mertebesine ulaşan Aşkınlar, bu iplikleri Basiret aracılığıyla görebilir ve onları yavaşça ele geçirerek canlıları mutlak itaatkâr, ruhsuz kuklalara dönüştürebilir."
+  aciklama: "Her canlının Esir Beden ile Ruhani Beden arasında var olan ve fiziksel dünyaya uzanan görünmez mistik bağlar. 'Sır Kuklabazı' mertebesine ulaşan Aşkınlar, bu iplikleri Basiret aracılığıyla görebilir ve onları yavaşça ele geçirerek canlıları mutlak itaatkâr, ruhsuz kuklalara dönüştürebilir."
   bolum_siniri: 665
   kaynak: metin
   mudahale: ceviri
@@ -548,6 +550,7 @@
   kategori: "Coğrafya ve Mekanlar"
   aciklama: "Dördüncü Çağ'dan kalma, Antigonus ailesine mensup biri tarafından Kadim Feysac diliyle yazılmış gizemli ve habis bir el yazması. Welch, Naya ve asıl Klein'ın trajik intiharlarının ardındaki yegâne sebep olduğu düşünülmektedir."
   bolum_siniri: 9
+  arama_adi: ["El Yazması"]
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -865,7 +868,7 @@
   ingilizce: "God Almighty"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bârî,<br>Alîmi ve Kudreti Mutlak,<br>Alem-i Misal Efendisi."
+  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bârî,<br>Alîm ve Kadîr-i Mutlak,<br>Alem-i Misal Efendisi."
   cevirmen_notu: "'Kadir-i Mutlak', seride İbrahimî tektanrıcılık tasavvurunun kozmolojik karşılığını temsil eden bu yol grubunun adı olarak tercih edildi. God Almighty; yaratıcı, her şeyi bilen ve her şeye gücü yeten mutlak ilah, Âdem ve Düşüş gibi açık biçimde İbrahimî teolojik unsurlar etrafında kurulmuştur. Bu nedenle Türkçede sıradan bir 'Yüce Tanrı' veya 'Mutlak Tanrı' karşılığı yerine, İslamî ilahiyatın yerleşik terminolojisinden yararlanmak bilinçli bir tercihtir.<br><br>Bu kapsamda Hâlık, Bârî, Alîm ve Kadir-i Mutlak gibi ifadeler Esmâ-ül Hüsnâ'dan ödünçlenmiştir. Bu kullanım, bu kelimelerin yalnızca kulağa görkemli veya mistik gelmesi sebebiyle yapılmaz; her biri kaynak metindeki yaratma, ilim ve kudret gibi belgelenmiş ilahî niteliklerle ilişkilidir. Bu sebeple Esmâ-ül Hüsnâ'ya başvurma hakkı yalnızca Kadir-i Mutlak yol grubuna tanınmış, diğer hiçbir Yol veya Mertebe için aynı kaynak kullanılmamıştır.<br><br>Buradaki amaç karakteri 'İslamî bir tanrı' olarak yeniden yorumlamak değil, kanonda zaten bulunan İbrahimî tektanrıcılık tasavvurunu Türkçede tarihî ve teolojik karşılıkları bulunan bir terminolojiyle muhafaza etmektir. Böylece Kadir-i Mutlak, yalnızca bir isim değil, sözlüğün geri kalanından ayrılan belirli bir kozmolojik ve teolojik dilin de işareti hâline gelir."
   sistem_kural: [esma]
   bolum_siniri: 1260
@@ -1011,7 +1014,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Yıldızların Hükümranı (Supernova Dominator)"
   aciklama: "Yıldızların Hükümranı,<br>Ağırlık ve Kesafetin Timsali,<br>Aslî Kuvvetlerin Mütasarrıfı,<br>Namütenahi Kâinatın Kanunu."
-  cevirmen_notu: "4. satırdaki 'Kanun' bilinçli bir tercihtir: sözlükte zaten 'Aşkın Hasletlerin Korunumu/Yok Edilemezliği/Yakınsama Kanunu' gibi evrensel/fiziksel meta-yasalar için kurulmuş özel bir kullanımı vardır; bu satır aynı kategoriye (evrenin temel yasası) girdiği için aynı kelime tercih edildi.<br><br>3. satırda 'Hâkim' yerine 'Mütasarrıf' kullanıldı; 'kuvvetler üzerinde tasarruf/denetim sahibi olmak' fikri, yargısal bir hakimiyetten çok idari bir elden geçirme/kontrol fikrine daha yakındır ve 'Hâkim' kelimesi zaten Zevalin Hâkimi'nde yük taşımaktadır.<br><br>4. satırda 'Kâinat' düz tercih edildi; sözlükteki 'Yıldızlı Gökkubbenin Ötesi' (Cosmos) terimiyle bağlantı kurulması denendi ancak çift tamlama ('...Ötesinin Kanunu') hantallaştığı için vazgeçildi."
+  cevirmen_notu: "4. satırdaki 'Kanun' bilinçli bir tercihtir: sözlükte zaten 'Aşkın Hasletlerin Korunumu/Yok Edilemezliği/Yakınsama Kanunu' gibi evrensel/fiziksel meta-yasalar için kurulmuş özel bir kullanımı vardır; bu satır aynı kategoriye (evrenin temel yasası) girdiği için aynı kelime tercih edildi.<br><br>3. satırda 'Hâkim' yerine 'Mütasarrıf' kullanıldı; 'kuvvetler üzerinde tasarruf/denetim sahibi olmak' fikri, yargısal bir hakimiyetten çok idari bir elden geçirme/kontrol fikrine daha yakındır ve 'Hâkim' kelimesi zaten Zevalin Hâkimi'nde yük taşımaktadır.<br><br>4. satırda 'Kâinat' düz tercih edildi; sözlükteki 'Yıldızlı Gökkubbe' (Cosmos) terimiyle bağlantı kurulması denendi ancak çift tamlama ('...Ötesinin Kanunu') hantallaştığı için vazgeçildi."
   bolum_siniri: 0
   kaynak: metin_coi
   mudahale: ceviri
@@ -1192,7 +1195,7 @@
   ingilizce: "Ouroboros"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nur Miftahı (Key of Light)"
-  aciklama: "Özünü yutan Merkür Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Münadili."
+  aciklama: "Özünü yutan Zîbak Yılanı,<br>Nehrin baki kalan Kahraman Ruhu,<br>Hakiki Hâlık'ın İnayeti,<br>Mukadderata nazar eden Gözler,<br>Mazi, Hal ve İstikbalin Ulu Münadili."
   bolum_siniri: 389
   kaynak: metin
   mudahale: ceviri
@@ -1827,7 +1830,7 @@
       metinde: true
       kaynak: metin
     - seviye: 6
-      isim: "Hâkim (Judge)"
+      isim: "Kadı (Judge)"
       bolum_siniri: 674
       metinde: true
       kaynak: metin
@@ -1876,7 +1879,7 @@
   ingilizce: "Hunter Pathway"
   kategori: "Aşkın Yolları"
   yol_grubu: "Helak Felaketi (Calamity of Destruction)"
-  cevirmen_notu: "Bu yoldaki 'bolgesel' alanı özgün bir eklemedir ve kaynak materyalde karşılığı yoktur. Loen'in resmî Mertebe isimlerinin yanında bölgesel argo/rütbe kullanımı yaratma fikri tamamen bana aittir ve şu an için sadece Avcı Yolu'nda uygulanmıştır. Bunun sebebi Intis'teki Avcı Yoluna ait Aşkın sayısının fazla olması ve kültürleriyle birleşmiş olmasıdır. İleride başka yollara genişletilebilir."
+  cevirmen_notu: "Bu yoldaki 'bolgesel' alanı özgün bir eklemedir ve kaynak materyalde karşılığı yoktur. Loen'in resmî Mertebe isimlerinin yanında bölgesel argo/rütbe kullanımı yaratma fikri tamamen bana aittir ve şu an için sadece Avcı Yolu'nda uygulanmıştır. Bunun sebebi Intis'teki Avcı Yoluna ait Aşkın sayısının fazla olması ve kültürleriyle birleşmiş olmasıdır. İleride başka yollara genişletilebilir.<br><br>Not: Bölgesel adlar, resmî Mertebe adlarının birebir çevirileri olmak zorunda değildir; ilgili kültürün kendi askerî, dinî ve toplumsal söz varlığında kullanacağı karşılıkları temsil eder."
   mertebeler:
     - seviye: 9
       isim: "Avcı (Hunter)"
@@ -1938,7 +1941,46 @@
       ilk_gecis: 940
     - seviye: 2
       isim: "Bora Kamı (Weather Warlock)"
-      cevirmen_notu: "Önceki tercih olan 'Bora Efsuncusu', sözlükte tekrarlanan 'Efsuncu' kökünün (bkz. Ruh Efsuncusu notu) parçası gibi görünüyordu; ancak o tekrar yalnızca Kâhin, Çırak ve Uykusuz Yolları arasındaki gerçek kanonik bağa dayanır ve Avcı Yolu bu bağın dışındadır. Bu yüzden 'Efsuncu' (Arapça/Farsça kökenli) yerine öz Türkçe bir kelime tercih edildi: 'Kam', Dede Korkut geleneği ve eski Türk şamanizminde büyücü/şaman için kullanılan gerçek bir terimdir. 'Bora Kamı' hem Mertebenin fırtına/savaş temalı gücünü hem de Loen'in resmî isimlerindeki arkaik register'ı korurken, kelimeyi yanlış bir kanonik yankıdan ayırır."
+      eski_karsiliklar: ["Bora Efsuncusu", "Bora Kamı"]
+      cevirmen_notu: "Bu Mertebede iki kez yanlış menüden seçim yapıldı. Önce
+        'Bora Efsuncusu' denendi; sonra 'Efsuncu' kökünün yalnızca Kâhin, Çırak ve
+        Uykusuz Yolları arasındaki kanonik bağa ait olduğu, Avcı Yolu'nun ise o
+        bağın dışında kaldığı karar verilince 'Bora Kamı'na geçildi. Ne var ki her iki
+        tercih de aynı varsayımı paylaşıyordu: bu Mertebenin bir BÜYÜCÜ olduğu.
+        Kabiliyet listesi bu varsayımı desteklemiyor.<br><br>Mertebenin sahip
+        olduğu şeyler sırasıyla şunlar: Emir Zinciri, Toplama (kudretini bütün
+        orduya paylaştırma), Savaş Sisi, Cenk Nârası, Cenk Cevherine kurban
+        sunma ve Felaket Devi suretine bürünme. Hiçbiri efsun değildir. Hava
+        salahiyeti bile bir büyü gibi değil, bir sevk-idare aracı gibi
+        kullanılır: kanon, kudreti kendinde toplamak yerine maiyetine dağıtmanın
+        daha mantıklı olduğunu söyler, zira 'bir kelebeğin kanat çırpışı kasırgaya
+        dönüşür'. Dolayısıyla Sistem Kuralları #1 (Büyücü / Efsuncu / Sahir) bu
+        girdiye HİÇ UYGULANMAZ; mesele hangi büyü kelimesinin seçileceği değil,
+        kelimenin büyüyle ilgili olmadığıdır. İngilizcedeki 'Warlock' burada
+        kaynağın değil, İngilizce çevirinin tercihidir.<br><br>Mertebenin
+        kendi rol ifası ilkesi meseleyi kesin olarak çözüyor. Lumian, Güney
+        Kıta'da kan kurbanı geleneğini sürdüren bir kabileye üç gün boyunca aşırı
+        hava şartları getirir; kabile korkudan kırılıp teslim olur ve o
+        geleneğini terk eder. İlkenin kendi ifadesi şudur: havaya hükmetmek, bir
+        felaket getirip hedefi BOYUN EĞDİRMEKTİR. Yani Mertebe bir kumandanlık
+        değil, bir tahakküm makamıdır; kendi ordusunu yönetmekten çok, karşı
+        tarafın iradesini kırar.<br><br>'Musahhir' bu ikiliği tek kelimede
+        taşır. Teshîr (تسخير) hem birini boyunduruk altına almak hem de bir
+        tabiat kuvvetini emre âmâde kılmaktır. Rüzgârların ve bulutların bir
+        kimseye musahhar kılınması bu kökün klasik kullanımıdır. Mertebe havaya
+        tam da boyun eğdirmek İÇİN hükmettiğine göre, iki mana ayrı iki iş değil,
+        aynı işin iki yüzüdür. Devellioğlu ayrıca 'büyüleyen' manasını da verir;
+        bu da girdinin Cazibe (Charm) hassasını, yani insanların ona tâbi olmak
+        ve sadık kalmak istemesini karşılar. Tek kelime, üç hassayı birden
+        tutuyor.<br><br>'Kahhâr' ilk bakışta daha uygun görünse
+        de el-Kahhâr esmâdandır ve o kural gereği yalnızca Kadîr-i Mutlak yol
+        grubuna tahsislidir. Kuralın bariz bir tercihi eledigi durumlardan
+        biri.<br><br>Sıfat olarak yalın bırakıldı. Yolun kendisi zaten tek
+        kelimelik unvanlar taşıyor (Avcı, Hasatçı, Fatih) ve 'Musahhir', Fatih'in
+        hemen altında dururken doğru ağırlığı veriyor: Demirkan Akıncısı → Cenk
+        Ruhbanı → Musahhir → Fatih → Ahmer Hünkar. 'Bora Musahhiri' hava
+        unsurunu isimde açık ederdi; sesçe ağır olduğu ve Felaket Devi suretiyle
+        birlikte zaten hava anlamı bağlamdan çıktığı için tercih edilmedi."
       bolum_siniri: 577
       metinde: true
       kaynak: metin
@@ -2296,7 +2338,7 @@
       kaynak: metin
       ilk_gecis: 68
     - seviye: 1
-      isim: "Merkür Yılanı (Snake of Mercury)"
+      isim: "Zîbak Yılanı (Snake of Mercury)"
       bolgesel:
         kultur: "Alternatif İsim"
         isim: "Kader Yılanı (Snake of Fate)"
@@ -2486,7 +2528,7 @@
       metinde: false
       kaynak: yazar_beyani
     - seviye: 3
-      isim: "Durugörür (Clairvoyant)"
+      isim: "Durugören (Clairvoyant)"
       bolum_siniri: 1011
       metinde: true
       kaynak: metin
