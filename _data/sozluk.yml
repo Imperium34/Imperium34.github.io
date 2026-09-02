@@ -81,7 +81,7 @@
   denetim: tamam
   ilk_gecis: 65
 
-- terim: "Melekler Hanı"
+- terim: "Melekler Beyi"
   ingilizce: "King of Angels"
   kategori: "Temel Kavramlar"
   aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 hasleti ile o Yol'un Yegânelik parçasını barındıran veya birden fazla Mertebe 1 hasleti taşıyan eşsiz figürleri tanımlar."
@@ -826,7 +826,7 @@
     metin: "Tercihi destekleyen ikinci bir gözlem var. Kâhin yolunun bilinen ilk mertebeleri (Kâhin, Palyaço, Hokkabaz, Suretsiz, Sır Kuklabazı) istisnasız birer icra mesleğidir. Dahası bu icranın sahnesi kademe kademe büyür: bir kâhin köhne bir çadırda, palyaço sokakta veya sirkte, hokkabaz boş bir sahnede, kukla üstadı ise kuklaları için kurulmuş donanımlı bir sahnede çalışır. Yolun tamamı, güç basamaklarından çok bir icracının kariyeri gibi kurgulanmıştır. Türkçe karşılıklar bu dokuyu korumak üzere seçildi; 'Soytarı' da bu meslekler ailesine aittir, hakaret sözlüğüne değil."
   - sinir: 1384
     baslik: "Yükselişin vardığı yer"
-    metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Hanı olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
+    metin: "Sahne büyüdükçe icracının mevkisi de yükselir. Fakat bu yükseliş düz bir çizgi izlemez. Garabet Efsuncusu'nda seyirci hâlâ vardır (Mertebenin Rol İfasında 'gösteriden geri bildirim al' ibaresi korunur); ritüelin özünde ise seyirci sayıyla tarif edilir: Seyirci yoluna mensup bir aşkın birden çok sıradan seyirciye, o yolun Melekler Beyi olan Âdem ise binlerce seyirciye bedeldir. Bu sayısallaştırma bizce seyircinin artık bir ilişki değil, bir Çıpa malzemesi olarak ele alındığı savunulabilir. Mazinin Alimi'nde Rol İfası'nda seyirciden hiç söz edilmez; geriye kalan tek şey tarihe bırakılan bir izdir. Mucizekâr'da seyirci geri döner ama ilişki açıkça yeniden tanımlanır: 'dileği yerine getiren bir ilah gibi değil, kendisi ve başkaları için mucize sergileyen bir kişi gibi.' Esrar Hadimi'nde Rol İfası yalnızca 'Engin esrarlara hizmet eder' der; seyirciye dair hiçbir ibare yoktur."
   - sinir: 1384
     baslik: "Çıkarılan Sonuç"
     metin: "Buradan çıkardığımız okuma şu: mertebeler büyüdükçe seyirci basitçe genişlemez; önce niceliğe indirgenir, sonra metinden bütünüyle çekilir. Yol, zirveye çıkmadan önce kendini boşaltıyor gibi görünür. Ve tam bu boşluğun ardından Soytarı, kanonda tarif edilen en geniş seyirciyle karşımıza çıkar: 'Ölümlüler ve ilahlar', aynı anda. Bu örüntüyü tarot'taki 0 kartının hem baştan önce hem yolculuğun sonunda durabilmesiyle aynı hareket olarak okuyoruz: icracı sıfıra iner, yeniden belirdiğinde ise yeni bir basamağın en altında değil, basamaklandırmanın dışında görünür. Nitekim Mertebe 0, kanonda da Mertebe 1'den 'bir üstü' değil, kategorik olarak ayrı bir konumdur. Kanonik betimleme bu okumayı destekler: bir yıldızı yok edebilecek kadar güçlü, ona doğrudan bakamayacak kadar kırılgan; sınırsız imtiyaz, sıfır zırh. Bize göre tam olarak bir saray soytarısının, hükümdarın huzurunda bulunan ama hiçbir korumaya sahip olmayan konumu. Tarot tarafındaki 'köke dönüş' bu yorumda bir çağrışımdan öte, mertebenin iç mimarisinde işleyen bir mekanizma olarak öne sürülüyor: yol, sıfırlanarak biter ve sıfırdan başlar."
@@ -902,7 +902,8 @@
   ingilizce: "Mother Tree of Desire"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Arzuların Ana Şeceresi (Mother Tree of Desire)"
-  aciklama: "Arzuların Ana Şeceresi,<br>İblislerin Pederi,<br>Garibelerin Hükümdarı,<br>Lanetlerin Menbaı,<br>Mütemadi Bedzeban,<br>Bî-kalb İlah."
+  aciklama: "Arzuların Ana Şeceresi,<br>Şeytanların Pederi,<br>Garibelerin Hükümdarı,<br>Lanetlerin Menbaı,<br>Mütemadi Bedzeban,<br>Şirazesini Yitirmiş İlah."
+  cevirmen_notu: "İngilizce 'Heartless God' doğrudan alınmamıştır; bu ifade Çince orijinali 失心之神 (Shīxīn zhī shén)'i yanlış yorumlamaktadır. '失' (shī) 'kaybetmek/yitirmek' anlamına gelirken, '心' (xīn) hem 'kalp' hem 'zihin/akıl' anlamını taşır. Dolayısıyla 失心, doğuştan duygudan yoksun olmayı değil, bir zamanlar sahip olunan bir bütünlüğün SONRADAN kaybedilmesini anlatır. 'Heartless' bu varlığı özünde soğuk ve duygusuz bir tanrı olarak sunarken, kaynak metin onu bir zamanlar bütün olan ve sonradan çözülmüş bir varlık olarak tarif eder.<br><br>Bu ayrım, sözlükteki 'Şirazesini Yitirmek' girdisiyle doğrudan örtüşür: o girdide tarif edilen şey de tam olarak budur, gücün, hafızanın ve bedenin yerinde durmaya devam etmesine rağmen, onları bir arada tutan şeyin kaybolmasıdır. Arzuların Ana Şeceresi'nin 失心之神 unvanı, bu evrende her Aşkın'ın nihai kâbusu olan bu akıbetin, Kâinatın en kadim varlıklarından birinin de başına geldiğini ima eder. Bu yüzden 'Şirazesini Yitirmiş İlah' tercih edilmiştir: yalnızca 失心'in doğru anlamını karşılamakla kalmaz, aynı zamanda sözlüğün en küçük ölçekli korkusunu (bir Mertebe 9'un şirazeden çıkma korkusu) en büyük ölçekli örneğine (bir Yüce Kadim'in başına gelen aynı akıbet) bağlayan bilinçli bir terminolojik köprü kurar."
   bolum_siniri: 1271
   kaynak: metin
   mudahale: ceviri
@@ -933,12 +934,12 @@
   denetim: tamam
   ilk_gecis: 61
 
-- terim: "Nizamı Yitiren"
+- terim: "Nizamı İnhilali"
   ingilizce: "The Anarchy"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Nizamın İnhilali (Anarchy)"
   aciklama: "Nizamın İnhilali,<br>Kaidelerin Ardındaki Gölge,<br>Kara İmparator'un Tahtı,<br>Yargı'nın Tedip Kılıcı,<br>Hercümerçten Neşet Eden,<br>Nizam Kisvesine Bürünen Kadim."
-  cevirmen_notu: "Bu Yüce Kadim'in kanonda kendi başına duran bir tazim ismi yoktur. Mevcut tek kaynak, Hercümercin Oğlu'nun altı satırlık birleşik tazim isminin ilk iki satırıdır; kalan dört satır Müphem Sis'e aittir ve bu ayrım kanonik olarak doğrulanmıştır (bkz. Hercümercin Oğlu ve Müphem Sis maddeleri). Bu iki satır burada Nizamın İnhilali grubunun (Avukat ve Arabulucu Yolları) kendi tazim ismi olarak çıkarılmış ve ayrıştırılmıştır; 'Kotar' maddesindeki tamamlama mantığıyla aynı yöntemdir.<br><br>1. satır (失序者): 'Nizamı Yitiren' tercih edildi. 'Yitirmek' fiili bilinçli olarak seçildi; 'Şirazesini Yitirmek' maddesinde zaten kurulu olan bütünlük-kaybı temasıyla aynı kökü paylaşır, ancak nesnesi farklıdır (şirazesini değil, nizamı). Bu, iki farklı 'kaybetme' halini aynı dilsel aile içinde tutar: biri bireysel/psikolojik (Aşkın'ın şirazesi), diğeri kozmik/yapısal (evrenin nizamı).<br><br>2. satır (秩序阴影): 'Nizamın Gölgesi' doğrudan çeviridir."
+  cevirmen_notu: "Bu Yüce Kadim'in kanonda kendi başına duran bir tazim ismi yoktur; altı satır üç ayrı kanıt katmanından derlenmiştir.<br><br>1-2. satırlar (KANON): Mevcut tek doğrudan kaynak, Hercümercin Oğlu'nun altı satırlık birleşik tazim isminin ilk iki satırıdır (失序者, 秩序阴影); kalan dört satır Müphem Sis'e aittir ve bu ayrım kanonik olarak doğrulanmıştır (bkz. Hercümercin Oğlu ve Müphem Sis maddeleri). Bu iki satır burada Nizamın İnhilali grubunun (Avukat ve Arabulucu Yolları) kendi tazim ismi olarak çıkarılmış ve ayrıştırılmıştır; 'Kotar' maddesindeki tamamlama mantığıyla aynı yöntemdir. Doğrudan çeviridir: 失序者 → 'Nizamın İnhilali' (Yol grubunun her iki üyesinin Mertebe isimlerine gönderme yapar), 秩序阴影 → 'Nizamın Gölgesi'.<br><br>3. satır (İKİNCİL KAYNAK): 'Hercümerçten Neşet Eden', bu Yüce Kadim'in İngilizce wiki maddesindeki başlık altı epigrafından ('Chaos gave birth to order, and order came with its own shadow') alınmıştır. Bu epigraf kanonda tazim isminin bir parçası değildir, ancak varlığın kökenine dair doğrudan ve kanona uygun bir ifadedir; bu yüzden satır olarak kullanılmaya değer görülmüştür.<br><br>4-6. satırlar (SENTEZ): 'Kaidelerin Ardındaki Gölge', 'Kara İmparator'un Tahtı' ve 'Yargı'nın Tedip Kılıcı' hiçbir tek kaynaktan alınmamıştır; bu Yüce Kadim'in iki Yolunun (Avukat, Arabulucu) kendi Mertebe 0 unvanlarına (Kara İmparator, Yargı) ve genel kanonik rolüne (kaidelerin arkasındaki güç, düzenin gölgesi) dayanarak tarafımca kurulmuştur. Doğrudan bir kaynak satırının çevirisi veya tamamlaması değil, doğrulanmış olgulardan yapılan bir sentezdir."
   bolum_siniri: 0
   kaynak: yazar_beyani
   mudahale: tamamlama
@@ -998,7 +999,7 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Ebedî Tenasüh"
+- terim: "Mukadderat Halkası"
   ingilizce: "Circle of Inevitability"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Ebedî Tenasüh (Circle of Inevitability)"
@@ -1095,14 +1096,14 @@
   ingilizce: "Half God Almighty Adam (After Adam and the True Creator merge)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak İlah,<br>Zıl Perdesinin Ardındaki Hükümdar,<br>Alem-i Zihnin Hâkimi,<br>Cümle Zîhayatın Sefil Fıtratı."
+  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak İlah,<br>Zulmet Perdesi Ardından Hükmeden,<br>Alem-i Zihnin Hâkimi,<br>Cümle Zîhayatın Sefil Fıtratı."
   cevirmen_notu: "Hakiki Hâlık'ta kullanılmayan kanonik üçüncü satır (“Degenerate Nature of all Living Things”) burada yer alır. Bu ifade orijinal Çincede de bu varlık için kullanılır; dolayısıyla Hakiki Hâlık'tan çıkarıldığı için buraya eklenmiş yeni bir satır değildir. İki tazim isminde tekrar eden bir satır, çeviride yalnızca bir yerde korunmuş ve böylece iki farklı kimliğin tasvirleri birbirinden ayrıştırılmıştır.<br><br>'Sefil Fıtrat' terkibi bilinçli bir oksimorondur. 'Fıtrat', İslamî düşüncede insanın doğuştan getirdiği saf ve yaratılıştan gelen tabiatı ifade eder. Buna 'sefil' (aşağılanmış, perişan, düşük hâle gelmiş) sıfatının eklenmesi, özünde saf olması gereken bir kavramın yozlaşmasını doğrudan kelime terkibinin içinde görünür kılar. Burada amaç yalnızca 'yozlaşmış doğa' anlamını aktarmak değil, yozlaşmanın bizzat kavramın yapısını bozduğu hissini korumaktır."
   bolum_siniri: 0
   kaynak: metin_coi
   mudahale: ceviri
   denetim: tamam
 
-- terim: "Tahayyül Meleği Âdem (Melekler Hanı)"
+- terim: "Tahayyül Meleği Âdem (Melekler Beyi)"
   ingilizce: "Angel of Imagination Adam"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
@@ -1135,7 +1136,7 @@
   denetim: tamam
   ilk_gecis: 265
 
-- terim: "Mülhid Amon (Melekler Hanı)"
+- terim: "Mülhid Amon (Melekler Beyi)"
   ingilizce: "Blasphemer Amon (King of Angels)"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
@@ -1940,7 +1941,7 @@
       kaynak: metin
       ilk_gecis: 940
     - seviye: 2
-      isim: "Bora Kamı (Weather Warlock)"
+      isim: "Musahhir (Weather Warlock)"
       eski_karsiliklar: ["Bora Efsuncusu", "Bora Kamı"]
       cevirmen_notu: "Bu Mertebede iki kez yanlış menüden seçim yapıldı. Önce
         'Bora Efsuncusu' denendi; sonra 'Efsuncu' kökünün yalnızca Kâhin, Çırak ve
@@ -3000,7 +3001,7 @@
       kaynak: metin
     - seviye: 5
       isim: "Orman Derviş (Druid)"
-      cevirmen_notu: "Bu Mertebe için doğrudan 'Druid' transliterasyonu düşünüldü ve reddedildi. Batı fantazya kökenli bu kelime, sözlüğün genelinde kurulan tasavvufi/klasik kayıtla çatışırdı. 'Keşiş' de düşünüldü ancak bu kelime zaten Gizem Avcısı Yolu'nun kendi Mertebe 0 unvanı olarak sözlükte sabitlenmiştir; burada tekrar kullanılması yanlış bir kanonik yankı yaratırdı. 'Derviş' bu ikisinin arasında bir çözüm sunar: kelimenin kendisi doğada değil, dini/tasavvufi bir bağlamda yer alır, ancak 'gezgin, mülk sahibi olmayan, bir çağrıya adanmış' imgesi Druid'in 'Doğa'nın gözdesi, meşenin hizmetkârı' tanımına yeterince yakın düşer. 'Orman' ön eki, 'Derviş'in tek başına taşımadığı doğa/yabanıllık vurgusunu tamamlar. Bu, kelimenin kendisinin kavramsal bir eşleşmesi değil, register'ı korumak için bilinçli bir ödünç alma olduğunun altı çizilmelidir; 'Kam' (bkz. Bora Kamı notu) gibi gerçek bir şamanistik-doğa kökenine sahip değildir."
+      cevirmen_notu: "Bu Mertebe için doğrudan 'Druid' transliterasyonu düşünüldü ve reddedildi. Batı fantazya kökenli bu kelime, sözlüğün genelinde kurulan tasavvufi/klasik kayıtla çatışırdı. 'Keşiş' de düşünüldü ancak bu kelime zaten Gizem Avcısı Yolu'nun kendi Mertebe 0 unvanı olarak sözlükte sabitlenmiştir; burada tekrar kullanılması yanlış bir kanonik yankı yaratırdı. 'Derviş' bu ikisinin arasında bir çözüm sunar: kelimenin kendisi doğada değil, dini/tasavvufi bir bağlamda yer alır, ancak 'gezgin, mülk sahibi olmayan, bir çağrıya adanmış' imgesi Druid'in 'Doğa'nın gözdesi, meşenin hizmetkârı' tanımına yeterince yakın düşer. 'Orman' ön eki, 'Derviş'in tek başına taşımadığı doğa/yabanıllık vurgusunu tamamlar. Bu, kelimenin kendisinin kavramsal bir eşleşmesi değil, register'ı korumak için bilinçli bir ödünç alma olduğunun altı çizilmelidir; dğier seçimler gibi gerçek bir şamanistik-doğa kökenine sahip değildir."
       bolum_siniri: 815
       metinde: true
       kaynak: metin
