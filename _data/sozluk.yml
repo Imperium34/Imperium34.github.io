@@ -84,7 +84,7 @@
 - terim: "Melekler Beyi"
   ingilizce: "King of Angels"
   kategori: "Temel Kavramlar"
-  aciklama: "Bir Gerçek Tanrı olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 hasleti ile o Yol'un Yegânelik parçasını barındıran veya birden fazla Mertebe 1 hasleti taşıyan eşsiz figürleri tanımlar."
+  aciklama: "Bir Gerçek İlah olmanın sadece bir adım gerisinde duran varlıklar. Genellikle en az bir Mertebe 1 hasleti ile o Yol'un Yegânelik parçasını barındıran veya birden fazla Mertebe 1 hasleti taşıyan eşsiz figürleri tanımlar."
   cevirmen_notu: "Çince aslı 天使之王 (Tiānshǐ zhī wáng) ve 王 (wáng) düz anlamıyla 'kral'dır. Buna rağmen 'Kral' tercih edilmedi; bunun sebebi bu varlıkların kanondaki konumudur.
     <br><br>Unvan, Üçüncü Çağ'da Kadim Güneş Tanrısı'nın buyruğundaki, sıradan meleklerden güçlü olan sekiz melek için kullanılmaya başlanmıştır. Yani doğduğu andan itibaren bir 
     tâbiiyet ilişkisini içerir: bu varlıkların üstünde emir veren biri vardır. Sonradan terim, Başmeleklikten ileri fakat gerçek tanrılığa erişmemiş bütün varlıklar için genelleşse de 
@@ -110,7 +110,7 @@
 - terim: "Yegânelik"
   ingilizce: "Uniqueness"
   kategori: "Temel Kavramlar"
-  aciklama: "Yirmi iki İlahi Yol'un her birinin özünü, evrendeki mutlak kuralını ve tekil otoritesini temsil eden soyut kavram. Bir Gerçek Tanrı olmanın mutlak gereksinimidir."
+  aciklama: "Yirmi iki İlahi Yol'un her birinin özünü, evrendeki mutlak kuralını ve tekil otoritesini temsil eden soyut kavram. Bir Gerçek İlah olmanın mutlak gereksinimidir."
   bolum_siniri: 440
   kaynak: metin
   mudahale: ceviri
@@ -1399,7 +1399,7 @@
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Sermedi Zulmet (Eternal Darkness)"
   aciklama: "Kudret ve Şanın Timsali,<br>Ulu Şövalye İlahı,<br>Harp Hükümdarı,<br>Top ve Tüfeğin Hamisi,<br>Cümle Mevcudatın Gurubu."
-  cevirmen_notu: "Çince adı 战神 (Zhànshén), Çincede savaş tanrısı için en yerleşik ve kısaltılmış kalıptır; 战争 (harp) gibi kurumsal savaşı adlandıran bir kavram değil, bir varlığa verilen addır. Bu sözlükte 'Cenk' bu ada tahsis edilmiştir; 战争 geçen her yerde 'Harp' kullanılır (bkz. Harp Ruhbanı).<br><br>Ayrım kanonik bir ihtilafı taşır. Tazim adındaki 'Harp Hükümdarı' (战争主宰) satırı, aslında Ahmer Hünkar Yolu'nun Gerçek Tanrısı'na ait bir unvandır; harp, o Yolun sembolizminde (战争之主) ve salahiyetleri arasında doğrudan yer alır. Cenk Tanrısı'nın bu alanı talep edebilmesinin tek sebebi, o Yolun bütün meleklerinin ölü veya mahpus olması ve Gerçek Tanrısı'nın hiç bulunmamasıdır; yani iddia bir hakka değil, bir boşluğa dayanır. Nitekim boşluk kapanmadan Cenk Tanrısı Ebedi Gece Tanrıçası tarafından öldürülür ve kiliseleri, kimseye bildirilmeksizin O'nun idaresine geçer.<br><br>Türkçedeki kelime ayrımı bu durumu olduğu gibi korur: varlığın adı Cenk'tir, talep ettiği alan ise Harp'tir. Tek kelimeyle karşılansaydı unvan hak edilmiş bir sıfat gibi okunur ve kanonun kurduğu boşluk görünmez olurdu."
+  cevirmen_notu: "Çince adı 战神 (Zhànshén), Çincede savaş tanrısı için en yerleşik ve kısaltılmış kalıptır; 战争 (harp) gibi kurumsal savaşı adlandıran bir kavram değil, bir varlığa verilen addır. Bu sözlükte 'Cenk' bu ada tahsis edilmiştir; 战争 geçen her yerde 'Harp' kullanılır (bkz. Harp Ruhbanı).<br><br>Ayrım kanonik bir ihtilafı taşır. Tazim adındaki 'Harp Hükümdarı' (战争主宰) satırı, aslında Ahmer Hünkar Yolu'nun Gerçek İlahı'na ait bir unvandır; harp, o Yolun sembolizminde (战争之主) ve salahiyetleri arasında doğrudan yer alır. Cenk Tanrısı'nın bu alanı talep edebilmesinin tek sebebi, o Yolun bütün meleklerinin ölü veya mahpus olması ve Gerçek İlahı'nın hiç bulunmamasıdır; yani iddia bir hakka değil, bir boşluğa dayanır. Nitekim boşluk kapanmadan Cenk Tanrısı Ebedi Gece Tanrıçası tarafından öldürülür ve kiliseleri, kimseye bildirilmeksizin O'nun idaresine geçer.<br><br>Türkçedeki kelime ayrımı bu durumu olduğu gibi korur: varlığın adı Cenk'tir, talep ettiği alan ise Harp'tir. Tek kelimeyle karşılansaydı unvan hak edilmiş bir sıfat gibi okunur ve kanonun kurduğu boşluk görünmez olurdu."
   sistem_kural: [salahiyet_adlari]
   cevirmen_notu_sinir: 1409
   bolum_siniri: 3
