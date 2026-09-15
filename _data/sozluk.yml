@@ -811,15 +811,6 @@
   denetim: tamam
   ilk_gecis: 64
 
-- terim: "Peygamberdevesi Mezhebi"
-  ingilizce: "Mantis Religion"
-  kategori: "Organizasyonlar"
-  aciklama: "Güney Kıtası'na özgü, ilkel doğa inançları ve tekinsiz ayinler barındıran yerel bir kült."
-  bolum_siniri: 0
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-
 # -----------------------
 # İLAHLAR VE YÜCE KADİMLER
 # -----------------------
@@ -929,7 +920,7 @@
   cevirmen_notu: "Tazim ismi satırları Circle of Inevitability Kanonundaki satırların yerine birebir tarafımca yazılmıştır. Literal çeviri değildir."
   bolum_siniri: 61
   kaynak: metin
-  mudahale: degistirme
+  mudahale: ozgun
   denetim: tamam
   ilk_gecis: 61
 
@@ -1419,7 +1410,7 @@
   yol_grubu: "Esrarın Hükümdarı (Lord of the Mysteries)"
   aciklama: "Alem-i Ervah ve Aslî Kale'nin Kutsanmışı,<br>Kadim zamanlardan neşet eden Esrar,<br>Engin bir tarihin Şahidi,<br>Beşeriyeti halas eden Melek,<br>Cümle fukara çocukların Hamisi,<br>Yüce Gehrman Sparrow."
   bolum_siniri: 1409
-  kaynak: metin
+  kaynak: metin_coi
   mudahale: ceviri
   denetim: tamam
 
