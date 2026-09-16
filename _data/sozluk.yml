@@ -250,6 +250,7 @@
 
 - terim: "Ayin"
   ingilizce: "Ritual"
+  eski_karsiliklar: ["Ritüel"]
   cince: "仪式"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani bir varlığın yahut İlahın kudretini fiziki aleme çekmek maksadıyla icra edilen tekil merasim. Ayin İlmi bu merasimleri konu edinen disiplindir; bu girdi ise tek tek icra edilen edimi karşılar."
@@ -440,6 +441,7 @@
 
 - terim: "İlm-i Esrar"
   ingilizce: "Mysticism"
+  eski_karsiliklar: ["Mistisizm"]
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerini, iksir formüllerini, ayinleri ve evrenin görünmez kurallarını inceleyen okült ve akademik disiplin."
   bolum_siniri: 18
