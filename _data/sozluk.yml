@@ -250,7 +250,7 @@
 
 - terim: "Ayin"
   ingilizce: "Ritual"
-  eski_karsiliklar: ["Ritüel"]
+  eski_karsiliklar: ["ritüel"]
   cince: "仪式"
   kategori: "Temel Kavramlar"
   aciklama: "Ruhani bir varlığın yahut İlahın kudretini fiziki aleme çekmek maksadıyla icra edilen tekil merasim. Ayin İlmi bu merasimleri konu edinen disiplindir; bu girdi ise tek tek icra edilen edimi karşılar."
@@ -441,7 +441,7 @@
 
 - terim: "İlm-i Esrar"
   ingilizce: "Mysticism"
-  eski_karsiliklar: ["Mistisizm"]
+  eski_karsiliklar: ["mistisizm"]
   kategori: "Temel Kavramlar"
   aciklama: "Aşkınların güçlerini, iksir formüllerini, ayinleri ve evrenin görünmez kurallarını inceleyen okült ve akademik disiplin."
   bolum_siniri: 18
@@ -872,7 +872,7 @@
   ingilizce: "God Almighty"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bârî,<br>Alîm ve Kadîr-i Mutlak,<br>Alem-i Misal Efendisi."
+  aciklama: "Kadir-i Mutlak,<br>Hâlık,<br>Bârî,<br>Alîm ve Kadîr,<br>Alem-i Misal Hükümdarı."
   cevirmen_notu: "'Kadir-i Mutlak', seride İbrahimî tektanrıcılık tasavvurunun kozmolojik karşılığını temsil eden bu yol grubunun adı olarak tercih edildi. God Almighty; yaratıcı, her şeyi bilen ve her şeye gücü yeten mutlak ilah, Âdem ve Düşüş gibi açık biçimde İbrahimî teolojik unsurlar etrafında kurulmuştur. Bu nedenle Türkçede sıradan bir 'Yüce Tanrı' veya 'Mutlak Tanrı' karşılığı yerine, İslamî ilahiyatın yerleşik terminolojisinden yararlanmak bilinçli bir tercihtir.<br><br>Bu kapsamda Hâlık, Bârî, Alîm ve Kadir-i Mutlak gibi ifadeler Esmâ-ül Hüsnâ'dan ödünçlenmiştir. Bu kullanım, bu kelimelerin yalnızca kulağa görkemli veya mistik gelmesi sebebiyle yapılmaz; her biri kaynak metindeki yaratma, ilim ve kudret gibi belgelenmiş ilahî niteliklerle ilişkilidir. Bu sebeple Esmâ-ül Hüsnâ'ya başvurma hakkı yalnızca Kadir-i Mutlak yol grubuna tanınmış, diğer hiçbir Yol veya Mertebe için aynı kaynak kullanılmamıştır.<br><br>Buradaki amaç karakteri 'İslamî bir tanrı' olarak yeniden yorumlamak değil, kanonda zaten bulunan İbrahimî tektanrıcılık tasavvurunu Türkçede tarihî ve teolojik karşılıkları bulunan bir terminolojiyle muhafaza etmektir. Böylece Kadir-i Mutlak, yalnızca bir isim değil, sözlüğün geri kalanından ayrılan belirli bir kozmolojik ve teolojik dilin de işareti hâline gelir."
   sistem_kural: [esma]
   bolum_siniri: 1260
@@ -1097,7 +1097,7 @@
   ingilizce: "Ancient Sun God"
   kategori: "İlahlar ve Yüce Kadimler"
   yol_grubu: "Kadir-i Mutlak (God Almighty)"
-  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm ve Kadîr-i Mutlak,<br>Cümle Azametin Menbaı,<br>Evvel ve Âhir,<br>İlahların İlahı,<br>Namütenahi Alem-i Misal'in Yüce Hükümdarı."
+  aciklama: "Mevcudatı Halk Eden Rab,<br>Alîm-i ve Kadîr-i Mutlak,<br>Cümle Azametin Menbaı,<br>Evvel ve Âhir,<br>İlahların İlahı,<br>Namütenahi Alem-i Misal'in Yüce Hükümdarı."
   sistem_kural: [esma]
   bolum_siniri: 672
   kaynak: metin
