@@ -1,5 +1,7 @@
 name: Deploy Jekyll Site
 on:
+  push:
+    branches: [main]
   repository_dispatch:
     types: [publish_chapters]
   workflow_dispatch:
@@ -19,6 +21,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      - name: Snapshot live feed
+        id: live
+        run: |
+          python3 - <<'EOF'
+          import os, time, urllib.request
+          import xml.etree.ElementTree as ET
+          url = f"https://esrarinhukumdari.com/feed/chapters.xml?nocache={int(time.time())}"
+          latest = "UNAVAILABLE"
+          try:
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              root = ET.fromstring(urllib.request.urlopen(req, timeout=20).read())
+              ns = {"atom": "http://www.w3.org/2005/Atom"}
+              entry = root.find("atom:entry", ns)
+              latest = entry.find("atom:id", ns).text.strip() if entry is not None else ""
+          except Exception as ex:
+              print("Live feed unavailable:", ex)
+          print("Live latest:", latest)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"latest_id={latest}\n")
+          EOF
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
@@ -31,71 +55,68 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
       - name: Send Discord Announcement
-        # ONLY run on repository_dispatch triggers (ignores manual workflow_dispatch runs)
-        if: github.event.action == 'publish_chapters'
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_WEBHOOK_2: ${{ secrets.DISCORD_WEBHOOK_2 }}
+          LIVE_LATEST: ${{ steps.live.outputs.latest_id }}
         run: |
-          python3 -c "
+          python3 - <<'EOF'
+          import os, json, urllib.request
           import xml.etree.ElementTree as ET
-          import urllib.request
-          import json
-          import os
           from datetime import datetime
 
-          # (env var, whether this server gets the role tag)
+          live_latest = os.environ.get("LIVE_LATEST", "UNAVAILABLE")
+          if live_latest == "UNAVAILABLE":
+              print("Could not read the live feed before deploy; skipping to avoid a false announcement.")
+              raise SystemExit(0)
+
           webhook_configs = [
-              (os.environ.get('DISCORD_WEBHOOK'), True),
-              (os.environ.get('DISCORD_WEBHOOK_2'), False),
+              (os.environ.get("DISCORD_WEBHOOK"), True),
+              (os.environ.get("DISCORD_WEBHOOK_2"), False),
           ]
-          webhook_configs = [(url, tag) for url, tag in webhook_configs if url]
+          webhook_configs = [(u, t) for u, t in webhook_configs if u]
           if not webhook_configs:
-              exit(0)
+              raise SystemExit(0)
 
-          tree = ET.parse('_site/feed/chapters.xml')
-          root = tree.getroot()
-          ns = {'atom': 'http://www.w3.org/2005/Atom'}
-
-          entries = root.findall('atom:entry', ns)
+          ns = {"atom": "http://www.w3.org/2005/Atom"}
+          root = ET.parse("_site/feed/chapters.xml").getroot()
+          entries = root.findall("atom:entry", ns)
           if not entries:
-              exit(0)
-
+              raise SystemExit(0)
           latest = entries[0]
-          published_str = latest.find('atom:published', ns).text
-          published_dt = datetime.fromisoformat(published_str)
-          today = datetime.now(published_dt.tzinfo).date()
 
-          # Only notify if the newest chapter was published today
-          if published_dt.date() != today:
-              print('No new chapter published today. Skipping Discord notification.')
-              exit(0)
+          built_latest = latest.find("atom:id", ns).text.strip()
+          if built_latest == live_latest:
+              print("No new chapter in this build. Skipping.")
+              raise SystemExit(0)
 
-          title = latest.find('atom:title', ns).text.strip()
-          title = title.split(' · ')[0].split(' - ')[0]
+          published_dt = datetime.fromisoformat(latest.find("atom:published", ns).text)
+          if published_dt.date() != datetime.now(published_dt.tzinfo).date():
+              print("Newest chapter is not from today. Skipping.")
+              raise SystemExit(0)
 
-          link = latest.find('atom:link', ns).attrib['href']
-
+          title = latest.find("atom:title", ns).text.strip().split(" · ")[0].split(" - ")[0]
+          link = latest.find("atom:link", ns).attrib["href"]
           embed = {
-              'title': title,
-              'url': link,
-              'color': 10754072,
-              'description': f'**{title}** yayında. Keyifli okumalar!',
-              'footer': {'text': 'Esrarın Hükümdarı · Tarot Kulübü'}
+              "title": title,
+              "url": link,
+              "color": 10754072,
+              "description": f"**{title}** yayında. Keyifli okumalar!",
+              "footer": {"text": "Esrarın Hükümdarı · Tarot Kulübü"},
           }
-
           for webhook_url, include_tag in webhook_configs:
-              tag_part = '\n\n<@&1458903249175314493>' if include_tag else ''
+              tag_part = "\n\n<@&1458903249175314493>" if include_tag else ""
               payload = {
-                  'content': f'📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}**{tag_part}',
-                  'embeds': [embed]
+                  "content": f"📜 **Yeni Bölüm Yayınlandı!**\n\n**{title}**{tag_part}",
+                  "embeds": [embed],
               }
               req = urllib.request.Request(
                   webhook_url,
-                  data=json.dumps(payload).encode('utf-8'),
-                  headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'}
+                  data=json.dumps(payload).encode("utf-8"),
+                  headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
               )
               urllib.request.urlopen(req)
-          print('Discord notification sent for:', title)
-          "
+          print("Discord notification sent for:", title)
+          EOF

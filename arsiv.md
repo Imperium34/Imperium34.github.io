@@ -8,7 +8,7 @@ permalink: /arsiv/
 <p>Geçmişten günümüze yayınlanan tüm bölümler.</p>
 
 <div class="search-container" style="margin-bottom: 20px;">
-  <input type="text" id="chapterSearch" onkeyup="filterChapters()" placeholder="Bölüm ara (Örn: Kızıl, 001)..." 
+  <input type="text" id="chapterSearch" oninput="filterChapters()" placeholder="Bölüm ara (Örn: Kızıl, 12)..." 
   style="width: 100%; padding: 12px; font-size: 16px; background: #1a1a1a; border: 1px solid #444; color: #ddd; border-radius: 4px;">
 </div>
 
@@ -29,7 +29,7 @@ permalink: /arsiv/
 <script>
 function filterChapters() {
   var input = document.getElementById('chapterSearch');
-  var filter = input.value.toUpperCase();
+  var filter = trNormalize(input.value);
   
   var ul = document.getElementById("fullChapterList");
   var li = ul.getElementsByTagName('li');
@@ -38,11 +38,18 @@ function filterChapters() {
     var a = li[i].getElementsByTagName("a")[0];
     var txtValue = a.textContent || a.innerText;
     
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    if (trNormalize(txtValue).indexOf(filter) > -1) {
       li[i].style.display = "";
     } else {
       li[i].style.display = "none";
     }
   }
+}
+function trNormalize(s) {
+  return (s || "")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 }
 </script>

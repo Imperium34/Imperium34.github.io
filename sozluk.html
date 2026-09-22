@@ -412,7 +412,7 @@ body.spoiler-mode-active .mertebe-notu.notu-locked {
   {% for item in site.data.sozluk %}
     {%- assign bs = item.bolum_siniri | default: 0 -%}
     {%- capture mertebe_adlari %}{% for m in item.mertebeler %}{{ m.isim }} {% endfor %}{% endcapture -%}
-    <li class="glossary-item" data-terim="{{ item.terim | downcase }}" data-ingilizce="{{ item.ingilizce | downcase }}" data-mertebeler="{{ mertebe_adlari | downcase }}" data-kategori="{{ item.kategori }}" data-kaynak="{{ item.kaynak }}" data-unlock="{{ bs }}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
+    <li class="glossary-item" data-terim="{{ item.terim }}" data-ingilizce="{{ item.ingilizce }}" data-mertebeler="{{ mertebe_adlari }}" data-kategori="{{ item.kategori }}" data-kaynak="{{ item.kaynak }}" data-unlock="{{ bs }}" style="background: #151515; border: 1px solid #333; margin-bottom: 15px; padding: 15px; border-radius: 8px;">
 
       <h3 class="term-title" style="margin-top: 0; color: #d4af37;">
         {{ item.terim }} <span style="font-size: 0.7em; color: #666;">({{ item.ingilizce }})</span>
@@ -689,17 +689,25 @@ function spoilerDurumuUygula(el, acik) {
   }
 }
 
+function trNormalize(s) {
+  return (s || "")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
 function filterTerms() {
-  var searchVal = document.getElementById('termSearch').value.toLowerCase().trim();
+  var searchVal = trNormalize(document.getElementById('termSearch').value).trim();
   var categoryVal = document.getElementById('categoryFilter').value;
   var items = document.querySelectorAll('.glossary-item');
   var visibleCount = 0;
 
   items.forEach(function(item) {
-    var terim = item.dataset.terim || "";
-    var ingilizce = item.dataset.ingilizce || "";
+    var terim = trNormalize(item.dataset.terim);
+    var ingilizce = trNormalize(item.dataset.ingilizce);
+    var mertebeler = trNormalize(item.dataset.mertebeler);
     var kategori = item.dataset.kategori || "";
-    var mertebeler = item.dataset.mertebeler || "";
     
     var isLockedHidden = item.dataset.isLockedHidden === "true";
     var canShowLocked = isGlobalSpoilerActive ? true : !isLockedHidden;

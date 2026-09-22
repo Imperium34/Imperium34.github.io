@@ -10,9 +10,9 @@ piskopos_ruhban:
 sovalye:
   id: kural-4
   baslik: "Şövalye Ekonomisi"
-fitne_fesat_mufsit:
+yozlasma_kirlenme:
   id: kural-5
-  baslik: "Fitne / Fesat / Müfsit / İnhilal Ailesi"
+  baslik: "Yozlaşma ve Kirlenme Ailesi"
 sinas:
   id: kural-6
   baslik: "'-şinas' Neolojizmi"
@@ -22,9 +22,9 @@ esma:
 sir_esrar_gizem_hafi:
   id: kural-8
   baslik: "Sır / Esrar / Gizem / Hafi Sistemi"
-tekil_rezerve:
+kayit:
   id: kural-9
-  baslik: "Tekil Rezerve Kelimeler"
+  baslik: "Kayıt Katmanları"
 salahiyet_adlari:
   id: kural-10
   baslik: "Salahiyet Adları Grup Ayrımı Gözetmez"

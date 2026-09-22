@@ -10,12 +10,13 @@
   <link rel="apple-touch-icon" href="/assets/favicon.png">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  {%- comment -%}
-    Sayfa kendi ozetini verebilir: front matter'a `aciklama:` yazin.
-    Yazilmazsa sitenin genel ozeti kullanilir.
-  {%- endcomment -%}
-  {% assign sayfa_ozeti = page.aciklama | default: "Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Karanlık Viktorya dönemi ve gizemlerin dünyasına adım atın." %}
-  <meta name="description" content="{{ sayfa_ozeti }}">
+  {% if page.aciklama %}
+    {% assign sayfa_ozeti = page.aciklama %}
+  {% elsif page.layout == 'post' %}
+    {% assign sayfa_ozeti = content | strip_html | normalize_whitespace | truncate: 160 %}
+  {% else %}
+    {% assign sayfa_ozeti = "Işık parlamaya devam etse de, esrar asla peşimizi bırakmaz. Karanlık Viktorya dönemi ve gizemlerin dünyasına adım atın." %}
+  {% endif %}
 
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="Esrarın Hükümdarı">
@@ -82,13 +83,11 @@
 
     <a href="/arsiv/" class="nav-btn archive-btn">📚 Arşiv</a>
 
-    {% if page.next %}
+    {% if page.next and page.next.date <= site.time %}
       <a href="{{ page.next.url }}" class="nav-btn next-btn">Sonraki »</a>
     {% else %}
       <span class="nav-btn disabled">Sonraki »</span>
     {% endif %}
-  </div>
-  {% endif %}
 
   <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
 
@@ -140,19 +139,26 @@
 
 {% if page.layout == 'post' %}
 <script>
-  function changeFontSize(direction) {
+  function applyFontSize(size) {
     const container = document.getElementById('chapterBody');
     const sizeLabel = document.getElementById('currentFontSize');
     if (!container) return;
-    
-    let currentSize = container.style.fontSize ? parseFloat(container.style.fontSize) : 20;
-    let newSize = currentSize + direction;
-    
-    if (newSize >= 16 && newSize <= 28) {
-      container.style.fontSize = newSize + 'px';
-      sizeLabel.innerText = newSize + 'px';
+    container.style.fontSize = size + 'px';
+    sizeLabel.innerText = size + 'px';
+  }
+  function changeFontSize(direction) {
+    const container = document.getElementById('chapterBody');
+    let current = container && container.style.fontSize ? parseFloat(container.style.fontSize) : 20;
+    let next = current + direction;
+    if (next >= 16 && next <= 28) {
+      applyFontSize(next);
+      try { localStorage.setItem('imperiumFontSize', next); } catch (e) {}
     }
   }
+  try {
+    const saved = parseInt(localStorage.getItem('imperiumFontSize'), 10);
+    if (saved >= 16 && saved <= 28) applyFontSize(saved);
+  } catch (e) {}
   if (window.localStorage) {
     localStorage.setItem('imperiumLastChapterUrl', {{ page.url | jsonify }});
     localStorage.setItem('imperiumLastChapterTitle', {{ page.title | jsonify }});
