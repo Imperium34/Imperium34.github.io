@@ -106,16 +106,6 @@
   mudahale: ceviri
   denetim: tamam
 
-- terim: "İlahî Hükümranlık"
-  ingilizce: "Divine Kingdom"
-  kategori: "Temel Kavramlar"
-  aciklama: "Gerçek İlahların Astral Âlem'de inşa ettikleri, kendi yollarının otoritesi ve kurallarıyla şekillenen mutlak alanlar. Bir İlahın kendi hükümranlığı içinde mağlup edilmesi neredeyse imkânsızdır."
-  bolum_siniri: 463
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-  ilk_gecis: 463
-
 - terim: "Yıldızlı Gökkubbe"
   ingilizce: "Cosmos"
   kategori: "Temel Kavramlar"
@@ -209,16 +199,6 @@
   denetim: tamam
   ilk_gecis: 974
 
-- terim: "Tazim İsmi"
-  ingilizce: "Honorific Name"
-  kategori: "Temel Kavramlar"
-  aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç ila altı satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
-  bolum_siniri: 61
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-  ilk_gecis: 226
-
 - terim: "Mühürlü Eserler"
   ingilizce: "Sealed Artifacts"
   kategori: "Temel Kavramlar"
@@ -228,36 +208,6 @@
   mudahale: ceviri
   denetim: tamam
   ilk_gecis: 19
-
-- terim: "Tılsım"
-  ingilizce: "Charm"
-  kategori: "Temel Kavramlar"
-  aciklama: "Bir İlah'ın gücünün veya belirli bir okült etkinin, Ruhaniyet kullanılarak özel metallere (genellikle altın veya gümüş) mühürlenmesiyle oluşturulan mistik eşyalar. Tek kullanımlıktırlar ve antik Hermesçede tek bir kelimenin (örneğin 'Kızıl' veya 'Uyku') zikredilmesiyle anında aktive olurlar."
-  bolum_siniri: 127
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-
-- terim: "Ayin İlmi"
-  ingilizce: "Ritualistic Magic"
-  kategori: "Temel Kavramlar"
-  aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak kurulur ve o varlığın Tazim İsmi zikredilerek ayin gerçekleştirilir."
-  bolum_siniri: 33
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-  ilk_gecis: 51
-
-- terim: "Ayin"
-  ingilizce: "Ritual"
-  eski_karsiliklar: ["ritüel"]
-  cince: "仪式"
-  kategori: "Temel Kavramlar"
-  aciklama: "Ruhani bir varlığın yahut İlahın kudretini fiziki aleme çekmek maksadıyla icra edilen tekil merasim. Ayin İlmi bu merasimleri konu edinen disiplindir; bu girdi ise tek tek icra edilen edimi karşılar."
-  bolum_siniri: 33
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
 
 - terim: "Aslî Menşe"
   ingilizce: "Sefirot"
@@ -289,12 +239,81 @@
   denetim: tamam
   ilk_gecis: 1136
 
+- terim: "İlahî Hükümranlık"
+  ingilizce: "Divine Kingdom"
+  kategori: "Temel Kavramlar"
+  aciklama: "Gerçek İlahların Astral Âlem'de inşa ettikleri, kendi yollarının otoritesi ve kurallarıyla şekillenen mutlak alanlar. Bir İlahın kendi hükümranlığı içinde mağlup edilmesi neredeyse imkânsızdır."
+  bolum_siniri: 463
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+  ilk_gecis: 463
+
 - terim: "Ulûhiyet ve Beşeriyet"
   ingilizce: "Divinity and Humanity"
   kategori: "Temel Kavramlar"
   aciklama: "yüksek mertebeli aşkınların (özellikle mertebe 4 ve üzeri) içlerinde yaşadıkları nihai varoluşsal çatışma. aşkın, mertebelerde yükseldikçe iksirin getirdiği ilahi doğa (ulûhiyet) uyanır ve kişinin insanî duygularını, ahlakını ve dünyevi bağlarını (beşeriyet) yutmaya başlar. ruhani çıpalara duyulan ihtiyacın temel sebebi bu beşeriyeti korumaktır."
   cevirmen_notu: "'Humanity' kelimesi için doğrudan 'İnsanlık' yerine 'Beşeriyet' tercih edilmesi bilinçlidir. Aşkınların ilahi katmanlara çıktıkça geride bıraktıkları o aciz, fani ve dünyevi doğayı 'beşer olma hali' çok daha keskin yansıtır. 'Ulûhiyet' ile 'Beşeriyet' arasındaki bu gerilim, sözlüğün genel klasik/teolojik dil kaydına kusursuzca oturur."
   bolum_siniri: 1403
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Mitolojik Suret"
+  ingilizce: "Mythical Creature Form"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir Aşkın'ın 4. Mertebeye (Yarı Tanrı) ulaştığında kazandığı gerçek, kozmik ve dehşet verici bedeni. Bu surete bürünmüş bir varlığa doğrudan bakmak, düşük mertebeli Aşkınların veya sıradan insanların anında şirazeden çıkıp canavara dönüşmesine sebep olur."
+  bolum_siniri: 705
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+  ilk_gecis: 705
+
+- terim: "Ruhani Çıpa"
+  ingilizce: "Anchor"
+  kategori: "Temel Kavramlar"
+  aciklama: "Yüksek mertebeli Aşkınların, özellikle meleklerin ve ilahların, ulûhiyete karışıp beşeriyetlerini ve benliklerini yitirmemek için inananlarından veya kendi efsanelerinden aldıkları ruhani destek."
+  bolum_siniri: 429
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Tazim İsmi"
+  ingilizce: "Honorific Name"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir İlahın, Meleğin veya yüksek mertebeli bir Aşkın'ın evrendeki otoritesini ve konumunu tanımlayan, genellikle üç ila altı satırdan oluşan mistik unvan. Hermesçe veya kadim dillerde bu ismin zikredilmesi, varlığın doğrudan dikkatini çeker."
+  bolum_siniri: 61
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+  ilk_gecis: 226
+
+- terim: "Tılsım"
+  ingilizce: "Charm"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir İlah'ın gücünün veya belirli bir okült etkinin, Ruhaniyet kullanılarak özel metallere (genellikle altın veya gümüş) mühürlenmesiyle oluşturulan mistik eşyalar. Tek kullanımlıktırlar ve antik Hermesçede tek bir kelimenin (örneğin 'Kızıl' veya 'Uyku') zikredilmesiyle anında aktive olurlar."
+  bolum_siniri: 127
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
+- terim: "Ayin İlmi"
+  ingilizce: "Ritualistic Magic"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhani varlıkların veya doğrudan İlahların gücünü fiziksel dünyaya çekmek için kullanılan okült pratik. Belirli semboller çizip, İlahın doğasına uygun uçucu yağlar, esanslar ve mumlar yakılarak sunak kurulur ve o varlığın Tazim İsmi zikredilerek ayin gerçekleştirilir."
+  bolum_siniri: 33
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+  ilk_gecis: 51
+
+- terim: "Ayin"
+  ingilizce: "Ritual"
+  eski_karsiliklar: ["ritüel"]
+  cince: "仪式"
+  kategori: "Temel Kavramlar"
+  aciklama: "Ruhani bir varlığın yahut İlahın kudretini fiziki aleme çekmek maksadıyla icra edilen tekil merasim. Ayin İlmi bu merasimleri konu edinen disiplindir; bu girdi ise tek tek icra edilen edimi karşılar."
+  bolum_siniri: 33
   kaynak: metin
   mudahale: ceviri
   denetim: tamam
@@ -462,18 +481,8 @@
   denetim: tamam
   ilk_gecis: 32
 
-- terim: "Mitolojik Suret"
-  ingilizce: "Mythical Creature Form"
-  kategori: "Temel Kavramlar"
-  aciklama: "Bir Aşkın'ın 4. Mertebeye (Yarı Tanrı) ulaştığında kazandığı gerçek, kozmik ve dehşet verici bedeni. Bu surete bürünmüş bir varlığa doğrudan bakmak, düşük mertebeli Aşkınların veya sıradan insanların anında şirazeden çıkıp canavara dönüşmesine sebep olur."
-  bolum_siniri: 705
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
-  ilk_gecis: 705
-
 - terim: "terennüm"
-  ingilizce: "chanting (Midnight Poem)"
+  ingilizce: "chanting"
   kategori: "Temel Kavramlar"
   aciklama: "Uykusuz Yolu Aşkınının kabiliyetini icra ederken yaptığı ezgili okuma; sıradan bir şarkı söyleme değil, tesiri olan bir edimdir."
   bolum_siniri: 44
@@ -481,6 +490,16 @@
   mudahale: ceviri
   denetim: tamam
   ilk_gecis: 42
+
+- terim: "Yaşam Yolu Sayısı"
+  ingilizce: "Life Path Number"
+  kategori: "Kavramlar"
+  aciklama: "Kişinin doğum tarihi kullanılarak hesaplanan ve hayatın gidişatını betimleyen numerolojik değer."
+  cevirmen_notu: "Çince aslı (出生灵数) doğrudan 'doğum ruh sayısı' olsa da, İngilizcedeki okült kavram bağlamı (Life Path Number) Türkçeye numeroloji terimiyle aktarılmıştır."
+  bolum_siniri: 46
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
 
 - terim: "Kehanet"
   ingilizce: "Divination"
@@ -501,10 +520,19 @@
   denetim: tamam
   ilk_gecis: 40
 
+- terim: "Baston Kehaneti"
+  ingilizce: "Dowsing Rod Seeking"
+  kategori: "Temel Kavramlar"
+  aciklama: "Bir hedefi, nesneyi veya doğru yönü bulmak amacıyla kullanılan yöntem. Ruhaniyetin tek bir bastona yansıtılmasıyla gerçekleştirilir. Kâhin bastonu dik tutarak bırakır; bastonun düştüğü yön, izlenmesi gereken doğru yolu veya aranan şeyin konumunu gösterir."
+  bolum_siniri: 46
+  kaynak: metin
+  mudahale: ceviri
+  denetim: tamam
+
 - terim: "Rüya Kehaneti"
   ingilizce: "Dream Divination"
   kategori: "Temel Kavramlar"
-  aciklama: "Kişinin kendi rüyasına sızarak Ruhani Âlem'den gelen vahiy ve sembolleri yorumladığı, sarkaç kehanetine kıyasla çok daha detaylı ancak yorumlaması bir o kadar karmaşık ve tekinsiz olan okült metot."
+  aciklama: "Kâhinin niyetini yedi kez tekrarlayıp, detayları zihninde canlandırarak Tefekküre girdiği metot. Bu durum, Astral İzdüşüm'ün bir rüya aracılığıyla Ruhani Âlem'de dolaşarak vahiyler elde etmesini sağlar. Sarkaç kehanetine kıyasla çok daha zengin ve detaylı bilgiler sunsa da, ortaya çıkan simgelerin yorumlanması bir o kadar karmaşık ve tekinsizdir."
   bolum_siniri: 55
   kaynak: metin
   mudahale: ceviri
@@ -540,15 +568,6 @@
   mudahale: ceviri
   denetim: tamam
   ilk_gecis: 1145
-
-- terim: "Ruhani Çıpa"
-  ingilizce: "Anchor"
-  kategori: "Temel Kavramlar"
-  aciklama: "Yüksek mertebeli Aşkınların, özellikle meleklerin ve ilahların, ulûhiyete karışıp beşeriyetlerini ve benliklerini yitirmemek için inananlarından veya kendi efsanelerinden aldıkları ruhani destek."
-  bolum_siniri: 429
-  kaynak: metin
-  mudahale: ceviri
-  denetim: tamam
 
 - terim: "Sterlin, Soli ve Peni"
   ingilizce: "Pound, Soli, and Pence"
